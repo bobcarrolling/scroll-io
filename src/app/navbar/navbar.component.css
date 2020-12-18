@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    teal,
+    teal 2rem,
+    darkcyan 2rem,
+    darkcyan 4rem
+  );
+
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  box-shadow: 0 0.4rem 1rem -0.7rem;
+  margin-bottom: 1rem;
+}
+
+.nav-block {
+  height: 2rem;
+  padding: 0 1rem 0 1rem;
+  color: whitesmoke;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 100ms;
+}
+.nav-block:hover {
+  background-color: lightseagreen;
+  box-shadow: 0 0.4rem 1rem -0.3rem;
+}
+.nav-block:active {
+  background-color: mediumaquamarine;
+  box-shadow: 0 0.8rem 1rem -0.3rem;
+}
+
+.current {
+  text-decoration: underline;
+  background-color: CadetBlue;
+}

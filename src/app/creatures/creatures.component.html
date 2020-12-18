@@ -1,0 +1,62 @@
+<div style="display: flex; height: 100%; justify-content: center">
+	<div class="creatures-page" *ngIf="creatureList" (scroll)="onScroll($event)">
+		<div class="total-tables" (keypress)="keyEvent($event)">
+			<table class="header-table">
+				<tr>
+					<th class="column-header">
+						<input type="search" class="search-input" [(ngModel)]="nameSearch" (ngModelChange)="this.searchUpdate.next()"
+              placeholder="Search by name...">
+						<span class="sort-arrow" [innerHTML]="icons[0]" (click)="sortClick(0)"></span>
+					</th>
+					<th class="column-header small-header">
+						<input type="search" class="search-input" [(ngModel)]="crSearch" (ngModelChange)="this.searchUpdate.next()"
+            placeholder="CR...">
+						<span class="sort-arrow" [innerHTML]="icons[1]" (click)="sortClick(1)"></span>
+					</th>
+					<th class="column-header">
+						<input type="search" class="search-input" [(ngModel)]="typeSearch" (ngModelChange)="this.searchUpdate.next()"
+            placeholder="Type and subtype...">
+						<span class="sort-arrow" [innerHTML]="icons[2]" (click)="sortClick(2)"></span>
+					</th>
+					<th class="column-header small-header">
+						<input type="search" class="search-input" [(ngModel)]="sizeSearch" (ngModelChange)="this.searchUpdate.next()"
+            placeholder="Size...">
+						<span class="sort-arrow" [innerHTML]="icons[3]" (click)="sortClick(3)"></span>
+					</th>
+					<th class="column-header medium-header">
+						<input type="search" class="search-input" [(ngModel)]="abiSearch" (ngModelChange)="this.searchUpdate.next()"
+            placeholder="Top stat...">
+						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
+					</th>
+				</tr>
+			</table>
+			<div class="data-table">
+				<table>
+					<ng-container *ngFor="let creature of creatureList">
+						<tr *ngIf="!creature.filtered" class="data-row flex align-center"
+							(click)="selectCreature(creature)" [ngClass]="{'selected-row':selected === creature}">
+							<td class="data-interior name-data">{{ creature.name }}</td>
+							<td class="data-interior small-data">{{ creature.cr.text }}</td>
+							<td class="data-interior">{{ creature.type }}</td>
+							<td class="data-interior small-data">{{ creature.size.text }}</td>
+							<td class="data-interior medium-data">
+								{{creature.abilities.highest.toUpperCase() + ' ' + creature.abilities[creature.abilities.highest].val }}
+							</td>
+						</tr>
+						<ng-container *ngIf="selected && creature === selected">
+							<div [style.marginLeft]="leftBuffer + 'px'" style="margin-right: 5px">
+								<app-creatures-display [creature]="selected">
+								</app-creatures-display>
+							</div>
+						</ng-container>
+						<ng-container *ngIf="selected && creature === selected">
+							<!-- dummy for formatting -->
+							<div></div>
+						</ng-container>
+					</ng-container>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- <app-creatures-display [creature]="selected"></app-creatures-display> -->
+</div>

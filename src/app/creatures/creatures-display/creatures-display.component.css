@@ -1,0 +1,197 @@
+div {
+  box-sizing: border-box;
+}
+p {
+  font-size: 0.8rem;
+}
+.container {
+  border: 1px solid teal;
+  border-radius: 2px;
+  background-color: teal;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/Kraft_tileable_1024x1024.png);
+  background-repeat: repeat;
+  background-attachment: local;
+  background-blend-mode: screen;
+  padding: 1px 0 1px 0;
+  overflow-x: scroll;
+  cursor: text;
+}
+.shown {
+  margin-right: 0;
+}
+.hidden {
+  margin-right: -100vw;
+}
+/* .transition {
+  transition: margin-right 400ms ease-in-out;
+} */
+.container-lg {
+  width: calc(47.5rem - 8px);
+}
+.container-sm {
+  width: calc(100vw - 1rem + 2px);
+}
+
+.column-container {
+  padding: 1px;
+}
+.column-lg {
+  width: 23.45rem;
+  min-width: 23.45rem;
+}
+.column-sm {
+  width: calc(100vw - 1rem);
+  min-width: calc(100vw - 1rem);
+}
+
+.column {
+  margin: 1px;
+  border: 1px solid teal;
+  border-radius: 2px;
+  padding: 0.4rem;
+  width: 100%;
+}
+
+.namerow {
+  flex-wrap: wrap;
+}
+.name {
+  font-family: Book Antiqua, Palatino, serif;
+  font-size: 1.2rem;
+  letter-spacing: -1px;
+  margin: 0.2rem 0 0.2rem 0;
+}
+.name-word::first-letter {
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+.header {
+  font-family: Book Antiqua, Palatino, serif;
+  font-size: 0.8rem;
+}
+.header-word::first-letter {
+  font-size: 1.1rem;
+  line-height: 1rem;
+}
+
+.type {
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+
+.stats-top {
+  margin: 0.4rem 0 0.4rem 0;
+  /* padding: 1px 0 0 1px; */
+}
+.stats-bottom {
+  margin: 0.1rem 0 0.5rem 0;
+  /* padding: 1px 0 0 1px; */
+}
+.statsbox-left {
+  /* margin: -1px 0 0 -1px;
+  border: 1px solid rgba(0, 128, 128, 0.3); */
+  padding: 0.2rem;
+  margin-right: 2rem;
+}
+
+.statsbox-right {
+  /* margin: -1px 0 0 -1px;
+  border: 1px solid rgba(0, 128, 128, 0.3); */
+  padding: 0.2rem;
+  text-align: right;
+}
+
+.abi-table {
+  font-size: 0.85rem;
+  margin: 0.4rem 0 0.3rem 0;
+}
+.abi-table th {
+  line-height: 0.5rem;
+}
+.abi-table table {
+  width: 100%;
+  text-align: center;
+}
+.abi-saves {
+  font-style: italic;
+  line-height: 0.5rem;
+}
+
+.resist-text {
+  margin: 0.3rem 0rem 0.3rem 0rem;
+}
+.resist-text span {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+}
+
+.trait-container {
+  margin: 0.2rem 0.1rem 0.3rem 0.1rem;
+}
+.trait-box {
+  padding: 0.2rem;
+  padding-left: 0.3rem;
+}
+.trait-name {
+  text-indent: -0.25rem;
+}
+.trait-info {
+  text-indent: 0.25rem;
+  font-size: 0.75rem;
+  margin: 0 0.1rem 0 0.1rem;
+}
+.trait-box span,
+div {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.spell-box {
+  padding: 0.2rem 0 0.2rem 0.4rem;
+}
+.trait-spell {
+  margin: 0.1rem 0 0.1rem 0;
+  font-style: italic;
+}
+.option-box {
+  padding: 0.1rem 0 0 0.4rem;
+}
+.trait-option {
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.bld-itl {
+  font-weight: bold;
+  font-style: italic;
+}
+.bld {
+  font-weight: bold;
+}
+.itl {
+  font-style: italic;
+}
+.indent {
+  text-indent: 0.5rem;
+}
+.udl {
+  text-decoration: underline;
+}
+.highlight {
+  color: DarkSlateGray;
+}
+.point {
+  cursor: pointer;
+}
+
+.hover-shadow {
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3));
+  opacity: 50%;
+  transition: opacity 200ms ease-in-out;
+}
+.hover-shadow:hover {
+  opacity: 100%;
+}

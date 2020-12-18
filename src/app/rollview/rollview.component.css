@@ -1,0 +1,50 @@
+.bounding {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.33);
+}
+
+.num-row {
+  background-color: #006060;
+  width: 100%;
+  z-index: 99;
+  height: 2rem;
+  min-height: 2rem;
+  padding: 10px 0 15px 0;
+}
+
+.display-text {
+  font: bold 2rem Verdana;
+  color: white;
+}
+
+.small-row {
+  height: 1rem;
+  min-height: 1rem;
+}
+.small-row .display-text{
+  font: bold 1rem Verdana;
+}
+
+.dice-row {
+  background-color: #007070; /* rgba(30, 148, 135, 0.95); */
+  width: 100%;
+}
+
+.dice-style {
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+  overflow: visible;
+  margin: 10px;
+}
+
+.dice-text {
+  font-size: 1.5rem;
+  font-family: Rockwell;
+  stroke: none;
+  fill: white;
+}
