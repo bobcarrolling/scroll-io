@@ -245,7 +245,7 @@
 						"text": "Absolution uses one of the following breath weapons. "
 					}
 				],
-				"recharge": "(Recharge 5–6).",
+				"recharge": "5–6",
 				"options": [
 					{
 						"name": "Sun Breath.",
@@ -903,7 +903,7 @@
 						"text": " Wisdom saving throw or become frightened and incapacitated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on any future Rattling Wail saving throws. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Astral Breaching ",
@@ -933,7 +933,7 @@
 						"text": ") force damage. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 1056,
@@ -2122,7 +2122,7 @@
 						"text": " until the end of the chameleogon's next turn. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 1654,
@@ -3377,7 +3377,7 @@
 						"text": ". "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 563
@@ -3509,7 +3509,7 @@
 						"text": "Until the end of the steed's next turn, all non-undead creatures within 5 feet of the steed have vulnerability to bludgeoning, piercing, and slashing damage. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Harrowing Gaze ",
@@ -3529,7 +3529,7 @@
 						"newpg": true
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 920
@@ -3932,7 +3932,7 @@
 						"text": " Constitution saving throw. On a failure, a creature becomes indifferent to the dragon tortoise until the end of its next turn. This indifference ends if the target is attacked or if it witnesses any of its friends being harmed by the dragon tortoise. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Withdrawal.",
@@ -5423,7 +5423,7 @@
 						"text": " Constitution saving throw or fall unconscious. A creature unconscious from this effect can only be awakened by regaining hit points. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Gaunt Agility ",
@@ -5432,7 +5432,7 @@
 						"text": "On the rider's next turn, mounting or dismounting the steed costs only 5 feet of movement. At the end of the rider's next turn, the rider can choose to be teleported back into the saddle of the steed, remounting it. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 741
@@ -6250,7 +6250,7 @@
 						"text": ") fire damage on a failed save, or half as much damage on a successful one. All exposed water within the area instantly evaporates. If doused, Fyrflame regains 30 hit points and is no longer doused. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 1077,
@@ -9535,7 +9535,7 @@
 						"text": " of that creature in any unoccupied spaces within 10 feet. The creature a mimic chooses remains the same over its lifetime."
 					}
 				],
-				"recharge": "(Recharge 6)."
+				"recharge": "6"
 			}
 		],
 		"actionsize": 1476
@@ -10019,7 +10019,7 @@
 						"text": ") lightning damage on a failed save, or half as much damage on a successful one. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 609,
@@ -10804,7 +10804,7 @@
 						"text": "The mephistobelisk magically teleports up to 60 feet to an unoccupied space it can see. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 1037
@@ -12163,7 +12163,7 @@
 						"text": ") thunder damage and is stunned for 1 minute. On a successful save, a creature takes half as much damage and is not stunned. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
 					}
 				],
-				"recharge": "(Recharge 6)."
+				"recharge": "6"
 			}
 		],
 		"actionsize": 1775
@@ -13607,7 +13607,7 @@
 						"text": ") poison damage. This damage is treated as having originated from the steed's rider. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Become Smog ",
@@ -13616,7 +13616,7 @@
 						"text": "Until the end of its turn, the steed and its rider can move through a space as narrow as 1 inch wide without squeezing. During this time, the steed and its rider have resistance to all damage. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 716
@@ -16178,7 +16178,7 @@
 						"text": " becomes a ranged spell attack with a range of 30 feet until the end of its turn. "
 					}
 				],
-				"recharge": "(Recharge 6)."
+				"recharge": "6"
 			}
 		],
 		"actionsize": 462,
@@ -16841,7 +16841,7 @@
 						"newpg": true
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Animate Trees (1/short rest).",
@@ -18217,7 +18217,7 @@
 						"text": ") cold damage for every 5 feet it travels. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 1790,
@@ -18358,7 +18358,7 @@
 						"text": "The voltant magically teleports, along with any equipment it is carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the voltant can make one bite attack. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 496,
@@ -18863,7 +18863,7 @@
 						"text": "The voltant magically teleports, along with any equipment it is carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the voltant can make one bite attack. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 481
@@ -19031,7 +19031,7 @@
 						"text": ") lightning damage. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 694
@@ -19191,7 +19191,7 @@
 						"text": ") lightning damage. "
 					}
 				],
-				"recharge": "(Recharge 3–6)."
+				"recharge": "3–6"
 			}
 		],
 		"actionsize": 697
@@ -19311,7 +19311,7 @@
 						"text": "The voltant magically teleports, along with any equipment it is carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the voltant can make one bite attack. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 254,
@@ -19514,7 +19514,7 @@
 						"text": " steps out of the open casket, emerging into an unoccupied space within 5ft. of the coffin. The casket then closes. "
 					}
 				],
-				"recharge": "(Recharge 6)."
+				"recharge": "6"
 			}
 		],
 		"actionsize": 1851
@@ -19857,7 +19857,7 @@
 						"text": " Strength saving throw or be thrown 20 feet in a direction of the rider's choice, falling prone. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			},
 			{
 				"name": "Tremor Form ",
@@ -19880,7 +19880,7 @@
 						"text": " Dexterity saving throw or fall prone. "
 					}
 				],
-				"recharge": "(Recharge 5–6)."
+				"recharge": "5–6"
 			}
 		],
 		"actionsize": 679
@@ -20041,7 +20041,7 @@
 						"text": ") bludgeoning damage. "
 					}
 				],
-				"recharge": "(Recharge 6)."
+				"recharge": "6"
 			}
 		],
 		"actionsize": 305,
