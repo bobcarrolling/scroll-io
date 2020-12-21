@@ -9493,7 +9493,7 @@
 				]
 			},
 			{
-				"name": "Boil Over ",
+				"name": "Kettle Form Only) ",
 				"effect": [
 					{
 						"text": "The contents within the mimic steam and pour outward, spilling onto the ground in a 10 foot radius centered on itself. A creature other than the mimic standing in the area must make a "
@@ -9520,7 +9520,7 @@
 						"text": ") fire damage on a failed save, or half as much on a successful one. "
 					},
 					{
-						"text": "In rare cases, the contents of the mimic can instead be a potion that imitates a spell of 4th level or lower that does not include a spell attack and does not target an area. The spell potion affects creatures in the same area and has the same save DC as the action's default effect. The spell potion a mimic chooses remains the same over its lifetime. ",
+						"text": "In rare cases, the contents of the mimic can instead be a potion that imitates a spell of 4th level or lower that does not include a spell attack and does not target an area. The spell potion affects creatures in the same area and has the same save DC as this action's default effect. The spell potion a mimic chooses remains the same over its lifetime. ",
 						"newpg": true
 					},
 					{
@@ -9532,13 +9532,13 @@
 						"dice": true
 					},
 					{
-						"text": " of that creature in any unoccupied spaces within 10 feet. The creature a mimic chooses remains the same over its lifetime."
+						"text": " of that creature in any unoccupied spaces within 10 feet. The creature a mimic chooses remains the same over its lifetime. "
 					}
 				],
 				"recharge": "6"
 			}
 		],
-		"actionsize": 1476
+		"actionsize": 1497
 	},
 	{
 		"name": "Killer Kelp",
@@ -16187,6 +16187,438 @@
 				"desc": "Like static electricity, floats things away, sticks to others"
 			}
 		]
+	},
+	{
+		"name": "Swarm of Hostile Magic Items",
+		"size": {
+			"text": "Medium",
+			"value": 2
+		},
+		"type": "swarm of tiny constructs",
+		"alignment": "unaligned",
+		"ac": "15 (natural armor)",
+		"hp": "99 (18d8 + 18)",
+		"hpdice": "18d8 + 18",
+		"speed": "0 ft., fly 30 ft. (hover)",
+		"abilities": {
+			"str": {
+				"val": "17 (+3)",
+				"score": "17",
+				"bonus": "+3"
+			},
+			"dex": {
+				"val": "16 (+3)",
+				"score": "16",
+				"bonus": "+3"
+			},
+			"con": {
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
+			},
+			"int": {
+				"val": "4 (-3)",
+				"score": "4",
+				"bonus": "-3"
+			},
+			"wis": {
+				"val": "10 (+0)",
+				"score": "10",
+				"bonus": "+0"
+			},
+			"cha": {
+				"val": "4 (-3)",
+				"score": "4",
+				"bonus": "-3"
+			},
+			"highest": "str"
+		},
+		"resist": "bludgeoning, piercing, slashing ",
+		"immune": "poison, psychic ",
+		"immunity": "all ",
+		"senses": "blindsight 60 ft., passive Perception 10 ",
+		"languages": "— ",
+		"cr": {
+			"text": "9",
+			"value": 9
+		},
+		"traits": [
+			{
+				"name": "Antimagic Susceptibility.",
+				"effect": [
+					{
+						"text": "The swarm is incapacitated while in the area of an "
+					},
+					{
+						"text": "antimagic field",
+						"itl": true
+					},
+					{
+						"text": ". If targeted by "
+					},
+					{
+						"text": "dispel magic",
+						"itl": true
+					},
+					{
+						"text": ", the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute. "
+					}
+				]
+			},
+			{
+				"name": "Magic Resistance.",
+				"effect": [
+					{
+						"text": "The swarm has advantage on saving throws against spells and other magical effects. "
+					}
+				]
+			},
+			{
+				"name": "Random Trait.",
+				"effect": [
+					{
+						"text": "At the beginning of every turn in the initiative and lasting until the end of that turn, the swarm gains a random trait from the list below. "
+					}
+				],
+				"options": [
+					{
+						"name": "1. Shield of Defence.",
+						"effect": [
+							{
+								"text": "The swarm gains a "
+							},
+							{
+								"text": "+2",
+								"bonus": true
+							},
+							{
+								"text": " bonus to AC and saving throws. "
+							}
+						]
+					},
+					{
+						"name": "2. Unseeing Cloak.",
+						"effect": [
+							{
+								"text": "The swarm is invisible and gains truesight out to 60 feet. "
+							}
+						]
+					},
+					{
+						"name": "3. Amulet of Heartiness.",
+						"effect": [
+							{
+								"text": "The swarm's Constitution score becomes 20, and it regains "
+							},
+							{
+								"text": "4d8",
+								"dice": true
+							},
+							{
+								"text": " hit points. This effect does not increase the swarm's maximum amount of hit points. "
+							}
+						]
+					},
+					{
+						"name": "4. Mirror Armor.",
+						"effect": [
+							{
+								"text": "The swarm undergoes the effect of the spell "
+							},
+							{
+								"text": "mirror image",
+								"itl": true
+							},
+							{
+								"text": ". When a duplicate is destroyed, creatures within 5 feet take 3 ("
+							},
+							{
+								"text": "1d6",
+								"dice": true
+							},
+							{
+								"text": ") cold damage. "
+							}
+						]
+					},
+					{
+						"name": "5. Circlet of Warping.",
+						"effect": [
+							{
+								"text": "The swarm teleports to a space within 60 feet. "
+							}
+						]
+					},
+					{
+						"name": "6. Divine Ring.",
+						"effect": [
+							{
+								"text": "The swarm's Intelligence, Wisdom, and Charisma scores all become 22. "
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Swarm.",
+				"effect": [
+					{
+						"text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points unless by one of its traits. "
+					}
+				]
+			}
+		],
+		"traitsize": 1460,
+		"actions": [
+			{
+				"name": "Random Action.",
+				"effect": [
+					{
+						"text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more. "
+					}
+				],
+				"options": [
+					{
+						"name": "1. Sword of Light.",
+						"effect": [
+							{
+								"text": ""
+							},
+							{
+								"text": "Melee Weapon Attack:",
+								"itl": true
+							},
+							{
+								"text": " "
+							},
+							{
+								"text": "+9",
+								"bonus": true
+							},
+							{
+								"text": " to hit, reach 5 ft., one target. "
+							},
+							{
+								"text": "Hit:",
+								"itl": true
+							},
+							{
+								"text": " 12 ("
+							},
+							{
+								"text": "2d6 + 5",
+								"dice": true
+							},
+							{
+								"text": ") piercing damage plus 9 ("
+							},
+							{
+								"text": "2d8",
+								"dice": true
+							},
+							{
+								"text": ") radiant damage. Whether the attack hits or misses, the creature must make a "
+							},
+							{
+								"text": "DC 13",
+								"dc": true
+							},
+							{
+								"text": " Constitution saving throw or be blinded. "
+							}
+						]
+					},
+					{
+						"name": "2. Bloodcurse Axe.",
+						"effect": [
+							{
+								"text": ""
+							},
+							{
+								"text": "Melee Weapon Attack:",
+								"itl": true
+							},
+							{
+								"text": " "
+							},
+							{
+								"text": "+7",
+								"bonus": true
+							},
+							{
+								"text": " to hit, reach 5 ft., one target. "
+							},
+							{
+								"text": "Hit:",
+								"itl": true
+							},
+							{
+								"text": " 9 ("
+							},
+							{
+								"text": "1d12 + 3",
+								"dice": true
+							},
+							{
+								"text": ") slashing damage. The swarm makes two attacks with this trait, and is considered a critical hit on a roll of 18 or above. "
+							}
+						]
+					},
+					{
+						"name": "3. Psionic Dagger.",
+						"effect": [
+							{
+								"text": ""
+							},
+							{
+								"text": "Melee or Ranged Weapon Attack:",
+								"itl": true
+							},
+							{
+								"text": " "
+							},
+							{
+								"text": "+7",
+								"bonus": true
+							},
+							{
+								"text": " to hit, reach 5 ft. or range 20/60 ft., one target. "
+							},
+							{
+								"text": "Hit:",
+								"itl": true
+							},
+							{
+								"text": " 5 ("
+							},
+							{
+								"text": "1d4 + 3",
+								"dice": true
+							},
+							{
+								"text": ") piercing damage plus 11 ("
+							},
+							{
+								"text": "2d10",
+								"dice": true
+							},
+							{
+								"text": ") psychic damage. If the attack hits, the dagger can make another attack against a target within 10 feet of the original target before returning to the swarm. "
+							}
+						]
+					},
+					{
+						"name": "4. Bow of Binding.",
+						"effect": [
+							{
+								"text": ""
+							},
+							{
+								"text": "Ranged Weapon Attack:",
+								"itl": true
+							},
+							{
+								"text": " "
+							},
+							{
+								"text": "+8",
+								"bonus": true
+							},
+							{
+								"text": " to hit, ranged 150/600 ft., one target. "
+							},
+							{
+								"text": "Hit:",
+								"itl": true
+							},
+							{
+								"text": " 8 ("
+							},
+							{
+								"text": "1d8 + 4",
+								"dice": true
+							},
+							{
+								"text": ") piercing damage plus 6 ("
+							},
+							{
+								"text": "1d12",
+								"dice": true
+							},
+							{
+								"text": ") poison damage, and the creature must make a "
+							},
+							{
+								"text": "DC 15",
+								"dc": true
+							},
+							{
+								"text": " Strength saving throw or become restrained. A creature can repeat the saving throw at the end of its turns to end the effect. "
+							}
+						]
+					},
+					{
+						"name": "5. Wand of the Artillerist.",
+						"effect": [
+							{
+								"text": "The swarm summons a hail of fire. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a "
+							},
+							{
+								"text": "DC 14",
+								"dc": true
+							},
+							{
+								"text": " Dexterity saving throw. A creature takes 7 ("
+							},
+							{
+								"text": "2d6",
+								"dice": true
+							},
+							{
+								"text": ") fire damage and 7 ("
+							},
+							{
+								"text": "2d6",
+								"dice": true
+							},
+							{
+								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder repeats the saving throw. "
+							}
+						]
+					},
+					{
+						"name": "6. Deathstriker Staff.",
+						"effect": [
+							{
+								"text": "The swarm shoots crimson lightning in a line 60 feet long and 5 feet wide. Each creature in the line must make a "
+							},
+							{
+								"text": "DC 16",
+								"dc": true
+							},
+							{
+								"text": " Charisma saving throw. On a failed save, a creature takes 13 ("
+							},
+							{
+								"text": "3d8",
+								"dice": true
+							},
+							{
+								"text": ") lightning damage and 10 ("
+							},
+							{
+								"text": "3d6",
+								"dice": true
+							},
+							{
+								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest."
+							}
+						]
+					}
+				]
+			}
+		],
+		"actionsize": 2261
 	},
 	{
 		"name": "Sylvanbell",
