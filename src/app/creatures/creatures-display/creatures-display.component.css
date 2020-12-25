@@ -7,7 +7,7 @@ p {
 .container {
   border: 1px solid teal;
   border-radius: 2px;
-  background-color: teal;
+  background-color: darkcyan;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/Kraft_tileable_1024x1024.png);
   background-repeat: repeat;
   background-attachment: local;
