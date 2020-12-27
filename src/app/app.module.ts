@@ -9,6 +9,7 @@ import { CreaturesComponent } from "./creatures/creatures.component";
 import { HomeComponent } from "./home/home.component";
 import { CreaturesDisplayComponent } from "./creatures/creatures-display/creatures-display.component";
 import { RollviewComponent } from "./rollview/rollview.component";
+import { ItemsComponent } from './items/items.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
@@ -18,7 +19,8 @@ import { RollviewComponent } from "./rollview/rollview.component";
     CreaturesComponent,
     HomeComponent,
     CreaturesDisplayComponent,
-    RollviewComponent
+    RollviewComponent,
+    ItemsComponent
   ],
   bootstrap: [AppComponent]
 })

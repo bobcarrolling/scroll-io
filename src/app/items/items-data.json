@@ -1,0 +1,478 @@
+[
+	{
+		"effects": [
+			{
+				"text": "This thick belt is studded with iron-forged depictions of elephantine creatures. As an action, you can activate the belt until the start of your next turn."
+			},
+			{
+				"text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect when you activate the belt, you can attempt a ",
+				"newpg": true
+			},
+			{
+				"text": "DC 9",
+				"dc": true
+			},
+			{
+				"text": " Strength check. If successful, you break free of the effect binding you."
+			}
+		],
+		"name": "Belt of the Behemoth",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (belt)",
+		"rarity": "legendary"
+	},
+	{
+		"effects": [
+			{
+				"text": "This arrow leaves a small current of wind behind it as it flies. If this arrow hits and deals damage, the next arrow fired from the same bow towards the same target has advantage and an additional "
+			},
+			{
+				"text": "+5",
+				"bonus": true
+			},
+			{
+				"text": " bonus to hit. If the next arrow hits, the cheating arrow is split by the next arrow and is rendered useless."
+			}
+		],
+		"name": "Cheating Arrow",
+		"type": "Ammunition (arrow)",
+		"rarity": "uncommon"
+	},
+	{
+		"effects": [
+			{
+				"text": "This item appears as the spirit of a friendly fey encased within a gem. When attuned to the gem, it hovers around you in very slow circles. It emits faint light, which can be increased or decreased as an action to 10 feet of bright light and dim light for another 10 feet. At will, you can change the color the gem emits."
+			},
+			{
+				"text": "As a bonus action, you can activate or deactivate the gem. While activated, the gem glows red and circles faster, moving between you and your enemies to intercept attacks from afar. When targeted by a ranged attack, roll a ",
+				"newpg": true
+			},
+			{
+				"text": "d8",
+				"dice": true
+			},
+			{
+				"text": " and add it to your AC. If this bonus causes the attack to miss, the die is decremented from a "
+			},
+			{
+				"text": "d8",
+				"dice": true
+			},
+			{
+				"text": " to a "
+			},
+			{
+				"text": "d6",
+				"dice": true
+			},
+			{
+				"text": ", then from a "
+			},
+			{
+				"text": "d6",
+				"dice": true
+			},
+			{
+				"text": " to a "
+			},
+			{
+				"text": "d4",
+				"dice": true
+			},
+			{
+				"text": ", but continues to function in the same way. After the "
+			},
+			{
+				"text": "d4",
+				"dice": true
+			},
+			{
+				"text": " bonus causes a ranged attack to miss, the gem ceases shining light and grants no more bonuses until the next dawn."
+			},
+			{
+				"text": "While the gem is activated, you can use your action to fluctuate the radius the gem protects, from just yourself to any creature within a 10 foot radius centered on you. Deactivating the gem returns it to its normal hover pattern around yourself.",
+				"newpg": true
+			}
+		],
+		"name": "Diadem's Orbital Defence",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item",
+		"rarity": "rare"
+	},
+	{
+		"effects": [
+			{
+				"text": "This rapier seems flimsy and poorly made at first, but bends and sways strangely on its own whim. When attacking with fleshfinder, a creature's AC cannot exceed its Dexterity score. Fleshfinder has no damage dice and instead deals 1 point of piercing damage."
+			}
+		],
+		"name": "Fleshfinder",
+		"type": "Martial weapon (rapier)",
+		"rarity": "rare"
+	},
+	{
+		"effects": [
+			{
+				"text": "These gold shoes have designs of mechanized wings on the sides. While attuned to the sandals, you gain a pool of 60 feet of fly speed that is consumed per foot of use. The pool replenishes each day at noon."
+			},
+			{
+				"text": "\\pagebreak",
+				"newpg": true
+			}
+		],
+		"name": "Icarus Sandals",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (boots)",
+		"rarity": "uncommon"
+	},
+	{
+		"effects": [
+			{
+				"text": "This expertly crafted spear is light and hollow, reinforced with counterweights for balance and strength. You gain a "
+			},
+			{
+				"text": "+2",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon, and a "
+			},
+			{
+				"text": "+2",
+				"bonus": true
+			},
+			{
+				"text": " bonus to Dexterity based ability checks made with this weapon drawn."
+			},
+			{
+				"text": "This weapon's reach is 10 feet. When jumping with this weapon drawn, your jump distance and height are each increased by 5 feet.",
+				"newpg": true
+			}
+		],
+		"name": "Longspear of Balance",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Martial weapon (spear)",
+		"rarity": "rare"
+	},
+	{
+		"effects": [
+			{
+				"text": "This sword is made entirely of carved aquamarine, with blue crystals set across the handle and hilt. It appears semi-translucent, with crashing waves of water slowly roiling within. You gain a "
+			},
+			{
+				"text": "+3",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon. This weapon deals slashing instead of piercing damage, and deals "
+			},
+			{
+				"text": "2d6",
+				"dice": true
+			},
+			{
+				"text": " slashing damage and "
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " cold damage on a hit. While attuned, you gain a swim speed of 30 feet and can cast "
+			},
+			{
+				"text": "water walk",
+				"itl": true
+			},
+			{
+				"text": " on yourself at will."
+			},
+			{
+				"text": "You can dip this weapon into any liquid without damaging the sword. When you do, you can alter the substance to make it safe to walk upon in a 5 foot square around where it was dipped. For example, lava cools into rock, water freezes into ice, mud or dries into soil, acid solidifies into gel. The effect lasts for 10 minutes.",
+				"newpg": true
+			},
+			{
+				"text": "When you dip or coat the weapon with a substance that would cause the sword any type of the listed damage in the spell ",
+				"newpg": true
+			},
+			{
+				"text": "elemental weapon",
+				"itl": true
+			},
+			{
+				"text": ", it instead causes the sword to be under the effect of that spell for 10 minutes."
+			},
+			{
+				"text": "Once per short rest you can clear an area in liquid and turn it into a battlefield. As an action, you can activate the sword. When you do, the liquid in a 100 foot radius, 100 foot high cylinder around you disappears and is replaced with air. Surrounding liquid cannot enter the cylinder, and the bottom of the cylinder becomes a solid and safely walkable flat surface. The cylinder cannot be dispelled, and lasts for 1 hour.",
+				"newpg": true
+			},
+			{
+				"text": "So long as a liquid or similar substance is nearby, you can beckon it to aid. You can cast ",
+				"newpg": true
+			},
+			{
+				"text": "control water",
+				"itl": true
+			},
+			{
+				"text": ", "
+			},
+			{
+				"text": "conjure elemental",
+				"itl": true
+			},
+			{
+				"text": ", "
+			},
+			{
+				"text": "wall of water",
+				"itl": true
+			},
+			{
+				"text": ", and "
+			},
+			{
+				"text": "watery sphere",
+				"itl": true
+			},
+			{
+				"text": " (spell save "
+			},
+			{
+				"text": "DC 16",
+				"dc": true
+			},
+			{
+				"text": ") twice per day each without needing concentration. An elemental must be chosen that matches the type of the liquid. For the other spells, if the liquid would deal any damage to a creature submerged in it, it still does so in its new form."
+			},
+			{
+				"text": "Additionally, you can cast ",
+				"newpg": true
+			},
+			{
+				"text": "absorb elements",
+				"itl": true
+			},
+			{
+				"text": " and "
+			},
+			{
+				"text": "chaos bolt",
+				"itl": true
+			},
+			{
+				"text": " at will (+8 to hit). "
+			},
+			{
+				"text": "Chaos bolt",
+				"itl": true
+			},
+			{
+				"text": " can be cast instead of a melee attack with this weapon."
+			}
+		],
+		"name": "Malifluous",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Martial weapon (shortsword)",
+		"rarity": "artifact"
+	},
+	{
+		"effects": [
+			{
+				"text": "This cloak has streaks of shifting colors, which twist and swirl to blend into the environment. While attuned to the shawl and prone, you can take the hide action, even while within plain sight."
+			}
+		],
+		"name": "Shawl of Vanishing",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (cloak)",
+		"rarity": "uncommon"
+	},
+	{
+		"effects": [
+			{
+				"text": "The pauldrons and chestpiece of this armor depict armored horses in battle. You have a "
+			},
+			{
+				"text": "+2",
+				"bonus": true
+			},
+			{
+				"text": " bonus to AC while wearing this armor."
+			}
+		],
+		"name": "Stallion Breastplate",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Armor (breastplate)",
+		"rarity": "legendary"
+	},
+	{
+		"effects": [
+			{
+				"text": "This rusted hand chime resembles a skull. While attuned, you know the spell "
+			},
+			{
+				"text": "toll the dead",
+				"itl": true
+			},
+			{
+				"text": "."
+			},
+			{
+				"text": "The chime has 5 charges. While holding it, you can use an action to expend 1 or more of its charges. Any undead within 30 feet, the sum of whose CR is equal to or less than the number of charges expended (starting with the lowest CR first), must make a ",
+				"newpg": true
+			},
+			{
+				"text": "DC 16",
+				"dc": true
+			},
+			{
+				"text": " Wisdom saving throw or be compelled to treat you as their new master for the next minute, as though under the effect of the "
+			},
+			{
+				"text": "dominate monster",
+				"itl": true
+			},
+			{
+				"text": " spell. The chime regains "
+			},
+			{
+				"text": "1d4 + 1",
+				"dice": true
+			},
+			{
+				"text": " charges at midnight."
+			},
+			{
+				"text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spell save DC, with empowerments to those spells:",
+				"newpg": true
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Animate Dead. (1 charge)",
+				"itl": true
+			},
+			{
+				"text": " The spell's casting time is 1 action."
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Feign Death. (1 charge)",
+				"itl": true
+			},
+			{
+				"text": " The creature gains the benefit of a short rest while unconscious."
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Inflict Wounds. (2 charges)",
+				"itl": true
+			},
+			{
+				"text": " The creature must make a Charisma saving throw against your spell save DC or become stunned."
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Life Transference. (2 charges)",
+				"itl": true
+			},
+			{
+				"text": " You instead take "
+			},
+			{
+				"text": "6d8",
+				"dice": true
+			},
+			{
+				"text": " necrotic damage. You can choose up to two creatures to heal."
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Circle of Death (4 charges).",
+				"itl": true
+			},
+			{
+				"text": " The sphere is centered on you, and you can choose which creatures are affected."
+			}
+		],
+		"name": "The Dead Ringer",
+		"attune": {
+			"text": "(requires attunement by a spellcaster)",
+			"by": "a spellcaster"
+		},
+		"type": "Wondrous item, spellcasting focus",
+		"rarity": "legendary"
+	},
+	{
+		"effects": [
+			{
+				"text": "A huge hammer used to prepare meat for giantkin. You gain a "
+			},
+			{
+				"text": "+1",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon. When attacking with this weapon, if the total of your attack roll meets or exceeds 20, you deal an additional "
+			},
+			{
+				"text": "1d4",
+				"dice": true
+			},
+			{
+				"text": " bludgeoning and "
+			},
+			{
+				"text": "1d4",
+				"dice": true
+			},
+			{
+				"text": " piercing damage. If your target is unarmored or lightly armored, the piercing damage becomes "
+			},
+			{
+				"text": "1d12.",
+				"dice": true
+			}
+		],
+		"name": "The Tenderizer",
+		"type": "Martial weapon (maul)",
+		"rarity": "very rare"
+	},
+	{
+		"effects": [
+			{
+				"text": "This armor is made from condensed woollysheep cotton. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
+			}
+		],
+		"name": "Woollysheep Armor",
+		"type": "Armor (any)",
+		"rarity": "rare"
+	}
+]
