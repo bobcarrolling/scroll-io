@@ -16,7 +16,7 @@
 }
 
 .column-header {
-  width: 15rem;
+  min-width: 15rem;
   max-width: 15rem;
   overflow: hidden;
   padding: 0;
@@ -54,14 +54,24 @@
   outline: none;
 }
 
+.tiny-header {
+  min-width: 3rem;
+  max-width: 3rem;
+}
+
 .small-header {
-  width: 5rem;
+  min-width: 5rem;
   max-width: 5rem;
 }
 
 .medium-header {
-  width: 7.5rem;
+  min-width: 7.5rem;
   max-width: 7.5rem;
+}
+
+.reduced-header {
+  min-width: 12rem;
+  max-width: 12rem;
 }
 
 .data-row {
@@ -91,12 +101,24 @@
   padding: 0.2rem 1.8rem 0.2rem 0.2rem;
 }
 
+.tiny-data {
+  min-width: 1.5rem;
+  max-width: 1.5rem;
+}
+
 .small-data {
-  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
 }
 
 .medium-data {
-  width: 5.5rem;
+  min-width: 5.5rem;
+  max-width: 5.5rem;
+}
+
+.reduced-data {
+  min-width: 10rem;
+  max-width: 10rem;
 }
 
 .selected-row {

@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
 export class NavbarComponent implements OnInit {
   constructor(private router: Router) {}
 
-  pages = this.array("Home", "Creatures", "Page 2", "Page 3", "etc");
+  pages = this.array("Home", "Creatures", "Items");
 
   array<T extends any[]>(...v: T) {
     return v;
@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit {
   }
 
   checkCurrent(page: string) {
-    if (this.router.url.indexOf('/' + page.toLowerCase()) === 0) {
+    if (this.router.url.indexOf("/" + page.toLowerCase()) === 0) {
       return true;
     }
     return false;

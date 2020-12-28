@@ -21,7 +21,10 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Wondrous item (belt)",
-		"rarity": "legendary"
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
+		}
 	},
 	{
 		"effects": [
@@ -38,7 +41,75 @@
 		],
 		"name": "Cheating Arrow",
 		"type": "Ammunition (arrow)",
-		"rarity": "uncommon"
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "Comprised of semi-corporeal storm clouds in the shape of a halo, this circlet floats above its bearer's head and crackles tiny bolts of multicolor lightning. Once attuned to this item, it remains active and visible above your head no matter what form you take."
+			},
+			{
+				"text": "After you deal damage with an attack, you deal an additional ",
+				"newpg": true
+			},
+			{
+				"text": "1d8",
+				"dice": true
+			},
+			{
+				"text": " fire, cold and lightning damage, rolling separately. After rolling, you may choose which die deals which type of damage."
+			},
+			{
+				"text": "",
+				"newpg": true
+			},
+			{
+				"text": "Cloudcall.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " You can cast "
+			},
+			{
+				"text": "skywrite",
+				"itl": true
+			},
+			{
+				"text": " and "
+			},
+			{
+				"text": "control weather",
+				"itl": true
+			},
+			{
+				"text": " at will. When cast using the circlet, the range of "
+			},
+			{
+				"text": "control weather",
+				"itl": true
+			},
+			{
+				"text": " is changed to a 60 foot radius centered on yourself, and the casting time is one action. Moving outside the radius ends the spell early."
+			},
+			{
+				"text": "Additionally, you are aware of all weather patterns within a 10 mile radius, and you know if any of them were created or manipulated by magic or other unnatural phenomena.",
+				"newpg": true
+			}
+		],
+		"name": "Circlet of Stormvenge",
+		"attune": {
+			"text": "(requires attunement by a druid)",
+			"by": "a druid"
+		},
+		"type": "Wondrous item (headpiece), spellcasting focus",
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
+		}
 	},
 	{
 		"effects": [
@@ -101,7 +172,10 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Wondrous item",
-		"rarity": "rare"
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
 	},
 	{
 		"effects": [
@@ -111,24 +185,26 @@
 		],
 		"name": "Fleshfinder",
 		"type": "Martial weapon (rapier)",
-		"rarity": "rare"
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
 	},
 	{
 		"effects": [
 			{
 				"text": "These gold shoes have designs of mechanized wings on the sides. While attuned to the sandals, you gain a pool of 60 feet of fly speed that is consumed per foot of use. The pool replenishes each day at noon."
-			},
-			{
-				"text": "\\pagebreak",
-				"newpg": true
 			}
 		],
 		"name": "Icarus Sandals",
 		"attune": {
 			"text": "(requires attunement)"
 		},
-		"type": "Wondrous item (boots)",
-		"rarity": "uncommon"
+		"type": "Wondrous item (footwear)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
 	},
 	{
 		"effects": [
@@ -159,7 +235,10 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Martial weapon (spear)",
-		"rarity": "rare"
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
 	},
 	{
 		"effects": [
@@ -178,7 +257,7 @@
 				"dice": true
 			},
 			{
-				"text": " slashing damage and "
+				"text": " slashing damage plus "
 			},
 			{
 				"text": "1d6",
@@ -195,8 +274,16 @@
 				"text": " on yourself at will."
 			},
 			{
-				"text": "You can dip this weapon into any liquid without damaging the sword. When you do, you can alter the substance to make it safe to walk upon in a 5 foot square around where it was dipped. For example, lava cools into rock, water freezes into ice, mud or dries into soil, acid solidifies into gel. The effect lasts for 10 minutes.",
+				"text": "",
 				"newpg": true
+			},
+			{
+				"text": "Altering Touch.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " You can dip this weapon into any liquid without damaging the sword. When you do, you can alter the surface to make it safe to walk upon in a 5 foot square around where it was dipped. For example, lava cools into rock, water freezes into ice, mud or dries into soil, acid solidifies into gel. The effect lasts for 10 minutes."
 			},
 			{
 				"text": "When you dip or coat the weapon with a substance that would cause the sword any type of the listed damage in the spell ",
@@ -210,12 +297,28 @@
 				"text": ", it instead causes the sword to be under the effect of that spell for 10 minutes."
 			},
 			{
-				"text": "Once per short rest you can clear an area in liquid and turn it into a battlefield. As an action, you can activate the sword. When you do, the liquid in a 100 foot radius, 100 foot high cylinder around you disappears and is replaced with air. Surrounding liquid cannot enter the cylinder, and the bottom of the cylinder becomes a solid and safely walkable flat surface. The cylinder cannot be dispelled, and lasts for 1 hour.",
+				"text": "",
 				"newpg": true
 			},
 			{
-				"text": "So long as a liquid or similar substance is nearby, you can beckon it to aid. You can cast ",
+				"text": "Parting Flow.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " Once per short rest you can clear an area in liquid and turn it into a battlefield. As an action, you can activate the sword. When you do, the liquid in a 100 foot radius cylinder centered on you that extends 100 feet upwards disappears and is replaced with air. The affected surrounding liquid cannot enter the cylinder, and the bottom of the cylinder becomes a solid and safely walkable flat surface. The cylinder cannot be dispelled, and lasts for 1 hour, after which the liquid magically reappears and the solid floor dissolves."
+			},
+			{
+				"text": "",
 				"newpg": true
+			},
+			{
+				"text": "Obedience.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " So long as a 1000 cubic foot basin of liquid or similar substance is within 30 feet, you can beckon it to your aid. While within range, you can cast "
 			},
 			{
 				"text": "control water",
@@ -250,11 +353,19 @@
 				"dc": true
 			},
 			{
-				"text": ") twice per day each without needing concentration. An elemental must be chosen that matches the type of the liquid. For the other spells, if the liquid would deal any damage to a creature submerged in it, it still does so in its new form."
+				"text": ") twice each per long rest without needing concentration. An elemental must be chosen that matches the type of the liquid. For the other spells, if the liquid would deal any damage to a creature submerged in it, it still does so in its new form. You may only have one of these spell effects active at any given time."
 			},
 			{
-				"text": "Additionally, you can cast ",
+				"text": "",
 				"newpg": true
+			},
+			{
+				"text": "Energy Razor.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " You can cast "
 			},
 			{
 				"text": "absorb elements",
@@ -283,7 +394,10 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Martial weapon (shortsword)",
-		"rarity": "artifact"
+		"rarity": {
+			"text": "artifact",
+			"rating": 5
+		}
 	},
 	{
 		"effects": [
@@ -296,7 +410,60 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Wondrous item (cloak)",
-		"rarity": "uncommon"
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "This staff's ornate and intricate design resembles a very tall and thin wizards tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius around you, you can place the staff upright into the ground and speak its command word. Over the course of the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius tower with 8 floors and a front door at your height. The tower obeys the same rules as though summoned by casting the spell "
+			},
+			{
+				"text": "Galder's tower (Lost Library of Kwalish, page 57)",
+				"itl": true
+			},
+			{
+				"text": " at 9th level with the following changes:"
+			},
+			{
+				"text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower.",
+				"newpg": true
+			},
+			{
+				"text": "While anything not conjured by the tower remains inside, the tower's layout cannot be changed. If something is inside while the tower is in its staff form, you can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
+				"newpg": true
+			},
+			{
+				"text": "DC 7",
+				"dc": true
+			},
+			{
+				"text": " Wisdom check. On a success, the chosen object or creature is shaken out of the tower and magically appears at its normal size in an unoccupied space adjacent to you. On a failure, a different object or creature at random is released, if available within."
+			},
+			{
+				"text": "The tower has AC 15 and 250 hit points. If reduced to 0 hit points, the staff safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
+				"newpg": true
+			},
+			{
+				"text": "mending",
+				"itl": true
+			},
+			{
+				"text": " is cast on the staff for a collective hour, it regains 25 hit points. Only once the staff has full hit points does its magical properties return."
+			}
+		],
+		"name": "Staff of the Spire",
+		"attune": {
+			"text": "(requires attunement by an arcane caster)",
+			"by": "an arcane caster"
+		},
+		"type": "Simple weapon (staff), spellcasting focus",
+		"rarity": {
+			"text": "very rare",
+			"rating": 3
+		}
 	},
 	{
 		"effects": [
@@ -316,7 +483,10 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Armor (breastplate)",
-		"rarity": "legendary"
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
+		}
 	},
 	{
 		"effects": [
@@ -364,7 +534,7 @@
 				"newpg": true
 			},
 			{
-				"text": "Animate Dead. (1 charge)",
+				"text": "Animate Dead (1 charge).",
 				"itl": true
 			},
 			{
@@ -375,7 +545,7 @@
 				"newpg": true
 			},
 			{
-				"text": "Feign Death. (1 charge)",
+				"text": "Feign Death (1 charge).",
 				"itl": true
 			},
 			{
@@ -386,7 +556,7 @@
 				"newpg": true
 			},
 			{
-				"text": "Inflict Wounds. (2 charges)",
+				"text": "Inflict Wounds (2 charges).",
 				"itl": true
 			},
 			{
@@ -397,7 +567,7 @@
 				"newpg": true
 			},
 			{
-				"text": "Life Transference. (2 charges)",
+				"text": "Life Transference (2 charges).",
 				"itl": true
 			},
 			{
@@ -428,7 +598,10 @@
 			"by": "a spellcaster"
 		},
 		"type": "Wondrous item, spellcasting focus",
-		"rarity": "legendary"
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
+		}
 	},
 	{
 		"effects": [
@@ -463,7 +636,10 @@
 		],
 		"name": "The Tenderizer",
 		"type": "Martial weapon (maul)",
-		"rarity": "very rare"
+		"rarity": {
+			"text": "very rare",
+			"rating": 3
+		}
 	},
 	{
 		"effects": [
@@ -473,6 +649,9 @@
 		],
 		"name": "Woollysheep Armor",
 		"type": "Armor (any)",
-		"rarity": "rare"
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
 	}
 ]

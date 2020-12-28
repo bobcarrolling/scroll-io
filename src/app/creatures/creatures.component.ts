@@ -16,6 +16,9 @@ export class CreaturesComponent implements OnInit {
       this.filterList();
     });
   }
+  ngOnInit() {
+    this.filterList();
+  }
 
   leftBuffer = 0;
   onScroll(event) {
@@ -43,8 +46,6 @@ export class CreaturesComponent implements OnInit {
 
   selected: any;
 
-  ngOnInit() {}
-
   selectCreature(creature: any) {
     if (creature === this.selected) {
       this.selected = undefined;
@@ -53,13 +54,10 @@ export class CreaturesComponent implements OnInit {
     }
   }
 
-  keyEvent(event) {
-    //event.keyCode
-  }
-
+  filteredCount = 0;
   filterList() {
     this.selected = undefined;
-    let count = 0;
+    this.filteredCount = 0;
     let nameSearch;
     if (this.nameSearch) {
       nameSearch = this.nameSearch.toLowerCase();
@@ -108,9 +106,8 @@ export class CreaturesComponent implements OnInit {
         creature.filtered = true;
       }
 
-      if (!creature.filtered) count++;
+      if (!creature.filtered) this.filteredCount++;
     }
-    console.log(count);
   }
 
   sortClick(column: number) {

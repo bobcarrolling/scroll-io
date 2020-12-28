@@ -1,6 +1,6 @@
 <div style="display: flex; height: 100%; justify-content: center">
 	<div class="creatures-page" *ngIf="creatureList" (scroll)="onScroll($event)">
-		<div class="total-tables" (keypress)="keyEvent($event)">
+		<div class="total-tables">
 			<table class="header-table">
 				<tr>
 					<th class="column-header">
@@ -58,5 +58,4 @@
 			</div>
 		</div>
 	</div>
-	<!-- <app-creatures-display [creature]="selected"></app-creatures-display> -->
 </div>
