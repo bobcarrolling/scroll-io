@@ -6,7 +6,8 @@
 			},
 			{
 				"text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect when you activate the belt, you can attempt a ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "DC 9",
@@ -16,7 +17,9 @@
 				"text": " Strength check. If successful, you break free of the effect binding you."
 			}
 		],
+		"sectioncount": 2,
 		"name": "Belt of the Behemoth",
+		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -39,7 +42,9 @@
 				"text": " bonus to hit. If the next arrow hits, the cheating arrow is split by the next arrow and is rendered useless."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Cheating Arrow",
+		"subtext": "Ammunition (arrow), uncommon",
 		"type": "Ammunition (arrow)",
 		"rarity": {
 			"text": "uncommon",
@@ -53,7 +58,8 @@
 			},
 			{
 				"text": "After you deal damage with an attack, you deal an additional ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "1d8",
@@ -64,7 +70,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Cloudcall.",
@@ -97,10 +103,13 @@
 			},
 			{
 				"text": "Additionally, you are aware of all weather patterns within a 10 mile radius, and you know if any of them were created or manipulated by magic or other unnatural phenomena.",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			}
 		],
+		"sectioncount": 3,
 		"name": "Circlet of Stormvenge",
+		"subtext": "Wondrous item (headpiece), spellcasting focus, legendary (requires attunement by a druid)",
 		"attune": {
 			"text": "(requires attunement by a druid)",
 			"by": "a druid"
@@ -118,7 +127,8 @@
 			},
 			{
 				"text": "As a bonus action, you can activate or deactivate the gem. While activated, the gem glows red and circles faster, moving between you and your enemies to intercept attacks from afar. When targeted by a ranged attack, roll a ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "d8",
@@ -164,10 +174,13 @@
 			},
 			{
 				"text": "While the gem is activated, you can use your action to fluctuate the radius the gem protects, from just yourself to any creature within a 10 foot radius centered on you. Deactivating the gem returns it to its normal hover pattern around yourself.",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			}
 		],
+		"sectioncount": 3,
 		"name": "Diadem's Orbital Defence",
+		"subtext": "Wondrous item, rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -183,7 +196,9 @@
 				"text": "This rapier seems flimsy and poorly made at first, but bends and sways strangely on its own whim. When attacking with fleshfinder, a creature's AC cannot exceed its Dexterity score. Fleshfinder has no damage dice and instead deals 1 point of piercing damage."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Fleshfinder",
+		"subtext": "Martial weapon (rapier), rare",
 		"type": "Martial weapon (rapier)",
 		"rarity": {
 			"text": "rare",
@@ -196,7 +211,9 @@
 				"text": "These gold shoes have designs of mechanized wings on the sides. While attuned to the sandals, you gain a pool of 60 feet of fly speed that is consumed per foot of use. The pool replenishes each day at noon."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Icarus Sandals",
+		"subtext": "Wondrous item (footwear), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -227,10 +244,13 @@
 			},
 			{
 				"text": "This weapon's reach is 10 feet. When jumping with this weapon drawn, your jump distance and height are each increased by 5 feet.",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			}
 		],
+		"sectioncount": 2,
 		"name": "Longspear of Balance",
+		"subtext": "Martial weapon (spear), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -275,7 +295,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Altering Touch.",
@@ -287,7 +307,8 @@
 			},
 			{
 				"text": "When you dip or coat the weapon with a substance that would cause the sword any type of the listed damage in the spell ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "elemental weapon",
@@ -298,7 +319,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Parting Flow.",
@@ -310,7 +331,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Obedience.",
@@ -357,7 +378,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Energy Razor.",
@@ -389,7 +410,9 @@
 				"text": " can be cast instead of a melee attack with this weapon."
 			}
 		],
+		"sectioncount": 2,
 		"name": "Malifluous",
+		"subtext": "Martial weapon (shortsword), artifact (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -405,7 +428,9 @@
 				"text": "This cloak has streaks of shifting colors, which twist and swirl to blend into the environment. While attuned to the shawl and prone, you can take the hide action, even while within plain sight."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Shawl of Vanishing",
+		"subtext": "Wondrous item (cloak), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -429,11 +454,13 @@
 			},
 			{
 				"text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower.",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "While anything not conjured by the tower remains inside, the tower's layout cannot be changed. If something is inside while the tower is in its staff form, you can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "DC 7",
@@ -444,7 +471,8 @@
 			},
 			{
 				"text": "The tower has AC 15 and 250 hit points. If reduced to 0 hit points, the staff safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "mending",
@@ -454,7 +482,9 @@
 				"text": " is cast on the staff for a collective hour, it regains 25 hit points. Only once the staff has full hit points does its magical properties return."
 			}
 		],
+		"sectioncount": 4,
 		"name": "Staff of the Spire",
+		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
 		"attune": {
 			"text": "(requires attunement by an arcane caster)",
 			"by": "an arcane caster"
@@ -478,7 +508,9 @@
 				"text": " bonus to AC while wearing this armor."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Stallion Breastplate",
+		"subtext": "Armor (breastplate), legendary (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
@@ -502,7 +534,8 @@
 			},
 			{
 				"text": "The chime has 5 charges. While holding it, you can use an action to expend 1 or more of its charges. Any undead within 30 feet, the sum of whose CR is equal to or less than the number of charges expended (starting with the lowest CR first), must make a ",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "DC 16",
@@ -527,11 +560,12 @@
 			},
 			{
 				"text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spell save DC, with empowerments to those spells:",
-				"newpg": true
+				"newline": true,
+				"paragraph": true
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Animate Dead (1 charge).",
@@ -542,7 +576,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Feign Death (1 charge).",
@@ -553,7 +587,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Inflict Wounds (2 charges).",
@@ -564,7 +598,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Life Transference (2 charges).",
@@ -582,7 +616,7 @@
 			},
 			{
 				"text": "",
-				"newpg": true
+				"newline": true
 			},
 			{
 				"text": "Circle of Death (4 charges).",
@@ -592,7 +626,9 @@
 				"text": " The sphere is centered on you, and you can choose which creatures are affected."
 			}
 		],
+		"sectioncount": 3,
 		"name": "The Dead Ringer",
+		"subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
 		"attune": {
 			"text": "(requires attunement by a spellcaster)",
 			"by": "a spellcaster"
@@ -634,7 +670,9 @@
 				"dice": true
 			}
 		],
+		"sectioncount": 1,
 		"name": "The Tenderizer",
+		"subtext": "Martial weapon (maul), very rare",
 		"type": "Martial weapon (maul)",
 		"rarity": {
 			"text": "very rare",
@@ -647,7 +685,9 @@
 				"text": "This armor is made from condensed woollysheep cotton. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
 			}
 		],
+		"sectioncount": 1,
 		"name": "Woollysheep Armor",
+		"subtext": "Armor (any), rare",
 		"type": "Armor (any)",
 		"rarity": {
 			"text": "rare",

@@ -20,6 +20,11 @@ export class ItemsComponent implements OnInit {
     this.filterList();
   }
 
+  leftBuffer = 0;
+  onScroll(event) {
+    this.leftBuffer = event.target.scrollLeft;
+  }
+
   itemList: any = (itemList as any).default;
 
   nameSearch: string;

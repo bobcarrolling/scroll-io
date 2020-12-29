@@ -456,7 +456,7 @@
 					},
 					{
 						"text": "A grafted host gains 10 temporary hit points at the start of the aleph's turn as the aleph forms an outer crust of magma for protection. A creature that damages the host while the temporary hit points remain takes 3 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d6",
@@ -499,7 +499,7 @@
 					},
 					{
 						"text": "While grafted, a host gains the Intelligence, Wisdom, and Charisma scores of the aleph if they are higher than the host's, as well as its blindsight and languages. The aleph has total control over the host, which loses its own initiative and is instead controlled on the aleph's turn. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -1091,7 +1091,7 @@
 					},
 					{
 						"text": "If the worm makes a bite attack as it erupts and the attack misses, the target is instead thrown upwards and sideways in a random direction as many feet as the worm jumps. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -1156,7 +1156,7 @@
 					},
 					{
 						"text": "If the worm takes 20 damage or more on a single turn from a creature inside it, the worm must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 22",
@@ -2083,7 +2083,7 @@
 					},
 					{
 						"text": "If the chameleogon takes 35 damage or more on a single turn from a creature inside it, the chameleogon must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 22",
@@ -2734,15 +2734,15 @@
 					},
 					{
 						"text": "The creature's speed is halved. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "The creature can either take an action, a bonus action, or move on its turn, exclusively. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "The creature can't take reactions. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -2771,7 +2771,7 @@
 					},
 					{
 						"text": "When a creature takes damage from the confoundron's nerve stutter, it cannot speak and it must roll a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d4",
@@ -2874,7 +2874,7 @@
 					},
 					{
 						"text": "The space the moss occupies is considered difficult terrain. A creature that starts its turn in the moss' space takes 3 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d6",
@@ -3050,7 +3050,7 @@
 					},
 					{
 						"text": "A sleeping creature subject to the criquette's sleepless song for at least an hour has nightmares pertaining to insects. If the creature was taking a long rest, it does not gain any benefit from that rest. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -3345,7 +3345,7 @@
 					},
 					{
 						"text": "Creatures farther than 20 ft. away that fail their saving throw are subject to the effects of the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "power word pain",
@@ -3356,7 +3356,7 @@
 					},
 					{
 						"text": "Creatures closer than 20 ft. but farther than 5 ft. away that fail their saving throw are subject to the effects of the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "power word stun",
@@ -3367,7 +3367,7 @@
 					},
 					{
 						"text": "Creatures within 5 ft. that fail their saving throw are subject to the effects of the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "power word kill",
@@ -3444,7 +3444,7 @@
 					},
 					{
 						"text": "While mounted, the steed has advantage on all saving throws and all attacks against the steed have disadvantage. If the steed dies, it can be resummoned by its knight after 24 hours. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -3526,7 +3526,7 @@
 					},
 					{
 						"text": "The first time each day a creature is subject to this effect, it also becomes stunned until the end of its first turn being frightened. ",
-						"newpg": true
+						"newline": true
 					}
 				],
 				"recharge": "5–6"
@@ -4659,7 +4659,7 @@
 					},
 					{
 						"text": "Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the elemental until the start of its next turn, when it can avert its eyes again. If the creature looks at the elemental in the meantime, it must immediately make the save. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -4882,11 +4882,11 @@
 					},
 					{
 						"text": "A creature grappled by the empty flesh loses its movement and all actions besides attempting to break the grapple. While grappling, the empty flesh takes total and precise control of the target, using its own subsequent turns to move and act as the grappled target. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "When taking damage, the empty flesh continues to grapple as if it were concentrating on a spell. If it fails to concentrate, it releases the grapple and moves to an unoccupied space within 5 feet. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -5359,7 +5359,7 @@
 					},
 					{
 						"text": "While mounted, the steed has advantage on all saving throws and all attacks against the steed have disadvantage. If the steed dies, it can be resummoned by its knight after 24 hours. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -5569,7 +5569,7 @@
 					},
 					{
 						"text": "Telekinetic Ray: If the target is a creature, it must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 14",
@@ -5580,11 +5580,11 @@
 					},
 					{
 						"text": "If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The fixator can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Disintegration Ray: If the target is a creature, it must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 14",
@@ -5602,7 +5602,7 @@
 					},
 					{
 						"text": "If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -6141,7 +6141,7 @@
 					},
 					{
 						"text": "The fire emits thick smoke. If creatures breathe within 60 feet of an area affected by this trait, they are poisoned until the end of their turn. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -7945,7 +7945,7 @@
 					},
 					{
 						"text": "A creature currently affected by a spell cast by the halahan is immune to its hilarity aura. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -8480,7 +8480,14 @@
 				"name": "Spell Eater.",
 				"effect": [
 					{
-						"text": "The igamon is immune to the effects of all spellcasting. When hit by or subject to the effects of a spell being cast, the igamon ignores the effects and damage. If the spell normally deals damage, the igamon instead gains temporary hit points equal to the spell's level in d8's, or "
+						"text": "The igamon is immune to the effects of all spellcasting. When hit by or subject to the effects of a spell being cast, the igamon ignores the effects and damage. If the spell normally deals damage, the igamon instead gains temporary hit points equal to the spell's level in "
+					},
+					{
+						"text": "d8",
+						"dice": true
+					},
+					{
+						"text": "'s, or "
 					},
 					{
 						"text": "1d4",
@@ -8637,11 +8644,11 @@
 					},
 					{
 						"text": "Creatures inside the cube can be seen but have total cover. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 15",
@@ -8659,7 +8666,7 @@
 					},
 					{
 						"text": "The cube can hold only one Large creature, or up to five Medium or smaller creatures inside it at a time. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -8678,7 +8685,7 @@
 					},
 					{
 						"text": "The cube can alter the area it occupies as though it were under the effect of the ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "silent image",
@@ -8743,11 +8750,11 @@
 					},
 					{
 						"text": "On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "On a failed save, the cube enters the creature's space, and the creature takes 21 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "6d6",
@@ -8765,7 +8772,7 @@
 					},
 					{
 						"text": "An engulfed creature can try to escape by taking an action to make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 15",
@@ -9521,11 +9528,11 @@
 					},
 					{
 						"text": "In rare cases, the contents of the mimic can instead be a potion that imitates a spell of 4th level or lower that does not include a spell attack and does not target an area. The spell potion affects creatures in the same area and has the same save DC as this action's default effect. The spell potion a mimic chooses remains the same over its lifetime. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Alternatively, the mimic can hold a conjuring brew that produces oozes, elementals, or any other amorphous creatures of size Medium or smaller and of CR 1 or less. When taking this action, the mimic conjures ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d4",
@@ -9681,7 +9688,7 @@
 					},
 					{
 						"text": "The killer kelp actively suffocates and squeezes air out of targets it grapples. At the end of a grappled target's turn, if they are underwater they must succeed a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 10",
@@ -9764,7 +9771,7 @@
 					},
 					{
 						"text": "On a failed save, the leechpod latches onto the target's skin. While on the target's skin, the leechpod can be killed by normal means or pulled off with a successful ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 13",
@@ -9775,7 +9782,7 @@
 					},
 					{
 						"text": "On a successful save, the leechpod flops to the ground in an empty space within 5 feet of the target. It ruptures on impact, and all creatures within 5 feet of the leechpod must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 10",
@@ -9843,7 +9850,7 @@
 					},
 					{
 						"text": "After dealing damage with this attack, the leechpod spawns two new leechpods in empty spaces within 10 ft., acting on their own initiative count. The original leechpod then dies. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -10167,7 +10174,7 @@
 					},
 					{
 						"text": "The long giant reaches out 15 ft. and grapples (no opposed check) a Medium or smaller creature that it is hidden from, then pulls it up to 15 ft. towards itself. While grappled in this way, a creature cannot speak. The long giant can grapple no more than two creatures at a time. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -10259,7 +10266,7 @@
 					},
 					{
 						"text": "After an hour, the song incites tiny insects within the area to become hungry and congregate into a large swarm. The area within a 100 foot radius is lightly obscured and difficult terrain for one minute. At the end of the minute, any comestible, unless completely sealed, is fully eaten. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -11240,7 +11247,7 @@
 					},
 					{
 						"text": "While charmed in this way, a creature undergoes the effects of the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "feeblemind",
@@ -12081,7 +12088,7 @@
 					},
 					{
 						"text": "Instead of dealing damage, the nocturn can grapple the target (escape ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12654,7 +12661,7 @@
 					},
 					{
 						"text": "1. Charm Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12665,7 +12672,7 @@
 					},
 					{
 						"text": "2. Paralyzing Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12676,7 +12683,7 @@
 					},
 					{
 						"text": "3. Fear Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12687,7 +12694,7 @@
 					},
 					{
 						"text": "4. Slowing Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12698,7 +12705,7 @@
 					},
 					{
 						"text": "5. Enervation Ray. The targeted creature must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12716,7 +12723,7 @@
 					},
 					{
 						"text": "6. Telekinetic Ray. If the target is a creature, it must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12727,11 +12734,11 @@
 					},
 					{
 						"text": "If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The overseer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "7. Sleep Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12742,7 +12749,7 @@
 					},
 					{
 						"text": "8. Petrification Ray. The targeted creature must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12760,7 +12767,7 @@
 					},
 					{
 						"text": "9. Disintegration Ray. If the target is a creature, it must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12778,11 +12785,11 @@
 					},
 					{
 						"text": "If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "10. Death Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12800,7 +12807,7 @@
 					},
 					{
 						"text": "11. Transporting Ray. The targeted creature must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -12825,7 +12832,7 @@
 					},
 					{
 						"text": "12. Electrocution Ray. The targeted creature, as well as three other creatures within 30 feet of it, must succeed on a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 18",
@@ -13158,7 +13165,7 @@
 					},
 					{
 						"text": "Objects and creatures illuminated by the Wisp seem yellowed and hazy. The Wisp's bright light blocks out all other sources of light, both natural and magical. Objects and creatures of size Small or larger that are standing in the bright light cast cones of darkness out from behind them, from the perspective of the Wisp. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -13536,7 +13543,7 @@
 					},
 					{
 						"text": "While mounted, the steed has advantage on all saving throws and all attacks against the steed have disadvantage. If the steed dies, it can be resummoned by its knight after 24 hours. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -14477,11 +14484,11 @@
 					},
 					{
 						"text": "Creatures inside the gel can be seen but have total cover. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "A creature within 5 feet of the gel can take an action to pull a creature or object out of the gel. Doing so requires a successful ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 12",
@@ -14492,7 +14499,7 @@
 					},
 					{
 						"text": "The gel can hold only one Medium creature or up to four smaller creatures inside it at a time. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -14514,11 +14521,11 @@
 					},
 					{
 						"text": "On a successful save, the creature can choose to be pushed 5 feet back or to the side of the gel. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "On a failed save, the gel enters the creature's space and the creature is engulfed. The engulfed creature begins suffocating with no chance to hold their breath and is stunned, but gains 2 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d4",
@@ -14529,7 +14536,7 @@
 					},
 					{
 						"text": "A stunned creature can try to escape by making a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 12",
@@ -15073,7 +15080,7 @@
 					},
 					{
 						"text": "If the earth around the creature can be moved by hand, it takes an action to dig the creature out and free them. If the earth around the creature is solid and cannot be easily moved, then a hammer, pick, or mason's tools must be used as an action by an unrestrained creature to free the restrained creature. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -15553,7 +15560,14 @@
 						"itl": true
 					},
 					{
-						"text": " at 7th level, using Intelligence as his spellcasting modifier and expending no spell slot. If Slough successfully causes the spell to fail, the original spell explodes, dealing an amount of force damage equal to a number of d6's per original spell level to all creatures within a 5 ft. radius of the caster. "
+						"text": " at 7th level, using Intelligence as his spellcasting modifier and expending no spell slot. If Slough successfully causes the spell to fail, the original spell explodes, dealing an amount of force damage equal to a number of "
+					},
+					{
+						"text": "d6",
+						"dice": true
+					},
+					{
+						"text": "'s per original spell level to all creatures within a 5 ft. radius of the caster. "
 					}
 				]
 			}
@@ -15735,11 +15749,11 @@
 					},
 					{
 						"text": "The hag shoves the target with its long leg, pushing it up to 15 feet away and knocking it prone. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "The hag pulls its sharp leg hook out, leaving a bloody hole. The target takes an additional 3 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d6",
@@ -15865,7 +15879,7 @@
 					},
 					{
 						"text": "The Mutant Giant Spider has the same statistics as a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Giant Spider",
@@ -16728,7 +16742,7 @@
 					},
 					{
 						"text": "While charmed in this way, a creature undergoes the effects of the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "bane",
@@ -16809,15 +16823,15 @@
 					},
 					{
 						"text": "A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Two levels of the basilisk's exhaustion are lifted on a short rest, and all are lifted on a long rest, so long as the basilisk that caused the effects has been slain. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -17259,7 +17273,7 @@
 					},
 					{
 						"text": "The treegon can also choose any number of willing creatures within the cone to gain ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "1d10",
@@ -17270,7 +17284,7 @@
 					},
 					{
 						"text": "The ground within the cone experiences rapid overgrowth and becomes difficult terrain. ",
-						"newpg": true
+						"newline": true
 					}
 				],
 				"recharge": "5–6"
@@ -17837,7 +17851,7 @@
 					},
 					{
 						"text": "For the next 2 hours, the troll can use the carved-out eye as a focus to cast ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "arcane eye",
@@ -17848,7 +17862,7 @@
 					},
 					{
 						"text": "The troll can also crush the eye and use its remains to cast the spell ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "scrying",
@@ -18473,19 +18487,19 @@
 					},
 					{
 						"text": "Attack rolls critically fail on a roll of 1 or 2. If an attack roll critically fails, that creature cannot make any more attack rolls on that turn. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Spells with a casting time of 1 action also require expending a bonus action to use. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "Potions freeze and cannot be imbibed. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "A creature that falls unconscious in this area starts to freeze. It cannot regain hit points or become conscious until warmed. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -19446,7 +19460,7 @@
 					},
 					{
 						"text": "Creatures in a 15 foot wide line between where the voltant teleports from and to must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 16",
@@ -19606,7 +19620,7 @@
 					},
 					{
 						"text": "Creatures within 5 feet of the space where the voltant teleports both from and to must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 13",
@@ -19874,7 +19888,7 @@
 					},
 					{
 						"text": "At the beginning of each turn a target spends grappled inside the coffin, the target must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 15",
@@ -19899,7 +19913,7 @@
 					},
 					{
 						"text": "A creature dies if it is reduced to 0 hit points while grappled within the coffin and is considered consumed, immediately becoming a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "mummy",
@@ -19918,7 +19932,7 @@
 					},
 					{
 						"text": "Each creature that is completely within the cloud must make a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "DC 15",
@@ -19936,7 +19950,7 @@
 					},
 					{
 						"text": "Afterwards, if this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its Pluck, a ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "mummy",
@@ -20225,7 +20239,7 @@
 					},
 					{
 						"text": "While mounted, the steed has advantage on all saving throws and all attacks against the steed have disadvantage. If the steed dies, it can be resummoned by its knight after 24 hours. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			}
@@ -20701,11 +20715,18 @@
 				"name": "Deceptive Plumage.",
 				"effect": [
 					{
-						"text": "The wing devil has three layers of plumage that make it difficult to target. Each time a creature targets the wing devil while it has plumage remaining, roll a d20 to determine whether the attack could instead target its plumage. If it has three layers, it must roll a 6 or higher to change the attack's target to its plumage. With two layers, it must roll an 8 or higher. With one layer, it must roll an 11 or higher. The plumage has the same AC as the wing devil. If an attack hits the plumage, the wing devil takes no damage but the layer is destroyed. A layer of plumage can be destroyed only by an attack that hits it. It ignores all other damage and effects. "
+						"text": "The wing devil has three layers of plumage that make it difficult to target. Each time a creature targets the wing devil while it has plumage remaining, roll a "
+					},
+					{
+						"text": "d20",
+						"dice": true
+					},
+					{
+						"text": " to determine whether the attack could instead target its plumage. If it has three layers, it must roll a 6 or higher to change the attack's target to its plumage. With two layers, it must roll an 8 or higher. With one layer, it must roll an 11 or higher. The plumage has the same AC as the wing devil. If an attack hits the plumage, the wing devil takes no damage but the layer is destroyed. A layer of plumage can be destroyed only by an attack that hits it. It ignores all other damage and effects. "
 					},
 					{
 						"text": "A wing devil's three layers plumage regrow after a short or long rest. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -20809,7 +20830,7 @@
 					},
 					{
 						"text": "The wing devil can choose to destroy a layer of its plumage before making this attack. If it does so, the attack deals an additional 14 (",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "4d6",
@@ -21392,11 +21413,11 @@
 					},
 					{
 						"text": "The yen can also spend a short rest eating the brain of a spellcaster. After its next long rest, it learns a spell the spellcaster had prepared at their moment of death. The spell must be of a level for which it has spell slots, and it is always considered a prepared spell for the yen. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "To represent a yen that has already feasted on spellcasters, add up to three spells of differing levels to its list of prepared spells. They can be from any class. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},
@@ -21415,11 +21436,11 @@
 					},
 					{
 						"text": "At the beginning of its turn, it grows two arms for each of its arms that it lost since its last turn, unless it has taken necrotic damage since its last turn. The yen regains 10 hit points for each arm regrown in this way. ",
-						"newpg": true
+						"newline": true
 					},
 					{
 						"text": "The limbs that regenerate from this trait are from previous victims of the yen's ingestion trait. When the yen is depleted of limbs from previous victims, the yen's true form is revealed, and this trait ceases to function. ",
-						"newpg": true
+						"newline": true
 					}
 				]
 			},

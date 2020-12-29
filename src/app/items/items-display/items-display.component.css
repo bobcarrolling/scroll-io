@@ -19,7 +19,7 @@ p {
 }
 
 .container-lg {
-  width: calc(47.5rem - 8px);
+  width: calc(54.5rem - 8px);
 }
 .container-sm {
   width: calc(100vw - 1rem + 2px);
@@ -29,7 +29,7 @@ p {
   padding: 1px;
 }
 .column-lg {
-  max-width: calc(23.75rem - 5px);
+  max-width: calc(27.25rem - 5px);
   width: calc((100vw - 1rem + 1px) / 2);
 }
 .column-sm {
@@ -70,7 +70,8 @@ p {
 
 .type {
   font-style: italic;
-  margin-bottom: 0.2rem;
+  font-size: 0.75rem;
+  margin-bottom: -0.4rem;
 }
 
 .stats-top {
@@ -120,14 +121,13 @@ p {
 }
 
 .trait-container {
-  margin: 0.2rem 0.1rem 0.3rem 0.1rem;
+  margin: 0.2rem 0.1rem 0.1rem 0.1rem;
 }
 .trait-box {
-  padding: 0.2rem;
-  padding-left: 0.3rem;
+  padding: 0.1rem;
 }
 .trait-name {
-  text-indent: -0.25rem;
+  text-indent: 0.4rem;
 }
 .trait-info {
   text-indent: 0.25rem;

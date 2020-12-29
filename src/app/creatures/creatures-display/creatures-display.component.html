@@ -8,41 +8,47 @@
 		<h2 class="header header-word">
 			ACTIONS
 		</h2>
-
 		<ng-template [ngTemplateOutlet]="divider">
 			<!--________DIVIDER________-->
 		</ng-template>
-
 		<div class="trait-container">
 			<div class="flexcol trait-box" *ngFor="let action of creature.actions" style="white-space: pre-line">
 				<div class="trait-name">
 					<span class="bld-itl"
-            >{{action.name}} <ng-container *ngIf="action.recharge">
-              (Recharge
-              <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                >{{action.recharge}}</span>).
-	</ng-container></span>
+                  >
+                  {{action.name}} 
+                  <ng-container *ngIf="action.recharge">
+                     (Recharge
+                     <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                        >{{action.recharge}}</span>).
+	</ng-container>
+	</span>
 	<ng-container *ngFor="let effect of action.effect">
-		<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+		<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 		<span
-              [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-              (click)="checkRoll(effect)"
-              >{{effect.text}}</span>
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                  (click)="checkRoll(effect)"
+                  >{{effect.text}}</span>
 	</ng-container>
 	</div>
 	<div class="flexcol option-box" *ngIf="action.options">
 		<span class="trait-option" *ngFor="let option of action.options">
-            <span class="bld" style="font-size: 0.75rem"
-              >{{option.name}} <ng-container *ngIf="option.recharge">
-                (Recharge
-                <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                  >{{option.recharge}}</span>).</ng-container></span>
+                  <span class="bld" style="font-size: 0.75rem"
+                     >
+                     {{option.name}} 
+                     <ng-container *ngIf="option.recharge">
+                        (Recharge
+                        <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                           >{{option.recharge}}</span>).
+		</ng-container>
+		</span>
 		<ng-container *ngFor="let effect of option.effect">
-			<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+			<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 			<span
-                [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-                (click)="checkRoll(effect)"
-                >{{effect.text}}</span>
+                     [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                     (click)="checkRoll(effect)"
+                     >{{effect.text}}
+               </span>
 		</ng-container>
 		</span>
 	</div>
@@ -53,41 +59,47 @@
 		<h2 class="header header-word">
 			REACTIONS
 		</h2>
-
 		<ng-template [ngTemplateOutlet]="divider">
 			<!--________DIVIDER________-->
 		</ng-template>
-
 		<div class="trait-container">
 			<div class="flexcol trait-box" *ngFor="let reaction of creature.reactions" style="white-space: pre-line">
 				<div class="trait-name">
 					<span class="bld-itl"
-            >{{reaction.name}} <ng-container *ngIf="reaction.recharge">
-              (Recharge
-              <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                >{{reaction.recharge}}</span>).
-	</ng-container></span>
+                  >
+                  {{reaction.name}} 
+                  <ng-container *ngIf="reaction.recharge">
+                     (Recharge
+                     <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                        >{{reaction.recharge}}</span>).
+	</ng-container>
+	</span>
 	<ng-container *ngFor="let effect of reaction.effect">
-		<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+		<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 		<span
-              [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-              (click)="checkRoll(effect)"
-              >{{effect.text}}</span>
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                  (click)="checkRoll(effect)"
+                  >{{effect.text}}</span>
 	</ng-container>
 	</div>
 	<div class="flexcol option-box" *ngIf="reaction.options">
 		<span class="trait-option" *ngFor="let option of reaction.options">
-            <span class="bld" style="font-size: 0.75rem"
-              >{{option.name}} <ng-container *ngIf="option.recharge">
-                (Recharge
-                <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                  >{{option.recharge}}</span>).</ng-container></span>
+                  <span class="bld" style="font-size: 0.75rem"
+                     >
+                     {{option.name}} 
+                     <ng-container *ngIf="option.recharge">
+                        (Recharge
+                        <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                           >{{option.recharge}}</span>).
+		</ng-container>
+		</span>
 		<ng-container *ngFor="let effect of option.effect">
-			<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+			<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 			<span
-                [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-                (click)="checkRoll(effect)"
-                >{{effect.text}}</span>
+                     [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                     (click)="checkRoll(effect)"
+                     >{{effect.text}}
+               </span>
 		</ng-container>
 		</span>
 	</div>
@@ -95,10 +107,7 @@
 	</div>
 	</ng-container>
 </ng-template>
-
-<div *ngIf="creature" class="container transition flexrow"
-	[ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
-	<!-- [ngClass]="{'shown': showpage, 'hidden': !showpage, 'lg': !fullscreen, 'sm': fullscreen}" -->
+<div *ngIf="creature" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
 		<div class="column flexcol">
 			<h1 class="flexrow namerow">
@@ -107,17 +116,15 @@
 					<span
             *ngIf="i < splitName.length-1"
             style="margin-right: 0.35rem"
-          ></span>
+            ></span>
 				</p>
 			</h1>
 			<p class="type">
 				{{creature.size.text + ' ' + creature.type + ', ' + creature.alignment}}
 			</p>
-
 			<ng-template [ngTemplateOutlet]="divider">
 				<!--________DIVIDER________-->
 			</ng-template>
-
 			<div class="stats-top flexrow flexwrap justify-between">
 				<div class="statsbox-left">
 					<h3>Hit Points</h3>
@@ -138,11 +145,9 @@
 					<p>{{creature.speed}}</p>
 				</div>
 			</div>
-
 			<ng-template [ngTemplateOutlet]="divider">
 				<!--________DIVIDER________-->
 			</ng-template>
-
 			<div class="flex abi-table">
 				<table>
 					<tr>
@@ -206,73 +211,77 @@
 						</td>
 					</tr>
 					<!-- <tr *ngIf="creature.saves" class="abi-saves">
-						<td colspan="6"><strong>Saving Throws</strong></td>
-          </tr> -->
+               <td colspan="6"><strong>Saving Throws</strong></td>
+                   </tr> -->
 				</table>
 			</div>
-
 			<ng-template [ngTemplateOutlet]="divider">
 				<!--________DIVIDER________-->
 			</ng-template>
-
 			<div class="flexcol resist-text">
 				<span *ngIf="creature.vuln"
-          ><strong>Damage Vulnerabilities </strong>{{creature.vuln}}</span>
+            ><strong>Damage Vulnerabilities </strong>{{creature.vuln}}</span>
 				<span *ngIf="creature.resist"
-          ><strong>Damage Resistances </strong>{{creature.resist}}</span>
+            ><strong>Damage Resistances </strong>{{creature.resist}}</span>
 				<span *ngIf="creature.immune"
-          ><strong>Damage Immunities </strong>{{creature.immune}}</span>
+            ><strong>Damage Immunities </strong>{{creature.immune}}</span>
 				<span *ngIf="creature.immunity"
-          ><strong>Condition Immunities </strong>{{creature.immunity}}</span>
+            ><strong>Condition Immunities </strong>{{creature.immunity}}</span>
 				<span *ngIf="creature.senses"
-          ><strong>Senses </strong>{{creature.senses}}</span>
+            ><strong>Senses </strong>{{creature.senses}}</span>
 				<span *ngIf="creature.languages"
-          ><strong>Languages </strong>{{creature.languages}}</span>
+            ><strong>Languages </strong>{{creature.languages}}</span>
 			</div>
-
 			<ng-template [ngTemplateOutlet]="divider" *ngIf="creature.traits">
 				<!--________DIVIDER________-->
 			</ng-template>
-
 			<div class="trait-container">
 				<div class="flexcol trait-box" *ngFor="let trait of creature.traits">
 					<div class="trait-name">
 						<span class="bld-itl"
-              >{{trait.name}} <ng-container *ngIf="trait.recharge">
-                (Recharge
-                <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                  >{{trait.recharge}}</span>).</ng-container></span>
+                  >
+                  {{trait.name}} 
+                  <ng-container *ngIf="trait.recharge">
+                     (Recharge
+                     <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                        >{{trait.recharge}}</span>).
+						</ng-container>
+						</span>
 						<ng-container *ngFor="let effect of trait.effect">
-							<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+							<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 							<span
-                [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc }"
-                (click)="checkRoll(effect)"
-                >{{effect.text}}</span>
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc }"
+                  (click)="checkRoll(effect)"
+                  >{{effect.text}}</span>
 						</ng-container>
 					</div>
 					<div class="flexcol option-box" *ngIf="trait.options">
 						<span class="trait-option" *ngFor="let option of trait.options">
-            <span class="bld" style="font-size: 0.75rem"
-              >{{option.name}} <ng-container *ngIf="option.recharge">
-                (Recharge
-                <span class="bld highlight udl itl point" (click)="toRoll('d6')"
-                  >{{option.recharge}}</span>).</ng-container></span>
+                  <span class="bld" style="font-size: 0.75rem"
+                     >
+                     {{option.name}} 
+                     <ng-container *ngIf="option.recharge">
+                        (Recharge
+                        <span class="bld highlight udl itl point" (click)="toRoll('d6')"
+                           >{{option.recharge}}</span>).
+						</ng-container>
+						</span>
 						<ng-container *ngFor="let effect of option.effect">
-							<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+							<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 							<span
-                [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-                (click)="checkRoll(effect)"
-                >{{effect.text}}</span>
+                     [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                     (click)="checkRoll(effect)"
+                     >{{effect.text}}
+               </span>
 						</ng-container>
 						</span>
 					</div>
 					<div class="flexcol spell-box" *ngIf="trait.spells">
 						<span class="trait-spell" *ngFor="let spell of trait.spells"
-              >{{spell.label}}: {{spell.list}}</span>
+                  >{{spell.label}}: {{spell.list}}</span>
 					</div>
 				</div>
 			</div>
-
 			<ng-template [ngTemplateOutlet]="actions"
 				*ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
 				<!--ACTIONS-->
@@ -286,7 +295,6 @@
 				*ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)">
 				<!--ACTIONS-->
 			</ng-template>
-
 			<ng-container *ngIf="creature.legendary">
 				<div class="flexrow">
 					<h2 class="header header-word" style="margin-right: 0.2rem">
@@ -299,7 +307,6 @@
 				<ng-template [ngTemplateOutlet]="divider">
 					<!--________DIVIDER________-->
 				</ng-template>
-
 				<div class="trait-container">
 					<div class="trait-info">
 						<span class="itl">{{creature.legendary.info}} </span>
@@ -308,15 +315,18 @@
 						style="white-space: pre-line">
 						<div class="trait-name">
 							<span class="bld-itl"
-                >{{action.name}} <ng-container *ngIf="action.recharge">
-                  (Recharge
-                  <span
-                    class="bld highlight udl itl point"
-                    (click)="toRoll('d6')"
-                    >{{action.recharge}}</span>).
-			</ng-container></span>
+                  >
+                  {{action.name}} 
+                  <ng-container *ngIf="action.recharge">
+                     (Recharge
+                     <span
+                        class="bld highlight udl itl point"
+                        (click)="toRoll('d6')"
+                        >{{action.recharge}}</span>).
+			</ng-container>
+			</span>
 			<ng-container *ngFor="let effect of action.effect">
-				<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+				<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 				<span
                   [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
                   (click)="checkRoll(effect)"
@@ -325,20 +335,24 @@
 		</div>
 		<div class="flexcol option-box" *ngIf="action.options">
 			<span class="trait-option" *ngFor="let option of action.options">
-                <span class="bld" style="font-size: 0.75rem"
-                  >{{option.name}}<ng-container *ngIf="option.recharge">
-                    (Recharge
-                    <span
-                      class="bld highlight udl itl point"
-                      (click)="toRoll('d6')"
-                      >{{option.recharge}}</span>).</ng-container>
+                  <span class="bld" style="font-size: 0.75rem"
+                     >
+                     {{option.name}}
+                     <ng-container *ngIf="option.recharge">
+                        (Recharge
+                        <span
+                           class="bld highlight udl itl point"
+                           (click)="toRoll('d6')"
+                           >{{option.recharge}}</span>).
+			</ng-container>
 			</span>
 			<ng-container *ngFor="let effect of option.effect">
-				<span *ngIf="effect.newpg"><br />&nbsp;&nbsp;</span>
+				<span *ngIf="effect.newline"><br />&nbsp;&nbsp;</span>
 				<span
-                    [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
-                    (click)="checkRoll(effect)"
-                    >{{effect.text}}</span>
+                     [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                     (click)="checkRoll(effect)"
+                     >{{effect.text}}
+               </span>
 			</ng-container>
 			</span>
 		</div>
@@ -347,7 +361,6 @@
 </ng-container>
 </div>
 </div>
-
 <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.info">
 	<div class="column flexcol">
 		<ng-container>
@@ -356,7 +369,6 @@
 					INFO
 				</h2>
 			</div>
-
 			<div class="trait-container">
 				<div class="flexcol trait-box" style="white-space: pre-line">
 					<div *ngFor="let info of creature.info" class="indent">
@@ -368,14 +380,5 @@
 		</ng-container>
 	</div>
 </div>
-
-<!-- <div class="hover-shadow" style="position: absolute; right: 0; top: 0; height: 100%; width: 3rem"
-		(click)="deselect()">
-		<svg width="100%" height="4" viewBox="0 0 1000 4" preserveAspectRatio="none"
-			style="position: absolute; right: 0; top: 45%; width: 0.8rem; height: 3rem;">
-			<polygon points="0,0  1000,2  0,4" style="fill: teal;" />
-		</svg>
-	</div> -->
 </div>
-
 <app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>

@@ -24,6 +24,7 @@
 
 .data-table {
   overflow-y: scroll;
+  box-sizing:border-box;
   height: calc(100% - 5rem);
   overflow-x: hidden;
 }
