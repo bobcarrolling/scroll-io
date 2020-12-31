@@ -21,9 +21,9 @@
 			<div class="flexcol trait-box" style="white-space: pre-line">
 				<div class="trait-name">
 					<ng-container *ngFor="let effect of item.effects; let i = index">
-						<span *ngIf="effect.newline"><br /><div style="height: 0.25rem"></div><span *ngIf="effect.paragraph || i === 0">&nbsp;&nbsp;</span></span>
+						<span *ngIf="effect.newline"><br /><div style="height: 0.2rem"></div><div style="height: 0.2rem" *ngIf="item.effects[i+1] && item.effects[i+1].bld && item.effects[i+1].itl"></div><span *ngIf="effect.paragraph || i === 0">&nbsp;&nbsp;</span></span>
 						<span
-                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice, 'highlight': effect.dice || effect.bonus || effect.dc}"
                   (click)="checkRoll(effect)"
                   ><span *ngIf="effect.bld && effect.itl">&nbsp;&nbsp;</span>{{effect.text}}</span>
 					</ng-container>
@@ -35,7 +35,7 @@
 		<div class="column flexcol">
 			<div class="flexcol trait-box" style="white-space: pre-line">
 				<div class="trait-name">
-					Image placeholder
+					<!-- Image placeholder -->
 				</div>
 			</div>
 		</div>

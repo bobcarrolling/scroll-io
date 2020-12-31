@@ -69,7 +69,7 @@ export class ItemsDisplayComponent implements OnInit {
 
   diceRoll: string;
   checkRoll(val: any) {
-    if (val.dice || val.bonus) {
+    if (val.dice) {
       this.diceRoll = val.text;
     }
   }
