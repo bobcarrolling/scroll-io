@@ -47,8 +47,7 @@
 			<span
                      [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
                      (click)="checkRoll(effect)"
-                     >{{effect.text}}
-               </span>
+                     >{{effect.text}}</span>
 		</ng-container>
 		</span>
 	</div>
@@ -98,8 +97,7 @@
 			<span
                      [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
                      (click)="checkRoll(effect)"
-                     >{{effect.text}}
-               </span>
+                     >{{effect.text}}</span>
 		</ng-container>
 		</span>
 	</div>
@@ -271,8 +269,7 @@
 							<span
                      [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
                      (click)="checkRoll(effect)"
-                     >{{effect.text}}
-               </span>
+                     >{{effect.text}}</span>
 						</ng-container>
 						</span>
 					</div>
@@ -309,7 +306,7 @@
 				</ng-template>
 				<div class="trait-container">
 					<div class="trait-info">
-						<span class="itl">{{creature.legendary.info}} </span>
+						<span class="itl shrink" style="margin-bottom: 0.2rem">{{creature.legendary.info}}</span>
 					</div>
 					<div class="flexcol trait-box" *ngFor="let action of creature.legendary.actions"
 						style="white-space: pre-line">
@@ -351,8 +348,7 @@
 				<span
                      [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}"
                      (click)="checkRoll(effect)"
-                     >{{effect.text}}
-               </span>
+                     >{{effect.text}}</span>
 			</ng-container>
 			</span>
 		</div>

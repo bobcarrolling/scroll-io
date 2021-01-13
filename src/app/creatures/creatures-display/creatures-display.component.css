@@ -29,8 +29,8 @@ p {
   padding: 1px;
 }
 .column-lg {
-  max-width: calc(23.75rem - 5px);
-  width: calc((100vw - 1rem + 1px) / 2);
+  min-width: calc(23.75rem - 5px);
+  width: calc(23.75rem - 5px);
 }
 .column-sm {
   width: calc(100vw - 1rem);
@@ -176,6 +176,10 @@ h3 {
 }
 .highlight {
   color: DarkSlateGray;
+}
+.shrink {
+  display: block;
+  line-height: 0.9rem;
 }
 .point {
   cursor: pointer;
