@@ -69,7 +69,7 @@
 				"name": "Legendary Might.",
 				"effect": [
 					{
-						"text": "Absolution can expend a legendary resistance to add their Charisma modifier to an attack roll after knowing the result, to their AC for a single attack that would hit them, or add radiant damage equal to double the modifier to one of their attacks' damage rolls. "
+						"text": "Absolution can expend a legendary resistance to add their Charisma modifier to an attack roll after knowing the result, to their AC for a single attack that would hit them, or inflict additional radiant damage equal to double the modifier of one of their attacks' damage rolls. "
 					}
 				]
 			},
@@ -105,7 +105,7 @@
 				]
 			}
 		],
-		"traitsize": 724,
+		"traitsize": 739,
 		"actions": [
 			{
 				"name": "Multiattack.",
@@ -332,13 +332,13 @@
 		],
 		"actionsize": 1958,
 		"legendary": {
-			"info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of its turn. ",
+			"info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of their turn. ",
 			"actions": [
 				{
 					"name": "Overawe.",
 					"effect": [
 						{
-							"text": "Absolution uses their divine presence on a single creature, regardless of immunity. "
+							"text": "Absolution uses their divine presence on a single creature, ignoring immunity. "
 						}
 					]
 				},
@@ -736,6 +736,199 @@
 		]
 	},
 	{
+		"name": "Animated Training Dummy",
+		"size": {
+			"text": "Medium",
+			"value": 2
+		},
+		"type": "construct",
+		"alignment": "unaligned",
+		"ac": "11 (see equipment)",
+		"hp": "18 (4d8)",
+		"hpdice": "4d8",
+		"speed": "30 ft.",
+		"abilities": {
+			"str": {
+				"val": "13 (+1)",
+				"score": "13",
+				"bonus": "+1"
+			},
+			"dex": {
+				"val": "13 (+1)",
+				"score": "13",
+				"bonus": "+1"
+			},
+			"con": {
+				"val": "11 (+0)",
+				"score": "11",
+				"bonus": "+0"
+			},
+			"int": {
+				"val": "5 (-3)",
+				"score": "5",
+				"bonus": "-3"
+			},
+			"wis": {
+				"val": "6 (-2)",
+				"score": "6",
+				"bonus": "-2"
+			},
+			"cha": {
+				"val": "5 (-3)",
+				"score": "5",
+				"bonus": "-3"
+			},
+			"highest": "str"
+		},
+		"vuln": "fire ",
+		"immune": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks ",
+		"immunity": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious ",
+		"senses": "passive Perception 8 ",
+		"languages": "understands the languages of its creator but can't speak ",
+		"cr": {
+			"text": "1/4",
+			"value": 0.25
+		},
+		"traits": [
+			{
+				"name": "Equipment.",
+				"effect": [
+					{
+						"text": "When a training dummy becomes animated, it has two of the below properties. If no weapon property is chosen, the training dummy wields a club and deals bludgeoning damage with its weapon attack. During a short rest, the training dummy can swap one property for another, provided with the proper equipment: "
+					}
+				],
+				"options": [
+					{
+						"name": "Shield.",
+						"effect": [
+							{
+								"text": "Add "
+							},
+							{
+								"text": "+2",
+								"bonus": true
+							},
+							{
+								"text": " to AC. "
+							}
+						]
+					},
+					{
+						"name": "Armor.",
+						"effect": [
+							{
+								"text": "Add "
+							},
+							{
+								"text": "+2",
+								"bonus": true
+							},
+							{
+								"text": " to AC. "
+							}
+						]
+					},
+					{
+						"name": "Sword.",
+						"effect": [
+							{
+								"text": "Gain a multiattack of two weapon attacks. "
+							}
+						]
+					},
+					{
+						"name": "Spear.",
+						"effect": [
+							{
+								"text": "Gain weapon reach of 10 feet and deal an additional die of weapon damage. "
+							}
+						]
+					},
+					{
+						"name": "Cloak.",
+						"effect": [
+							{
+								"text": "Gain advantage on saving throws against magical effects. "
+							}
+						]
+					},
+					{
+						"name": "Helm.",
+						"effect": [
+							{
+								"text": "Strength based attacks against the dummy have disadvantage. "
+							}
+						]
+					},
+					{
+						"name": "Boots.",
+						"effect": [
+							{
+								"text": "Dexterity based attacks against the dummy have disadvantage. "
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "False Appearance.",
+				"effect": [
+					{
+						"text": "While the training dummy remains motionless, it is indistinguishable from a normal training dummy. "
+					}
+				]
+			},
+			{
+				"name": "Prone Succeptibility.",
+				"effect": [
+					{
+						"text": "While prone, the training dummy is considered restrained and cannot stand up of its own accord. "
+					}
+				]
+			}
+		],
+		"traitsize": 1002,
+		"actions": [
+			{
+				"name": "Weapon.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+3",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 5 ft., one target. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 4 ("
+					},
+					{
+						"text": "1d6 + 1",
+						"dice": true
+					},
+					{
+						"text": ") piercing damage."
+					}
+				]
+			}
+		],
+		"actionsize": 109
+	},
+	{
 		"name": "Astral Cetasaurus",
 		"size": {
 			"text": "Gargantuan",
@@ -800,7 +993,7 @@
 				"name": "Colossus.",
 				"effect": [
 					{
-						"text": "The cetasaurus occupies a 20 ft. by 20 ft. area, as well as four 10 ft. by 10 ft. spaces that follow behind it in a trail as it moves. Its head is always in the largest area at the front, and its tail is at the rear. "
+						"text": "The cetasaurus occupies a 20 foot sided cubic area, as well as four 10 foot sided cubic spaces that follow behind it in a trail as it moves. Its head is always in the largest area at the front, and its tail is at the rear. "
 					}
 				]
 			},
@@ -844,7 +1037,7 @@
 				]
 			}
 		],
-		"traitsize": 585,
+		"traitsize": 591,
 		"actions": [
 			{
 				"name": "Ram.",
@@ -893,7 +1086,7 @@
 				"name": "Rattling Wail ",
 				"effect": [
 					{
-						"text": "Each creature of the cetasaurus' choice that is within 120 feet of the cetasaurus and can hear it must succeed on a "
+						"text": "Each creature of the cetasaurus' choice that is within 120 feet of it and can hear must succeed on a "
 					},
 					{
 						"text": "DC 18",
@@ -923,7 +1116,7 @@
 						"dc": true
 					},
 					{
-						"text": "), requiring no components. The spell also deals an additional 33 ("
+						"text": "), requiring no components. Creatures aboard the cetasaurus count as objects it can carry, and all objects aboard the cetasaurus take half damage from this effect. The spell also deals an additional 33 ("
 					},
 					{
 						"text": "6d10",
@@ -936,7 +1129,7 @@
 				"recharge": "5–6"
 			}
 		],
-		"actionsize": 1056,
+		"actionsize": 1177,
 		"legendary": {
 			"info": "The astral cetasaurus can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The astral cetasaurus regains spent legendary actions at the start of its turn. ",
 			"actions": [
@@ -5648,14 +5841,14 @@
 				"bonus": "-1"
 			},
 			"int": {
-				"val": "9 (-1)",
-				"score": "9",
-				"bonus": "-1"
+				"val": "6 (-2)",
+				"score": "6",
+				"bonus": "-2"
 			},
 			"wis": {
-				"val": "15 (+2)",
-				"score": "15",
-				"bonus": "+2"
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
 			},
 			"cha": {
 				"val": "14 (+2)",
@@ -5667,8 +5860,8 @@
 		"skills": {
 			"acrobatics": "+7"
 		},
-		"immune": "bludgeoning, piercing, and slashing from attacks ",
-		"senses": "passive Perception 12 ",
+		"immune": "bludgeoning, piercing, slashing ",
+		"senses": "passive Perception 11 ",
 		"languages": "understands Sylvan but can't speak ",
 		"cr": {
 			"text": "1",
@@ -9595,7 +9788,7 @@
 		"skills": {
 			"perception": "+3"
 		},
-		"resist": "; bludgeoning, piercing, and slashing from nonmagical weapon attacks while the killer kelp is underwater ",
+		"resist": "bludgeoning, piercing, and slashing from nonmagical weapon attacks while the killer kelp is underwater ",
 		"senses": "darkvision 90 ft., passive Perception 13 ",
 		"languages": "— ",
 		"cr": {
@@ -12425,12 +12618,12 @@
 				"name": "Withdraw.",
 				"effect": [
 					{
-						"text": "Instead of moving, the osteoth can withdraw into its armored shell. When it does so, it is incapacitated. While withdrawn, the osteoth has an AC of 20 and resistance to all damage, all attack rolls have disadvantage against it, and it has advantage on all saving throws until the start of its next turn. "
+						"text": "At the start of its turn, the osteoth can withdraw into its armored shell. While withdrawn, the osteoth's speed becomes 0, it has an AC of 20 and resistance to all damage, all attack rolls have disadvantage against it, and it has advantage on all saving throws until the start of its next turn. "
 					}
 				]
 			}
 		],
-		"traitsize": 603,
+		"traitsize": 594,
 		"actions": [
 			{
 				"name": "Bite.",
@@ -12457,10 +12650,10 @@
 						"itl": true
 					},
 					{
-						"text": " 5 ("
+						"text": " 6 ("
 					},
 					{
-						"text": "1d4 + 3",
+						"text": "1d6 + 3",
 						"dice": true
 					},
 					{
@@ -13028,10 +13221,10 @@
 						"itl": true
 					},
 					{
-						"text": " 34 ("
+						"text": " 26 ("
 					},
 					{
-						"text": "6d8 + 7",
+						"text": "3d12 + 7",
 						"dice": true
 					},
 					{
@@ -13046,7 +13239,7 @@
 						"text": "The owlrex beats its wings. Each creature within 10 feet of the owlrex must succeed on a "
 					},
 					{
-						"text": "DC 17",
+						"text": "DC 19",
 						"dc": true
 					},
 					{
@@ -13062,7 +13255,7 @@
 				]
 			}
 		],
-		"actionsize": 736
+		"actionsize": 737
 	},
 	{
 		"name": "Phantora, Widow of Light",
@@ -13652,8 +13845,8 @@
 				"bonus": "-2"
 			},
 			"con": {
-				"val": "31 (+10)",
-				"score": "31",
+				"val": "30 (+10)",
+				"score": "30",
 				"bonus": "+10"
 			},
 			"int": {
@@ -13671,7 +13864,7 @@
 				"score": "1",
 				"bonus": "-5"
 			},
-			"highest": "con"
+			"highest": "str"
 		},
 		"saves": {
 			"str": "+18",
@@ -14352,7 +14545,7 @@
 				"name": "Shadow Stealth.",
 				"effect": [
 					{
-						"text": "While in dim light or darkness, the quilloq can take the Hide action as a bonus action. Its stealth bonus is also improved to "
+						"text": "While in dim light or darkness, the quilloq can take the Hide action as a bonus action. When it does, its Stealth bonus is improved to "
 					},
 					{
 						"text": "+6.",
@@ -14364,7 +14557,7 @@
 				]
 			}
 		],
-		"traitsize": 253,
+		"traitsize": 262,
 		"actions": [
 			{
 				"name": "Bite.",
@@ -14411,13 +14604,13 @@
 				]
 			}
 		],
-		"actionsize": 201,
+		"actionsize": 136,
 		"reactions": [
 			{
 				"name": "Disperse.",
 				"effect": [
 					{
-						"text": "If the quilloq would take damage from a weapon attack it can see the source of, it gains resistance to that attack's damage and can teleport within 5 feet of the origin of the attack. "
+						"text": "After the quilloq takes damage and is not unconsious, it can teleport to an unoccupied space within 15 feet of itself. "
 					}
 				]
 			}
@@ -16057,13 +16250,13 @@
 				"bonus": "+0"
 			},
 			"int": {
-				"val": "9 (-1)",
-				"score": "9",
-				"bonus": "-1"
+				"val": "7 (-2)",
+				"score": "7",
+				"bonus": "-2"
 			},
 			"wis": {
-				"val": "15 (+2)",
-				"score": "15",
+				"val": "14 (+2)",
+				"score": "14",
 				"bonus": "+2"
 			},
 			"cha": {
@@ -16076,7 +16269,7 @@
 		"skills": {
 			"acrobatics": "+10"
 		},
-		"immune": "bludgeoning, piercing, and slashing from attacks ",
+		"immune": "bludgeoning, piercing, slashing ",
 		"immunity": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned ",
 		"senses": "passive Perception 12 ",
 		"languages": "understands Sylvan but can't speak ",
@@ -16247,7 +16440,7 @@
 			},
 			"highest": "str"
 		},
-		"resist": "bludgeoning, piercing, slashing ",
+		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks ",
 		"immune": "poison, psychic ",
 		"immunity": "all ",
 		"senses": "blindsight 60 ft., passive Perception 10 ",
@@ -16575,7 +16768,7 @@
 						"name": "5. Wand of the Artillerist.",
 						"effect": [
 							{
-								"text": "The swarm summons a hail of fire. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a "
+								"text": "The swarm summons a hail of fire. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within 80 feet must make a "
 							},
 							{
 								"text": "DC 14",
@@ -16596,7 +16789,7 @@
 								"dice": true
 							},
 							{
-								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder repeats the saving throw. "
+								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder is subject to its effects. "
 							}
 						]
 					},
@@ -16625,14 +16818,14 @@
 								"dice": true
 							},
 							{
-								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest."
+								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest. "
 							}
 						]
 					}
 				]
 			}
 		],
-		"actionsize": 2261
+		"actionsize": 2265
 	},
 	{
 		"name": "Sylvanbell",
@@ -18876,7 +19069,7 @@
 				"name": "Hatchlings.",
 				"effect": [
 					{
-						"text": "The queen can house up to twelve voltant hatchlings on her carapace, and produces up to eight at the beginning of her turn. They automatically swarm to protect her according to her will. When the queen takes damage, she can sacrifice a number hatchlings to reduce the amount of damage dice rolled by the same amount. Without any action, the queen can also expend a number of hatchlings equal to a spell slot level to cast "
+						"text": "The queen can house up to twelve voltant hatchlings on her carapace, and produces up to eight at the beginning of her turn. They automatically swarm to protect her according to her will. When the queen takes damage, she can sacrifice a number hatchlings to reduce the number of damage dice rolled by the same amount, though she cannot remove damage bonuses. Additionally, on her turn and without any action, the queen can expend a number of hatchlings equal to a spell slot level to cast "
 					},
 					{
 						"text": "dispel magic",
@@ -18936,7 +19129,7 @@
 				]
 			}
 		],
-		"traitsize": 1088,
+		"traitsize": 1154,
 		"actions": [
 			{
 				"name": "Ferroresonance.",
@@ -19467,20 +19660,20 @@
 						"dc": true
 					},
 					{
-						"text": " Dexterity saving throw or take 28 ("
+						"text": " Dexterity saving throw, taking 31 ("
 					},
 					{
-						"text": "8d6",
+						"text": "9d6",
 						"dice": true
 					},
 					{
-						"text": ") lightning damage. "
+						"text": ") lightning damage on a failed save, or half as much on a successful one. The voltant can choose any creatures that failed this saving throw and teleport them with it, depositing them in unoccupied spaces within 5 feet of its destination. "
 					}
 				],
 				"recharge": "5–6"
 			}
 		],
-		"actionsize": 694
+		"actionsize": 913
 	},
 	{
 		"name": "Voltant Shockhopper",
@@ -19884,7 +20077,7 @@
 						"dc": true
 					},
 					{
-						"text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin, occupying the same space. "
+						"text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin. "
 					},
 					{
 						"text": "At the beginning of each turn a target spends grappled inside the coffin, the target must make a ",
@@ -19909,11 +20102,7 @@
 						"dice": true
 					},
 					{
-						"text": ") necrotic damage on a failed save, and half as much on a success. "
-					},
-					{
-						"text": "A creature dies if it is reduced to 0 hit points while grappled within the coffin and is considered consumed, immediately becoming a ",
-						"newline": true
+						"text": ") necrotic damage on a failed save, and half as much on a success. A creature dies if it is reduced to 0 hit points while grappled within the coffin and is considered consumed, immediately becoming a "
 					},
 					{
 						"text": "mummy",
@@ -19928,11 +20117,7 @@
 				"name": "Disgorge ",
 				"effect": [
 					{
-						"text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. "
-					},
-					{
-						"text": "Each creature that is completely within the cloud must make a ",
-						"newline": true
+						"text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. Each creature that is completely within the cloud must make a "
 					},
 					{
 						"text": "DC 15",
@@ -19949,7 +20134,7 @@
 						"text": " poison damage and spends its action next turn retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect. "
 					},
 					{
-						"text": "Afterwards, if this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its Pluck, a ",
+						"text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its Pluck, a ",
 						"newline": true
 					},
 					{
@@ -19963,7 +20148,7 @@
 				"recharge": "6"
 			}
 		],
-		"actionsize": 1851
+		"actionsize": 1809
 	},
 	{
 		"name": "War Knight",
@@ -21078,15 +21263,15 @@
 				"name": "Shapechanger.",
 				"effect": [
 					{
-						"text": "The xygodactyl can use its action to polymorph into an object or back into its true form. Its statistics are the same in each form, but as an object the xygodactyl cannot move or attack. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies. "
+						"text": "The xygodactyl can use its action to polymorph into a tiny object or back into its true form. Its statistics are the same in each form, but as an object the xygodactyl cannot move or attack. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies. "
 					}
 				]
 			},
 			{
-				"name": "Feint Flyer (1/round).",
+				"name": "Feint Flyer.",
 				"effect": [
 					{
-						"text": "The xygodactyl focuses its attention on a single creature it can see. That creature has disadvantage on attack rolls against the xygodactyl, and only deals half damage to the xygodactyl. "
+						"text": "As a bonus action, the xygodactyl focuses its attention on a single creature it can see. Until the beginning of the xygodactyl's next turn, that creature has disadvantage on attack rolls against the xygodactyl, and only deals half damage to the xygodactyl. "
 					}
 				]
 			},
@@ -21106,7 +21291,7 @@
 				]
 			}
 		],
-		"traitsize": 725,
+		"traitsize": 789,
 		"actions": [
 			{
 				"name": "Claw.",
@@ -21317,7 +21502,7 @@
 						"dc": true
 					},
 					{
-						"text": " Strength saving throw. A prone target automatically fails this saving throw. On a failed save, the target takes 5 ("
+						"text": " Strength saving throw. A prone target automatically fails this saving throw. On a failed save, the target takes an additional 5 ("
 					},
 					{
 						"text": "1d10",
@@ -22027,7 +22212,7 @@
 			"text": "Medium",
 			"value": 2
 		},
-		"type": "beast",
+		"type": "celestial",
 		"alignment": "lawful good",
 		"ac": "15 (angelic armor)",
 		"hp": "19 (3d8 + 6)",

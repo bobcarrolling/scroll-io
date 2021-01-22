@@ -14,7 +14,7 @@
 				"dc": true
 			},
 			{
-				"text": " Strength check. If successful, you break free of the effect binding you."
+				"text": " Strength check as an action. If successful, you break free of the effect binding you."
 			}
 		],
 		"sectioncount": 2,
@@ -27,6 +27,31 @@
 		"rarity": {
 			"text": "legendary",
 			"rating": 4
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A plain pair of boots that seems to trail into smoke where it would meet the ankles. When removed and placed together, you can speak the boots' command word to summon the Stranger. The Stranger appears within the boots and acts the same as the spell "
+			},
+			{
+				"text": "Unseen Servant",
+				"itl": true
+			},
+			{
+				"text": ", but the boots remain visible. No creature can wear the boots until the Stranger is killed or dismissed. If the Stranger is killed, he will not return until the boots are left unworn over a long rest."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Boots of the Stranger",
+		"subtext": "Wondrous item (footwear), uncommon (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (footwear)",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
 		}
 	},
 	{
@@ -123,6 +148,25 @@
 	{
 		"effects": [
 			{
+				"text": "This form fitting robe has the color and texture of rusted metal. As an action, you can expend a spell slot of at least third level. When you do, choose three damage types. Until the end of your next turn, you are immune to one of those types, resist another, and are vulnerable to the last."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Coat of the Golem",
+		"subtext": "Wondrous item (cloak), rare (requires attunement by a spellcaster)",
+		"attune": {
+			"text": "(requires attunement by a spellcaster)",
+			"by": "a spellcaster"
+		},
+		"type": "Wondrous item (cloak)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "This item appears as the spirit of a friendly fey encased within a gem. When attuned to the gem, it hovers around you in very slow circles. It emits faint light, which can be increased or decreased as an action to 10 feet of bright light and dim light for another 10 feet. At will, you can change the color the gem emits."
 			},
 			{
@@ -180,11 +224,11 @@
 		],
 		"sectioncount": 3,
 		"name": "Diadem's Orbital Defence",
-		"subtext": "Wondrous item, rare (requires attunement)",
+		"subtext": "Wondrous item (necklace), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
-		"type": "Wondrous item",
+		"type": "Wondrous item (necklace)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
@@ -208,6 +252,24 @@
 	{
 		"effects": [
 			{
+				"text": "Leather and cloth wrapped gloves with special silver thread that reinforces the wrists. At the beginning of your turn, you can make an attempt to push away each creature within 5 feet of you. If you succeed against all creatures within range, they all fall prone as well as being pushed away."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Handwraps of the Frayfighter",
+		"subtext": "Wondrous item (bracer), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (bracer)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "These gold shoes have designs of mechanized wings on the sides. While attuned to the sandals, you gain a pool of 60 feet of fly speed that is consumed per foot of use. The pool replenishes each day at noon."
 			}
 		],
@@ -221,6 +283,90 @@
 		"rarity": {
 			"text": "rare",
 			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A rune-engraved wooden handle with a crystalline blade. You gain a "
+			},
+			{
+				"text": "+1",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon, and it deals an additional "
+			},
+			{
+				"text": "2d6",
+				"dice": true
+			},
+			{
+				"text": " cold damage on a hit. While attuned and wielding the axe, you can cast the spell "
+			},
+			{
+				"text": "Ice Knife",
+				"itl": true
+			},
+			{
+				"text": " in place of a ranged weapon attack with the weapon. It uses your attack bonus as its spell attack bonus, with a spell save DC of 12."
+			},
+			{
+				"text": "You score a critical hit on a melee attack roll of 19 or 20 with the axe. On a critical hit, iceglass releases a wave of intense chill as though it had cast ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "Cone of Cold",
+				"itl": true
+			},
+			{
+				"text": " in a 15 foot cone facing the target (spell save "
+			},
+			{
+				"text": "DC 12",
+				"dc": true
+			},
+			{
+				"text": "). On a critical failure, iceglass breaks, leaving only the handle. When it shatters, it shrouds you in frost energy as though you were under the effects of the spell "
+			},
+			{
+				"text": "Investiture of Ice",
+				"itl": true
+			},
+			{
+				"text": " for its full duration (spell save "
+			},
+			{
+				"text": "DC 12",
+				"dc": true
+			},
+			{
+				"text": ")."
+			},
+			{
+				"text": "You can choose to break iceglass as an action with a successful ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "DC 12",
+				"dc": true
+			},
+			{
+				"text": " Strength check, which has the same effect as its critical failure. The hilt of the broken axe can be dipped into water at sunrise to restore the crystalline blade."
+			}
+		],
+		"sectioncount": 3,
+		"name": "Iceglass",
+		"subtext": "Simple weapon (handaxe), legendary (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Simple weapon (handaxe)",
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
 		}
 	},
 	{
@@ -315,7 +461,7 @@
 				"itl": true
 			},
 			{
-				"text": ", it instead causes the sword to be under the effect of that spell for 10 minutes."
+				"text": ", it instead causes the sword to be under the effect of that spell for 10 minutes, dealing the appropriate damage type."
 			},
 			{
 				"text": "",
@@ -425,6 +571,85 @@
 	{
 		"effects": [
 			{
+				"text": "A typical fluffy nightcap, with starry patterns that shift and turn. While attuned and wearing the cap, you can cast the spell "
+			},
+			{
+				"text": "Catnap",
+				"itl": true
+			},
+			{
+				"text": " on yourself once per day. During a short rest, if you roll a 1 on a hit die, you may reroll the result. After awakening from a short or long rest, you can choose one of the following benefits:"
+			},
+			{
+				"text": "- You awaken with ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "4d6",
+				"dice": true
+			},
+			{
+				"text": " temporary hit points."
+			},
+			{
+				"text": "- The first 4th level or lower spell you cast after awakening is treated as though cast at one level higher than the slot used.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 3,
+		"name": "Nightcap of Restfulness",
+		"subtext": "Wondrous item (headpiece), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (headpiece)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "If you would hit a creature with an attack from this weapon but the creature creates an effect that causes the attack to miss, you can use your reaction to ignore that effect."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Overwhelming Weapon",
+		"subtext": "Weapon (any), uncommon",
+		"type": "Weapon (any)",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A fabled dwarven pick that was responsible for slaying a great and evil dragon. As an action, you can make a Strength check with the pick against a creature within 5 feet, with a DC equal to the creature's Constitution score. This effect can only be successful once against a creature with light armor, twice against medium armor, and three times against heavy or natural armor. On a success, scalepeeler shears off a part of the target's armor. The creature incurs a -1 penalty to its AC and becomes exposed. When hitting an exposed creature with an attack roll, roll "
+			},
+			{
+				"text": "1d10.",
+				"dice": true
+			},
+			{
+				"text": " If the result is equal to or below the sum penalty amount to the creature's AC, the attack deals an extra die of damage."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Scalepeeler",
+		"subtext": "Martial weapon (war pick), rare",
+		"type": "Martial weapon (war pick)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "This cloak has streaks of shifting colors, which twist and swirl to blend into the environment. While attuned to the shawl and prone, you can take the hide action, even while within plain sight."
 			}
 		],
@@ -435,6 +660,496 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Wondrous item (cloak)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "This sinister set of helm and pauldrons is made of monstrous bones, with the bearer's face obscured within its shark-like jaw. You have a "
+			},
+			{
+				"text": "+3",
+				"bonus": true
+			},
+			{
+				"text": " bonus to AC while wearing this armor. You feel a racing bloodlust surge from the helm. While attuned, your actions lean towards chaotic and evil, no matter your true alignment."
+			},
+			{
+				"text": "While attuned to this item and raging, you must always use your reckless attack feature, and your attacks cannot be non-lethal. When you make a melee weapon attack, roll ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " and add it to a pool. At the end of your turn, if you hit a creature with a melee weapon attack this turn, add the pool as temporary hit points. If you did not hit any creatures with a melee weapon attack this turn, you subtract the pool from your current hit points. The pool is then reset."
+			},
+			{
+				"text": "While attuned and raging, if you are hit by an attack roll, you can move up to 10 feet towards the attacker and make an unarmed attack against against them with advantage, provided you can see the target. If the unarmed attack hits, the target takes an additional ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " piercing damage as the toothy helm bites down on them, and you can gain the same amount of piercing damage as temporary hit points if you choose. This ability does not require a reaction to use."
+			}
+		],
+		"sectioncount": 3,
+		"name": "Skull of Canid Molaris",
+		"subtext": "Wondrous item (headpiece), legendary (requires attunement by a barbarian)",
+		"attune": {
+			"text": "(requires attunement by a barbarian)",
+			"by": "a barbarian"
+		},
+		"type": "Wondrous item (headpiece)",
+		"rarity": {
+			"text": "legendary",
+			"rating": 4
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "An ornate black and red spear made to look and act as the needle of a compass. You have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
+			},
+			{
+				"text": "When you are holding the spear, you can focus on a specific enemy you dealt damage to with it. When you do, you know the general direction towards that creature, or its exact location if it is within 60 feet. You also gain a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+5",
+				"bonus": true
+			},
+			{
+				"text": " bonus to Wisdom (Survival) checks made to track that creature."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Will.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item searches for a wielder to help rescue the lost, either physically or spiritually. It tends towards lawful and good alignments."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Advancements.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
+			},
+			{
+				"text": "___",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 1 (minimum 5th level).",
+				"itl": true
+			},
+			{
+				"text": "You gain a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+1",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon, and it deals an additional "
+			},
+			{
+				"text": "1d4",
+				"dice": true
+			},
+			{
+				"text": " thunder damage on a hit. If you are within 120 feet of the spear, you may use a bonus action to teleport it to your hand."
+			},
+			{
+				"text": "The spear pulls and defends you automatically when fighting. Once per round, without expending a reaction, you may add a bonus equal to the attack bonus of this weapon to your AC against one melee weapon attack that would hit you. Additionally, once on your turn during your attack action, you can forgo one attack with the spear to gain advantage and a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "1d8",
+				"dice": true
+			},
+			{
+				"text": " bonus to hit for the next attack you make with it."
+			},
+			{
+				"text": "___",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 2 (minimum 10th level).",
+				"itl": true
+			},
+			{
+				"text": "The weapon's bonus to attack and damage rolls increases to ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+2,",
+				"bonus": true
+			},
+			{
+				"text": " and its thunder damage increases from "
+			},
+			{
+				"text": "1d4",
+				"dice": true
+			},
+			{
+				"text": " to "
+			},
+			{
+				"text": "1d8.",
+				"dice": true
+			},
+			{
+				"text": " If you are within 1 mile of the spear, you may use a bonus action to teleport it to your hand."
+			},
+			{
+				"text": "As you gain familiarity with it, the spear seems to have lodestone-like magnetic traits. The spear has the same properties as an Immovable Rod, using a command word which only you can speak instead of a button (no action required).",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "After hitting a creature with the spear, you can speak its command word. When you do, you must release the spear if you already haven't. The spear embeds itself in the creature, which must make a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "DC 21",
+				"dc": true
+			},
+			{
+				"text": " Strength saving throw. On a failure, the creature's speed becomes 0 as it is held in place by the spear. A creature can make a Strength check against the same DC as an action, freeing the held creature and pushing the spear 5 feet away on a success. The spear remains stationary until its command word is spoken again, or until teleported to your hand."
+			},
+			{
+				"text": "___",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 3 (minimum 14th level).",
+				"itl": true
+			},
+			{
+				"text": "The weapon's bonus to attack and damage rolls increases to ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+3,",
+				"bonus": true
+			},
+			{
+				"text": " and its thunder damage increases from "
+			},
+			{
+				"text": "1d8",
+				"dice": true
+			},
+			{
+				"text": " to "
+			},
+			{
+				"text": "1d12.",
+				"dice": true
+			},
+			{
+				"text": " If you are within 30 miles of the spear, you may use a bonus action to teleport it to your hand."
+			},
+			{
+				"text": "The magnetism of the spear becomes great enough for you to control. While you are within 120 feet of the spear, you are considered to be under the effect of the spell ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "Spider Climb",
+				"itl": true
+			},
+			{
+				"text": "."
+			},
+			{
+				"text": "When in your hand, you can point the spear towards a surface within 30 feet as a bonus action. You fly directly in a line towards that surface and land safely where you pointed. Along the way, you do not provoke attacks of opportunity, and you can make a melee attack roll at disadvantage against each creature within range of the ending location, striking them as you charge forward.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 13,
+		"name": "Spear of Neverloss",
+		"subtext": "Simple weapon (spear), artifact (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Simple weapon (spear)",
+		"rarity": {
+			"text": "artifact",
+			"rating": 5
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A clump of dirt and roots that stay congealed together within a small jar. The dirt starts with "
+			},
+			{
+				"text": "1d3",
+				"dice": true
+			},
+			{
+				"text": " random mushrooms of various colors growing within. Each mushroom has a fungal type, and each type of fungus needs a certain amount of time to grow. Only one type of fungal type exists in the jar at one time. If used by you or another creature within one minute of being plucked, a mushroom has a unique magical effect. Afterwards, the mushroom becomes nonmagical and can be eaten to replace a day's worth of rations, and a random replacement mushroom of the same fungal type starts to regrow and take its place. The fungal types and the mushroom's effects are listed below:"
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Glowspores (1 day).",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "1. Lichtenschleim.",
+				"itl": true
+			},
+			{
+				"text": " A white growth of moss. As an action, throw it up to 20 feet by making a ranged attack against a creature or object. On a hit, the target glows as though under the effect of the "
+			},
+			{
+				"text": "light",
+				"itl": true
+			},
+			{
+				"text": " spell for its full duration."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "2. Faerie Puff.",
+				"itl": true
+			},
+			{
+				"text": " A velvety lavender ball. When thrown as an action at a surface within 20 feet, a 10 foot radius sphere of its fluffy discharge expands from its point of impact and drifts through the air for 1 minute. A creature that starts its turn in that space must make a "
+			},
+			{
+				"text": "DC 12",
+				"dc": true
+			},
+			{
+				"text": " Dexterity saving throw or undergo the effects of the spell "
+			},
+			{
+				"text": "faerie fire",
+				"itl": true
+			},
+			{
+				"text": " until the start of its next turn."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "3. Yellow Truffle.",
+				"itl": true
+			},
+			{
+				"text": " A bumpy ball with yellow spots. You can eat this mushroom as a bonus action. After you do, you gain resistance to necrotic damage and all damage you deal with spells deals an additional "
+			},
+			{
+				"text": "2d6",
+				"dice": true
+			},
+			{
+				"text": " radiant damage. The effects fade after one hour."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Mushitakes (3 days).",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "1. Heffercap.",
+				"itl": true
+			},
+			{
+				"text": " A brown and tan mottled stalk. You can eat this mushroom as a bonus action. After you do, your Strength score is increased by 2 and you deal an additional die of damage with weapon attacks."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "2. Moss Polyp.",
+				"itl": true
+			},
+			{
+				"text": " A warty purple husk. You can plant this mushroom in an unoccupied space within 5 feet as an action. At the beginning of your next turn, it grows into a friendly "
+			},
+			{
+				"text": "vegepygmy (VGM 196)",
+				"itl": true
+			},
+			{
+				"text": ". The vegepygmy is loyal to you until the end of the day, after which is may choose to stay or leave you."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "3. Blushburn.",
+				"itl": true
+			},
+			{
+				"text": " A blue and red streaked umbrella. You can bury this mushroom in an unoccupied space within 5 feet as an action. A creature that steps on the same space as the buried mushroom triggers a "
+			},
+			{
+				"text": "fireball",
+				"itl": true
+			},
+			{
+				"text": " centered on that space (save "
+			},
+			{
+				"text": "DC 14",
+				"dc": true
+			},
+			{
+				"text": ")."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Angelbells (5 days).",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "1. Spotted Crown.",
+				"itl": true
+			},
+			{
+				"text": " A gray cup containing a watery liquid. You can rub this mushroom on a creature or object as an action to secrete its sap. The object or creature is hidden from divination magic, and can't be targeted by such magic or perceived by it. The mushroom withers away after using its sap, and the effects of the sap fade after one day."
+			},
+			{
+				"text": "If the sap is applied to a weapon, that weapon is considered silvered and magical. If a creature is hit by the weapon, the next time the creature takes damage of any type the weapon dealt, the creature is vulnerable to that damage type. After the first time the coated weapon deals damage, the sap's effects fade.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "2. Troll's Ear.",
+				"itl": true
+			},
+			{
+				"text": " A wavy pink sponge. You can eat this mushroom as an action. After you do, you are relieved of all the conditions that "
+			},
+			{
+				"text": "greater restoration",
+				"itl": true
+			},
+			{
+				"text": " can cure, and you regain "
+			},
+			{
+				"text": "4d6",
+				"dice": true
+			},
+			{
+				"text": " hit points."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "3. Heavensbane.",
+				"itl": true
+			},
+			{
+				"text": " A tall green stem with a golden honeycomb tip. You can shake the mushroom as an action, coating a creature underneath it in its spores. For the next ten minutes, that creature is treated as though under the effect of the spells "
+			},
+			{
+				"text": "greater invisibility",
+				"itl": true
+			},
+			{
+				"text": " and "
+			},
+			{
+				"text": "sanctuary",
+				"itl": true
+			},
+			{
+				"text": ". After shaking loose its spores, the mushroom loses this property."
+			}
+		],
+		"sectioncount": 2,
+		"name": "Spore Colony",
+		"subtext": "Wondrous item, rare",
+		"type": "Wondrous item",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
@@ -498,26 +1213,32 @@
 	{
 		"effects": [
 			{
-				"text": "The pauldrons and chestpiece of this armor depict armored horses in battle. You have a "
+				"text": "A necklace that holds "
 			},
 			{
-				"text": "+2",
-				"bonus": true
+				"text": "1d4 + 2",
+				"dice": true
 			},
 			{
-				"text": " bonus to AC while wearing this armor."
+				"text": " large pearls. When using your wild shape to become a beast with a name prefaced by the word 'Giant', you may choose to expend any number of the pearls, which shatter. For each expended pearl, you summon one creature with the same name as your chosen wild shape without the word 'Giant'. A summoned creature disappears when it drops to 0 hit points or after 1 hour."
+			},
+			{
+				"text": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any mental commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.",
+				"newline": true,
+				"paragraph": true
 			}
 		],
-		"sectioncount": 1,
-		"name": "Stallion Breastplate",
-		"subtext": "Armor (breastplate), legendary (requires attunement)",
+		"sectioncount": 2,
+		"name": "Summoner's Rivière",
+		"subtext": "Wondrous item (necklace), rare (requires attunement by a druid)",
 		"attune": {
-			"text": "(requires attunement)"
+			"text": "(requires attunement by a druid)",
+			"by": "a druid"
 		},
-		"type": "Armor (breastplate)",
+		"type": "Wondrous item (necklace)",
 		"rarity": {
-			"text": "legendary",
-			"rating": 4
+			"text": "rare",
+			"rating": 2
 		}
 	},
 	{
@@ -682,6 +1403,50 @@
 	{
 		"effects": [
 			{
+				"text": "A slender piece of carved wood not unlike a flute. When placed in your mouth, you can breathe water like air, and air becomes like breathing water. While held in your mouth, you must concentrate on keeping the waterlog in place as though concentrating on a spell. If your concentration fails, the waterlog falls from your lips. You cannot speak while using the waterlog."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Waterlog",
+		"subtext": "Wondroud item, uncommon",
+		"type": "Wondroud item",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "This arrow has razor edges lining its shaft. The arrow deals an additional "
+			},
+			{
+				"text": "2d4",
+				"dice": true
+			},
+			{
+				"text": " slashing damage on a hit. If the target creature is flying but not hovering, the damage increases to "
+			},
+			{
+				"text": "4d4,",
+				"dice": true
+			},
+			{
+				"text": " and the creature must make a Dexterity saving throw against a DC equal to 8 plus the slashing damage dealt by the arrow. On a failure, the creature falls 30 feet straight down."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Wingclipper Arrow",
+		"subtext": "Ammunition (arrow), rare",
+		"type": "Ammunition (arrow)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "This armor is made from condensed woollysheep cotton. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
 			}
 		],
@@ -689,6 +1454,25 @@
 		"name": "Woollysheep Armor",
 		"subtext": "Armor (any), rare",
 		"type": "Armor (any)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A plain golden bracelet that shines a rainbow hue in the light. While attuned, you lose a spell slot of each level. The wristlet adds the borrowed power to your cantrips, which gain a damage bonus equal to your proficiency modifier."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Wristlet of the Novice Adept",
+		"subtext": "Wondrous item (bracer), rare (requires attunement by a spellcaster)",
+		"attune": {
+			"text": "(requires attunement by a spellcaster)",
+			"by": "a spellcaster"
+		},
+		"type": "Wondrous item (bracer)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
