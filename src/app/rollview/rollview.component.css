@@ -11,21 +11,21 @@
   background-color: #006060;
   width: 100%;
   z-index: 99;
-  height: 2rem;
-  min-height: 2rem;
+  height: 1.3rem;
+  min-height: 1.3rem;
   padding: 10px 0 15px 0;
 }
 
 .display-text {
-  font: bold 2rem Verdana;
+  font: bold 1.3rem Verdana;
   color: white;
 }
 
 .small-row {
-  height: 1rem;
-  min-height: 1rem;
+  height: 0.9rem;
+  min-height: 0.9rem;
 }
-.small-row .display-text{
+.small-row .display-text {
   font: bold 1rem Verdana;
 }
 

@@ -1,7 +1,7 @@
 <div *ngIf="diceRoll">
 	<div class="bounding flexcol justify-center align-center">
 		<div style="height: 100%; width: 100%" (click)="diceRoll = undefined"></div>
-		<div class="num-row flexrow flexwrap justify-center align-center" [ngClass]="{'small-row' : scale > 1}">
+		<div class="num-row flexrow flexwrap justify-center align-center" [ngClass]="{'small-row' : scale > scale1}">
 			<span class="display-text">{{diceRoll}}</span>
 		</div>
 		<div class="dice-row flexrow flexwrap justify-center align-center" (click)="doRoll()">
@@ -62,7 +62,7 @@
 				<text x="43" y="51" dominant-baseline="middle" text-anchor="middle" class="dice-text">{{val}}</text>
 			</svg>
 		</div>
-		<div class="num-row flexrow flexwrap justify-center align-center" [ngClass]="{'small-row' : scale > 1}">
+		<div class="num-row flexrow flexwrap justify-center align-center" [ngClass]="{'small-row' : scale > scale1}">
 			<span class="display-text" *ngIf="diceResult">= {{diceResult}}</span>
 		</div>
 		<div style="height: 100%; width: 100%" (click)="diceRoll = undefined"></div>

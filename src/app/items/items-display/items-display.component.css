@@ -2,7 +2,7 @@ div {
   box-sizing: border-box;
 }
 p {
-  font-size: 0.8rem;
+  font-size: 0.782rem;
 }
 .container {
   border: 1px solid teal;
@@ -62,7 +62,7 @@ p {
 }
 .header {
   font-family: Book Antiqua, Palatino, serif;
-  font-size: 0.8rem;
+  font-size: 0.782rem;
 }
 .header-word::first-letter {
   font-size: 1.1rem;
@@ -117,7 +117,7 @@ p {
   margin: 0.3rem 0rem 0.3rem 0rem;
 }
 .resist-text span {
-  font-size: 0.8rem;
+  font-size: 0.782rem;
   padding: 0.1rem 0.2rem 0.1rem 0.2rem;
 }
 
@@ -137,7 +137,7 @@ p {
 }
 .trait-box span,
 div {
-  font-size: 0.8rem;
+  font-size: 0.782rem;
   line-height: 1.1rem;
 }
 .spell-box {
@@ -155,7 +155,7 @@ div {
 }
 
 h3 {
-  font-size: 0.8rem;
+  font-size: 0.782rem;
   font-weight: bold;
 }
 

@@ -26,14 +26,21 @@ export class RollviewComponent implements OnInit {
     return this._scale;
   }
   @Input() set scale(value: number) {
+    if (value === 1) {
+      value = this.scale1;
+    }
     if (value === 2) {
-      value = 1.66;
+      value = this.scale2;
     }
     if (value === 3) {
-      value = 2.33;
+      value = this.scale3;
     }
     this._scale = value;
   }
+
+  readonly scale1 = 1.5;
+  readonly scale2 = 1.8;
+  readonly scale3 = 2.1;
 
   diceResult: number;
 
