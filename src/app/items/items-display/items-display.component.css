@@ -22,7 +22,7 @@ p {
   width: calc(54.5rem - 8px);
 }
 .container-sm {
-  width: calc(100vw - 1rem + 2px);
+  width: calc(100vw - 1rem + 1px);
 }
 
 .column-container {
@@ -33,8 +33,8 @@ p {
   width: calc((100vw - 1rem + 1px) / 2);
 }
 .column-sm {
-  width: calc(100vw - 1rem);
-  min-width: calc(100vw - 1rem);
+  width: calc(100vw - 1rem - 1px);
+  min-width: calc(100vw - 1rem - 1px);
 }
 
 .column {
