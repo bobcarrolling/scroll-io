@@ -26,7 +26,7 @@ p {
 
 .column-container {
   padding: 1px;
-    cursor: text;
+  cursor: text;
 }
 .column-lg {
   max-width: calc(27.25rem - 5px);
@@ -124,11 +124,15 @@ p {
 .trait-container {
   margin: 0.2rem 0.1rem 0.1rem 0.1rem;
 }
-.trait-box {
+.name-box {
   padding: 0.1rem;
 }
-.trait-name {
-  text-indent: 0.4rem;
+.trait-box {
+  padding: 0.1rem;
+  padding-bottom: 0.4rem;
+}
+.trait-text {
+  /* text-indent: 0.4rem; */
 }
 .trait-info {
   text-indent: 0.25rem;
@@ -160,8 +164,8 @@ h3 {
 }
 
 .bld-itl {
-  font-weight: bold;
-  font-style: italic;
+  letter-spacing: -0.3px;
+  margin-top: 1rem;
 }
 .bld {
   font-weight: bold;

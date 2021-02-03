@@ -1,7 +1,7 @@
 <div *ngIf="item" class="container transition flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
 		<div class="column flexcol">
-			<div class="trait-box">
+			<div class="name-box">
 				<h1 class="flexrow namerow">
 					<p class="name" *ngFor="let c of splitName; let i = index" [ngClass]="{'name-word': isWord(c)}">
 						{{c.toUpperCase()}}
@@ -19,13 +19,22 @@
 				</svg>
 			</div>
 			<div class="flexcol trait-box" style="white-space: pre-line">
-				<div class="trait-name">
+				<div class="trait-text">
 					<ng-container *ngFor="let effect of item.effects; let i = index">
-						<span *ngIf="effect.newline"><br /><div style="height: 0.2rem"></div><div style="height: 0.2rem" *ngIf="item.effects[i+1] && item.effects[i+1].bld && item.effects[i+1].itl"></div><span *ngIf="effect.paragraph || i === 0">&nbsp;&nbsp;</span></span>
+						<span *ngIf="effect.newline"><br />
+              <!-- height between paragraphs -->
+              <div style="height: 0.1rem"></div>
+              <!-- height between newlines -->
+              <div style="height: 0.4rem" *ngIf="item.effects[i+1] && item.effects[i+1].bld && item.effects[i+1].itl"></div>
+              <!-- paragraph indent -->
+              <span *ngIf="effect.paragraph || i === 0">&nbsp;&nbsp;</span>
+						</span>
+						<!-- actual title and text -->
 						<span
-                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice, 'highlight': effect.dice || effect.bonus || effect.dc}"
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice, 'highlight': effect.dice || effect.bonus || effect.dc
+                  ,'bld-itl': effect.bld && effect.itl && item.effects[i-1] && item.effects[i-1].newline}"
                   (click)="checkRoll(effect)"
-                  ><span *ngIf="effect.bld && effect.itl">&nbsp;&nbsp;</span>{{effect.text}}</span>
+                  >{{effect.text}}</span>
 					</ng-container>
 				</div>
 			</div>
@@ -34,7 +43,7 @@
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
 		<div class="column flexcol">
 			<div class="flexcol trait-box" style="white-space: pre-line">
-				<div class="trait-name">
+				<div class="trait-text">
 					<!-- Image placeholder -->
 				</div>
 			</div>

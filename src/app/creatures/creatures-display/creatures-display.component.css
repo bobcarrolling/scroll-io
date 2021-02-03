@@ -126,6 +126,7 @@ p {
 .trait-box {
   padding: 0.2rem;
   padding-left: 0.3rem;
+  padding-bottom: 0.4rem;
 }
 .trait-name {
   text-indent: -0.25rem;
@@ -162,6 +163,7 @@ h3 {
 .bld-itl {
   font-weight: bold;
   font-style: italic;
+  letter-spacing: -0.3px;
 }
 .bld {
   font-weight: bold;

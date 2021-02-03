@@ -57,6 +57,21 @@
 	{
 		"effects": [
 			{
+				"text": "When dealing damage with this weapon, roll two of each damage die and use the higher result."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Brutal Weapon",
+		"subtext": "Weapon (any), rare",
+		"type": "Weapon (any)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "This arrow leaves a small current of wind behind it as it flies. If this arrow hits and deals damage, the next arrow fired from the same bow towards the same target has advantage and an additional "
 			},
 			{
@@ -82,7 +97,7 @@
 				"text": "Comprised of semi-corporeal storm clouds in the shape of a halo, this circlet floats above its bearer's head and crackles tiny bolts of multicolor lightning. Once attuned to this item, it remains active and visible above your head no matter what form you take."
 			},
 			{
-				"text": "After you deal damage with an attack, you deal an additional ",
+				"text": "When you deal damage with a melee attack, you deal an additional ",
 				"newline": true,
 				"paragraph": true
 			},
@@ -162,6 +177,48 @@
 		"rarity": {
 			"text": "rare",
 			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A silver crown set with an agate, garnet, and ruby gemstone. While attuned and wearing the crown, when you succeed a death saving throw, you regain 1 hit point. When you fail death saving throws, the failures accumulate and do not disappear until you finish a long rest, or until you roll a 20 on a death saving throw."
+			},
+			{
+				"text": "While unconscious and at 0 hit points, you can choose to permanently subtract ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " from your maximum hit points to gain advantage on your next death saving throw."
+			},
+			{
+				"text": "You cannot instantly die. Any remaining damage inflicted on you past 0 hit points is negated, and any magical effect that would kill you instantly after reducing you to 0 hit points instead leaves you unconscious (such as the ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "disintegration",
+				"itl": true
+			},
+			{
+				"text": " spell)."
+			}
+		],
+		"sectioncount": 3,
+		"name": "Crown of the Undying",
+		"subtext": "Wondrous item (headpiece), very rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (headpiece)",
+		"rarity": {
+			"text": "very rare",
+			"rating": 3
 		}
 	},
 	{
@@ -252,19 +309,200 @@
 	{
 		"effects": [
 			{
+				"text": "A red metal gauntlet with a magic circle that floats over the palm. At the beginning of your turn, you can choose to temporarily drain the power from a magic weapon you are currently wielding. Until the beginning of your next turn, the weapon loses any special benefits it has and becomes nonmagical. During that time, you can make an additional attack with that weapon as a bonus action."
+			},
+			{
+				"text": "For the purposes of the gauntlet, a magic weapon is any weapon with additional beneficial properties besides having a bonus to hit, damage, or AC. A static bonus to hit, damage, or AC is not drained from the weapon. The weapon retains any of its negative drawbacks while drained.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 2,
+		"name": "Gauntlet of Sapping Strikes",
+		"subtext": "Wondrous item (handwear), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (handwear)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A cobalt blue metal mitten with winter wolf fur linings. While attuned to the gauntlet, you can cast "
+			},
+			{
+				"text": "Shape Water",
+				"itl": true
+			},
+			{
+				"text": " at will, with the following addition:"
+			},
+			{
+				"text": "- You can freeze the water into the shape of a simple weapon. For the duration, you can use your spellcasting ability instead of Strength or Dexterity for the attack and damage rolls of the weapon. The weapon is magical and deals an additional ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " cold damage."
+			}
+		],
+		"sectioncount": 2,
+		"name": "Glacial Gauntlet",
+		"subtext": "Wondrous item (handwear), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (handwear)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "Leather and cloth wrapped gloves with special silver thread that reinforces the wrists. At the beginning of your turn, you can make an attempt to push away each creature within 5 feet of you. If you succeed against all creatures within range, they all fall prone as well as being pushed away."
 			}
 		],
 		"sectioncount": 1,
 		"name": "Handwraps of the Frayfighter",
-		"subtext": "Wondrous item (bracer), rare (requires attunement)",
+		"subtext": "Wondrous item (handwear), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
-		"type": "Wondrous item (bracer)",
+		"type": "Wondrous item (handwear)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A crossbow with a beehive attached. When making a ranged attack with honeyshot, a bolt is covered with honey from the hive before firing, embedding itself in the target on a hit. Creatures cannot remove a bolt to ignore the following effects, as residual honey remains in the wound."
+			},
+			{
+				"text": "When you hit a target with a ranged attack from honeyshot, if it has not already released its bees, a friendly ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "Swarm of Wasps (Bees)",
+				"itl": true
+			},
+			{
+				"text": " appears within 5 feet of you. The swarm is so thick that its space is considered lightly obscured."
+			},
+			{
+				"text": "The swarm takes its turn immediately after yours. The bees act independently and have only one goal, which is to bite the creature most coated in their honey. They follow and pursue the creature that has the most honeyshot bolts currently embedded within them. Each of their bite attacks that hits an enemy destroys one nonmagical honeyshot bolt, or removes the honey from a magical one. They continue to make bite attacks against that creature until it has no honey left embedded. They then reassess which creature is most coated in their honey within 60 feet, choosing the closest target or randomly if an even tie. They repeat this process until no honey exists or until killed, whereupon they disperse and return to the hive. If the swarm is killed, another swarm will not appear until the next dawn.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 3,
+		"name": "Honeyshot",
+		"subtext": "Weapon (light crossbow), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Weapon (light crossbow)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A twisted, hook edged katana with flourishes of red and black fire engraved along the blade. If the sword deals damage to a creature that has regained hit points on or since its last turn, the sword deals an additional amount of necrotic damage equal to the total amount of hit points regained during that time. If a creature has temporary hit points when hit by hopeslayer, the weapon's damage ignores the temporary hit points and deals damage directly to the target's hit points instead."
+			},
+			{
+				"text": "When a hostile creature you can see regains hit points or gains temporary hit points, you can immediately use your reaction to move up to half of your speed and make a melee attack with hopeslayer against them.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Curse.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the item, keeping it within reach at all times. You also undergo the following effects:"
+			},
+			{
+				"text": "When you reduce a creature to 0 hit points with this weapon, all creatures within 30 feet of you must make a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "DC 15",
+				"dc": true
+			},
+			{
+				"text": " Wisdom saving throw. Hostile creatures have advantage on this saving throw. On a failure, a creature is frightened of you for 1 minute. You have a strange attraction to the fear, and must end your subsequent turns closer to one of the targets you frightened until the effect fades."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Will.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item searches for a wielder that dominates in battle and gives no mercy. It tends towards neutral and evil alignments."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Advancements.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
+			},
+			{
+				"text": "- stops teleportation",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "- Dis on con saves to maintain concentration",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "- ",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 6,
+		"name": "Hopeslayer",
+		"subtext": "Martial weapon (longsword), artifact (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Martial weapon (longsword)",
+		"rarity": {
+			"text": "artifact",
+			"rating": 5
 		}
 	},
 	{
@@ -372,6 +610,82 @@
 	{
 		"effects": [
 			{
+				"text": "A magical klein bottle. Over the course of an hour, you can attempt to fill the bottle with a potion or poison by making a "
+			},
+			{
+				"text": "DC 10",
+				"dc": true
+			},
+			{
+				"text": " Intelligence check. On a failure, the bottle empties onto the ground and is wasted."
+			},
+			{
+				"text": "The bottle can be drank from or applied as an action, requiring an Intelligence check. On a result of 7 or lower, the bottle empties onto the ground and is wasted. On a result between 8 and 18, the liquid is used normally and the bottle becomes empty. On a result of 19 or higher, the liquid is used, but an equal amount of liquid magically remains in the bottle for another use.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 2,
+		"name": "Impossible Bottle",
+		"subtext": "Wondrous item, uncommon",
+		"type": "Wondrous item",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "An endless supply of hopelessly entangled, hefty rope. As an action, you can make a "
+			},
+			{
+				"text": "DC 6",
+				"dc": true
+			},
+			{
+				"text": " Intelligence check to unravel 10 feet of rope from the knot. For each successful unraveling, the DC increases by one. On a failed check the knot becomes even more tangled and requires spending a short rest fixing it before it can be unraveled again. After fixing the knot, the DC resets to 6."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Infinity Knot",
+		"subtext": "Wondrous item, uncommon",
+		"type": "Wondrous item",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A black iron lantern that burns indefinitely with a small violet flame. A creature within the bright light of the lantern has advantage on saving throws against effects that would deal fire damage."
+			},
+			{
+				"text": "While holding the lantern, you can use an action to extinguish any flames (magical or nonmagical) that fit within a 10 foot cube centered no more than 30 feet away. You can also target a creature with this effect instead, which must make a ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "DC 18",
+				"dc": true
+			},
+			{
+				"text": " Charisma saving throw. On a failure, that creature becomes cursed by the lantern. While cursed, the creature deals two less dice of damage when inflicting fire damage. If this reduces the number of damage dice to zero or less, the damage is negated. The creature can repeat the saving throw at the end of their turns, ending the curse on a success."
+			}
+		],
+		"sectioncount": 2,
+		"name": "Lighteater Lantern",
+		"subtext": "Wondrous item (hooded lantern), very rare",
+		"type": "Wondrous item (hooded lantern)",
+		"rarity": {
+			"text": "very rare",
+			"rating": 3
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "This expertly crafted spear is light and hollow, reinforced with counterweights for balance and strength. You gain a "
 			},
 			{
@@ -401,6 +715,21 @@
 			"text": "(requires attunement)"
 		},
 		"type": "Martial weapon (spear)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "After a creature within 5 feet casts a spell, you can use your reaction to make a melee weapon attack against that creature with this weapon."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Mageslayer Weapon",
+		"subtext": "Weapon (any), rare",
+		"type": "Weapon (any)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
@@ -571,6 +900,48 @@
 	{
 		"effects": [
 			{
+				"text": "A plain black mask with an attached gray hood and veil. The mask has 6 charges. When you make an ability check, you can expend a charge to add "
+			},
+			{
+				"text": "1d6",
+				"dice": true
+			},
+			{
+				"text": " to the roll. For each creature that you are aware can see you, one of the current charges becomes unusable, but not expended. The mask regains a charge for every 10 minutes spent alone, with no creatures you are aware of able to see you."
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Curse.",
+				"bld": true,
+				"itl": true
+			},
+			{
+				"text": " This item is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the item, keeping it within reach at all times. You also undergo the following effects:"
+			},
+			{
+				"text": "While wearing and attuned to the mask, you have disadvantage on Wisdom and Charisma checks while in direct sunlight, as it becomes bright and irritating to you.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 2,
+		"name": "Mask of the Recluse",
+		"subtext": "Wondrous item (headpiece), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (headpiece)",
+		"rarity": {
+			"text": "rare",
+			"rating": 2
+		}
+	},
+	{
+		"effects": [
+			{
 				"text": "A typical fluffy nightcap, with starry patterns that shift and turn. While attuned and wearing the cap, you can cast the spell "
 			},
 			{
@@ -623,6 +994,54 @@
 		"rarity": {
 			"text": "uncommon",
 			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "An enchanted egg that is warm to the touch. You can throw the egg up to 30 feet as an action. Your DM may call for a Dexterity check of appropriate difficutly according to where you throw the egg. It can also be dropped within 5 feet as a bonus action, needing no Dexterity check. The fragile egg shatters on impact, releasing brilliant flame and smoke. You disappear in a similar display, and reappear in the space the egg shattered, but you are size Tiny."
+			},
+			{
+				"text": "When you reappear, you are one-eighth your normal size in all directions, and your weight is reduced to one one-hundredth of normal. When one-eighth your size, all rolls that use Strength, Dexterity, or Constitution have a -12 penalty.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "After ten minutes, you grow to one-quarter your normal size in all directions, and your weight is reduced to one-twentieth of normal. When one-quarter your size, all rolls that use Strength, Dexterity, or Constitution have a -6 penalty.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "After another ten minutes, you are no longer Tiny and have regrown to your normal size and weight. The penalties and other effects of the egg subside.",
+				"newline": true,
+				"paragraph": true
+			}
+		],
+		"sectioncount": 4,
+		"name": "Phoenix Eggshell",
+		"subtext": "Wondrous item, uncommon",
+		"type": "Wondrous item",
+		"rarity": {
+			"text": "uncommon",
+			"rating": 1
+		}
+	},
+	{
+		"effects": [
+			{
+				"text": "A ring that seems to be made entirely of condensed light. While attuned, if you succeed the DC of a saving throw by 10 or more, you take no damage and suffer no consequences from the triggering effect."
+			}
+		],
+		"sectioncount": 1,
+		"name": "Ring of Transcendence",
+		"subtext": "Wondrous item (ring), very rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
+		"type": "Wondrous item (ring)",
+		"rarity": {
+			"text": "very rare",
+			"rating": 3
 		}
 	},
 	{
@@ -718,7 +1137,7 @@
 	{
 		"effects": [
 			{
-				"text": "An ornate black and red spear made to look and act as the needle of a compass. You have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
+				"text": "An ornate spear made to look like the needle of a compass. You have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
 			},
 			{
 				"text": "When you are holding the spear, you can focus on a specific enemy you dealt damage to with it. When you do, you know the general direction towards that creature, or its exact location if it is within 60 feet. You also gain a ",
@@ -1158,22 +1577,22 @@
 	{
 		"effects": [
 			{
-				"text": "This staff's ornate and intricate design resembles a very tall and thin wizards tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius around you, you can place the staff upright into the ground and speak its command word. Over the course of the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius tower with 8 floors and a front door at your height. The tower obeys the same rules as though summoned by casting the spell "
+				"text": "This staff's ornate and intricate design resembles a very tall and thin wizard's tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius above you, you can place the staff upright into the ground and speak its command word. Over the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius stone tower with 8 interior floors plus rooftop access, as many windows as you wish, and a ground level front door suitable for your height. The tower's interior is determined by you upon speaking the command word, using the same methods as "
 			},
 			{
-				"text": "Galder's tower (Lost Library of Kwalish, page 57)",
+				"text": "Galder's Tower (Lost Library of Kwalish, page 57)",
 				"itl": true
 			},
 			{
-				"text": " at 9th level with the following changes:"
+				"text": ". While anything not conjured by the tower remains inside, the tower's layout cannot be changed."
 			},
 			{
-				"text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower.",
+				"text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower. The staff shrinks to the same place it was set.",
 				"newline": true,
 				"paragraph": true
 			},
 			{
-				"text": "While anything not conjured by the tower remains inside, the tower's layout cannot be changed. If something is inside while the tower is in its staff form, you can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
+				"text": "If something is inside while the tower is in its staff form, anyone can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
 				"newline": true,
 				"paragraph": true
 			},
@@ -1185,7 +1604,7 @@
 				"text": " Wisdom check. On a success, the chosen object or creature is shaken out of the tower and magically appears at its normal size in an unoccupied space adjacent to you. On a failure, a different object or creature at random is released, if available within."
 			},
 			{
-				"text": "The tower has AC 15 and 250 hit points. If reduced to 0 hit points, the staff safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
+				"text": "The tower has AC 15 and 500 hit points. If reduced to 0 hit points, the tower safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
 				"newline": true,
 				"paragraph": true
 			},
@@ -1194,7 +1613,7 @@
 				"itl": true
 			},
 			{
-				"text": " is cast on the staff for a collective hour, it regains 25 hit points. Only once the staff has full hit points does its magical properties return."
+				"text": " is cast on the staff for one hour, it regains 50 hit points. Only once the staff has full hit points do its magical properties return, if lost."
 			}
 		],
 		"sectioncount": 4,
@@ -1467,12 +1886,12 @@
 		],
 		"sectioncount": 1,
 		"name": "Wristlet of the Novice Adept",
-		"subtext": "Wondrous item (bracer), rare (requires attunement by a spellcaster)",
+		"subtext": "Wondrous item (handwear), rare (requires attunement by a spellcaster)",
 		"attune": {
 			"text": "(requires attunement by a spellcaster)",
 			"by": "a spellcaster"
 		},
-		"type": "Wondrous item (bracer)",
+		"type": "Wondrous item (handwear)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2

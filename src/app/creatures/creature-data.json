@@ -731,7 +731,8 @@
 		"actionsize": 1240,
 		"info": [
 			{
-				"desc": "Demonic Giant ancestor."
+				"name": "",
+				"desc": "Demonic Giant ancestor. "
 			}
 		]
 	},
@@ -1364,7 +1365,8 @@
 		"actionsize": 837,
 		"info": [
 			{
-				"desc": "Also known as a \"jumping worm\""
+				"name": "",
+				"desc": "Also known as a \"jumping worm\" "
 			}
 		]
 	},
@@ -1809,7 +1811,8 @@
 		"actionsize": 186,
 		"info": [
 			{
-				"desc": "Sometimes the result of a foul potion or a witches brew gone awry, bubblers float amidst caustic pools awaiting prey to digest. Once close, the bubbler strikes and envelops its meal. It then floats it away before dropping it to the ground to become an easily digestible puddle of flesh."
+				"name": "",
+				"desc": "Sometimes the result of a foul potion or a witches brew gone awry, bubblers float amidst caustic pools awaiting prey to digest. Once close, the bubbler strikes and envelops its meal. It then floats it away before dropping it to the ground to become an easily digestible puddle of flesh. "
 			}
 		]
 	},
@@ -2061,7 +2064,8 @@
 		],
 		"info": [
 			{
-				"desc": "Manes, constantly devoured by the parasites of the abyss and the rot they fester, have a slow regenerative ability to keep their body alive and in one piece. Sometimes, by magic or mutation, their regeneration accelerates and takes a turn for the worse. They sprout many limbs, mostly arms, that hug tight to their body to increase their size."
+				"name": "",
+				"desc": "Manes, constantly devoured by the parasites of the abyss and the rot they fester, have a slow regenerative ability to keep their body alive and in one piece. Sometimes, by magic or mutation, their regeneration accelerates and takes a turn for the worse. They sprout many limbs, mostly arms, that hug tight to their body to increase their size. "
 			}
 		]
 	},
@@ -2847,7 +2851,8 @@
 		"actionsize": 1144,
 		"info": [
 			{
-				"desc": "For use as a high-level questgiver, but also makes a great villain. The armor of fate is less actual physical armor, and more of a means of describing the Clairvoyant's uncanny ability to predict attacks before they happen."
+				"name": "",
+				"desc": "For use as a high-level questgiver, but also makes a great villain. The armor of fate is less actual physical armor, and more of a means of describing the Clairvoyant's uncanny ability to predict attacks before they happen. "
 			}
 		]
 	},
@@ -3146,15 +3151,15 @@
 		"info": [
 			{
 				"name": "Found Among the Dead.",
-				"desc": ""
+				"desc": "The death of animate plant life has unintended effects on that which feasts upon its decay. Creeping moss forms wherever flora used to thrive. The lichen and fungi that consume the compost left from magical living plants gain an intrinsic sentience of their own, as well as a ravenous appetite for living flesh."
 			},
 			{
 				"name": "Carnivorous Lichen.",
-				"desc": ""
+				"desc": "Though most commonly found in dying forests and bogs, creeping moss can be a hidden hazard for any cave delver. It has a hunger that is never sated, no matter the size of its prey. Creeping moss is usually opportunistic in its approach by letting its food come to it, but occasionally it will go out of its way to hunt, moving to a new location if it has depleted its own resources. Behind it leaves a trail of desolation as no life escapes its slow but unyielding digestion."
 			},
 			{
 				"name": "Combat.",
-				"desc": ""
+				"desc": "Creeping moss is strongest when adventurers have already moved over the top of it, walking on its lush surface without realizing the horror beneath. Without this element of surprise, the moss is a relatively weak enemy, despite its regenerative properties. Its action and reaction are meant to keep enemies rooted while they are slowly poisoned to death by its underfoot trait. All the while, it grows in size, making escape that much harder."
 			}
 		]
 	},
@@ -3430,7 +3435,8 @@
 		"actionsize": 303,
 		"info": [
 			{
-				"desc": "Cyprins are originally from the river Oceanus within the plane of Elysium, but swim and wander across the planes through its many waterways. They seek to do good deeds, and bless aquatic travelers on their journeys. Though cyprins can float, they cannot breathe air. Therefore, they prefer to stay below the surface. When forced above, they will carry with them a large droplet of water surrounding their body in order to breathe."
+				"name": "",
+				"desc": "Cyprins are originally from the river Oceanus within the plane of Elysium, but swim and wander across the planes through its many waterways. They seek to do good deeds, and bless aquatic travelers on their journeys. Though cyprins can float, they cannot breathe air. Therefore, they prefer to stay below the surface. When forced above, they will carry with them a large droplet of water surrounding their body in order to breathe. "
 			}
 		]
 	},
@@ -3914,7 +3920,8 @@
 		],
 		"info": [
 			{
-				"desc": "A dead priest, reanimated by using crawling claws to pull and push the body along."
+				"name": "",
+				"desc": "A dead priest, reanimated by using crawling claws to pull and push the body along. "
 			}
 		]
 	},
@@ -4483,7 +4490,8 @@
 		"actionsize": 442,
 		"info": [
 			{
-				"desc": "A walking snowbank - a concentrated water elemental."
+				"name": "",
+				"desc": "A walking snowbank - a concentrated water elemental. "
 			}
 		]
 	},
@@ -4630,7 +4638,8 @@
 		"actionsize": 292,
 		"info": [
 			{
-				"desc": "A poisonous cloud - a concentrated air elemental."
+				"name": "",
+				"desc": "A poisonous cloud - a concentrated air elemental. "
 			}
 		]
 	},
@@ -4778,7 +4787,8 @@
 		"actionsize": 654,
 		"info": [
 			{
-				"desc": "A mass of metals - a condensed earth elemental."
+				"name": "",
+				"desc": "A mass of metals - a condensed earth elemental. "
 			}
 		]
 	},
@@ -4937,7 +4947,8 @@
 		"actionsize": 438,
 		"info": [
 			{
-				"desc": "An explosive light - a concentrated fire elemental."
+				"name": "",
+				"desc": "An explosive light - a concentrated fire elemental. "
 			}
 		]
 	},
@@ -5931,7 +5942,8 @@
 		"actionsize": 222,
 		"info": [
 			{
-				"desc": "Like static electricity, floats things away, sticks to others"
+				"name": "",
+				"desc": "Like static electricity, floats things away, sticks to others "
 			}
 		]
 	},
@@ -6478,7 +6490,8 @@
 		},
 		"info": [
 			{
-				"desc": "Fire Elemental + Treant, gone wrong"
+				"name": "",
+				"desc": "Fire Elemental + Treant, gone wrong "
 			}
 		]
 	},
@@ -7257,7 +7270,8 @@
 		"actionsize": 111,
 		"info": [
 			{
-				"desc": "Crawling claws are the severed hands of murderers animated by dark magic so that they can go on killing. Wizards and warlocks of a dark bent use crawling claws as extra hands in their labors. ### Gigantic Origins Much larger than crawling claws, a giant's hand isn't as nimble as its counterpart, but many times stronger."
+				"name": "",
+				"desc": "Crawling claws are the severed hands of murderers animated by dark magic so that they can go on killing. Wizards and warlocks of a dark bent use crawling claws as extra hands in their labors. ### Gigantic Origins Much larger than crawling claws, a giant's hand isn't as nimble as its counterpart, but many times stronger. "
 			}
 		]
 	},
@@ -7566,7 +7580,8 @@
 		"actionsize": 1215,
 		"info": [
 			{
-				"desc": "Footsoldier, str based, counterpart to the dex based matron"
+				"name": "",
+				"desc": "Footsoldier, str based, counterpart to the dex based matron "
 			}
 		]
 	},
@@ -8226,7 +8241,8 @@
 		"actionsize": 178,
 		"info": [
 			{
-				"desc": "A demon with a laughing curse."
+				"name": "",
+				"desc": "A demon with a laughing curse. "
 			}
 		]
 	},
@@ -8306,7 +8322,7 @@
 						"dc": true
 					},
 					{
-						"text": " Strength saving throw or be pushed up to 10 feet away and knocked prone. The minotaur can then move an extra 10 feet and make a weapon attack. "
+						"text": " Strength saving throw or be pushed up to 10 feet away and knocked prone. The minotaur can then use its bonus action to move an extra 10 feet and make a weapon attack. "
 					}
 				]
 			},
@@ -8348,7 +8364,7 @@
 				]
 			}
 		],
-		"traitsize": 930,
+		"traitsize": 954,
 		"actions": [
 			{
 				"name": "Greataxe.",
@@ -8772,7 +8788,8 @@
 		"actionsize": 773,
 		"info": [
 			{
-				"desc": "An igamon is said to be a doppelganger that has forgotten its true form. They live in an existence beyond the weave, eating at its edges in hopes to return to a mortal existence."
+				"name": "",
+				"desc": "An igamon is said to be a doppelganger that has forgotten its true form. They live in an existence beyond the weave, eating at its edges in hopes to return to a mortal existence. "
 			}
 		]
 	},
@@ -10225,7 +10242,8 @@
 		"actionsize": 609,
 		"info": [
 			{
-				"desc": "The long-forgotten constructs of Gemfathom continue to execute their designated tasks endlessly. Danger persists within the mines, but no invention inspires as much fear in would-be adventurers as the Lightning Golem. Built to defend the tunnels from the threat of deep dwelling evils, the golems were soldiers, artillery, and transit all in one. The howdah on their back was meant as a means of escape and protection for fleeing dwarves. Their powerful arms would shock any monster into submission, while the beam that shot from their chest could melt through stone. Now abandoned, the golems have difficulty pinpointing friend from foe due to a lack of circuitry maintanence. Some creatures the golem was built to destroy have now inhabited the fortress carried on their back, turning them back into nigh-unstoppable war machines."
+				"name": "",
+				"desc": "The long-forgotten constructs of Gemfathom continue to execute their designated tasks endlessly. Danger persists within the mines, but no invention inspires as much fear in would-be adventurers as the Lightning Golem. Built to defend the tunnels from the threat of deep dwelling evils, the golems were soldiers, artillery, and transit all in one. The howdah on their back was meant as a means of escape and protection for fleeing dwarves. Their powerful arms would shock any monster into submission, while the beam that shot from their chest could melt through stone. Now abandoned, the golems have difficulty pinpointing friend from foe due to a lack of circuitry maintanence. Some creatures the golem was built to destroy have now inhabited the fortress carried on their back, turning them back into nigh-unstoppable war machines. "
 			}
 		]
 	},
@@ -10861,7 +10879,8 @@
 		"actionsize": 720,
 		"info": [
 			{
-				"desc": "Footsoldier, dex based, counterpart to the str based groom"
+				"name": "",
+				"desc": "Footsoldier, dex based, counterpart to the str based groom "
 			}
 		]
 	},
@@ -12527,7 +12546,8 @@
 		"actionsize": 1136,
 		"info": [
 			{
-				"desc": "Sometimes, the pursuit of knowledge can lead too far. A blinded one is formed when a nothic peers too deeply into arcane secrets, twisted further by eldritch mysteries. The reward is meager, compared to the price."
+				"name": "",
+				"desc": "Sometimes, the pursuit of knowledge can lead too far. A blinded one is formed when a nothic peers too deeply into arcane secrets, twisted further by eldritch mysteries. The reward is meager, compared to the price. "
 			}
 		]
 	},
@@ -13075,7 +13095,8 @@
 		},
 		"info": [
 			{
-				"desc": "When a beholder dreams of becoming more than itself..."
+				"name": "",
+				"desc": "When a beholder dreams of becoming more than itself... "
 			}
 		]
 	},
@@ -14337,7 +14358,8 @@
 		"actionsize": 408,
 		"info": [
 			{
-				"desc": "Pomonids don't reproduce, nor do they have discernible gender. They do their best to live a healthy and good life, hoping to see a peaceful end of their days. When passing, other pominids will bury their bodies within lush groves. From the deceased grows a pominid tree, which after time bears fruit. The fruit matures into baby pominids, which fall to the ground by giving birth. Pominids believe that the number of pominids a pominid tree produces in their afterlife is determined by how many strangers the pominid helped during its lifetime. A pominid only lives an average of 50 years, and thus their desire to help others occasionally manifests as an overwhelming generosity."
+				"name": "",
+				"desc": "Pomonids don't reproduce, nor do they have discernible gender. They do their best to live a healthy and good life, hoping to see a peaceful end of their days. When passing, other pominids will bury their bodies within lush groves. From the deceased grows a pominid tree, which after time bears fruit. The fruit matures into baby pominids, which fall to the ground by giving birth. Pominids believe that the number of pominids a pominid tree produces in their afterlife is determined by how many strangers the pominid helped during its lifetime. A pominid only lives an average of 50 years, and thus their desire to help others occasionally manifests as an overwhelming generosity. "
 			}
 		]
 	},
@@ -15796,7 +15818,8 @@
 		},
 		"info": [
 			{
-				"desc": "Less devil than a man cursed by devil magic, his arcane intelligence comes from his search for a cure. Though no cure existed, Slough found an arcane ritual to relieve his pain by inflicting pain upon others. He himself can't heal, gaining hit points instead as a facsimile of skin that soon sheds away. His healing magic is a manipulation of the life force around him, rather than divine authority."
+				"name": "",
+				"desc": "Less devil than a man cursed by devil magic, his arcane intelligence comes from his search for a cure. Though no cure existed, Slough found an arcane ritual to relieve his pain by inflicting pain upon others. He himself can't heal, gaining hit points instead as a facsimile of skin that soon sheds away. His healing magic is a manipulation of the life force around him, rather than divine authority. "
 			}
 		]
 	},
@@ -16391,7 +16414,8 @@
 		"actionsize": 462,
 		"info": [
 			{
-				"desc": "Like static electricity, floats things away, sticks to others"
+				"name": "",
+				"desc": "Like static electricity, floats things away, sticks to others "
 			}
 		]
 	},
@@ -19003,7 +19027,8 @@
 		"actionsize": 496,
 		"info": [
 			{
-				"desc": "Voltants are the light of the underdark. They swarm into spherical hive colonies that hang from vast ceilings, like bright shining moons in an underground night."
+				"name": "",
+				"desc": "Voltants are the light of the underdark. They swarm into spherical hive colonies that hang from vast ceilings, like bright shining moons in an underground night. "
 			}
 		]
 	},
@@ -20678,7 +20703,8 @@
 		"actionsize": 305,
 		"info": [
 			{
-				"desc": "http://www.imarvintpa.com/Mapping/Tokens/Water%20Weird.png"
+				"name": "",
+				"desc": "http://www.imarvintpa.com/Mapping/Tokens/Water%20Weird.png "
 			}
 		]
 	},
@@ -22202,7 +22228,8 @@
 		],
 		"info": [
 			{
-				"desc": "Like a giant octopus, but with a snake's head emerging from where the tentacles meet... and a head at the end of each of the tentacles."
+				"name": "",
+				"desc": "Like a giant octopus, but with a snake's head emerging from where the tentacles meet... and a head at the end of each of the tentacles. "
 			}
 		]
 	},
@@ -22568,7 +22595,8 @@
 		],
 		"info": [
 			{
-				"desc": "The fiancee chosen by Zuggtmoy herself for her royal wedding. He is bestowed power in the form of fungal armor and sword. The power, however strong, is cursed. Eventually the chosen dies, overtaken by decay and rot. Then, Zuggtmoy grieves, and plans her wedding anew."
+				"name": "",
+				"desc": "The fiancee chosen by Zuggtmoy herself for her royal wedding. He is bestowed power in the form of fungal armor and sword. The power, however strong, is cursed. Eventually the chosen dies, overtaken by decay and rot. Then, Zuggtmoy grieves, and plans her wedding anew. "
 			}
 		]
 	},
@@ -22691,7 +22719,8 @@
 		"actionsize": 556,
 		"info": [
 			{
-				"desc": "Those who have been given \"invitations\" to Zuggtmoy's most recent wedding. An invitation can be a vision, a curse, a poison, or a mind-altering effect that would begin a humanoid on its journey towards Zuggtmoy's domain."
+				"name": "",
+				"desc": "Those who have been given \"invitations\" to Zuggtmoy's most recent wedding. An invitation can be a vision, a curse, a poison, or a mind-altering effect that would begin a humanoid on its journey towards Zuggtmoy's domain. "
 			}
 		]
 	}
