@@ -125,11 +125,11 @@ p {
 }
 .trait-box {
   padding: 0.2rem;
-  padding-left: 0.3rem;
+  padding-left: 0.4rem;
   padding-bottom: 0.4rem;
 }
 .trait-name {
-  text-indent: -0.25rem;
+  text-indent: -0.3rem;
 }
 .trait-info {
   text-indent: 0.25rem;

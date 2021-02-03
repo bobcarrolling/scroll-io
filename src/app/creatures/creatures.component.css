@@ -125,3 +125,8 @@
   text-decoration: underline;
   background-color: rgba(0, 80, 30, 0.25) !important;
 }
+
+.counter {
+  font-size: 0.7rem;
+  color: gray;
+}

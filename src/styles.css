@@ -50,6 +50,9 @@ span {
   align-items: center;
 }
 .align-end {
+  align-items: flex-start;
+}
+.align-end {
   align-items: flex-end;
 }
 

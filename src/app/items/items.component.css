@@ -24,7 +24,7 @@
 
 .data-table {
   overflow-y: scroll;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: calc(100% - 5rem);
   overflow-x: hidden;
 }
@@ -129,4 +129,9 @@ select.search-input {
 .selected-row {
   text-decoration: underline;
   background-color: rgba(0, 80, 30, 0.25) !important;
+}
+
+.counter {
+  font-size: 0.7rem;
+  color: gray;
 }
