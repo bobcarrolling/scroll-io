@@ -369,7 +369,7 @@
 	{
 		"effects": [
 			{
-				"text": "Leather and cloth wrapped gloves with special silver thread that reinforces the wrists. At the beginning of your turn, you can make an attempt to push away each creature within 5 feet of you. If you succeed against all creatures within range, they all fall prone as well as being pushed away."
+				"text": "Leather and cloth wrapped gloves with special silver thread that reinforces the wrists. At the beginning of your turn, you can make an attempt to push away each creature within 5 feet of you. If you succeed by 10 or more, the creature falls prone as well as being pushed away."
 			}
 		],
 		"sectioncount": 1,
@@ -1137,7 +1137,7 @@
 	{
 		"effects": [
 			{
-				"text": "An ornate spear made to look like the needle of a compass. You have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
+				"text": "An ornate spear made to look like the needle of a compass. While attuned, you have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
 			},
 			{
 				"text": "When you are holding the spear, you can focus on a specific enemy you dealt damage to with it. When you do, you know the general direction towards that creature, or its exact location if it is within 60 feet. You also gain a ",
@@ -1827,8 +1827,8 @@
 		],
 		"sectioncount": 1,
 		"name": "Waterlog",
-		"subtext": "Wondroud item, uncommon",
-		"type": "Wondroud item",
+		"subtext": "Wondrous item, uncommon",
+		"type": "Wondrous item",
 		"rarity": {
 			"text": "uncommon",
 			"rating": 1
