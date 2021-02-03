@@ -14,7 +14,6 @@ p {
   background-blend-mode: screen;
   padding: 1px 0 1px 0;
   overflow-x: scroll;
-  cursor: text;
   max-width: calc(100vw - 1rem + 1px);
 }
 
@@ -27,6 +26,7 @@ p {
 
 .column-container {
   padding: 1px;
+    cursor: text;
 }
 .column-lg {
   max-width: calc(27.25rem - 5px);
@@ -189,4 +189,11 @@ h3 {
 }
 .hover-shadow:hover {
   opacity: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background: teal;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: DarkSlateGray;
 }
