@@ -10,7 +10,8 @@ import { HomeComponent } from "./home/home.component";
       { path: "home", component: HomeComponent },
       { path: "creatures", component: CreaturesComponent },
       { path: "items", component: ItemsComponent },
-      { path: "**", redirectTo: "home" }
+      { path: "**", redirectTo: "home" },
+      { path: null, redirectTo: "home" }
     ])
   ],
   exports: [RouterModule],
