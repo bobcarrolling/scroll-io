@@ -154,6 +154,12 @@ div {
 .trait-option {
   margin: 0.1rem 0 0.1rem 0;
 }
+.info-box {
+  padding: 0.2rem;
+}
+.info-text {
+  padding-bottom: 0.4rem;
+}
 
 h3 {
   font-size: 0.782rem;

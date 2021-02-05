@@ -1,7 +1,7 @@
 .box {
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: 100%;
 }
 
 /* .box .header {
