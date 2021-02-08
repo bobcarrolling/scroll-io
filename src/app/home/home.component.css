@@ -1,0 +1,35 @@
+.container {
+  height: calc(100% - 1rem);
+}
+
+.content {
+  width: 90%;
+  max-width: 40rem;
+  background-color: rgba(0, 20, 0, 0.05);
+  border-radius: 3px;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 2rem;
+}
+
+.content p {
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.arrow {
+  max-width: 1rem;
+}
+
+.dropdown {
+  margin-top: 2rem;
+  cursor: pointer;
+  user-select: none;
+}
+.dropdown:hover {
+  text-decoration: underline;
+}
+.license p {
+  font-size: 10px;
+}
