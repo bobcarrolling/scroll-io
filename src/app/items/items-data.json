@@ -422,10 +422,10 @@
 	{
 		"effects": [
 			{
-				"text": "A twisted, hook edged katana with flourishes of red and black fire engraved along the blade. If the sword deals damage to a creature that has regained hit points on or since its last turn, the sword deals an additional amount of necrotic damage equal to the total amount of hit points regained during that time. If a creature has temporary hit points when hit by hopeslayer, the weapon's damage ignores the temporary hit points and deals damage directly to the target's hit points instead."
+				"text": "A twisted, hook edged katana with flourishes of red and black fire engraved along the blade."
 			},
 			{
-				"text": "When a hostile creature you can see regains hit points or gains temporary hit points, you can immediately use your reaction to move up to half of your speed and make a melee attack with hopeslayer against them.",
+				"text": "If the sword deals damage to a creature that has regained hit points on or since its last turn, the sword deals an additional amount of necrotic damage equal to the total amount of hit points regained during that time. If a creature has temporary hit points when hit by hopeslayer, the weapon's damage ignores the temporary hit points and deals damage directly to the target's hit points instead.",
 				"newline": true,
 				"paragraph": true
 			},
@@ -478,22 +478,104 @@
 				"text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
 			},
 			{
-				"text": "- stops teleportation",
+				"text": "___",
 				"newline": true,
 				"paragraph": true
 			},
 			{
-				"text": "- Dis on con saves to maintain concentration",
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 1 (minimum 5th level).",
+				"itl": true
+			},
+			{
+				"text": "You gain a ",
 				"newline": true,
 				"paragraph": true
 			},
 			{
-				"text": "- ",
+				"text": "+1",
+				"bonus": true
+			},
+			{
+				"text": " bonus to attack and damage rolls made with this weapon. Creatures with 20 or less hit points are considered vulnerable to damage dealt by the sword."
+			},
+			{
+				"text": "You can smell desperation. You gain proficiency in the Insight skill while attuned to hopeslayer, and when a creature mentions a person, place, or thing, you can make a Wisdom (Insight) check with advantage to determine if it is something they desire or something they fear.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "___",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 2 (minimum 10th level).",
+				"itl": true
+			},
+			{
+				"text": "The weapon's bonus to attack and damage rolls increases to ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+2.",
+				"bonus": true
+			},
+			{
+				"text": " You can make attacks of opportunity with hopeslayer regardless of how a creature leaves your reach (teleportation, invisibility, etc)."
+			},
+			{
+				"text": "You itch to draw your weapon and cause your enemies to despair. You gain proficiency in the Intimidation skill while attuned to hopeslayer. With hopeslayer drawn, when you make a Charisma (Intimidation) check as an action against a creature that is of a challenge rating equal to or lower than your proficiency bonus, it must make a Wisdom saving throw against the total of your check. On a failure, the creature is frightened of you until you sheath the sword. A creature that succeeds this saving throw cannot be frightened of you in this way until the next nightfall.",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "___",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "",
+				"newline": true
+			},
+			{
+				"text": "Stage 3 (minimum 15th level).",
+				"itl": true
+			},
+			{
+				"text": "The weapon's bonus to attack and damage rolls increases to ",
+				"newline": true,
+				"paragraph": true
+			},
+			{
+				"text": "+3.",
+				"bonus": true
+			},
+			{
+				"text": " When you hit a creature with an attack of opportunity, the creature must make a "
+			},
+			{
+				"text": "DC 20",
+				"dc": true
+			},
+			{
+				"text": " Dexterity saving throw or fall prone. If the creature falls prone and would have used an ability or spell to escape without provoking a normal attack of opportunity, that ability or spell ends."
+			},
+			{
+				"text": "The urge for violence pushes you beyond normal limits. If an inhibiting effect causes you to make a check or saving throw to escape or clear it at the end or as part of your turn, you can instead make that check or saving throw at the beginning of your turn, with no action required.",
 				"newline": true,
 				"paragraph": true
 			}
 		],
-		"sectioncount": 6,
+		"sectioncount": 12,
 		"name": "Hopeslayer",
 		"subtext": "Martial weapon (longsword), artifact (requires attunement)",
 		"attune": {
@@ -1444,7 +1526,7 @@
 				"itl": true
 			},
 			{
-				"text": " A brown and tan mottled stalk. You can eat this mushroom as a bonus action. After you do, your Strength score is increased by 2 and you deal an additional die of damage with weapon attacks."
+				"text": " A brown and tan mottled stalk. You can eat this mushroom as a bonus action. After you do, your Strength score is increased by 2 and you deal an additional die of damage with weapon attacks until the end of your next turn."
 			},
 			{
 				"text": "",
@@ -1510,7 +1592,7 @@
 				"text": " A gray cup containing a watery liquid. You can rub this mushroom on a creature or object as an action to secrete its sap. The object or creature is hidden from divination magic, and can't be targeted by such magic or perceived by it. The mushroom withers away after using its sap, and the effects of the sap fade after one day."
 			},
 			{
-				"text": "If the sap is applied to a weapon, that weapon is considered silvered and magical. If a creature is hit by the weapon, the next time the creature takes damage of any type the weapon dealt, the creature is vulnerable to that damage type. After the first time the coated weapon deals damage, the sap's effects fade.",
+				"text": "If the sap is applied to a weapon, that weapon is considered silvered and magical. If a creature is hit by the weapon, the next time the creature takes damage of any type the weapon dealt, the creature is vulnerable to that damage type. The weapon's sap wears away after dealing damage.",
 				"newline": true,
 				"paragraph": true
 			},
@@ -1639,15 +1721,20 @@
 				"dice": true
 			},
 			{
-				"text": " large pearls. When using your wild shape to become a beast with a name prefaced by the word 'Giant', you may choose to expend any number of the pearls, which shatter. For each expended pearl, you summon one creature with the same name as your chosen wild shape without the word 'Giant'. A summoned creature disappears when it drops to 0 hit points or after 1 hour."
+				"text": " large pearls. When using your wild shape to become a beast with a name prefaced by the word \"Giant\", you may choose to expend any number of the pearls, which shatter. For each expended pearl, you summon one creature with the same name as your chosen wild shape without the word \"Giant\". A summoned creature disappears when it drops to 0 hit points or after 1 hour."
 			},
 			{
 				"text": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any mental commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.",
 				"newline": true,
 				"paragraph": true
+			},
+			{
+				"text": "An empty rivière retains some magical essence, despite having no pearls. If you spend 4 hours performing a ceremonial blessing on a large pearl worth at least 50 gp, the new pearl can be threaded onto the necklace.",
+				"newline": true,
+				"paragraph": true
 			}
 		],
-		"sectioncount": 2,
+		"sectioncount": 3,
 		"name": "Summoner's Rivière",
 		"subtext": "Wondrous item (necklace), rare (requires attunement by a druid)",
 		"attune": {

@@ -803,14 +803,7 @@
 						"name": "Shield.",
 						"effect": [
 							{
-								"text": "Add "
-							},
-							{
-								"text": "+2",
-								"bonus": true
-							},
-							{
-								"text": " to AC. "
+								"text": "Add 2 to AC. "
 							}
 						]
 					},
@@ -818,14 +811,7 @@
 						"name": "Armor.",
 						"effect": [
 							{
-								"text": "Add "
-							},
-							{
-								"text": "+2",
-								"bonus": true
-							},
-							{
-								"text": " to AC. "
+								"text": "Add 2 to AC. "
 							}
 						]
 					},
@@ -833,7 +819,7 @@
 						"name": "Sword.",
 						"effect": [
 							{
-								"text": "Gain a multiattack of two weapon attacks. "
+								"text": "Gain a multiattack of two weapon attacks. Cannot be used with spear. "
 							}
 						]
 					},
@@ -888,7 +874,7 @@
 				]
 			}
 		],
-		"traitsize": 1002,
+		"traitsize": 1027,
 		"actions": [
 			{
 				"name": "Weapon.",
@@ -13943,10 +13929,10 @@
 				]
 			},
 			{
-				"name": "Tremor Step.",
+				"name": "Trampling Steps.",
 				"effect": [
 					{
-						"text": "When moving, all creatures on the ground within the planetwalker's space must succeed a "
+						"text": "The first time the planetwalker moves into a creature's space in the same round, the creature must succeed a "
 					},
 					{
 						"text": "DC 18",
@@ -13972,7 +13958,7 @@
 				]
 			}
 		],
-		"traitsize": 900,
+		"traitsize": 925,
 		"actions": [
 			{
 				"name": "Swat.",
