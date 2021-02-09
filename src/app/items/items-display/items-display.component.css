@@ -195,6 +195,11 @@ h3 {
   opacity: 100%;
 }
 
+img {
+  max-width: 100%;
+  min-height: 8rem;
+}
+
 ::-webkit-scrollbar-thumb {
   background: teal;
 }
