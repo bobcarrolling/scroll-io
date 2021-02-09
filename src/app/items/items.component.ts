@@ -17,6 +17,7 @@ export class ItemsComponent implements OnInit {
     });
   }
   ngOnInit() {
+    document.title = "Magic Item list for the Dungeons and Dragons 5e Homebrew collection by The Cobbler Barrel.";
     this.filterList();
   }
 
