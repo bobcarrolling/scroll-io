@@ -9,7 +9,7 @@
   /* border-radius: 3px; */
   border-style: solid;
   border-width: 7px;
-  border-image-source: url("../assets/sidebars.png");
+  border-image-source: url("assets/shared/sidebars.png");
   border-image-slice: 12;
   border-image-width: 1;
   border-image-outset: 4px;
