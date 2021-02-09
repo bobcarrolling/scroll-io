@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
 import * as creatureList from "./creature-data.json";
 import { Subject } from "rxjs";
 import { debounceTime } from "rxjs/operators";
@@ -11,12 +10,19 @@ import { debounceTime } from "rxjs/operators";
 })
 export class CreaturesComponent implements OnInit {
   searchUpdate = new Subject();
-  constructor(private http: HttpClient) {
+  constructor() {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
     });
   }
   ngOnInit() {
+    document.title = "Scroll-io: Homebrew Creature List For D&D 5e";
+    document
+      .querySelector('meta[name="description"]')
+      .setAttribute(
+        "content",
+        "Monsters and statblocks for enemies in Dungeons and Dragons 5th Edition, all custom made by The Cobbler Barrel."
+      );
     this.filterList();
   }
 

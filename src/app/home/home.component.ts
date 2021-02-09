@@ -14,7 +14,15 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    document.title = "Scroll-io: A Catalog Of D&D 5e Homebrew";
+    document
+      .querySelector('meta[name="description"]')
+      .setAttribute(
+        "content",
+        "Sortable and searchable tables of Dungeons and Dragons 5th Edition content, all custom made by The Cobbler Barrel."
+      );
+  }
 
   oglToggle() {
     if (this.ogl === "Show") {

@@ -1,4 +1,3 @@
-import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { Subject } from "rxjs";
 import { debounceTime } from "rxjs/operators";
@@ -11,13 +10,19 @@ import * as itemList from "./items-data.json";
 })
 export class ItemsComponent implements OnInit {
   searchUpdate = new Subject();
-  constructor(private http: HttpClient) {
+  constructor() {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
     });
   }
   ngOnInit() {
-    document.title = "Magic Item list for the Dungeons and Dragons 5e Homebrew collection by The Cobbler Barrel.";
+    document.title = "Scroll-io: Homebrew Magic Item List For D&D 5e";
+    document
+      .querySelector('meta[name="description"]')
+      .setAttribute(
+        "content",
+        "Items and weapons for players in Dungeons and Dragons 5th Edition, all custom made by The Cobbler Barrel."
+      );
     this.filterList();
   }
 
