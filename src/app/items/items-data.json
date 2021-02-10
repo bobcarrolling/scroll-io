@@ -18,6 +18,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 596,
 		"name": "Belt of the Behemoth",
 		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
@@ -43,6 +44,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 553,
 		"name": "Boots of the Stranger",
 		"subtext": "Wondrous item (footwear), uncommon (requires attunement)",
 		"attune": {
@@ -61,6 +63,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 132,
 		"name": "Brutal Weapon",
 		"subtext": "Weapon (any), rare",
 		"type": "Weapon (any)",
@@ -83,6 +86,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 359,
 		"name": "Cheating Arrow",
 		"subtext": "Ammunition (arrow), uncommon",
 		"type": "Ammunition (arrow)",
@@ -148,6 +152,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1013,
 		"name": "Circlet of Stormvenge",
 		"subtext": "Wondrous item (headpiece), spellcasting focus, legendary (requires attunement by a druid)",
 		"attune": {
@@ -167,6 +172,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 383,
 		"name": "Coat of the Golem",
 		"subtext": "Wondrous item (cloak), rare (requires attunement by a spellcaster)",
 		"attune": {
@@ -210,6 +216,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 820,
 		"name": "Crown of the Undying",
 		"subtext": "Wondrous item (headpiece), very rare (requires attunement)",
 		"attune": {
@@ -280,6 +287,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1182,
 		"name": "Diadem's Orbital Defence",
 		"subtext": "Wondrous item (necklace), rare (requires attunement)",
 		"attune": {
@@ -298,6 +306,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 307,
 		"name": "Fleshfinder",
 		"subtext": "Martial weapon (rapier), rare",
 		"type": "Martial weapon (rapier)",
@@ -318,6 +327,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 757,
 		"name": "Gauntlet of Sapping Strikes",
 		"subtext": "Wondrous item (handwear), rare (requires attunement)",
 		"attune": {
@@ -355,6 +365,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 491,
 		"name": "Glacial Gauntlet",
 		"subtext": "Wondrous item (handwear), rare (requires attunement)",
 		"attune": {
@@ -373,6 +384,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 365,
 		"name": "Handwraps of the Frayfighter",
 		"subtext": "Wondrous item (handwear), rare (requires attunement)",
 		"attune": {
@@ -408,6 +420,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1394,
 		"name": "Honeyshot",
 		"subtext": "Weapon (light crossbow), rare (requires attunement)",
 		"attune": {
@@ -576,6 +589,7 @@
 			}
 		],
 		"sectioncount": 12,
+		"lettercount": 3799,
 		"name": "Hopeslayer",
 		"subtext": "Martial weapon (longsword), artifact (requires attunement)",
 		"attune": {
@@ -594,6 +608,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 283,
 		"name": "Icarus Sandals",
 		"subtext": "Wondrous item (footwear), rare (requires attunement)",
 		"attune": {
@@ -678,6 +693,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1146,
 		"name": "Iceglass",
 		"subtext": "Simple weapon (handaxe), legendary (requires attunement)",
 		"attune": {
@@ -708,6 +724,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 642,
 		"name": "Impossible Bottle",
 		"subtext": "Wondrous item, uncommon",
 		"type": "Wondrous item",
@@ -730,6 +747,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 426,
 		"name": "Infinity Knot",
 		"subtext": "Wondrous item, uncommon",
 		"type": "Wondrous item",
@@ -757,13 +775,15 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 979,
 		"name": "Lighteater Lantern",
 		"subtext": "Wondrous item (hooded lantern), very rare",
 		"type": "Wondrous item (hooded lantern)",
 		"rarity": {
 			"text": "very rare",
 			"rating": 3
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater_Lantern_Background.png"
 	},
 	{
 		"effects": [
@@ -791,6 +811,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 462,
 		"name": "Longspear of Balance",
 		"subtext": "Martial weapon (spear), rare (requires attunement)",
 		"attune": {
@@ -809,6 +830,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 185,
 		"name": "Mageslayer Weapon",
 		"subtext": "Weapon (any), rare",
 		"type": "Weapon (any)",
@@ -968,6 +990,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 2435,
 		"name": "Malifluous",
 		"subtext": "Martial weapon (shortsword), artifact (requires attunement)",
 		"attune": {
@@ -1010,6 +1033,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 864,
 		"name": "Mask of the Recluse",
 		"subtext": "Wondrous item (headpiece), rare (requires attunement)",
 		"attune": {
@@ -1052,6 +1076,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 587,
 		"name": "Nightcap of Restfulness",
 		"subtext": "Wondrous item (headpiece), rare (requires attunement)",
 		"attune": {
@@ -1070,6 +1095,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 225,
 		"name": "Overwhelming Weapon",
 		"subtext": "Weapon (any), uncommon",
 		"type": "Weapon (any)",
@@ -1100,6 +1126,7 @@
 			}
 		],
 		"sectioncount": 4,
+		"lettercount": 1134,
 		"name": "Phoenix Eggshell",
 		"subtext": "Wondrous item, uncommon",
 		"type": "Wondrous item",
@@ -1115,6 +1142,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 284,
 		"name": "Ring of Transcendence",
 		"subtext": "Wondrous item (ring), very rare (requires attunement)",
 		"attune": {
@@ -1140,6 +1168,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 748,
 		"name": "Scalepeeler",
 		"subtext": "Martial weapon (war pick), rare",
 		"type": "Martial weapon (war pick)",
@@ -1155,6 +1184,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 271,
 		"name": "Shawl of Vanishing",
 		"subtext": "Wondrous item (cloak), rare (requires attunement)",
 		"attune": {
@@ -1204,6 +1234,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1354,
 		"name": "Skull of Canid Molaris",
 		"subtext": "Wondrous item (headpiece), legendary (requires attunement by a barbarian)",
 		"attune": {
@@ -1287,7 +1318,7 @@
 				"dice": true
 			},
 			{
-				"text": " thunder damage on a hit. If you are within 120 feet of the spear, you may use a bonus action to teleport it to your hand."
+				"text": " lightning damage on a hit. If you are within 120 feet of the spear, you may use a bonus action to teleport it to your hand."
 			},
 			{
 				"text": "The spear pulls and defends you automatically when fighting. Once per round, without expending a reaction, you may add a bonus equal to the attack bonus of this weapon to your AC against one melee weapon attack that would hit you. Additionally, once on your turn during your attack action, you can forgo one attack with the spear to gain advantage and a ",
@@ -1324,7 +1355,7 @@
 				"bonus": true
 			},
 			{
-				"text": " and its thunder damage increases from "
+				"text": " and its lightning damage increases from "
 			},
 			{
 				"text": "1d4",
@@ -1380,7 +1411,7 @@
 				"bonus": true
 			},
 			{
-				"text": " and its thunder damage increases from "
+				"text": " and its lightning damage increases from "
 			},
 			{
 				"text": "1d8",
@@ -1415,6 +1446,7 @@
 			}
 		],
 		"sectioncount": 13,
+		"lettercount": 4106,
 		"name": "Spear of Neverloss",
 		"subtext": "Simple weapon (spear), artifact (requires attunement)",
 		"attune": {
@@ -1648,6 +1680,7 @@
 			}
 		],
 		"sectioncount": 2,
+		"lettercount": 3671,
 		"name": "Spore Colony",
 		"subtext": "Wondrous item, rare",
 		"type": "Wondrous item",
@@ -1699,6 +1732,7 @@
 			}
 		],
 		"sectioncount": 4,
+		"lettercount": 2207,
 		"name": "Staff of the Spire",
 		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
 		"attune": {
@@ -1735,6 +1769,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1051,
 		"name": "Summoner's Rivière",
 		"subtext": "Wondrous item (necklace), rare (requires attunement by a druid)",
 		"attune": {
@@ -1854,6 +1889,7 @@
 			}
 		],
 		"sectioncount": 3,
+		"lettercount": 1337,
 		"name": "The Dead Ringer",
 		"subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
 		"attune": {
@@ -1898,6 +1934,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 406,
 		"name": "The Tenderizer",
 		"subtext": "Martial weapon (maul), very rare",
 		"type": "Martial weapon (maul)",
@@ -1913,6 +1950,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 410,
 		"name": "Waterlog",
 		"subtext": "Wondrous item, uncommon",
 		"type": "Wondrous item",
@@ -1942,6 +1980,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 411,
 		"name": "Wingclipper Arrow",
 		"subtext": "Ammunition (arrow), rare",
 		"type": "Ammunition (arrow)",
@@ -1957,6 +1996,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 277,
 		"name": "Woollysheep Armor",
 		"subtext": "Armor (any), rare",
 		"type": "Armor (any)",
@@ -1972,6 +2012,7 @@
 			}
 		],
 		"sectioncount": 1,
+		"lettercount": 338,
 		"name": "Wristlet of the Novice Adept",
 		"subtext": "Wondrous item (handwear), rare (requires attunement by a spellcaster)",
 		"attune": {
