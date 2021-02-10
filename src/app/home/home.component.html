@@ -3,19 +3,25 @@
 
 
 		<h1>Welcome to Scroll-io!</h1>
-		<p>This is the ever-expanding catalog of Dungeons and Dragons 5th Edition homebrew content from the <a
-				href="https://twitter.com/CobblerBarrel">@CobblerBarrel</a>. Navigating using the categorical links
+		<p>This is the ever-expanding catalog of Dungeons and Dragons 5th Edition homebrew content from <a
+				href="https://twitter.com/CobblerBarrel">The Cobbler Barrel</a>. Navigating using the categorical links
 			above
 			will take you to the indexed and searchable tables of various homebrew articles. The website gets frequent
 			content and code updates, so always check back in to find something new. Feel free to browse, copy, and make
 			your own!</p>
 
-		<p>Scroll-io is currently undergoing its Kickstarter campaign! Visit it here to support: <a
-				href="https://twitter.com/CobblerBarrel">@CobblerBarrel</a></p>
+		<h3>Scroll-io is currently undergoing its Kickstarter campaign! Visit it here to support: <a
+				href="https://twitter.com/CobblerBarrel">@CobblerBarrel</a></h3>
+		<p></p>
 
-		<h4 class="dropdown" (click)="oglToggle()">{{ogl}} OGL
+		<h4>Artist Credits:</h4>
+		<p><a href="https://twitter.com/chloehx21">Chloe</a>, for her incredible work with the creature concept art.</p>
+		<p><a href="https://twitter.com/@dgalexandre1">Diogo</a>, for his amazing designs of the magic items.</p>
+
+
+		<div class="dropdown" (click)="oglToggle()">{{ogl}} OGL
 			<span class="arrow" [innerHTML]="arrow"></span>
-		</h4>
+		</div>
 		<span class="license" *ngIf="ogl === 'Hide'">
       <p style="font-style: italic">The Cobbler Barrel and Scroll-io are not affiliated with Wizards of the Coast LLC.</p>
 
