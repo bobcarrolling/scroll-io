@@ -200,9 +200,16 @@ h3 {
   opacity: 100%;
 }
 
-img {
+.image-style img {
   max-width: 100%;
   min-height: 8rem;
+  margin-bottom: -1rem;
+  cursor: auto;
+}
+.image-style span {
+  text-align: right;
+  font-style: italic;
+  opacity: 0.66;
 }
 
 ::-webkit-scrollbar-thumb {

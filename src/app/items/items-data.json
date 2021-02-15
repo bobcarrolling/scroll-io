@@ -85,7 +85,7 @@
 			}
 		],
 		"sectioncount": 2,
-		"lettercount": 979,
+		"lettercount": 983,
 		"name": "Lighteater Lantern",
 		"subtext": "Wondrous item (hooded lantern), very rare",
 		"type": "Wondrous item (hooded lantern)",
@@ -93,7 +93,8 @@
 			"text": "very rare",
 			"rating": 3
 		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater_Lantern_Background.png"
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater_Lantern.png",
+		"artist": "@dgalexandre1"
 	},
 	{
 		"effects": [
@@ -278,13 +279,15 @@
 			}
 		],
 		"sectioncount": 1,
-		"lettercount": 277,
+		"lettercount": 398,
 		"name": "Woollysheep Armor",
 		"subtext": "Armor (any), rare",
 		"type": "Armor (any)",
 		"rarity": {
 			"text": "rare",
 			"rating": 2
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woolly_sheep_Armour.png",
+		"artist": "@dgalexandre1"
 	}
 ]

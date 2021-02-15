@@ -43,13 +43,10 @@
 		</div>
 	</div>
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
-		<div class="column flexcol">
-			<div class="flexcol trait-box" style="white-space: pre-line">
-				<div class="trait-text">
-					<img *ngIf="item.image" src="{{item.image}}" alt="{{item.name}}">
-				</div>
-				</div>
-			</div>
+		<div class="column flexcol image-style">
+			<img *ngIf="item.image" src="{{item.image}}" alt="{{item.name}}">
+			<span>{{item.artist}}</span>
 		</div>
 	</div>
-	<app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>
+</div>
+<app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>

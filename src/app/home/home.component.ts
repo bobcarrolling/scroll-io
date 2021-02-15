@@ -8,8 +8,8 @@ import { Component, OnInit } from "@angular/core";
 export class HomeComponent implements OnInit {
   ogl = "Show";
 
-  readonly rightarrow = "&#9654;";
-  readonly downarrow = "&#9660;";
+  readonly rightarrow = "&#9655;";
+  readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
 
   constructor() {}
