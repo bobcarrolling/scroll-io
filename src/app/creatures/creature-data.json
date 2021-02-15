@@ -443,7 +443,7 @@
 				"name": "Drift.",
 				"effect": [
 					{
-						"text": "When the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing after the attack. This movement does not provoke attacks of opportunity. "
+						"text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity. "
 					}
 				]
 			},
@@ -481,7 +481,7 @@
 				]
 			}
 		],
-		"traitsize": 618,
+		"traitsize": 602,
 		"actions": [
 			{
 				"name": "Puff.",
