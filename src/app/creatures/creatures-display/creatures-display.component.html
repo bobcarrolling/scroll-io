@@ -339,8 +339,14 @@
                 <div class="trait-container">
                     <div class="flexcol" style="white-space: pre-line;">
                         <div *ngFor="let info of creature.info" class="indent info-text">
-                            <span class="bld">{{info.name}} </span>
-                            <span>{{info.desc}}</span>
+                            <div (click)="info.show = !info.show" style="cursor: pointer">
+                              <span class="bld">{{info.name}} </span>
+                              <span *ngIf="!info.show">&#9655; </span>
+                              <span *ngIf="info.show">&#9661; </span>
+                            </div>
+                            <ng-container *ngIf="info.show">
+                              <div *ngFor="let desc of info.desc" style="text-align: justify;">{{desc}}</div>
+                            </ng-container>
                         </div>
                     </div>
                 </div>

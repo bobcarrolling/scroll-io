@@ -55,11 +55,11 @@
 			"perception": "+17",
 			"persuasion": "+18"
 		},
-		"resist": "necrotic ",
-		"immune": "radiant ",
-		"immunity": "charmed, exhaustion, frightened, poisoned ",
-		"senses": "truesight 120 ft., passive Perception 27 ",
-		"languages": "all, telepathy 120 ft. ",
+		"resist": "necrotic",
+		"immune": "radiant",
+		"immunity": "charmed, exhaustion, frightened, poisoned",
+		"senses": "truesight 120 ft., passive Perception 27",
+		"languages": "all, telepathy 120 ft.",
 		"cr": {
 			"text": "26",
 			"value": 26
@@ -69,7 +69,7 @@
 				"name": "Legendary Might.",
 				"effect": [
 					{
-						"text": "Absolution can expend a legendary resistance to add their Charisma modifier to an attack roll after knowing the result, to their AC for a single attack that would hit them, or inflict additional radiant damage equal to double the modifier of one of their attacks' damage rolls. "
+						"text": "Absolution can expend a legendary resistance to add their Charisma modifier to an attack roll after knowing the result, to their AC for a single attack that would hit them, or inflict additional radiant damage equal to double the modifier of one of their attacks' damage rolls.  "
 					}
 				]
 			},
@@ -77,7 +77,7 @@
 				"name": "Legendary Resistance (3/Day).",
 				"effect": [
 					{
-						"text": "If Absolution fails a saving throw, they can choose to succeed instead. "
+						"text": "If Absolution fails a saving throw, they can choose to succeed instead.  "
 					}
 				]
 			},
@@ -92,7 +92,7 @@
 						"dc": true
 					},
 					{
-						"text": " Wisdom saving throw. On a failed save, Absolution regains a legendary resistance, up to a maximum of 3. "
+						"text": " Wisdom saving throw. On a failed save, Absolution regains a legendary resistance, up to a maximum of 3.  "
 					}
 				]
 			},
@@ -100,18 +100,18 @@
 				"name": "Sublime Conceit.",
 				"effect": [
 					{
-						"text": "Absolution is visible or invisible to any creature it chooses at will. "
+						"text": "Absolution is visible or invisible to any creature it chooses at will.  "
 					}
 				]
 			}
 		],
-		"traitsize": 739,
+		"traitsize": 743,
 		"actions": [
 			{
 				"name": "Multiattack.",
 				"effect": [
 					{
-						"text": "Absolution can use their Divine Presence, then make three attacks: one with their bite and two with their claws. "
+						"text": "Absolution can use their Divine Presence, then make three attacks: one with their bite and two with their claws.  "
 					}
 				]
 			},
@@ -147,7 +147,7 @@
 						"dice": true
 					},
 					{
-						"text": ") piercing damage. "
+						"text": ") piercing damage.  "
 					}
 				]
 			},
@@ -183,7 +183,7 @@
 						"dice": true
 					},
 					{
-						"text": ") slashing damage. "
+						"text": ") slashing damage.  "
 					}
 				]
 			},
@@ -219,7 +219,7 @@
 						"dice": true
 					},
 					{
-						"text": ") bludgeoning damage. "
+						"text": ") bludgeoning damage.  "
 					}
 				]
 			},
@@ -234,7 +234,7 @@
 						"dc": true
 					},
 					{
-						"text": " Wisdom saving throw or it cannot gain advantage on any rolls for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Absolution's Divine Presence for the next 24 hours. "
+						"text": " Wisdom saving throw or it cannot gain advantage on any rolls for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Absolution's Divine Presence for the next 24 hours.  "
 					}
 				]
 			},
@@ -242,7 +242,7 @@
 				"name": "Breath Weapons ",
 				"effect": [
 					{
-						"text": "Absolution uses one of the following breath weapons. "
+						"text": "Absolution uses one of the following breath weapons.  "
 					}
 				],
 				"recharge": "5–6",
@@ -272,7 +272,7 @@
 								"dice": true
 							},
 							{
-								"text": ") radiant damage for this attack. "
+								"text": ") radiant damage for this attack."
 							}
 						]
 					},
@@ -308,7 +308,7 @@
 								"dice": true
 							},
 							{
-								"text": ") cold damage, or half as much damage on a successful one. "
+								"text": ") cold damage, or half as much damage on a successful one."
 							}
 						]
 					}
@@ -325,20 +325,20 @@
 						"dice": true
 					},
 					{
-						"text": ") hit points and is freed from any curse, disease, poison, blindness, or deafness. "
+						"text": ") hit points and is freed from any curse, disease, poison, blindness, or deafness.  "
 					}
 				]
 			}
 		],
-		"actionsize": 1958,
+		"actionsize": 1963,
 		"legendary": {
-			"info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of their turn. ",
+			"info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of their turn.",
 			"actions": [
 				{
 					"name": "Overawe.",
 					"effect": [
 						{
-							"text": "Absolution uses their divine presence on a single creature, ignoring immunity. "
+							"text": "Absolution uses their divine presence on a single creature, ignoring immunity."
 						}
 					]
 				},
@@ -346,7 +346,7 @@
 					"name": "Tail Attack.",
 					"effect": [
 						{
-							"text": "Absolution makes a tail attack. "
+							"text": "Absolution makes a tail attack."
 						}
 					]
 				},
@@ -354,7 +354,7 @@
 					"name": "Heal (Costs 2 Actions).",
 					"effect": [
 						{
-							"text": "Absolution uses their healing touch. "
+							"text": "Absolution uses their healing touch."
 						}
 					]
 				},
@@ -376,7 +376,7 @@
 							"dice": true
 						},
 						{
-							"text": ") bludgeoning damage and be knocked prone. Absolution can then fly up to half their flying speed. "
+							"text": ") bludgeoning damage and be knocked prone. Absolution can then fly up to half their flying speed."
 						}
 					]
 				}
@@ -431,9 +431,9 @@
 		"skills": {
 			"acrobatics": "+7"
 		},
-		"immune": "bludgeoning, piercing, slashing ",
-		"senses": "passive Perception 11 ",
-		"languages": "understands Sylvan but can't speak ",
+		"immune": "bludgeoning, piercing, slashing",
+		"senses": "passive Perception 11",
+		"languages": "understands Sylvan but can't speak",
 		"cr": {
 			"text": "1",
 			"value": 1
@@ -443,7 +443,7 @@
 				"name": "Drift.",
 				"effect": [
 					{
-						"text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity. "
+						"text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity.  "
 					}
 				]
 			},
@@ -451,7 +451,7 @@
 				"name": "Lightning Absorption.",
 				"effect": [
 					{
-						"text": "Whenever the flitterpuff is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt. "
+						"text": "Whenever the flitterpuff is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.  "
 					}
 				]
 			},
@@ -466,22 +466,22 @@
 						"dc": true
 					},
 					{
-						"text": "). It can innately cast the following spells, requiring no components: "
+						"text": "). It can innately cast the following spells, requiring no components:  "
 					}
 				],
 				"spells": [
 					{
 						"label": "At will",
-						"list": "shocking grasp "
+						"list": "shocking grasp  "
 					},
 					{
 						"label": "1/day each",
-						"list": "absorb elements, cure wounds "
+						"list": "absorb elements, cure wounds  "
 					}
 				]
 			}
 		],
-		"traitsize": 602,
+		"traitsize": 607,
 		"actions": [
 			{
 				"name": "Puff.",
@@ -494,12 +494,12 @@
 						"dc": true
 					},
 					{
-						"text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn. "
+						"text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn."
 					}
 				]
 			}
 		],
-		"actionsize": 222
+		"actionsize": 221
 	},
 	{
 		"name": "Owlrex",
@@ -549,8 +549,8 @@
 		"skills": {
 			"perception": "+6"
 		},
-		"senses": "darkvision 60 ft., passive Perception 16 ",
-		"languages": "— ",
+		"senses": "darkvision 60 ft., passive Perception 16",
+		"languages": "—",
 		"cr": {
 			"text": "9",
 			"value": 9
@@ -560,18 +560,18 @@
 				"name": "Keen Sight and Smell.",
 				"effect": [
 					{
-						"text": "The owlrex has advantage on Wisdom (Perception) checks that rely on sight or smell. "
+						"text": "The owlrex has advantage on Wisdom (Perception) checks that rely on sight or smell.  "
 					}
 				]
 			}
 		],
-		"traitsize": 113,
+		"traitsize": 114,
 		"actions": [
 			{
 				"name": "Multiattack.",
 				"effect": [
 					{
-						"text": "The owlrex makes two attacks: one with its beak and one with its claws. "
+						"text": "The owlrex makes two attacks: one with its beak and one with its claws.  "
 					}
 				]
 			},
@@ -614,7 +614,7 @@
 						"dc": true
 					},
 					{
-						"text": "). Until this grapple ends, the target is restrained, and the owlrex can't bite another target. "
+						"text": "). Until this grapple ends, the target is restrained, and the owlrex can't bite another target.  "
 					}
 				]
 			},
@@ -650,7 +650,7 @@
 						"dice": true
 					},
 					{
-						"text": ") slashing damage. "
+						"text": ") slashing damage.  "
 					}
 				]
 			},
@@ -672,12 +672,12 @@
 						"dice": true
 					},
 					{
-						"text": ") bludgeoning damage and be knocked prone. The owlrex can then jump up to 25 ft. away. "
+						"text": ") bludgeoning damage and be knocked prone. The owlrex can then jump up to 25 ft. away."
 					}
 				]
 			}
 		],
-		"actionsize": 737
+		"actionsize": 739
 	},
 	{
 		"name": "Swarm of Hostile Magic Items",
@@ -724,11 +724,11 @@
 			},
 			"highest": "str"
 		},
-		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks ",
-		"immune": "poison, psychic ",
+		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+		"immune": "poison, psychic",
 		"immunity": "all ",
-		"senses": "blindsight 60 ft., passive Perception 10 ",
-		"languages": "— ",
+		"senses": "blindsight 60 ft., passive Perception 10",
+		"languages": "—",
 		"cr": {
 			"text": "9",
 			"value": 9
@@ -752,7 +752,7 @@
 						"itl": true
 					},
 					{
-						"text": ", the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute. "
+						"text": ", the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.  "
 					}
 				]
 			},
@@ -760,7 +760,7 @@
 				"name": "Magic Resistance.",
 				"effect": [
 					{
-						"text": "The swarm has advantage on saving throws against spells and other magical effects. "
+						"text": "The swarm has advantage on saving throws against spells and other magical effects.  "
 					}
 				]
 			},
@@ -768,7 +768,7 @@
 				"name": "Random Trait.",
 				"effect": [
 					{
-						"text": "At the beginning of every turn in the initiative and lasting until the end of that turn, the swarm gains a random trait from the list below. "
+						"text": "At the beginning of every turn in the initiative and lasting until the end of that turn, the swarm gains a random trait from the list below.  "
 					}
 				],
 				"options": [
@@ -783,7 +783,7 @@
 								"bonus": true
 							},
 							{
-								"text": " bonus to AC and saving throws. "
+								"text": " bonus to AC and saving throws."
 							}
 						]
 					},
@@ -791,7 +791,7 @@
 						"name": "2. Unseeing Cloak.",
 						"effect": [
 							{
-								"text": "The swarm is invisible and gains truesight out to 60 feet. "
+								"text": "The swarm is invisible and gains truesight out to 60 feet."
 							}
 						]
 					},
@@ -806,7 +806,7 @@
 								"dice": true
 							},
 							{
-								"text": " hit points. This effect does not increase the swarm's maximum amount of hit points. "
+								"text": " hit points. This effect does not increase the swarm's maximum amount of hit points."
 							}
 						]
 					},
@@ -828,7 +828,7 @@
 								"dice": true
 							},
 							{
-								"text": ") cold damage. "
+								"text": ") cold damage."
 							}
 						]
 					},
@@ -836,7 +836,7 @@
 						"name": "5. Circlet of Warping.",
 						"effect": [
 							{
-								"text": "The swarm teleports to a space within 60 feet. "
+								"text": "The swarm teleports to a space within 60 feet."
 							}
 						]
 					},
@@ -844,7 +844,7 @@
 						"name": "6. Divine Ring.",
 						"effect": [
 							{
-								"text": "The swarm's Intelligence, Wisdom, and Charisma scores all become 22. "
+								"text": "The swarm's Intelligence, Wisdom, and Charisma scores all become 22."
 							}
 						]
 					}
@@ -854,18 +854,18 @@
 				"name": "Swarm.",
 				"effect": [
 					{
-						"text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points unless by one of its traits. "
+						"text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points unless by one of its traits.  "
 					}
 				]
 			}
 		],
-		"traitsize": 1460,
+		"traitsize": 1458,
 		"actions": [
 			{
 				"name": "Random Action.",
 				"effect": [
 					{
-						"text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more. "
+						"text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more.  "
 					}
 				],
 				"options": [
@@ -915,7 +915,7 @@
 								"dc": true
 							},
 							{
-								"text": " Constitution saving throw or be blinded. "
+								"text": " Constitution saving throw or be blinded."
 							}
 						]
 					},
@@ -951,7 +951,7 @@
 								"dice": true
 							},
 							{
-								"text": ") slashing damage. The swarm makes two attacks with this trait, and is considered a critical hit on a roll of 18 or above. "
+								"text": ") slashing damage. The swarm makes two attacks with this trait, and is considered a critical hit on a roll of 18 or above."
 							}
 						]
 					},
@@ -962,7 +962,7 @@
 								"text": ""
 							},
 							{
-								"text": "Melee or Ranged Weapon Attack:",
+								"text": "Melee  or Ranged Weapon Attack:",
 								"itl": true
 							},
 							{
@@ -994,7 +994,7 @@
 								"dice": true
 							},
 							{
-								"text": ") psychic damage. If the attack hits, the dagger can make another attack against a target within 10 feet of the original target before returning to the swarm. "
+								"text": ") psychic damage. If the attack hits, the dagger can make another attack against a target within 10 feet of the original target before returning to the swarm."
 							}
 						]
 					},
@@ -1044,7 +1044,7 @@
 								"dc": true
 							},
 							{
-								"text": " Strength saving throw or become restrained. A creature can repeat the saving throw at the end of its turns to end the effect. "
+								"text": " Strength saving throw or become restrained. A creature can repeat the saving throw at the end of its turns to end the effect."
 							}
 						]
 					},
@@ -1073,7 +1073,7 @@
 								"dice": true
 							},
 							{
-								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder is subject to its effects. "
+								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder is subject to its effects."
 							}
 						]
 					},
@@ -1102,14 +1102,14 @@
 								"dice": true
 							},
 							{
-								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest. "
+								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest."
 							}
 						]
 					}
 				]
 			}
 		],
-		"actionsize": 2265
+		"actionsize": 2261
 	},
 	{
 		"name": "Voodoo Coffin",
@@ -1160,11 +1160,11 @@
 			"con": "+7",
 			"wis": "+1"
 		},
-		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine ",
-		"immune": "necrotic, poison, psychic ",
-		"immunity": "charmed, exhaustion, frightened, paralyzed, poisoned ",
-		"senses": "blindsight 60 ft., blind beyond this radius, passive Perception 8 ",
-		"languages": "— ",
+		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+		"immune": "necrotic, poison, psychic",
+		"immunity": "charmed, exhaustion, frightened, paralyzed, poisoned",
+		"senses": "blindsight 60 ft., blind beyond this radius, passive Perception 8",
+		"languages": "—",
 		"cr": {
 			"text": "6",
 			"value": 6
@@ -1216,7 +1216,7 @@
 						"dc": true
 					},
 					{
-						"text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin. "
+						"text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin.  "
 					},
 					{
 						"text": "At the beginning of each turn a target spends grappled inside the coffin, the target must make a ",
@@ -1248,7 +1248,7 @@
 						"bld": true
 					},
 					{
-						"text": " and recharging the coffin's Disgorge. "
+						"text": " and recharging the coffin's Disgorge.  "
 					}
 				]
 			},
@@ -1270,7 +1270,7 @@
 						"dice": true
 					},
 					{
-						"text": " poison damage and spends its action next turn retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect. "
+						"text": " poison damage and spends its action next turn retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect.  "
 					},
 					{
 						"text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its Pluck, a ",
@@ -1281,13 +1281,13 @@
 						"bld": true
 					},
 					{
-						"text": " steps out of the open casket, emerging into an unoccupied space within 5ft. of the coffin. The casket then closes. "
+						"text": " steps out of the open casket, emerging into an unoccupied space within 5ft. of the coffin. The casket then closes."
 					}
 				],
 				"recharge": "6"
 			}
 		],
-		"actionsize": 1809
+		"actionsize": 1811
 	},
 	{
 		"name": "Xylodynn",
@@ -1340,11 +1340,11 @@
 			"wis": "+7",
 			"cha": "+6"
 		},
-		"resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks ",
-		"immune": "poison ",
-		"immunity": "poisoned ",
-		"senses": "truesight 120 ft., passive Perception 13 ",
-		"languages": "Abyssal, telepathy 120 ft. ",
+		"resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+		"immune": "poison",
+		"immunity": "poisoned",
+		"senses": "truesight 120 ft., passive Perception 13",
+		"languages": "Abyssal, telepathy 120 ft.",
 		"cr": {
 			"text": "12",
 			"value": 12
@@ -1354,7 +1354,7 @@
 				"name": "Augmented Flight.",
 				"effect": [
 					{
-						"text": "The xylodynn can use a bonus action to fly an additional 30 feet until the end of its turn. Attack rolls have disadvantage against it during this movement. "
+						"text": "The xylodynn can use a bonus action to fly an additional 30 feet until the end of its turn. Attack rolls have disadvantage against it during this movement.  "
 					}
 				]
 			},
@@ -1362,18 +1362,18 @@
 				"name": "Magic Resistance.",
 				"effect": [
 					{
-						"text": "The xylodynn has advantage on saving throws against spells and other magical effects. "
+						"text": "The xylodynn has advantage on saving throws against spells and other magical effects.  "
 					}
 				]
 			}
 		],
-		"traitsize": 293,
+		"traitsize": 295,
 		"actions": [
 			{
 				"name": "Multiattack.",
 				"effect": [
 					{
-						"text": "The xylodynn makes two hook claw attacks, then makes one horn attack. "
+						"text": "The xylodynn makes two hook claw attacks, then makes one horn attack.  "
 					}
 				]
 			},
@@ -1416,7 +1416,7 @@
 						"dc": true
 					},
 					{
-						"text": " Dexterity saving throw. On a failed save, the target is pulled within 5 feet of the xylodynn and is knocked prone. "
+						"text": " Dexterity saving throw. On a failed save, the target is pulled within 5 feet of the xylodynn and is knocked prone.  "
 					}
 				]
 			},
@@ -1466,20 +1466,54 @@
 						"dice": true
 					},
 					{
-						"text": ") bludgeoning damage, and the xylodynn tosses the target anywhere between 20 to 40 feet away in any direction. The target lands prone. "
+						"text": ") bludgeoning damage, and the xylodynn tosses the target anywhere between 20 to 40 feet away in any direction. The target lands prone.  "
 					}
 				]
 			}
 		],
-		"actionsize": 310,
+		"actionsize": 309,
 		"reactions": [
 			{
 				"name": "Spell Hatred.",
 				"effect": [
 					{
-						"text": "When a creature within 30 feet that the xylodynn can hear casts a spell, the xylodynn can move using its augmented flight and make a horn attack against the creature. If the attack hits, the target is unable to finish the spell and forfeits their action, as well as losing the spell slot. "
+						"text": "When a creature within 30 feet that the xylodynn can hear casts a spell, the xylodynn can move using its augmented flight and make a horn attack against the creature. If the attack hits, the target is unable to finish the spell and forfeits their action, as well as losing the spell slot."
 					}
 				]
+			}
+		],
+		"info": [
+			{
+				"name": "Militant Enforcers.",
+				"desc": [
+					"Amidst the chaos of the abyss, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
+				],
+				"show": false
+			},
+			{
+				"name": "Infectious Barbarism.",
+				"desc": [
+					"Xylodynn crave utter decimation of their foes in warfare, and are perfectly suited for it. While other demons prefer to corrupt and scheme in the material realms by subverting others to their will, a xylodynn seeks those who already have a thirst for blood and intensify it with hellish fury. Murderers and warmongers will likely find themselves tempted by a xylodynn's offers of power and tactical knowledge.",
+					"It is said that the mere presence of a xylodynn can lead an entire community to reverting to cruel tribal mentalities. Once their minds have unraveled, the xylodynn seizes control and quickly becomes their overlord, seen as an almost deistic figure that they zealously follow to war. Any that are crushed under the might of a xylodynn's army are subject to the same madness, and so its influence spreads like a disease of killing intent."
+				],
+				"show": false
+			},
+			{
+				"name": "Spell Shunners.",
+				"desc": [
+					"Xylodynn have an intriguing enmity towards spellcasters. Not only will they never approach one to offer their services, they will actively help any insurrection against one. In battle, should they hear spells being woven, they are overtaken by a raging impulse to silence the effect. This often leads to conflicts between xylodynn and other more wizardly commanders of demon armies, and even sometimes leads to rebellion against the demon lords who created them.",
+					"Some think that perhaps the xylodynn can hear the shrill sound of reality tearing as magic is summoned forth, and therefore fear and hate it. Alternate theories assert it stems from envy due to their own lack of spellcasting ability, while others hypothesize their scorn for arcane treachery comes from their own warped perspective of a fair fight."
+				],
+				"show": false
+			},
+			{
+				"name": "Combat.",
+				"desc": [
+					"A xylodynn seldom fights alone, and will issue orders to its underlings to have them fight much more tactically than a normal disorganized demon horde. Rather than sitting back and letting its lackeys fight for it, a xylodynn is more than willing to jump in and out of the thick of battle using its augmented flight. No military formation can stand against it as it pulls creatures away with its hook claws, then tosses them afar with its horn.",
+					"A xylodynn fights extremely optimally and makes very few mistakes when engaging in combat - that is, until it hears spellcasting. While its spell hatred reaction is quite strong, it can be used as a weakness against a xylodynn since they won't resist the urge to strike out at a mage. Baiting a xylodynn by casting spells is very easy, but the demon will likely become even angrier after being outsmarted. That anger might lead it to be more analytic in its decisions, or it may fly into a heated raging fury that could lead to even more slip-ups.",
+					"Though not cowardly, a xylodynn knows the importance of a retreat. When battles turn for the worse, a xylodynn will make haste to escape, plotting to return with a force strong enough to crush those who bested it."
+				],
+				"show": false
 			}
 		]
 	}
