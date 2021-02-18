@@ -5,20 +5,20 @@
 				"text": "This thick belt is studded with iron-forged depictions of elephantine creatures. As an action, you can activate the belt until the start of your next turn."
 			},
 			{
-				"text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect when you activate the belt, you can attempt a ",
+				"text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
 				"newline": true,
 				"paragraph": true
 			},
 			{
-				"text": "DC 9",
+				"text": "DC 8",
 				"dc": true
 			},
 			{
-				"text": " Strength check as an action. If successful, you break free of the effect binding you."
+				"text": " Strength check when you activate the belt. If successful, you break free of all effects binding you."
 			}
 		],
 		"sectioncount": 2,
-		"lettercount": 596,
+		"lettercount": 581,
 		"name": "Belt of the Behemoth",
 		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
