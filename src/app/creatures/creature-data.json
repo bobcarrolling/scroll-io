@@ -381,7 +381,9 @@
 					]
 				}
 			]
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
+		"artist": "@chloehx21"
 	},
 	{
 		"name": "Flitterpuff",

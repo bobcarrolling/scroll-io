@@ -353,5 +353,11 @@
             </ng-container>
         </div>
     </div>
+    <div *ngIf="creature.image" class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
+		<div class="column flexcol image-style">
+			<img src="{{creature.image}}" alt="{{creature.name}}">
+			<span>{{creature.artist}}</span>
+		</div>
+	</div>
 </div>
 <app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>
