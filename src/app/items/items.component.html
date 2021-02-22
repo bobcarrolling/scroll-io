@@ -14,8 +14,16 @@
 						<span class="sort-arrow" [innerHTML]="icons[1]" (click)="sortClick(1)"></span>
 					</th>
 					<th class="column-header medium-header">
-						<input type="search" class="search-input" [(ngModel)]="rareSearch" (ngModelChange)="this.searchUpdate.next()"
-            placeholder="Rarity...">
+            <select class="search-input" [(ngModel)]="rareSearch" (ngModelChange)="this.searchUpdate.next()">
+              <option [ngValue]="undefined" hidden>Rarity...</option>
+              <option value="">*Any Rarity</option>
+              <option value="Common">Common</option>
+              <option value="Uncommon">Uncommon</option>
+              <option value="Rare">Rare</option>
+              <option value="Very Rare">Very Rare</option>
+              <option value="Legendary">Legendary</option>
+              <option value="Artifact">Artifact</option>
+            </select>
 						<span class="sort-arrow" [innerHTML]="icons[2]" (click)="sortClick(2)"></span>
 					</th>
 					<th class="column-header small-header">

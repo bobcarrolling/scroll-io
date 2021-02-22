@@ -354,10 +354,10 @@
         </div>
     </div>
     <div *ngIf="creature.image" class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
-		<div class="column flexcol image-style">
-			<img src="{{creature.image}}" alt="{{creature.name}}">
-			<span>{{creature.artist}}</span>
-		</div>
-	</div>
+      <div class="column flexcol image-style">
+        <img src="{{creature.image}}" alt="{{creature.name}}">
+        <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{creature.artist}}">@{{creature.artist}}</a>
+      </div>
+    </div>
 </div>
 <app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>

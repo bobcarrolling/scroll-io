@@ -1,0 +1,116 @@
+<div style="display: flex; height: 100%; justify-content: center">
+	<div class="items-page" *ngIf="spellList" (scroll)="onScroll($event)">
+		<div class="total-tables">
+			<table class="header-table">
+				<tr>
+					<th class="column-header">
+						<input type="search" class="search-input" [(ngModel)]="nameSearch" (ngModelChange)="this.searchUpdate.next()"
+              placeholder="Search by name...">
+						<span class="sort-arrow" [innerHTML]="icons[0]" (click)="sortClick(0)"></span>
+					</th>
+					<th class="column-header medium-header">
+						<select class="search-input" [(ngModel)]="levelSearch" (ngModelChange)="this.searchUpdate.next()">
+              <option [ngValue]="undefined" hidden>Level...</option>
+              <option value="">*Any Level</option>
+              <option value="Cantrip">Cantrip</option>
+              <option value="1st">1st</option>
+              <option value="2nd">2nd</option>
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+              <option value="5th">5th</option>
+              <option value="6th">6th</option>
+              <option value="7th">7th</option>
+              <option value="8th">8th</option>
+              <option value="9th">9th</option>
+            </select>
+						<span class="sort-arrow" [innerHTML]="icons[1]" (click)="sortClick(1)"></span>
+					</th>
+					<th class="column-header medium-header">
+						<select class="search-input" [(ngModel)]="schoolSearch" (ngModelChange)="this.searchUpdate.next()">
+              <option [ngValue]="undefined" hidden>School...</option>
+              <option value="">*Any School</option>
+              <option value="Abjuration">Abjuration</option>
+              <option value="Conjuration">Conjuration</option>
+              <option value="Divination">Divination</option>
+              <option value="Enchantment">Enchantment</option>
+              <option value="Evocation">Evocation</option>
+              <option value="Illusion">Illusion</option>
+              <option value="Necromancy">Necromancy</option>
+              <option value="Transmutation">Transmutation</option>
+            </select>
+						<span class="sort-arrow" [innerHTML]="icons[2]" (click)="sortClick(2)"></span>
+					</th>
+					<th class="column-header tiny-header">
+						<select class="search-input" [(ngModel)]="concToggle" (ngModelChange)="this.searchUpdate.next()" title="Requires Concentration">
+              <option [ngValue]="undefined" hidden>C.</option>
+              <option value="all">*C</option>
+              <option value="yes">YC</option>
+              <option value="no">NC</option>
+            </select>
+						<span class="sort-arrow" [innerHTML]="icons[3]" (click)="sortClick(3)"></span>
+					</th>
+					<th class="column-header tiny-header">
+						<select class="search-input" [(ngModel)]="ritualToggle" (ngModelChange)="this.searchUpdate.next()" title="Ritual Spell">
+              <option [ngValue]="undefined" hidden>R.</option>
+              <option value="all">*R</option>
+              <option value="yes">YR</option>
+              <option value="no">NR</option>
+            </select>
+						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
+					</th>
+					<th class="column-header">
+						<select class="search-input" [(ngModel)]="classSearch" (ngModelChange)="this.searchUpdate.next()">
+              <option [ngValue]="undefined" hidden>Classes...</option>
+              <option value="">*Any Class</option>
+              <option value="Artificer">Artificer</option>
+              <option value="Bard">Bard</option>
+              <option value="Cleric">Cleric</option>
+              <option value="Druid">Druid</option>
+              <option value="Monk">Monk</option>
+              <option value="Paladin">Paladin</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Sorcerer">Sorcerer</option>
+              <option value="Warlock">Warlock</option>
+              <option value="Wizard">Wizard</option>
+            </select>
+						<span class="sort-arrow" [innerHTML]="icons[5]" (click)="sortClick(5)"></span>
+					</th>
+				</tr>
+			</table>
+			<div class="data-table">
+				<table>
+					<ng-container *ngFor="let spell of spellList">
+						<tr *ngIf="!spell.filtered" class="data-row flex align-center" (click)="selectSpell(spell)"
+							[ngClass]="{'selected-row':selected === spell}">
+							<td class="data-interior name-data">{{ spell.name }}</td>
+							<td class="data-interior medium-data">{{ spell.level }}</td>
+							<td class="data-interior medium-data">{{ spell.school.toLowerCase() }}</td>
+							<td class="data-interior tiny-data">
+								<span *ngIf="spell.concentration" style="font-style: italic">C</span></td>
+							<td class="data-interior tiny-data">
+								<span *ngIf="spell.ritual" style="font-style: italic">R</span></td>
+							<td class="data-interior"><span *ngIf="spell.classes">{{spell.classes}}</span>
+							</td>
+						</tr>
+						<ng-container *ngIf="selected && spell === selected">
+							<div [style.marginLeft]="leftBuffer + 'px'" style="margin-right: 5px">
+								<app-spells-display [spell]="selected">
+								</app-spells-display>
+							</div>
+						</ng-container>
+						<ng-container *ngIf="selected && spell === selected">
+							<!-- dummy for formatting -->
+							<div></div>
+						</ng-container>
+					</ng-container>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 1.5rem"
+	class="flexrow justify-center align-start">
+	<div class="counter">
+		Showing {{filteredCount}}/{{spellList.length}}
+	</div>
+</div>

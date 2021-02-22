@@ -383,7 +383,335 @@
 			]
 		},
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
-		"artist": "@chloehx21"
+		"artist": "chloehx21"
+	},
+	{
+		"name": "Bulu",
+		"size": {
+			"text": "Tiny",
+			"value": 0
+		},
+		"type": "celestial",
+		"alignment": "lawful good",
+		"ac": "13",
+		"hp": "7 (5d4 - 5)",
+		"hpdice": "5d4 - 5",
+		"speed": "40 ft., fly 40 ft.",
+		"abilities": {
+			"str": {
+				"val": "6 (-2)",
+				"score": "6",
+				"bonus": "-2"
+			},
+			"dex": {
+				"val": "16 (+3)",
+				"score": "16",
+				"bonus": "+3"
+			},
+			"con": {
+				"val": "8 (-1)",
+				"score": "8",
+				"bonus": "-1"
+			},
+			"int": {
+				"val": "6 (-2)",
+				"score": "6",
+				"bonus": "-2"
+			},
+			"wis": {
+				"val": "14 (+2)",
+				"score": "14",
+				"bonus": "+2"
+			},
+			"cha": {
+				"val": "15 (+2)",
+				"score": "15",
+				"bonus": "+2"
+			},
+			"highest": "dex"
+		},
+		"skills": {
+			"acrobatics": "+5",
+			"perception": "+4"
+		},
+		"senses": "passive Perception 14",
+		"languages": "—",
+		"cr": {
+			"text": "1/8",
+			"value": 0.125
+		},
+		"traits": [
+			{
+				"name": "Keen Hearing.",
+				"effect": [
+					{
+						"text": "The bulu has advantage on Wisdom (Perception) checks that rely on hearing.  "
+					}
+				]
+			},
+			{
+				"name": "Spell Turning.",
+				"effect": [
+					{
+						"text": "The bulu has advantage on saving throws against any spell that targets only the bulu (not an area). If the bulu's saving throw succeeds and the spell is of a level equal to or less than the bulu's current hit points, the spell has no effect on the bulu and instead targets the caster.  "
+					}
+				]
+			},
+			{
+				"name": "Ward Self.",
+				"effect": [
+					{
+						"text": "The bulu can cast "
+					},
+					{
+						"text": "sanctuary",
+						"itl": true
+					},
+					{
+						"text": " (spell save "
+					},
+					{
+						"text": "DC 12",
+						"dc": true
+					},
+					{
+						"text": ") on itself at will.  "
+					}
+				]
+			}
+		],
+		"traitsize": 494,
+		"actions": [
+			{
+				"name": "Heal.",
+				"effect": [
+					{
+						"text": "The bulu regains 1 hit point."
+					}
+				]
+			}
+		],
+		"actionsize": 42
+	},
+	{
+		"name": "Dragon Tortoise",
+		"size": {
+			"text": "Gargantuan",
+			"value": 5
+		},
+		"type": "dragon",
+		"alignment": "neutral good",
+		"ac": "21 (natural armor)",
+		"hp": "356 (23d20 + 115)",
+		"hpdice": "23d20 + 115",
+		"speed": "25 ft., burrow 10 ft.",
+		"abilities": {
+			"str": {
+				"val": "26 (+8)",
+				"score": "26",
+				"bonus": "+8"
+			},
+			"dex": {
+				"val": "6 (-2)",
+				"score": "6",
+				"bonus": "-2"
+			},
+			"con": {
+				"val": "21 (+5)",
+				"score": "21",
+				"bonus": "+5"
+			},
+			"int": {
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
+			},
+			"wis": {
+				"val": "14 (+2)",
+				"score": "14",
+				"bonus": "+2"
+			},
+			"cha": {
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
+			},
+			"highest": "str"
+		},
+		"saves": {
+			"str": "+14",
+			"con": "+11",
+			"wis": "+8"
+		},
+		"resist": "thunder",
+		"senses": "passive Perception 12",
+		"languages": "Draconic, Terran",
+		"cr": {
+			"text": "17",
+			"value": 17
+		},
+		"traits": [
+			{
+				"name": "False Appearance.",
+				"effect": [
+					{
+						"text": "While the dragon tortoise remains motionless and half-buried, it is indistinguishable from a large boulder or other natural rock.  "
+					}
+				]
+			},
+			{
+				"name": "Heavy-Footed.",
+				"effect": [
+					{
+						"text": "The dragon tortoise has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will. Additionally, if the dragon tortoise is moved against its will, the distance it is moved is halved. If the distance is 5 ft. or less, the dragon tortoise is not moved.  "
+					}
+				]
+			}
+		],
+		"traitsize": 497,
+		"actions": [
+			{
+				"name": "Multiattack.",
+				"effect": [
+					{
+						"text": "The dragon tortoise makes three attacks: one with its bite, one with its stomp, and one with its tail. They cannot be against the same target.  "
+					}
+				]
+			},
+			{
+				"name": "Bite.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+14",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 20 ft., one target. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 30 ("
+					},
+					{
+						"text": "4d10 + 8",
+						"dice": true
+					},
+					{
+						"text": ") bludgeoning damage, and the dragon tortoise can choose to pull the target 20 ft. closer to itself.  "
+					}
+				]
+			},
+			{
+				"name": "Stomp.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+14",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 10 ft., one target that is on the ground. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 18 ("
+					},
+					{
+						"text": "3d6 + 8",
+						"dice": true
+					},
+					{
+						"text": ") bludgeoning damage, and the target is knocked prone.  "
+					}
+				]
+			},
+			{
+				"name": "Tail.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+14",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 10 ft., one target. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 34 ("
+					},
+					{
+						"text": "4d12 + 8",
+						"dice": true
+					},
+					{
+						"text": ") bludgeoning damage.  "
+					}
+				]
+			},
+			{
+				"name": "Warming Breath ",
+				"effect": [
+					{
+						"text": "The dragon tortoise exhales a relaxing breath in a 60-foot cone. Each creature in that area must make a "
+					},
+					{
+						"text": "DC 19",
+						"dc": true
+					},
+					{
+						"text": " Constitution saving throw. On a failure, a creature becomes indifferent to the dragon tortoise until the end of its next turn. This indifference ends if the target is attacked or if it witnesses any of its friends being harmed by the dragon tortoise.  "
+					}
+				],
+				"recharge": "5–6"
+			},
+			{
+				"name": "Withdrawal.",
+				"effect": [
+					{
+						"text": "The dragon tortoise retreats within its shell. Until it takes a different action, it gains resistance to all damage except psychic damage. On the turn the dragon tortoise uses its withdrawal, its walking speed is reduced to zero, and its burrow speed is reduced to 5 ft. If half-buried or more in this state, the dragon tortoise has advantage on all saving throws."
+					}
+				]
+			}
+		],
+		"actionsize": 1434
 	},
 	{
 		"name": "Flitterpuff",
@@ -502,6 +830,175 @@
 			}
 		],
 		"actionsize": 221
+	},
+	{
+		"name": "Forest Giant",
+		"size": {
+			"text": "Large",
+			"value": 3
+		},
+		"type": "giant",
+		"alignment": "chaotic neutral",
+		"ac": "14 (patchwork leather)",
+		"hp": "68 (8d10 + 24)",
+		"hpdice": "8d10 + 24",
+		"speed": "40 ft.",
+		"abilities": {
+			"str": {
+				"val": "20 (+5)",
+				"score": "20",
+				"bonus": "+5"
+			},
+			"dex": {
+				"val": "17 (+3)",
+				"score": "17",
+				"bonus": "+3"
+			},
+			"con": {
+				"val": "16 (+3)",
+				"score": "16",
+				"bonus": "+3"
+			},
+			"int": {
+				"val": "9 (-1)",
+				"score": "9",
+				"bonus": "-1"
+			},
+			"wis": {
+				"val": "16 (+3)",
+				"score": "16",
+				"bonus": "+3"
+			},
+			"cha": {
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
+			},
+			"highest": "str"
+		},
+		"saves": {
+			"dex": "+5"
+		},
+		"skills": {
+			"acrobatics": "+5",
+			"perception": "+5",
+			"stealth": "+5",
+			"survival": "+7"
+		},
+		"senses": "darkvision 60 ft., passive Perception 15",
+		"languages": "Giant, Druidic",
+		"cr": {
+			"text": "4",
+			"value": 4
+		},
+		"traits": [
+			{
+				"name": "Timber Seeds (3/day).",
+				"effect": [
+					{
+						"text": "Before making a ranged weapon attack, the giant can choose to attach a pouch of timber seeds to the ammunition or the thrown weapon. When it does so, the range of the weapon is halved. If the attack hits a creature, the creature must make a "
+					},
+					{
+						"text": "DC 13",
+						"dc": true
+					},
+					{
+						"text": " Strength saving throw or be knocked 15 feet away from the giant. A 20 foot tall, 5 foot wide tree grows in the previously occupied space, and tangled roots create difficult terrain in a 15 foot radius centered on the tree. If the attack misses or the creature succeeds its saving throw, the tree grows in the space behind the creature.  "
+					}
+				]
+			}
+		],
+		"traitsize": 613,
+		"actions": [
+			{
+				"name": "Multiattack.",
+				"effect": [
+					{
+						"text": "The giant makes two attacks with its greatspear or greatbow.  "
+					}
+				]
+			},
+			{
+				"name": "Greatspear.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee  or Ranged Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+7",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 5 ft. or range 40/120 ft., one target. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 10 ("
+					},
+					{
+						"text": "1d10 + 5",
+						"dice": true
+					},
+					{
+						"text": ") piercing damage, or 11 ("
+					},
+					{
+						"text": "1d12 + 5",
+						"dice": true
+					},
+					{
+						"text": ") piercing damage if used with two hands to make a melee attack.  "
+					}
+				]
+			},
+			{
+				"name": "Greatbow.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Ranged Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+5",
+						"bonus": true
+					},
+					{
+						"text": " to hit, range 300/1200 ft., one target. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 8 ("
+					},
+					{
+						"text": "1d10 + 3",
+						"dice": true
+					},
+					{
+						"text": ") piercing damage."
+					}
+				]
+			}
+		],
+		"actionsize": 432
 	},
 	{
 		"name": "Owlrex",

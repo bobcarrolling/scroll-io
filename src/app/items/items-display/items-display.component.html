@@ -23,16 +23,16 @@
 					<ng-container *ngFor="let effect of item.effects; let i = index">
 						<span *ngIf="effect.newline"><br />
               <!-- height between paragraphs -->
-              <div style="height: 0.1rem"></div>
+              <div style="height: 0.15rem"></div>
               <!-- height between newlines -->
               <div style="height: 0.4rem" *ngIf="item.effects[i+1] && item.effects[i+1].bld && item.effects[i+1].itl"></div>
               <!-- paragraph indent -->
-              <span *ngIf="effect.text !== '___' && (effect.paragraph || i === 0)">&nbsp;&nbsp;</span>
+              <span *ngIf="!effect.list && effect.text !== '___' && (effect.paragraph || i === 0) && item.effects[i-1] && !item.effects[i-1].list">&nbsp;&nbsp;</span>
 						</span>
 						<!-- actual title and text -->
 						<span *ngIf="effect.text !== '___'"
                   [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice, 'highlight': effect.dice || effect.bonus || effect.dc
-                  ,'bld-itl': effect.bld && effect.itl && item.effects[i-1] && item.effects[i-1].newline}"
+                  ,'bld-itl': effect.bld && effect.itl && item.effects[i-1] && item.effects[i-1].newline, 'list': effect.list}"
                   (click)="checkRoll(effect)"
                   >{{effect.text}}</span>
 					</ng-container>
@@ -41,9 +41,9 @@
 		</div>
 	</div>
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
-		<div class="column flexcol image-style">
+		<div class="column flexcol image-style" *ngIf="item.image">
 			<img *ngIf="item.image" src="{{item.image}}" alt="{{item.name}}">
-			<span>{{item.artist}}</span>
+			<a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{item.artist}}">@{{item.artist}}</a>
 		</div>
 	</div>
 </div>

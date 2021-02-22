@@ -1,0 +1,68 @@
+<div *ngIf="spell" class="container transition flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
+	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
+		<div class="column flexcol">
+			<div class="name-box">
+				<h1 class="flexrow namerow">
+                <span class="name" *ngFor="let c of splitName; let i = index" [ngClass]="{'name-word': isWord(c)}">
+                    {{c.toUpperCase()}}&nbsp;
+                    <span *ngIf="i < splitName.length-1" style="margin-right: 0.1rem;"></span>
+                </span>
+            </h1>
+				<p class="type" *ngIf="spell.level === 'cantrip'">
+					{{spell.school}} cantrip
+				</p>
+        <p class="type" *ngIf="spell.level !== 'cantrip'">
+					{{spell.level}} {{spell.school}}
+				</p>
+        <p class="spell-info" *ngIf="spell.castingtime">
+					<span class="bld">Casting Time: </span>{{spell.castingtime}}
+				</p>
+        <p class="spell-info" *ngIf="spell.range">
+					<span class="bld">Range: </span>{{spell.range}}
+				</p>
+        <p class="spell-info" *ngIf="spell.components">
+					<span class="bld">Components: </span>{{spell.components}}
+				</p>
+        <p class="spell-info" *ngIf="spell.duration">
+					<span class="bld">Duration: </span>{{spell.duration}}
+				</p>
+        <p class="spell-info" *ngIf="spell.classes">
+					<span class="bld">Classes: </span>{{spell.classes}}
+				</p>
+        <br/>
+				<div class="svg flexcol justify-center" style="margin-top: -1rem">
+					<svg width="100%" height="3" viewBox="0 0 1000 3" preserveAspectRatio="none">
+						<polygon points="0,0  1000,1.5  0,3" style="fill: teal;" />
+					</svg>
+				</div>
+			</div>
+			<div class="flexcol trait-box" style="white-space: pre-line">
+				<div class="trait-text">
+					<ng-container *ngFor="let effect of spell.effects; let i = index">
+						<span *ngIf="effect.newline"><br />
+              <!-- height between paragraphs -->
+              <div style="height: 0.15rem"></div>
+              <!-- height between newlines -->
+              <div style="height: 0.4rem" *ngIf="spell.effects[i+1] && spell.effects[i+1].bld && spell.effects[i+1].itl"></div>
+              <!-- paragraph indent -->
+              <span *ngIf="!effect.list && effect.text !== '___' && (effect.paragraph || i === 0) && spell.effects[i-1] && !spell.effects[i-1].list">&nbsp;&nbsp;</span>
+						</span>
+						<!-- actual title and text -->
+						<span *ngIf="effect.text !== '___'"
+                  [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice, 'highlight': effect.dice || effect.bonus || effect.dc
+                  ,'bld-itl': effect.bld && effect.itl && spell.effects[i-1] && spell.effects[i-1].newline, 'list': effect.list}"
+                  (click)="checkRoll(effect)"
+                  >{{effect.text}}</span>
+					</ng-container>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
+		<div class="column flexcol image-style">
+			<img *ngIf="spell.image" src="{{spell.image}}" alt="{{spell.name}}">
+			<span>{{spell.artist}}</span>
+		</div>
+	</div> -->
+</div>
+<app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>

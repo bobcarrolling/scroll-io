@@ -107,8 +107,8 @@ select.search-input {
 }
 
 .tiny-data {
-  min-width: 1.5rem;
-  max-width: 1.5rem;
+  min-width: 1rem;
+  max-width: 1rem;
 }
 
 .small-data {

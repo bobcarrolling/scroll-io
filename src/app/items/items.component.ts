@@ -89,7 +89,7 @@ export class ItemsComponent implements OnInit {
       if (typeSearch && item.type.toLowerCase().indexOf(typeSearch) < 0) {
         item.filtered = true;
       }
-      if (rareSearch && item.rarity.text.indexOf(rareSearch) < 0) {
+      if (rareSearch && item.rarity.text.toLowerCase() !== rareSearch) {
         item.filtered = true;
       }
       if (

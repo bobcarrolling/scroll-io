@@ -18,7 +18,7 @@ p {
 }
 
 .container-lg {
-  width: calc(47.5rem - 8px);
+  width: calc(55rem - 8px);
 }
 .container-sm {
   width: calc(100vw - 1rem + 1px);
@@ -29,8 +29,8 @@ p {
   cursor: text;
 }
 .column-lg {
-  min-width: calc(23.75rem - 5px);
-  width: calc(23.75rem - 5px);
+  min-width: calc(27.5rem - 5px);
+  width: calc(27.5rem - 5px);
 }
 .column-sm {
   width: calc(100vw - 1rem - 1px);
@@ -204,6 +204,18 @@ h3 {
 }
 .hover-shadow:hover {
   opacity: 100%;
+}
+
+.image-style img {
+  max-width: 100%;
+  min-height: 8rem;
+  margin-bottom: -1rem;
+  cursor: auto;
+}
+.image-style a {
+  text-align: right;
+  font-style: italic;
+  opacity: 0.66;
 }
 
 ::-webkit-scrollbar-thumb {

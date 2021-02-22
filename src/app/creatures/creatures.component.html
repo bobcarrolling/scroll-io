@@ -18,15 +18,20 @@
             placeholder="Type and subtype...">
 						<span class="sort-arrow" [innerHTML]="icons[2]" (click)="sortClick(2)"></span>
 					</th>
+          <th class="column-header medium-header">
+						<input type="search" class="search-input" [(ngModel)]="alignSearch" (ngModelChange)="this.searchUpdate.next()"
+            placeholder="Alignment...">
+						<span class="sort-arrow" [innerHTML]="icons[3]" (click)="sortClick(3)"></span>
+					</th>
 					<th class="column-header small-header">
 						<input type="search" class="search-input" [(ngModel)]="sizeSearch" (ngModelChange)="this.searchUpdate.next()"
             placeholder="Size...">
-						<span class="sort-arrow" [innerHTML]="icons[3]" (click)="sortClick(3)"></span>
+						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
 					</th>
 					<th class="column-header medium-header">
 						<input type="search" class="search-input" [(ngModel)]="abiSearch" (ngModelChange)="this.searchUpdate.next()"
             placeholder="Top stat...">
-						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
+						<span class="sort-arrow" [innerHTML]="icons[5]" (click)="sortClick(5)"></span>
 					</th>
 				</tr>
 			</table>
@@ -38,6 +43,9 @@
 							<td class="data-interior name-data">{{ creature.name }}</td>
 							<td class="data-interior small-data">{{ creature.cr.text }}</td>
 							<td class="data-interior">{{ creature.type }}</td>
+              <td class="data-interior medium-data">
+								{{creature.alignment }}
+							</td>
 							<td class="data-interior small-data">{{ creature.size.text }}</td>
 							<td class="data-interior medium-data">
 								{{creature.abilities.highest.toUpperCase() + ' ' + creature.abilities[creature.abilities.highest].val }}

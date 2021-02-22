@@ -36,6 +36,7 @@ export class CreaturesComponent implements OnInit {
   nameSearch: string;
   crSearch: string;
   typeSearch: string;
+  alignSearch: string;
   sizeSearch: string;
   abiSearch: string;
 
@@ -44,6 +45,7 @@ export class CreaturesComponent implements OnInit {
   readonly downarrow = "&#9660;";
   icons = [
     this.downarrow,
+    this.rightarrow,
     this.rightarrow,
     this.rightarrow,
     this.rightarrow,
@@ -76,6 +78,10 @@ export class CreaturesComponent implements OnInit {
     if (this.typeSearch) {
       typeSearch = this.typeSearch.toLowerCase();
     }
+    let alignSearch;
+    if (this.alignSearch) {
+      alignSearch = this.alignSearch.toLowerCase();
+    }
     let sizeSearch;
     if (this.sizeSearch) {
       sizeSearch = this.sizeSearch.toLowerCase();
@@ -94,6 +100,9 @@ export class CreaturesComponent implements OnInit {
         creature.filtered = true;
       }
       if (typeSearch && creature.type.toLowerCase().indexOf(typeSearch) < 0) {
+        creature.filtered = true;
+      }
+      if (alignSearch && creature.alignment.toLowerCase().indexOf(alignSearch) < 0) {
         creature.filtered = true;
       }
       if (
@@ -157,13 +166,21 @@ export class CreaturesComponent implements OnInit {
       }
       case 3: {
         if (asc) {
+          this.sortStringAsc("alignment");
+        } else {
+          this.sortStringDesc("alignment");
+        }
+        break;
+      }
+      case 4: {
+        if (asc) {
           this.sortSubNumAsc("size", "value");
         } else {
           this.sortSubNumDesc("size", "value");
         }
         break;
       }
-      case 4: {
+      case 5: {
         if (asc) {
           this.sortAbiAsc();
         } else {

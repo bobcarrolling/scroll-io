@@ -94,7 +94,7 @@
 			"rating": 3
 		},
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater_Lantern.png",
-		"artist": "@dgalexandre1"
+		"artist": "dgalexandre1"
 	},
 	{
 		"effects": [
@@ -288,6 +288,6 @@
 			"rating": 2
 		},
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woolly_sheep_Armour.png",
-		"artist": "@dgalexandre1"
+		"artist": "dgalexandre1"
 	}
 ]

@@ -13,6 +13,7 @@ import { ItemsComponent } from "./items/items.component";
 import { ItemsDisplayComponent } from "./items/items-display/items-display.component";
 import { APP_BASE_HREF } from "@angular/common";
 import { SpellsComponent } from './spells/spells.component';
+import { SpellsDisplayComponent } from './spells/spells-display/spells-display.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
@@ -25,7 +26,8 @@ import { SpellsComponent } from './spells/spells.component';
     RollviewComponent,
     ItemsComponent,
     ItemsDisplayComponent,
-    SpellsComponent
+    SpellsComponent,
+    SpellsDisplayComponent
   ],
   bootstrap: [AppComponent],
   providers: [{ provide: APP_BASE_HREF, useValue: "" }]
