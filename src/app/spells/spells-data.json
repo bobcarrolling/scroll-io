@@ -7,29 +7,25 @@
 			{
 				"text": "- If you touch an area of hardened earth, stone, wood, or ice, you can cause it to slowly dry and crack apart. If you target a construct, elemental, or plant made of this material, you must make a melee spell attack to make contact. Upon touch, that area or creature takes an amount of bludgeoning damage equal to your level.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "- If you touch an area of loose dirt, sand, or soil on the ground, you can soften the surface and make it difficult terrain. If you continue to repeat this in the same spot on subsequent turns, the affected surface area increases by 5 feet radially. You can increase the size a number of times equal to your spellcasting ability modifier. The change lasts for 10 minutes from the initial casting. Using this again in a different location ends any previous effect.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "- If you touch an area of ice, you can melt it into liquid. The liquid refreezes at its own pace if conditions provide.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "- You can make any beverage held in your hand pleasantly warm to drink.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			}
 		],
-		"sectioncount": 5,
+		"sectioncount": 1,
 		"lettercount": 1304,
 		"name": "Agitate",
 		"level": "cantrip",
@@ -186,20 +182,17 @@
 			{
 				"text": "- You can move up to your speed during the creature's turn by moving in tandem. For every 5 feet the creature moves, you can also move 5 feet.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "- You know what action and bonus action the creature will take, along with its targets, just before it happens.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "- Before the creature uses its action or bonus action, you can expend your reaction to use any remaining movement you haven't used during the creature's turn and take an action or bonus action. Once the creature has chosen its action, it cannot change any part of that action (such as targets or direction), no matter how you respond.",
 				"newline": true,
-				"list": true,
-				"paragraph": true
+				"list": true
 			},
 			{
 				"text": "Regardless of the spell lasting for its duration, as long as the creature failed its saving throw, the stolen time pulls you back into its normal flow. On your next turn you must take only an action, a bonus action, or move exclusively.",
@@ -207,7 +200,7 @@
 				"paragraph": true
 			}
 		],
-		"sectioncount": 5,
+		"sectioncount": 2,
 		"lettercount": 1496,
 		"name": "Synchronization",
 		"level": "3rd-level",

@@ -34,8 +34,6 @@ export class SpellsDisplayComponent implements OnInit {
 
   timeout: number;
   showpage = false;
-  column1: any[] = [];
-  column2: any[] = [];
 
   private _spell;
   @Input()
