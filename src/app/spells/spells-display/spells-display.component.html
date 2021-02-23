@@ -14,21 +14,23 @@
         <p class="type" *ngIf="spell.level !== 'cantrip'">
 					{{spell.level}} {{spell.school}}
 				</p>
-        <p class="spell-info" *ngIf="spell.castingtime">
-					<span class="bld">Casting Time: </span>{{spell.castingtime}}
-				</p>
-        <p class="spell-info" *ngIf="spell.range">
-					<span class="bld">Range: </span>{{spell.range}}
-				</p>
-        <p class="spell-info" *ngIf="spell.components">
-					<span class="bld">Components: </span>{{spell.components}}
-				</p>
-        <p class="spell-info" *ngIf="spell.duration">
-					<span class="bld">Duration: </span>{{spell.duration}}
-				</p>
-        <p class="spell-info" *ngIf="spell.classes">
-					<span class="bld">Classes: </span>{{spell.classes}}
-				</p>
+        <div style="max-width: 16rem">
+          <p class="spell-info" *ngIf="spell.castingtime">
+            <span class="bld">Casting Time: </span>{{spell.castingtime}}
+          </p>
+          <p class="spell-info" *ngIf="spell.range">
+            <span class="bld">Range: </span>{{spell.range}}
+          </p>
+          <p class="spell-info" *ngIf="spell.components">
+            <span class="bld">Components: </span>{{spell.components}}
+          </p>
+          <p class="spell-info" *ngIf="spell.duration">
+            <span class="bld">Duration: </span>{{spell.duration}}
+          </p>
+          <p class="spell-info" *ngIf="spell.classes">
+            <span class="bld">Classes: </span>{{spell.classes}}
+          </p>
+        </div>
         <br/>
 				<div class="svg flexcol justify-center" style="margin-top: -1rem">
 					<svg width="100%" height="3" viewBox="0 0 1000 3" preserveAspectRatio="none">

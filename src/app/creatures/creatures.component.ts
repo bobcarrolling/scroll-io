@@ -55,6 +55,7 @@ export class CreaturesComponent implements OnInit {
   selected: any;
 
   selectCreature(creature: any) {
+    creature.showinfo = false;
     if (creature === this.selected) {
       this.selected = undefined;
     } else {

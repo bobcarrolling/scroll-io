@@ -27,6 +27,7 @@ p {
 .column-container {
   padding: 1px;
   cursor: text;
+  background-color: transparent;
 }
 .column-lg {
   min-width: calc(27.5rem - 5px);
@@ -207,7 +208,7 @@ h3 {
 }
 
 .image-style img {
-  max-width: 100%;
+  max-width: 600px;
   min-height: 8rem;
   margin-bottom: -1rem;
   cursor: auto;
@@ -216,6 +217,12 @@ h3 {
   text-align: right;
   font-style: italic;
   opacity: 0.66;
+  margin-bottom: 0.5rem;
+}
+
+.arrow {
+  font-size: 1rem;
+  user-select: none;
 }
 
 ::-webkit-scrollbar-thumb {

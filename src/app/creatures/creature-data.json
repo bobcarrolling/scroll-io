@@ -382,6 +382,7 @@
 				}
 			]
 		},
+		"showinfo": false,
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
 		"artist": "chloehx21"
 	},
@@ -1981,29 +1982,27 @@
 				]
 			}
 		],
+		"showinfo": false,
 		"info": [
 			{
 				"name": "Militant Enforcers.",
 				"desc": [
 					"Amidst the chaos of the abyss, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
-				],
-				"show": false
+				]
 			},
 			{
 				"name": "Infectious Barbarism.",
 				"desc": [
 					"Xylodynn crave utter decimation of their foes in warfare, and are perfectly suited for it. While other demons prefer to corrupt and scheme in the material realms by subverting others to their will, a xylodynn seeks those who already have a thirst for blood and intensify it with hellish fury. Murderers and warmongers will likely find themselves tempted by a xylodynn's offers of power and tactical knowledge.",
 					"It is said that the mere presence of a xylodynn can lead an entire community to reverting to cruel tribal mentalities. Once their minds have unraveled, the xylodynn seizes control and quickly becomes their overlord, seen as an almost deistic figure that they zealously follow to war. Any that are crushed under the might of a xylodynn's army are subject to the same madness, and so its influence spreads like a disease of killing intent."
-				],
-				"show": false
+				]
 			},
 			{
 				"name": "Spell Shunners.",
 				"desc": [
 					"Xylodynn have an intriguing enmity towards spellcasters. Not only will they never approach one to offer their services, they will actively help any insurrection against one. In battle, should they hear spells being woven, they are overtaken by a raging impulse to silence the effect. This often leads to conflicts between xylodynn and other more wizardly commanders of demon armies, and even sometimes leads to rebellion against the demon lords who created them.",
 					"Some think that perhaps the xylodynn can hear the shrill sound of reality tearing as magic is summoned forth, and therefore fear and hate it. Alternate theories assert it stems from envy due to their own lack of spellcasting ability, while others hypothesize their scorn for arcane treachery comes from their own warped perspective of a fair fight."
-				],
-				"show": false
+				]
 			},
 			{
 				"name": "Combat.",
@@ -2011,8 +2010,7 @@
 					"A xylodynn seldom fights alone, and will issue orders to its underlings to have them fight much more tactically than a normal disorganized demon horde. Rather than sitting back and letting its lackeys fight for it, a xylodynn is more than willing to jump in and out of the thick of battle using its augmented flight. No military formation can stand against it as it pulls creatures away with its hook claws, then tosses them afar with its horn.",
 					"A xylodynn fights extremely optimally and makes very few mistakes when engaging in combat - that is, until it hears spellcasting. While its spell hatred reaction is quite strong, it can be used as a weakness against a xylodynn since they won't resist the urge to strike out at a mage. Baiting a xylodynn by casting spells is very easy, but the demon will likely become even angrier after being outsmarted. That anger might lead it to be more analytic in its decisions, or it may fly into a heated raging fury that could lead to even more slip-ups.",
 					"Though not cowardly, a xylodynn knows the importance of a retreat. When battles turn for the worse, a xylodynn will make haste to escape, plotting to return with a force strong enough to crush those who bested it."
-				],
-				"show": false
+				]
 			}
 		]
 	}
