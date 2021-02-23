@@ -18,7 +18,7 @@
 			}
 		],
 		"sectioncount": 2,
-		"lettercount": 581,
+		"lettercount": 703,
 		"name": "Belt of the Behemoth",
 		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
@@ -28,7 +28,9 @@
 		"rarity": {
 			"text": "legendary",
 			"rating": 4
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt_Of_The_Behemoth.png",
+		"artist": "dgalexandre1"
 	},
 	{
 		"effects": [
@@ -139,7 +141,7 @@
 			}
 		],
 		"sectioncount": 4,
-		"lettercount": 2207,
+		"lettercount": 2327,
 		"name": "Staff of the Spire",
 		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
 		"attune": {
@@ -150,7 +152,9 @@
 		"rarity": {
 			"text": "very rare",
 			"rating": 3
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Staff_Of_The_Spire.png",
+		"artist": "dgalexandre1"
 	},
 	{
 		"effects": [
