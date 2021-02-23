@@ -1,4 +1,4 @@
-<div style="display: flex; height: 100%; justify-content: center">
+<div class="page-container">
 	<div class="creatures-page" *ngIf="creatureList" (scroll)="onScroll($event)">
 		<div class="total-tables">
 			<table class="header-table">
@@ -67,8 +67,8 @@
 		</div>
 	</div>
 </div>
-<div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 1.5rem"
-	class="flexrow justify-center align-start">
+<div style="bottom: 0; left: 0; width: 100%; height: 1.5rem"
+	class="flexrow justify-center align-center">
 	<div class="counter">
 		Showing {{filteredCount}}/{{creatureList.length}}
 	</div>
