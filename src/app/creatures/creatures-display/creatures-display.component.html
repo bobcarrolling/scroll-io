@@ -143,6 +143,29 @@
         </div>
     </ng-container>
 </ng-template>
+
+<div *ngIf="creature && (creature.info || creature.image)" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}" style="border-bottom: 0">
+  <div class="flexcol image-style"  style="width: 100%; padding: 0.2rem ; background-color: transparent;">
+    <div class="flexrow point" (click)="creature.showinfo = !creature.showinfo" style="background-color: rgba(0, 0, 0, 0.05); border-radius: 3px 3px 0 0;">
+        <h2 class="header header-word" style="margin-left: 0.5rem; text-decoration: underline">
+            INFO <span class="arrow" *ngIf="!creature.showinfo">&#9655;</span><span class="arrow" *ngIf="creature.showinfo">&#9661;</span>
+        </h2>
+    </div>
+    <div *ngIf="creature.showinfo" style="cursor: text;">
+      <div class="flexcol align-center" *ngIf="creature.image">
+        <img src="{{creature.image}}" alt="{{creature.name}}">
+        <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{creature.artist}}">@{{creature.artist}}</a>
+      </div>
+      <div class="trait-container" *ngIf="creature.info" style="margin-bottom: 0">
+          <div class="flexcol" style="white-space: pre-line;">
+              <div *ngFor="let info of creature.info" class="indent info-text">
+                  <div style="margin-bottom: 0.1rem" *ngFor="let desc of info.desc; let i = index"><span class="bld" *ngIf="i === 0">{{info.name}} </span>{{desc}}</div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div *ngIf="creature" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
     <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
         <div class="column flexcol">
@@ -367,27 +390,5 @@
         <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{creature.artist}}">@{{creature.artist}}</a>
       </div>
     </div> -->
-</div>
-<div *ngIf="creature && (creature.info || creature.image)" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}" style="border-top: 0">
-  <div class="flexcol image-style"  style="width: 100%; padding: 0.2rem 0.2rem 0.1rem 0.2rem; background-color: transparent;">
-    <div class="flexrow point" (click)="creature.showinfo = !creature.showinfo" style="background-color: rgba(0, 0, 0, 0.05); border-radius: 3px 3px 0 0; border-bottom: 1px solid teal">
-        <h2 class="header header-word" style="margin-left: 0.5rem">
-            INFO <span class="arrow" *ngIf="!creature.showinfo">&#9655;</span><span class="arrow" *ngIf="creature.showinfo">&#9661;</span>
-        </h2>
-    </div>
-    <div *ngIf="creature.showinfo" style="cursor: text;">
-      <div class="flexcol align-center" *ngIf="creature.image">
-        <img src="{{creature.image}}" alt="{{creature.name}}">
-        <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{creature.artist}}">@{{creature.artist}}</a>
-      </div>
-      <div class="trait-container" *ngIf="creature.info" style="margin-bottom: 0">
-          <div class="flexcol" style="white-space: pre-line;">
-              <div *ngFor="let info of creature.info" class="indent info-text">
-                  <div style="margin-bottom: 0.1rem" *ngFor="let desc of info.desc; let i = index"><span class="bld" *ngIf="i === 0">{{info.name}} </span>{{desc}}</div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
 </div>
 <app-rollview *ngIf="diceRoll" [(diceRoll)]="diceRoll" [scale]="mobile + 1"></app-rollview>
