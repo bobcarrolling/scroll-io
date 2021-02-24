@@ -26,6 +26,7 @@ export class CreaturesComponent implements OnInit {
     this.filterList();
     this.sortClick(0);
     this.sortClick(0);
+    
   }
 
   leftBuffer = 0;
