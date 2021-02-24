@@ -64,6 +64,13 @@ export class CreaturesDisplayComponent implements OnInit {
     this.onResize(window.innerWidth);
   }
 
+  traitsRight(creature: any) {
+    if (!creature.reactions && !creature.legendary && !creature.mythic && (creature.actions && creature.traitsize < 400 && creature.actionsize + creature.traitsize < 400 || !creature.actions || creature.actions && creature.actionsize < 400)) {
+      return true;
+    }
+    return false;
+  }
+
   diceRoll: string;
   checkRoll(val: any) {
     if (val.dice || val.bonus) {

@@ -279,13 +279,16 @@
 	{
 		"effects": [
 			{
-				"text": "This armor is made from condensed woollysheep cotton. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
+				"text": "This armor is made from condensed woollysheep fleece. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
 			}
 		],
 		"sectioncount": 1,
-		"lettercount": 398,
+		"lettercount": 420,
 		"name": "Woollysheep Armor",
-		"subtext": "Armor (any), rare",
+		"subtext": "Armor (any), rare (requires attunement)",
+		"attune": {
+			"text": "(requires attunement)"
+		},
 		"type": "Armor (any)",
 		"rarity": {
 			"text": "rare",

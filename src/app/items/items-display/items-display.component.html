@@ -38,13 +38,13 @@
 					</ng-container>
 				</div>
 			</div>
-      <!-- <div class="flexcol image-style" *ngIf="item.image"> USED FOR IMAGE LAYOUT
+      <div class="flexcol image-style" *ngIf="item.image && mobile">
         <img *ngIf="item.image" src="{{item.image}}" alt="{{item.name}}">
         <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{item.artist}}">@{{item.artist}}</a>
-      </div> -->
+      </div>
 		</div>
 	</div>
-	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
+	<div *ngIf="!mobile" class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
 		<div class="column flexcol image-style" *ngIf="item.image">
 			<img *ngIf="item.image" src="{{item.image}}" alt="{{item.name}}">
 			<a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/{{item.artist}}">@{{item.artist}}</a>

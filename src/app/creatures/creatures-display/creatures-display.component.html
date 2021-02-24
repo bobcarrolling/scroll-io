@@ -3,6 +3,52 @@
         <polygon points="0,0  1000,1.5  0,3" style="fill: teal;" />
     </svg>
 </ng-template>
+<ng-template #traits>
+  <div class="trait-container" *ngIf="creature.traits">
+    <div class="flexcol trait-box" *ngFor="let trait of creature.traits">
+        <div class="trait-name">
+            <span class="bld-itl">
+                {{trait.name}}
+                <ng-container *ngIf="trait.recharge">
+                    (Recharge
+                    <span class="bld highlight udl itl point" (click)="toRoll('d6')">{{trait.recharge}}</span>).
+                </ng-container>
+            </span>
+            <ng-container *ngFor="let effect of trait.effect">
+                <span *ngIf="effect.newline">
+                    <br />
+                    &nbsp;&nbsp;
+                </span>
+                <span [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc }" (click)="checkRoll(effect)">{{effect.text}}</span>
+            </ng-container>
+        </div>
+        <div class="flexcol option-box" *ngIf="trait.options">
+            <div class="trait-option" *ngFor="let option of trait.options">
+                <span class="bld" style="font-size: 0.75rem;">
+                    {{option.name}}
+                    <ng-container *ngIf="option.recharge">
+                        (Recharge
+                        <span class="bld highlight udl itl point" (click)="toRoll('d6')">{{option.recharge}}</span>).
+                    </ng-container>
+                </span>
+                <ng-container *ngFor="let effect of option.effect">
+                    <span *ngIf="effect.newline">
+                        <br />
+                        &nbsp;&nbsp;
+                    </span>
+                    <span [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}" (click)="checkRoll(effect)">
+                        {{effect.text}}
+                    </span>
+                </ng-container>
+            </div>
+        </div>
+        <div class="flexcol spell-box" *ngIf="trait.spells">
+            <span class="trait-spell" *ngFor="let spell of trait.spells">{{spell.label}}: {{spell.list}}</span>
+        </div>
+    </div>
+</div>
+</ng-template>
+
 <ng-template #actions>
     <ng-container *ngIf="creature.actions">
         <h2 class="header header-word">
@@ -198,9 +244,12 @@
                    </tr> -->
                 </table>
             </div>
-            <ng-template [ngTemplateOutlet]="divider">
-                <!--________DIVIDER________-->
-            </ng-template>
+            <br/>
+            <div style="margin-top: -1rem;"><!--dont change, sizing differs in firebase-->
+                <ng-template [ngTemplateOutlet]="divider">
+                    <!--________DIVIDER________-->
+                </ng-template>
+            </div>
             <div class="flexcol resist-text">
                 <div *ngIf="creature.vuln"><strong>Damage Vulnerabilities </strong>{{creature.vuln}}</div>
                 <div *ngIf="creature.resist"><strong>Damage Resistances </strong>{{creature.resist}}</div>
@@ -211,62 +260,25 @@
                 <br />
             </div>
             <div style="margin-top: -1rem;"><!--dont change, sizing differs in firebase-->
-                <ng-template [ngTemplateOutlet]="divider" *ngIf="creature.traits">
+                <ng-template [ngTemplateOutlet]="divider" *ngIf="creature.traits && !traitsRight(creature)">
                     <!--________DIVIDER________-->
                 </ng-template>
             </div>
-            <div class="trait-container">
-                <div class="flexcol trait-box" *ngFor="let trait of creature.traits">
-                    <div class="trait-name">
-                        <span class="bld-itl">
-                            {{trait.name}}
-                            <ng-container *ngIf="trait.recharge">
-                                (Recharge
-                                <span class="bld highlight udl itl point" (click)="toRoll('d6')">{{trait.recharge}}</span>).
-                            </ng-container>
-                        </span>
-                        <ng-container *ngFor="let effect of trait.effect">
-                            <span *ngIf="effect.newline">
-                                <br />
-                                &nbsp;&nbsp;
-                            </span>
-                            <span [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc }" (click)="checkRoll(effect)">{{effect.text}}</span>
-                        </ng-container>
-                    </div>
-                    <div class="flexcol option-box" *ngIf="trait.options">
-                        <div class="trait-option" *ngFor="let option of trait.options">
-                            <span class="bld" style="font-size: 0.75rem;">
-                                {{option.name}}
-                                <ng-container *ngIf="option.recharge">
-                                    (Recharge
-                                    <span class="bld highlight udl itl point" (click)="toRoll('d6')">{{option.recharge}}</span>).
-                                </ng-container>
-                            </span>
-                            <ng-container *ngFor="let effect of option.effect">
-                                <span *ngIf="effect.newline">
-                                    <br />
-                                    &nbsp;&nbsp;
-                                </span>
-                                <span [ngClass]="{'bld color': effect.bld, 'itl': effect.itl, 'udl point': effect.dice || effect.bonus, 'highlight': effect.dice || effect.bonus || effect.dc}" (click)="checkRoll(effect)">
-                                    {{effect.text}}
-                                </span>
-                            </ng-container>
-                        </div>
-                    </div>
-                    <div class="flexcol spell-box" *ngIf="trait.spells">
-                        <span class="trait-spell" *ngFor="let spell of trait.spells">{{spell.label}}: {{spell.list}}</span>
-                    </div>
-                </div>
-            </div>
-            <ng-template [ngTemplateOutlet]="actions" *ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
-                <!--ACTIONS-->
+            <ng-template [ngTemplateOutlet]="traits" *ngIf="!traitsRight(creature)">
+                <!--TRAITS-->
             </ng-template>
+            <!-- <ng-template [ngTemplateOutlet]="actions" *ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
+            </ng-template> -->
         </div>
     </div>
-    <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)">
+    <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.reactions || creature.legendary || creature.mythic || creature.actions || creature.traits"> 
+      <!-- *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)" -->
         <div class="column flexcol">
-            <ng-template [ngTemplateOutlet]="actions" *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)">
-                <!--ACTIONS-->
+            <ng-template [ngTemplateOutlet]="traits" *ngIf="traitsRight(creature)">
+                <!--TRAITS-->
+            </ng-template>
+            <ng-template [ngTemplateOutlet]="actions">
+                <!--ACTIONS *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)"-->
             </ng-template>
             <ng-container *ngIf="creature.legendary">
                 <span class="flexrow">
