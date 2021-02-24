@@ -24,6 +24,8 @@ export class SpellsComponent implements OnInit {
         "Spells for mages and casters in Dungeons and Dragons 5th Edition, all custom made by The Cobbler Barrel."
       );
     this.filterList();
+    this.sortClick(0);
+    this.sortClick(0);
   }
 
   leftBuffer = 0;

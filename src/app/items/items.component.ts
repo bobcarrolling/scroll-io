@@ -24,6 +24,8 @@ export class ItemsComponent implements OnInit {
         "Items and weapons for players in Dungeons and Dragons 5th Edition, all custom made by The Cobbler Barrel."
       );
     this.filterList();
+    this.sortClick(0);
+    this.sortClick(0);
   }
 
   leftBuffer = 0;
