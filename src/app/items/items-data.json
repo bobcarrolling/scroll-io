@@ -283,16 +283,16 @@
 			}
 		],
 		"sectioncount": 1,
-		"lettercount": 420,
+		"lettercount": 425,
 		"name": "Woollysheep Armor",
-		"subtext": "Armor (any), rare (requires attunement)",
+		"subtext": "Armor (any), very rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
 		},
 		"type": "Armor (any)",
 		"rarity": {
-			"text": "rare",
-			"rating": 2
+			"text": "very rare",
+			"rating": 3
 		},
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woolly_sheep_Armour.png",
 		"artist": "dgalexandre1"
