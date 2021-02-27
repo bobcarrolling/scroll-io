@@ -712,7 +712,10 @@
 				]
 			}
 		],
-		"actionsize": 1434
+		"actionsize": 1434,
+		"showinfo": false,
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Dragon%20Tortoise.png",
+		"artist": "LauraGalliArt"
 	},
 	{
 		"name": "Flitterpuff",
@@ -1177,7 +1180,10 @@
 				]
 			}
 		],
-		"actionsize": 739
+		"actionsize": 739,
+		"showinfo": false,
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Owlrex.png",
+		"artist": "LauraGalliArt"
 	},
 	{
 		"name": "Swarm of Hostile Magic Items",

@@ -18,7 +18,7 @@
 			}
 		],
 		"sectioncount": 2,
-		"lettercount": 703,
+		"lettercount": 709,
 		"name": "Belt of the Behemoth",
 		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
@@ -29,7 +29,7 @@
 			"text": "legendary",
 			"rating": 4
 		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt_Of_The_Behemoth.png",
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt%20Of%20The%20Behemoth.png",
 		"artist": "dgalexandre1"
 	},
 	{
@@ -87,7 +87,7 @@
 			}
 		],
 		"sectioncount": 2,
-		"lettercount": 983,
+		"lettercount": 985,
 		"name": "Lighteater Lantern",
 		"subtext": "Wondrous item (hooded lantern), very rare",
 		"type": "Wondrous item (hooded lantern)",
@@ -95,7 +95,7 @@
 			"text": "very rare",
 			"rating": 3
 		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater_Lantern.png",
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater%20Lantern.png",
 		"artist": "dgalexandre1"
 	},
 	{
@@ -141,7 +141,7 @@
 			}
 		],
 		"sectioncount": 4,
-		"lettercount": 2327,
+		"lettercount": 2333,
 		"name": "Staff of the Spire",
 		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
 		"attune": {
@@ -153,7 +153,7 @@
 			"text": "very rare",
 			"rating": 3
 		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Staff_Of_The_Spire.png",
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Staff%20Of%20The%20Spire.png",
 		"artist": "dgalexandre1"
 	},
 	{
@@ -283,7 +283,7 @@
 			}
 		],
 		"sectioncount": 1,
-		"lettercount": 425,
+		"lettercount": 426,
 		"name": "Woollysheep Armor",
 		"subtext": "Armor (any), very rare (requires attunement)",
 		"attune": {
@@ -294,7 +294,7 @@
 			"text": "very rare",
 			"rating": 3
 		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woolly_sheep_Armour.png",
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woollysheep%20Armour.png",
 		"artist": "dgalexandre1"
 	}
 ]
