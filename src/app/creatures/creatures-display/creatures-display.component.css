@@ -208,6 +208,7 @@ h3 {
 }
 
 .image-style img {
+  width: 100%;
   max-width: 600px;
   min-height: 8rem;
   margin-bottom: -1rem;
