@@ -18,25 +18,26 @@ export class CreaturesComponent implements OnInit {
     });
     this.urlSubscription = router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        setTimeout(() => {
-          let selection = event.url.substr(
-            event.url.lastIndexOf("/") + 1
-          );
-          if (selection && selection !== "creatures" && this.creatureList) {
-            let i = this.creatureList.findIndex(c => c.urlname === selection);
-            if (i >= 0) {
-              //scrollIntoView is broken here
-              document.getElementById("data-table").scrollTop =
-                document.getElementById(selection).getBoundingClientRect().top -
-                document
-                  .getElementById("table-interior")
-                  .getBoundingClientRect().top;
-              this.selected = this.creatureList[i];
-            }
-          } else if (selection === "creatures") {
-            this.selected = undefined;
-          }
-        });
+        this.navDirect();
+      }
+    });
+  }
+
+  navDirect() {
+    setTimeout(() => {
+      let selection = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+      if (selection && selection !== "creatures" && this.creatureList) {
+        let i = this.creatureList.findIndex(c => c.urlname === selection);
+        if (i >= 0) {
+          //scrollIntoView is broken here
+          document.getElementById("data-table").scrollTop =
+            document.getElementById(selection).getBoundingClientRect().top -
+            document.getElementById("table-interior").getBoundingClientRect()
+              .top;
+          this.selected = this.creatureList[i];
+        }
+      } else if (selection === "creatures") {
+        this.selected = undefined;
       }
     });
   }
@@ -56,6 +57,7 @@ export class CreaturesComponent implements OnInit {
     this.filterList();
     this.sortClick(0);
     this.sortClick(0);
+    this.navDirect();
   }
 
   leftBuffer = 0;
@@ -92,7 +94,11 @@ export class CreaturesComponent implements OnInit {
     if (creature === this.selected) {
       this.deselectCreature();
     } else {
-      if (this.lastselected && creature && this.lastselected.name === creature.name) {
+      if (
+        this.lastselected &&
+        creature &&
+        this.lastselected.name === creature.name
+      ) {
         //prevents history clogging when opening/closing the same row
         window.history.back();
       } else {

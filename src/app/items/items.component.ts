@@ -18,25 +18,26 @@ export class ItemsComponent implements OnInit {
     });
     this.urlSubscription = router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        setTimeout(() => {
-          let selection = event.url.substr(
-            event.url.lastIndexOf("/") + 1
-          );
-          if (selection && selection !== "items" && this.itemList) {
-            let i = this.itemList.findIndex(c => c.urlname === selection);
-            if (i >= 0) {
-              //scrollIntoView is broken here
-              document.getElementById("data-table").scrollTop =
-                document.getElementById(selection).getBoundingClientRect().top -
-                document
-                  .getElementById("table-interior")
-                  .getBoundingClientRect().top;
-              this.selected = this.itemList[i];
-            }
-          } else if (selection === "items") {
-            this.selected = undefined;
-          }
-        });
+        this.navDirect();
+      }
+    });
+  }
+
+  navDirect() {
+    setTimeout(() => {
+      let selection = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+      if (selection && selection !== "items" && this.itemList) {
+        let i = this.itemList.findIndex(c => c.urlname === selection);
+        if (i >= 0) {
+          //scrollIntoView is broken here
+          document.getElementById("data-table").scrollTop =
+            document.getElementById(selection).getBoundingClientRect().top -
+            document.getElementById("table-interior").getBoundingClientRect()
+              .top;
+          this.selected = this.itemList[i];
+        }
+      } else if (selection === "items") {
+        this.selected = undefined;
       }
     });
   }
@@ -56,6 +57,7 @@ export class ItemsComponent implements OnInit {
     this.filterList();
     this.sortClick(0);
     this.sortClick(0);
+    this.navDirect();
   }
 
   leftBuffer = 0;
