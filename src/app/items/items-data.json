@@ -57,7 +57,7 @@
 			}
 		],
 		"sectioncount": 3,
-		"lettercount": 1394,
+		"lettercount": 1505,
 		"name": "Honeyshot",
 		"urlname": "honeyshot",
 		"subtext": "Weapon (light crossbow), rare (requires attunement)",
@@ -68,7 +68,9 @@
 		"rarity": {
 			"text": "rare",
 			"rating": 2
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Honeyshot.png",
+		"artist": "dgalexandre1"
 	},
 	{
 		"effects": [
@@ -267,7 +269,7 @@
 			}
 		],
 		"sectioncount": 3,
-		"lettercount": 1337,
+		"lettercount": 1458,
 		"name": "The Dead Ringer",
 		"urlname": "the_dead_ringer",
 		"subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
@@ -279,7 +281,9 @@
 		"rarity": {
 			"text": "legendary",
 			"rating": 4
-		}
+		},
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/The%20Dead%20Ringer.png",
+		"artist": "dgalexandre1"
 	},
 	{
 		"effects": [

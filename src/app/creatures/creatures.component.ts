@@ -25,6 +25,7 @@ export class CreaturesComponent implements OnInit {
           if (selection && selection !== "creatures" && this.creatureList) {
             let i = this.creatureList.findIndex(c => c.urlname === selection);
             if (i >= 0) {
+              //scrollIntoView is broken here
               document.getElementById("data-table").scrollTop =
                 document.getElementById(selection).getBoundingClientRect().top -
                 document
@@ -91,25 +92,28 @@ export class CreaturesComponent implements OnInit {
     if (creature === this.selected) {
       this.deselectCreature();
     } else {
-      if (creature === this.lastselected) {
-        this.router.navigate([".."]);
+      if (this.lastselected && creature && this.lastselected.name === creature.name) {
+        //prevents history clogging when opening/closing the same row
+        window.history.back();
+      } else {
+        this.router
+          .navigate(["creatures/" + creature.urlname], {
+            replaceUrl: !this.selected
+          })
+          .then(() => {
+            document.title = "Scroll-io Creatures: " + creature.name;
+          });
+        this.selected = creature;
       }
-      this.router.navigate(["creatures/" + creature.urlname], {replaceUrl: this.selected === undefined }).then(() => {
-        document.title = "Scroll-io Creatures: " + creature.name;
-      });
-      if (this.selected !== undefined) {
-        this.lastselected = this.selected;
-      }
-      this.selected = creature;
     }
   }
 
   deselectCreature() {
-    this.selected = undefined;
     this.router.navigate(["creatures/"]).then(() => {
       document.title = "Scroll-io: Homebrew Creature List For D&D 5e";
     });
-    
+    this.lastselected = { ...this.selected };
+    this.selected = undefined;
   }
 
   filteredCount = 0;

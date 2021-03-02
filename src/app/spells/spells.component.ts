@@ -26,6 +26,7 @@ export class SpellsComponent implements OnInit {
           if (selection && selection !== "spells" && this.spellList) {
             let i = this.spellList.findIndex(c => c.urlname === selection);
             if (i >= 0) {
+              //scrollIntoView is broken here
               document.getElementById("data-table").scrollTop =
                 document.getElementById(selection).getBoundingClientRect().top -
                 document
@@ -86,21 +87,34 @@ export class SpellsComponent implements OnInit {
   ];
 
   selected: any;
+  lastselected: any;
 
   selectSpell(spell: any) {
     if (spell === this.selected) {
       this.deselectSpell();
     } else {
-      this.selected = spell;
-      this.router.navigate(["spells/" + spell.urlname]);
-      document.title = "Scroll-io Spells: " + spell.name;
+      if (this.lastselected && spell && this.lastselected.name === spell.name) {
+        //prevents history clogging when opening/closing the same row
+        window.history.back();
+      } else {
+        this.router
+          .navigate(["spells/" + spell.urlname], {
+            replaceUrl: !this.selected
+          })
+          .then(() => {
+            document.title = "Scroll-io Spells: " + spell.name;
+          });
+        this.selected = spell;
+      }
     }
   }
 
   deselectSpell() {
+    this.router.navigate(["spells/"]).then(() => {
+      document.title = "Scroll-io: Homebrew Spell List For D&D 5e";
+    });
+    this.lastselected = { ...this.selected };
     this.selected = undefined;
-    this.router.navigate(["spells"]);
-    document.title = "Scroll-io: Homebrew Spell List For D&D 5e";
   }
 
   filteredCount = 0;

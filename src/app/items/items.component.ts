@@ -25,6 +25,7 @@ export class ItemsComponent implements OnInit {
           if (selection && selection !== "items" && this.itemList) {
             let i = this.itemList.findIndex(c => c.urlname === selection);
             if (i >= 0) {
+              //scrollIntoView is broken here
               document.getElementById("data-table").scrollTop =
                 document.getElementById(selection).getBoundingClientRect().top -
                 document
@@ -32,8 +33,7 @@ export class ItemsComponent implements OnInit {
                   .getBoundingClientRect().top;
               this.selected = this.itemList[i];
             }
-          }
-          else if (selection === "items") {
+          } else if (selection === "items") {
             this.selected = undefined;
           }
         });
@@ -83,21 +83,34 @@ export class ItemsComponent implements OnInit {
   ];
 
   selected: any;
+  lastselected: any;
 
   selectItem(item: any) {
     if (item === this.selected) {
       this.deselectItem();
     } else {
-      this.selected = item;
-      this.router.navigate(["items/" + item.urlname]);
-      document.title = "Scroll-io Items: " + item.name;
+      if (this.lastselected && item && this.lastselected.name === item.name) {
+        //prevents history clogging when opening/closing the same row
+        window.history.back();
+      } else {
+        this.router
+          .navigate(["items/" + item.urlname], {
+            replaceUrl: !this.selected
+          })
+          .then(() => {
+            document.title = "Scroll-io Items: " + item.name;
+          });
+        this.selected = item;
+      }
     }
   }
 
   deselectItem() {
+    this.router.navigate(["items/"]).then(() => {
+      document.title = "Scroll-io: Homebrew Magic Item List For D&D 5e";
+    });
+    this.lastselected = { ...this.selected };
     this.selected = undefined;
-    this.router.navigate(["items"]);
-    document.title = "Scroll-io: Homebrew Magic Item List For D&D 5e";
   }
 
   filteredCount = 0;
