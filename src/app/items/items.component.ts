@@ -19,8 +19,8 @@ export class ItemsComponent implements OnInit {
     this.urlSubscription = router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         setTimeout(() => {
-          let selection = window.location.href.substr(
-            window.location.href.lastIndexOf("/") + 1
+          let selection = event.url.substr(
+            event.url.lastIndexOf("/") + 1
           );
           if (selection && selection !== "items" && this.itemList) {
             let i = this.itemList.findIndex(c => c.urlname === selection);

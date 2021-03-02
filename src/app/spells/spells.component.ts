@@ -19,8 +19,8 @@ export class SpellsComponent implements OnInit {
     this.urlSubscription = router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         setTimeout(() => {
-          let selection = window.location.href.substr(
-            window.location.href.lastIndexOf("/") + 1
+          let selection = event.url.substr(
+            event.url.lastIndexOf("/") + 1
           );
           console.log(selection);
           if (selection && selection !== "spells" && this.spellList) {
