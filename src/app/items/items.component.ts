@@ -1,7 +1,8 @@
-import { Component, OnInit } from "@angular/core";
-import { Subject } from "rxjs";
-import { debounceTime } from "rxjs/operators";
 import * as itemList from "./items-data.json";
+import { Component, OnInit } from "@angular/core";
+import { Subject, Subscription } from "rxjs";
+import { debounceTime } from "rxjs/operators";
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
   selector: "app-items",
@@ -10,11 +11,40 @@ import * as itemList from "./items-data.json";
 })
 export class ItemsComponent implements OnInit {
   searchUpdate = new Subject();
-  constructor() {
+  urlSubscription: Subscription;
+  constructor(private router: Router) {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
     });
+    this.urlSubscription = router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => {
+          let selection = window.location.href.substr(
+            window.location.href.lastIndexOf("/") + 1
+          );
+          if (selection && selection !== "items" && this.itemList) {
+            let i = this.itemList.findIndex(c => c.urlname === selection);
+            if (i >= 0) {
+              document.getElementById("data-table").scrollTop =
+                document.getElementById(selection).getBoundingClientRect().top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+              this.selected = this.itemList[i];
+            }
+          }
+          else if (selection === "items") {
+            this.selected = undefined;
+          }
+        });
+      }
+    });
   }
+
+  ngOnDestroy() {
+    this.urlSubscription.unsubscribe();
+  }
+
   ngOnInit() {
     document.title = "Scroll-io: Homebrew Magic Item List For D&D 5e";
     document
@@ -56,15 +86,23 @@ export class ItemsComponent implements OnInit {
 
   selectItem(item: any) {
     if (item === this.selected) {
-      this.selected = undefined;
+      this.deselectItem();
     } else {
       this.selected = item;
+      this.router.navigate(["items/" + item.urlname]);
+      document.title = "Scroll-io Items: " + item.name;
     }
+  }
+
+  deselectItem() {
+    this.selected = undefined;
+    this.router.navigate(["items"]);
+    document.title = "Scroll-io: Homebrew Magic Item List For D&D 5e";
   }
 
   filteredCount = 0;
   filterList() {
-    this.selected = undefined;
+    this.deselectItem();
     this.filteredCount = 0;
     let nameSearch;
     if (this.nameSearch) {
@@ -114,7 +152,7 @@ export class ItemsComponent implements OnInit {
   }
 
   sortClick(column: number) {
-    this.selected = undefined;
+    this.deselectItem();
     let asc = true;
     if (this.icons[column] !== this.downarrow) {
       this.icons[column] = this.downarrow;

@@ -20,6 +20,7 @@
 		"sectioncount": 2,
 		"lettercount": 709,
 		"name": "Belt of the Behemoth",
+		"urlname": "belt_of_the_behemoth",
 		"subtext": "Wondrous item (belt), legendary (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
@@ -58,6 +59,7 @@
 		"sectioncount": 3,
 		"lettercount": 1394,
 		"name": "Honeyshot",
+		"urlname": "honeyshot",
 		"subtext": "Weapon (light crossbow), rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"
@@ -89,6 +91,7 @@
 		"sectioncount": 2,
 		"lettercount": 985,
 		"name": "Lighteater Lantern",
+		"urlname": "lighteater_lantern",
 		"subtext": "Wondrous item (hooded lantern), very rare",
 		"type": "Wondrous item (hooded lantern)",
 		"rarity": {
@@ -143,6 +146,7 @@
 		"sectioncount": 4,
 		"lettercount": 2333,
 		"name": "Staff of the Spire",
+		"urlname": "staff_of_the_spire",
 		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
 		"attune": {
 			"text": "(requires attunement by an arcane caster)",
@@ -265,6 +269,7 @@
 		"sectioncount": 3,
 		"lettercount": 1337,
 		"name": "The Dead Ringer",
+		"urlname": "the_dead_ringer",
 		"subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
 		"attune": {
 			"text": "(requires attunement by a spellcaster)",
@@ -285,6 +290,7 @@
 		"sectioncount": 1,
 		"lettercount": 426,
 		"name": "Woollysheep Armor",
+		"urlname": "woollysheep_armor",
 		"subtext": "Armor (any), very rare (requires attunement)",
 		"attune": {
 			"text": "(requires attunement)"

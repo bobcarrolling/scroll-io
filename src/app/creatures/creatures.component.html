@@ -35,10 +35,10 @@
 					</th>
 				</tr>
 			</table>
-			<div class="data-table">
-				<table>
+			<div class="data-table" id="data-table">
+				<table id="table-interior">
 					<ng-container *ngFor="let creature of creatureList">
-						<tr *ngIf="!creature.filtered" class="data-row flex align-center"
+						<tr *ngIf="!creature.filtered" [attr.id]="creature.urlname" class="data-row flex align-center"
 							(click)="selectCreature(creature)" [ngClass]="{'selected-row':selected === creature}">
 							<td class="data-interior name-data">{{ creature.name }}</td>
 							<td class="data-interior small-data">{{ creature.cr.text }}</td>

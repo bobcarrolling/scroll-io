@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Absolution the Opalescent Dragon",
+		"urlname": "absolution_the_opalescent_dragon",
 		"size": {
 			"text": "Huge",
 			"value": 4
@@ -388,6 +389,7 @@
 	},
 	{
 		"name": "Bulu",
+		"urlname": "bulu",
 		"size": {
 			"text": "Tiny",
 			"value": 0
@@ -496,6 +498,7 @@
 	},
 	{
 		"name": "Dragon Tortoise",
+		"urlname": "dragon_tortoise",
 		"size": {
 			"text": "Gargantuan",
 			"value": 5
@@ -719,6 +722,7 @@
 	},
 	{
 		"name": "Flitterpuff",
+		"urlname": "flitterpuff",
 		"size": {
 			"text": "Tiny",
 			"value": 0
@@ -837,6 +841,7 @@
 	},
 	{
 		"name": "Forest Giant",
+		"urlname": "forest_giant",
 		"size": {
 			"text": "Large",
 			"value": 3
@@ -1006,6 +1011,7 @@
 	},
 	{
 		"name": "Owlrex",
+		"urlname": "owlrex",
 		"size": {
 			"text": "Huge",
 			"value": 4
@@ -1192,20 +1198,20 @@
 			{
 				"name": "Woodland Scavengers.",
 				"desc": [
-					"Unlike their ursine and saurian counterparts, owlrex are unusually shy. Preferring to pounce at night in a stealthy fashion upon unaware prey, they must live in forested areas or land replete with cover to hide their large bodies. That said, owlrex tend to seek carrion rather than kill for it. In a curiously intelligent way they prefer easy free food rather than a hunt, and will avoid a fight they deem too difficult. Don't mistake this intelligence for tameability, however. A free meal may deter an owlrex from attacking, but its hunger will return along with its wild nature."
+					"Unlike their ursine and saurian counterparts, owlrex are unusually shy. Preferring to pounce at night in a stealthy fashion upon unaware prey, they must live in forested areas or land replete with cover to hide their large bodies. That said, owlrex tend to seek carrion rather than kill for meat. In a curiously intelligent way they prefer easy food rather than a hunt, and will avoid a fight they deem too difficult. However discerning, don't mistake an owlrex's particularity as a trait fit for taming. A free meal may deter an owlrex from attacking, but its hunger will return along with its wild nature."
 				]
 			},
 			{
 				"name": "Nest Collectors.",
 				"desc": [
 					"Any sizeable landmark an owlrex can jump atop of becomes its nest. This can sometimes be an outcropping of rock, a stout enough tree, or even an old tower. Using entire logs, an owlrex will assemble a roost the size of a large house to sleep within. The area for miles around an owlrex nest is devoid of any sizeable beasts, since it has likely brought down any game it could eat, or that rivaled it.",
-					"Once an owlrex's quarry has been worn down, it will incapacitate it and drag it back to its lair and store it in a decaying pile of flesh to feast on. This rotting hoard serves two purposes. One, for a steady food supply when hunting runs thin, and two, for the horrendous smell to keep away hunters who travel too close. If one can recognize the smell of an owlrex nest, they can be easily tracked - that is, if the stench can be overcome."
+					"Once an owlrex's quarry has been worn down, it will incapacitate it and drag it back to its lair and store it in a decaying pile of flesh to feast on. This rotting hoard serves two purposes. One, for a steady food supply when the hunt runs thin, and two, for the horrendous smell to keep away predators who travel too close. If one can recognize the smell of an owlrex nest, they can be easily tracked - that is, if the stench can be overcome."
 				]
 			},
 			{
 				"name": "Combat.",
 				"desc": [
-					"A fight with an owlrex outside of its nest is fast and ferocious. Most likely, the owlrex will strike first as it hunts from the shadows. In any fight, an owlrex will pick a feeble target to focus its strikes at. Once worn down, an owlrex will attempt to grapple its target, then use its wing attack to jump up and away 25 feet, then glide another 25 to escape with its meal back to its nest. If hurt or sufficiently frightened, an owlrex will readily flee in the same way with its wing attack."
+					"A fight with an owlrex outside of its nest is fast and ferocious. Most likely, the owlrex will strike first as it hunts from the shadows. It will pick a feeble target to focus on and will not relent until it is worn down. After grappling the weakened target, it will use its wing attack to jump up and away 25 feet, then glide using the rest of its movement to escape with its meal back to its nest. If hurt or sufficiently frightened, an owlrex will readily flee in the same way with its wing attack, and may even drop its prey."
 				]
 			},
 			{
@@ -1220,6 +1226,7 @@
 	},
 	{
 		"name": "Swarm of Hostile Magic Items",
+		"urlname": "swarm_of_hostile_magic_items",
 		"size": {
 			"text": "Medium",
 			"value": 2
@@ -1652,6 +1659,7 @@
 	},
 	{
 		"name": "Voodoo Coffin",
+		"urlname": "voodoo_coffin",
 		"size": {
 			"text": "Medium",
 			"value": 2
@@ -1830,6 +1838,7 @@
 	},
 	{
 		"name": "Xylodynn",
+		"urlname": "xylodynn",
 		"size": {
 			"text": "Large",
 			"value": 3

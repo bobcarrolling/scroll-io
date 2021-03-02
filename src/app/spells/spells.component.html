@@ -77,10 +77,10 @@
 					</th>
 				</tr>
 			</table>
-			<div class="data-table">
-				<table>
+			<div class="data-table" id="data-table">
+				<table id="table-interior">
 					<ng-container *ngFor="let spell of spellList">
-						<tr *ngIf="!spell.filtered" class="data-row flex align-center" (click)="selectSpell(spell)"
+						<tr *ngIf="!spell.filtered" [attr.id]="spell.urlname" class="data-row flex align-center" (click)="selectSpell(spell)"
 							[ngClass]="{'selected-row':selected === spell}">
 							<td class="data-interior name-data">{{ spell.name }}</td>
 							<td class="data-interior medium-data">{{ spell.level }}</td>

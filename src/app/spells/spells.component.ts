@@ -1,7 +1,8 @@
-import { Component, OnInit } from "@angular/core";
-import { Subject } from "rxjs";
-import { debounceTime } from "rxjs/operators";
 import * as spellList from "./spells-data.json";
+import { Component, OnInit } from "@angular/core";
+import { Subject, Subscription } from "rxjs";
+import { debounceTime } from "rxjs/operators";
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
   selector: "app-spells",
@@ -10,11 +11,41 @@ import * as spellList from "./spells-data.json";
 })
 export class SpellsComponent implements OnInit {
   searchUpdate = new Subject();
-  constructor() {
+  urlSubscription: Subscription;
+  constructor(private router: Router) {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
     });
+    this.urlSubscription = router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => {
+          let selection = window.location.href.substr(
+            window.location.href.lastIndexOf("/") + 1
+          );
+          console.log(selection);
+          if (selection && selection !== "spells" && this.spellList) {
+            let i = this.spellList.findIndex(c => c.urlname === selection);
+            if (i >= 0) {
+              document.getElementById("data-table").scrollTop =
+                document.getElementById(selection).getBoundingClientRect().top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+              this.selected = this.spellList[i];
+            }
+          }
+          else if (selection === "spells") {
+            this.selected = undefined;
+          }
+        });
+      }
+    });
   }
+
+  ngOnDestroy() {
+    this.urlSubscription.unsubscribe();
+  }
+
   ngOnInit() {
     document.title = "Scroll-io: Homebrew Spell List For D&D 5e";
     document
@@ -58,15 +89,23 @@ export class SpellsComponent implements OnInit {
 
   selectSpell(spell: any) {
     if (spell === this.selected) {
-      this.selected = undefined;
+      this.deselectSpell();
     } else {
       this.selected = spell;
+      this.router.navigate(["spells/" + spell.urlname]);
+      document.title = "Scroll-io Spells: " + spell.name;
     }
+  }
+
+  deselectSpell() {
+    this.selected = undefined;
+    this.router.navigate(["spells"]);
+    document.title = "Scroll-io: Homebrew Spell List For D&D 5e";
   }
 
   filteredCount = 0;
   filterList() {
-    this.selected = undefined;
+    this.deselectSpell();
     this.filteredCount = 0;
     let nameSearch;
     if (this.nameSearch) {
@@ -93,16 +132,25 @@ export class SpellsComponent implements OnInit {
       if (levelSearch && spell.level.toLowerCase().indexOf(levelSearch) < 0) {
         spell.filtered = true;
       }
-      if (schoolSearch && spell.school.toLowerCase().indexOf(schoolSearch) < 0) {
+      if (
+        schoolSearch &&
+        spell.school.toLowerCase().indexOf(schoolSearch) < 0
+      ) {
         spell.filtered = true;
       }
       if (classSearch && spell.classes.toLowerCase().indexOf(classSearch) < 0) {
         spell.filtered = true;
       }
-      if ((this.concToggle === "yes" && !spell.concentration) || (this.concToggle === "no" && spell.concentration)) {
+      if (
+        (this.concToggle === "yes" && !spell.concentration) ||
+        (this.concToggle === "no" && spell.concentration)
+      ) {
         spell.filtered = true;
       }
-      if ((this.ritualToggle === "yes" && !spell.ritual) || (this.ritualToggle === "no" && spell.ritual)) {
+      if (
+        (this.ritualToggle === "yes" && !spell.ritual) ||
+        (this.ritualToggle === "no" && spell.ritual)
+      ) {
         spell.filtered = true;
       }
 
@@ -111,7 +159,7 @@ export class SpellsComponent implements OnInit {
   }
 
   sortClick(column: number) {
-    this.selected = undefined;
+    this.deselectSpell();
     let asc = true;
     if (this.icons[column] !== this.downarrow) {
       this.icons[column] = this.downarrow;

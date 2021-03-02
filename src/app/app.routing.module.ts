@@ -9,9 +9,36 @@ import { HomeComponent } from "./home/home.component";
   imports: [
     RouterModule.forRoot([
       { path: "home", component: HomeComponent },
-      { path: "creatures", component: CreaturesComponent },
-      { path: "items", component: ItemsComponent },
-      { path: "spells", component: SpellsComponent },
+      {
+        path: "creatures",
+        component: CreaturesComponent,
+        children: [
+          {
+            path: "**",
+            component: CreaturesComponent
+          }
+        ]
+      },
+      {
+        path: "items",
+        component: ItemsComponent,
+        children: [
+          {
+            path: "**",
+            component: ItemsComponent
+          }
+        ]
+      },
+      {
+        path: "spells",
+        component: SpellsComponent,
+        children: [
+          {
+            path: "**",
+            component: SpellsComponent
+          }
+        ]
+      },
       { path: "**", redirectTo: "home" },
       { path: null, redirectTo: "home" }
     ])

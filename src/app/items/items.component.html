@@ -42,10 +42,10 @@
 					</th>
 				</tr>
 			</table>
-			<div class="data-table">
-				<table>
+			<div class="data-table" id="data-table">
+				<table id="table-interior">
 					<ng-container *ngFor="let item of itemList">
-						<tr *ngIf="!item.filtered" class="data-row flex align-center" (click)="selectItem(item)"
+						<tr *ngIf="!item.filtered" [attr.id]="item.urlname" class="data-row flex align-center" (click)="selectItem(item)"
 							[ngClass]="{'selected-row':selected === item}">
 							<td class="data-interior name-data">{{ item.name }}</td>
 							<td class="data-interior">{{ item.type }}</td>

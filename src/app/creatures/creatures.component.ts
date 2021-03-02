@@ -1,7 +1,8 @@
-import { Component, OnInit } from "@angular/core";
 import * as creatureList from "./creature-data.json";
-import { Subject } from "rxjs";
+import { Component, OnInit } from "@angular/core";
+import { Subject, Subscription } from "rxjs";
 import { debounceTime } from "rxjs/operators";
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
   selector: "app-creatures",
@@ -10,11 +11,39 @@ import { debounceTime } from "rxjs/operators";
 })
 export class CreaturesComponent implements OnInit {
   searchUpdate = new Subject();
-  constructor() {
+  urlSubscription: Subscription;
+  constructor(private router: Router) {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
     });
+    this.urlSubscription = router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => {
+          let selection = window.location.href.substr(
+            window.location.href.lastIndexOf("/") + 1
+          );
+          if (selection && selection !== "creatures" && this.creatureList) {
+            let i = this.creatureList.findIndex(c => c.urlname === selection);
+            if (i >= 0) {
+              document.getElementById("data-table").scrollTop =
+                document.getElementById(selection).getBoundingClientRect().top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+              this.selected = this.creatureList[i];
+            }
+          } else if (selection === "creatures") {
+            this.selected = undefined;
+          }
+        });
+      }
+    });
   }
+
+  ngOnDestroy() {
+    this.urlSubscription.unsubscribe();
+  }
+
   ngOnInit() {
     document.title = "Scroll-io: Homebrew Creature List For D&D 5e";
     document
@@ -26,7 +55,6 @@ export class CreaturesComponent implements OnInit {
     this.filterList();
     this.sortClick(0);
     this.sortClick(0);
-    
   }
 
   leftBuffer = 0;
@@ -56,19 +84,37 @@ export class CreaturesComponent implements OnInit {
   ];
 
   selected: any;
+  lastselected: any;
 
   selectCreature(creature: any) {
     creature.showinfo = false;
     if (creature === this.selected) {
-      this.selected = undefined;
+      this.deselectCreature();
     } else {
+      if (creature === this.lastselected) {
+        this.router.navigate([".."]);
+      }
+      this.router.navigate(["creatures/" + creature.urlname], {replaceUrl: this.selected === undefined }).then(() => {
+        document.title = "Scroll-io Creatures: " + creature.name;
+      });
+      if (this.selected !== undefined) {
+        this.lastselected = this.selected;
+      }
       this.selected = creature;
     }
   }
 
+  deselectCreature() {
+    this.selected = undefined;
+    this.router.navigate(["creatures/"]).then(() => {
+      document.title = "Scroll-io: Homebrew Creature List For D&D 5e";
+    });
+    
+  }
+
   filteredCount = 0;
   filterList() {
-    this.selected = undefined;
+    this.deselectCreature();
     this.filteredCount = 0;
     let nameSearch;
     if (this.nameSearch) {
@@ -106,7 +152,10 @@ export class CreaturesComponent implements OnInit {
       if (typeSearch && creature.type.toLowerCase().indexOf(typeSearch) < 0) {
         creature.filtered = true;
       }
-      if (alignSearch && creature.alignment.toLowerCase().indexOf(alignSearch) < 0) {
+      if (
+        alignSearch &&
+        creature.alignment.toLowerCase().indexOf(alignSearch) < 0
+      ) {
         creature.filtered = true;
       }
       if (
@@ -130,7 +179,7 @@ export class CreaturesComponent implements OnInit {
   }
 
   sortClick(column: number) {
-    this.selected = undefined;
+    this.deselectCreature();
     let asc = true;
     if (this.icons[column] !== this.downarrow) {
       this.icons[column] = this.downarrow;
