@@ -228,6 +228,13 @@ h3 {
   user-select: none;
 }
 
+.scroll-arrows {
+  cursor: pointer;
+  text-decoration: underline;
+  user-select: none;
+  margin-top: auto;
+}
+
 ::-webkit-scrollbar-thumb {
   background: teal;
 }

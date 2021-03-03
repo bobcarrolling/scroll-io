@@ -166,7 +166,7 @@
     </div>
   </div>
 </div>
-<div *ngIf="creature" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
+<div id="container" *ngIf="creature" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}">
     <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
         <div class="column flexcol">
             <h1 class="flexrow namerow">
@@ -292,6 +292,7 @@
             </ng-template>
             <!-- <ng-template [ngTemplateOutlet]="actions" *ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
             </ng-template> -->
+            <div *ngIf="mobile" style="align-self: flex-end" class="scroll-arrows" (click)="quickScroll(true)">Actions &#9655;</div>
         </div>
     </div>
     <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.reactions || creature.legendary || creature.mythic || creature.actions || creature.traits"> 
@@ -357,6 +358,7 @@
                     </div>
                 </div>
             </ng-container>
+            <div *ngIf="mobile" style="align-self: flex-start" class="scroll-arrows" (click)="quickScroll(false)">&#9665; Traits</div>
         </div>
     </div>
     <!-- <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.info">

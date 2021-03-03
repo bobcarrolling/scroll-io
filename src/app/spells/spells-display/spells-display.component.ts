@@ -1,12 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-spells-display',
-  templateUrl: './spells-display.component.html',
-  styleUrls: ['./spells-display.component.css']
+  selector: "app-spells-display",
+  templateUrl: "./spells-display.component.html",
+  styleUrls: ["./spells-display.component.css"]
 })
 export class SpellsDisplayComponent implements OnInit {
-
   mobile = 0;
   currentWidth = 0;
   onResize(innerWidth) {
@@ -83,5 +82,4 @@ export class SpellsDisplayComponent implements OnInit {
     }
     return true;
   }
-
 }

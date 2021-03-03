@@ -99,4 +99,14 @@ export class CreaturesDisplayComponent implements OnInit {
     }
     return true;
   }
+
+  quickScroll(rightwards: boolean) {
+    let container = document.getElementById("container");
+    if (rightwards) {
+      container.scrollLeft = 1000;
+    }
+    else {
+      container.scrollLeft = 0;
+    }
+  }
 }
