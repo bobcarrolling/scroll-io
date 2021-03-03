@@ -8,37 +8,34 @@ import { HomeComponent } from "./home/home.component";
 @NgModule({
   imports: [
     RouterModule.forRoot([
-      { path: "home", component: HomeComponent },
       {
         path: "creatures",
+        redirectTo: "creatures/",
+        pathMatch: "full"
+      },
+      {
+        path: "creatures/:selected",
         component: CreaturesComponent,
-        children: [
-          {
-            path: "**",
-            component: CreaturesComponent
-          }
-        ]
       },
       {
         path: "items",
+        redirectTo: "items/",
+        pathMatch: "full"
+      },
+      {
+        path: "items/:selected",
         component: ItemsComponent,
-        children: [
-          {
-            path: "**",
-            component: ItemsComponent
-          }
-        ]
       },
       {
         path: "spells",
-        component: SpellsComponent,
-        children: [
-          {
-            path: "**",
-            component: SpellsComponent
-          }
-        ]
+        redirectTo: "spells/",
+        pathMatch: "full"
       },
+      {
+        path: "spells/:selected",
+        component: SpellsComponent,
+      },
+      { path: "home", component: HomeComponent },
       { path: "**", redirectTo: "home" },
       { path: null, redirectTo: "home" }
     ])

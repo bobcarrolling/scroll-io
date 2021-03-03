@@ -2,7 +2,7 @@ import * as creatureList from "./creature-data.json";
 import { Component, OnInit } from "@angular/core";
 import { Subject, Subscription } from "rxjs";
 import { debounceTime } from "rxjs/operators";
-import { Router, NavigationEnd } from "@angular/router";
+import { Router, ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-creatures",
@@ -11,39 +11,17 @@ import { Router, NavigationEnd } from "@angular/router";
 })
 export class CreaturesComponent implements OnInit {
   searchUpdate = new Subject();
-  urlSubscription: Subscription;
-  constructor(private router: Router) {
+  routesub: Subscription;
+  landingNav = true;
+
+  constructor(private router: Router, private route: ActivatedRoute) {
     this.searchUpdate.pipe(debounceTime(175)).subscribe(() => {
       this.filterList();
-    });
-    this.urlSubscription = router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        this.navDirect();
-      }
-    });
-  }
-
-  navDirect() {
-    setTimeout(() => {
-      let selection = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
-      if (selection && selection !== "creatures" && this.creatureList) {
-        let i = this.creatureList.findIndex(c => c.urlname === selection);
-        if (i >= 0) {
-          //scrollIntoView is broken here
-          document.getElementById("data-table").scrollTop =
-            document.getElementById(selection).getBoundingClientRect().top -
-            document.getElementById("table-interior").getBoundingClientRect()
-              .top;
-          this.selected = this.creatureList[i];
-        }
-      } else if (selection === "creatures") {
-        this.selected = undefined;
-      }
     });
   }
 
   ngOnDestroy() {
-    this.urlSubscription.unsubscribe();
+    this.routesub.unsubscribe();
   }
 
   ngOnInit() {
@@ -57,7 +35,40 @@ export class CreaturesComponent implements OnInit {
     this.filterList();
     this.sortClick(0);
     this.sortClick(0);
-    this.navDirect();
+    this.routesub = this.route.params.subscribe(params => {
+      if (this.selected && this.selected.urlname === params.selected) return;
+      // already set with select
+      // sets on nav, not on select
+      if (params.selected) {
+        setTimeout(() => {
+          if (
+            params.selected &&
+            params.selected !== "creatures" &&
+            this.creatureList
+          ) {
+            let i = this.creatureList.findIndex(
+              c => c.urlname === params.selected
+            );
+            if (i >= 0) {
+              //scrollIntoView is broken here
+              document.getElementById("data-table").scrollTop =
+                document.getElementById(params.selected).getBoundingClientRect()
+                  .top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+              this.selected = this.creatureList[i];
+              if (this.landingNav) {
+                // works in app, not in preview
+                history.replaceState({}, "", this.selected.urlname);
+                document.title = "Scroll-io Creatures: " + this.selected.name;
+                this.landingNav = false;
+              }
+            }
+          }
+        });
+      }
+    });
   }
 
   leftBuffer = 0;
@@ -100,7 +111,7 @@ export class CreaturesComponent implements OnInit {
         this.lastselected.name === creature.name
       ) {
         //prevents history clogging when opening/closing the same row
-        window.history.back();
+        history.back();
       } else {
         this.router
           .navigate(["creatures/" + creature.urlname], {
