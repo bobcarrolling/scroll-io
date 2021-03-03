@@ -1834,7 +1834,10 @@
 				"recharge": "6"
 			}
 		],
-		"actionsize": 1811
+		"actionsize": 1811,
+		"showinfo": false,
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Voodoo%20Coffin.png",
+		"artist": "chloehx21"
 	},
 	{
 		"name": "Xylodynn",
@@ -2060,6 +2063,8 @@
 					"Though not cowardly, a xylodynn knows the importance of a retreat. When battles turn for the worse, a xylodynn will make haste to escape, plotting to return with a force strong enough to crush those who bested it."
 				]
 			}
-		]
+		],
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Xylodynn.png",
+		"artist": "MaxBConceptArt"
 	}
 ]
