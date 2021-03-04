@@ -1026,7 +1026,10 @@
 				]
 			}
 		],
-		"actionsize": 432
+		"actionsize": 432,
+		"showinfo": false,
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Forest%20Giant.png",
+		"artist": "artofagnes"
 	},
 	{
 		"name": "Leechpod",
@@ -1182,7 +1185,10 @@
 				]
 			}
 		],
-		"actionsize": 1321
+		"actionsize": 1321,
+		"showinfo": false,
+		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Leechpod.png",
+		"artist": "artofagnes"
 	},
 	{
 		"name": "Owlrex",
