@@ -1090,7 +1090,7 @@
 				"name": "Fling.",
 				"effect": [
 					{
-						"text": "The leechpod severs itself from its roots and launches, moving up to 30 ft. to a space it chooses. A creature occupying the space must make a "
+						"text": "The leechpod severs itself from its roots and launches, jumping up to 30 ft. to a space it chooses. A creature occupying the space must make a "
 					},
 					{
 						"text": "DC 13",
@@ -1126,14 +1126,14 @@
 						"dice": true
 					},
 					{
-						"text": ") poison damage on a failed save, or half as much on a successful one. The leechpod then takes 7 ("
+						"text": ") poison damage on a failed save, or half as much on a successful one. The leechpod's current hit points are then reduced by 7 ("
 					},
 					{
 						"text": "2d6",
 						"dice": true
 					},
 					{
-						"text": ") points of damage, and regrows its roots in the new space.  "
+						"text": "), and it regrows its roots in the new space.  "
 					}
 				]
 			},
@@ -1185,8 +1185,31 @@
 				]
 			}
 		],
-		"actionsize": 1321,
+		"actionsize": 1338,
 		"showinfo": false,
+		"info": [
+			{
+				"name": "Prolific Multiplier.",
+				"desc": [
+					"None are quite sure where the first leechpod came from, but most everyone knows they are a terrible problem to have. Stories tell of towns where one was brought as an exotic specimen, only for the town to fall overnight - its residents becoming feed for the carnivorous plant.",
+					"Like a disease, one leechpod becomes two, two become four, and so on. An adventurer or creature caught off-guard by a leechpod serves not only as a meal, but also as a reproductive host. Even after undergoing their procreative fission, the results are not nascent sprouts. They are a fully grown duplicate of their original as soon as they have enough nutrients to split from their progenitor."
+				]
+			},
+			{
+				"name": "Dormant in Darkness.",
+				"desc": [
+					"The Underdark is the ideal habitat for the leechpod, following their tremorsense in the vast unlit caverns. Unfortunately, the scarcity of tasty humanoid blood can leave a leechpod unsatiated for weeks at a time. During those periods, leechpods have developed a form of hibernation where they retreat within their bulbs to preserve energy and hide from would-be predators. When they feel the presence of suitably sized prey walk nearby, the tendrils of the leechpod emerge forth. This can be a harrowing sight, as what appeared to be a copse of strange cabbage-like plants quickly grow mouthy tentacles and throw themselves at surprised adventurers."
+				]
+			},
+			{
+				"name": "Combat.",
+				"desc": [
+					"It should be noted that leechpods are best used as a deterrent. Sneaking around a colony of them can be simple for stealthy individuals, but heavy-footed personnel would do best to steer away from a grove.",
+					"Leechpods alone are not fatal, but multiple leechpods in combat can very quickly lead to a death spiral. Use them sparingly. In an overwhelming encounter with leechpods, they will not stop splitting and forming new foes, so allow retreat as a viable option.",
+					"The very basis of a leechpod's lifespan relies on their expendability. They will throw themselves at creatures with no self preservation in order to replicate."
+				]
+			}
+		],
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Leechpod.png",
 		"artist": "artofagnes"
 	},
@@ -2034,7 +2057,7 @@
 			{
 				"name": "What's Inside?",
 				"desc": [
-					"Though the coffin appears to be growing the enlarged limbs of its deceased contents, the testimony of those who have escaped from a coffin's clutches proves otherwise. Once pulled within the interior where the poisonous smog of decay pours from, the coughing and gagging subject may see the swirling void of ravenous souls beyond a portal where the bottom of the coffin once belonged. No body remains inside, only the infinite deathly darkness beyond and the spirits that clamor forth to claim another vessel. Even if a victim is able to wrench themselves from the ghostly hands lunging from the netherrealms, the experience is enough to traumatize the soundest of minds into a state of insanity."
+					"Though the coffin appears to be growing the enlarged limbs of its deceased contents, the testimony of those who have escaped from a coffin's clutches proves otherwise. Once pulled within the interior where the poisonous smog of decay pours from, the coughing and gagging subject may see the swirling void of ravenous souls beyond a portal where the bottom of the coffin once belonged. No body remains inside, only the infinite deathly darkness beyond and the spirits that clamor forth to claim another vessel. Even if a victim is able to wrench themselves from the ghostly hands lunging from the Shadowfell, the experience is enough to traumatize the soundest of minds into a state of insanity."
 				]
 			},
 			{
@@ -2247,7 +2270,7 @@
 			{
 				"name": "Militant Enforcers.",
 				"desc": [
-					"Amidst the chaos of the abyss, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
+					"Amidst the chaos of the Abyss, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
 				]
 			},
 			{
