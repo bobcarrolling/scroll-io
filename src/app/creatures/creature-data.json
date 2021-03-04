@@ -70,7 +70,26 @@
 				"name": "Legendary Might.",
 				"effect": [
 					{
-						"text": "Absolution can expend a legendary resistance to add their Charisma modifier to an attack roll after knowing the result, to their AC for a single attack that would hit them, or inflict additional radiant damage equal to double the modifier of one of their attacks' damage rolls.  "
+						"text": "Absolution can expend a legendary resistance to add a "
+					},
+					{
+						"text": "1d12",
+						"dice": true
+					},
+					{
+						"text": " bonus to one of the following:  "
+					},
+					{
+						"text": "- To their AC for a single attack that would hit them.  ",
+						"newline": true
+					},
+					{
+						"text": "- To one of their attack rolls after knowing whether or not it hits.  ",
+						"newline": true
+					},
+					{
+						"text": "- To one of their attacks' damage rolls as additional force damage.  ",
+						"newline": true
 					}
 				]
 			},
@@ -86,7 +105,7 @@
 				"name": "Splendor of the Paragon.",
 				"effect": [
 					{
-						"text": "Any creature who targets Absolution with an attack or a harmful spell must first make a "
+						"text": "Any creature who targets Absolution with an attack or spell must first make a "
 					},
 					{
 						"text": "DC 18",
@@ -106,7 +125,7 @@
 				]
 			}
 		],
-		"traitsize": 743,
+		"traitsize": 746,
 		"actions": [
 			{
 				"name": "Multiattack.",
@@ -1010,6 +1029,162 @@
 		"actionsize": 432
 	},
 	{
+		"name": "Leechpod",
+		"urlname": "leechpod",
+		"size": {
+			"text": "Small",
+			"value": 1
+		},
+		"type": "plant",
+		"alignment": "unaligned",
+		"ac": "13",
+		"hp": "24 (7d6)",
+		"hpdice": "7d6",
+		"speed": "0 ft.",
+		"abilities": {
+			"str": {
+				"val": "12 (+1)",
+				"score": "12",
+				"bonus": "+1"
+			},
+			"dex": {
+				"val": "16 (+3)",
+				"score": "16",
+				"bonus": "+3"
+			},
+			"con": {
+				"val": "11 (+0)",
+				"score": "11",
+				"bonus": "+0"
+			},
+			"int": {
+				"val": "1 (-5)",
+				"score": "1",
+				"bonus": "-5"
+			},
+			"wis": {
+				"val": "8 (-1)",
+				"score": "8",
+				"bonus": "-1"
+			},
+			"cha": {
+				"val": "2 (-4)",
+				"score": "2",
+				"bonus": "-4"
+			},
+			"highest": "dex"
+		},
+		"resist": "poison",
+		"immunity": "blinded, deafened, exhaustion, prone",
+		"senses": "tremorsense 15 ft., passive Perception 9",
+		"languages": "—",
+		"cr": {
+			"text": "2",
+			"value": 2
+		},
+		"actions": [
+			{
+				"name": "Fling.",
+				"effect": [
+					{
+						"text": "The leechpod severs itself from its roots and launches, moving up to 30 ft. to a space it chooses. A creature occupying the space must make a "
+					},
+					{
+						"text": "DC 13",
+						"dc": true
+					},
+					{
+						"text": " Dexterity saving throw.  "
+					},
+					{
+						"text": "On a failed save, the leechpod latches onto the target's skin. While on the target's skin, the leechpod can be killed by normal means or pulled off with a successful ",
+						"newline": true
+					},
+					{
+						"text": "DC 13",
+						"dc": true
+					},
+					{
+						"text": " Strength check, after which it falls to an empty space within 5 feet. The leechpod cannot willingly unlatch itself from a target.  "
+					},
+					{
+						"text": "On a successful save, the leechpod flops to the ground in an empty space within 5 feet of the target. It ruptures on impact, and all creatures within 5 feet of the leechpod must make a ",
+						"newline": true
+					},
+					{
+						"text": "DC 10",
+						"dc": true
+					},
+					{
+						"text": " Constitution saving throw, taking 6 ("
+					},
+					{
+						"text": "1d12",
+						"dice": true
+					},
+					{
+						"text": ") poison damage on a failed save, or half as much on a successful one. The leechpod then takes 7 ("
+					},
+					{
+						"text": "2d6",
+						"dice": true
+					},
+					{
+						"text": ") points of damage, and regrows its roots in the new space.  "
+					}
+				]
+			},
+			{
+				"name": "Multiply.",
+				"effect": [
+					{
+						"text": ""
+					},
+					{
+						"text": "Melee Weapon Attack:",
+						"itl": true
+					},
+					{
+						"text": " "
+					},
+					{
+						"text": "+4",
+						"bonus": true
+					},
+					{
+						"text": " to hit, reach 0 ft., one target the leechpod is currently latched onto. "
+					},
+					{
+						"text": "Hit:",
+						"itl": true
+					},
+					{
+						"text": " 4 ("
+					},
+					{
+						"text": "1d4 + 2",
+						"dice": true
+					},
+					{
+						"text": ") piercing damage plus 9 ("
+					},
+					{
+						"text": "2d8",
+						"dice": true
+					},
+					{
+						"text": ") necrotic damage. This attack is always made with advantage and cannot be disadvantaged.  "
+					},
+					{
+						"text": "After dealing damage with this attack, the leechpod spawns two new leechpods in empty spaces within 10 ft., acting on their own initiative count. The original leechpod then dies.",
+						"newline": true
+					}
+				]
+			}
+		],
+		"actionsize": 1321
+	},
+	{
 		"name": "Owlrex",
 		"urlname": "owlrex",
 		"size": {
@@ -1795,7 +1970,7 @@
 						"bld": true
 					},
 					{
-						"text": " and recharging the coffin's Disgorge.  "
+						"text": " and recharging the coffin's disgorge.  "
 					}
 				]
 			},
@@ -1803,24 +1978,24 @@
 				"name": "Disgorge ",
 				"effect": [
 					{
-						"text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. Each creature that is completely within the cloud must make a "
+						"text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. Each creature that starts its turn within the cloud must make a "
 					},
 					{
 						"text": "DC 15",
 						"dc": true
 					},
 					{
-						"text": " Constitution saving throw against poison. On a failed save, the creature takes "
+						"text": " Constitution saving throw against poison. On a failed save, the creature takes 26 ("
 					},
 					{
 						"text": "4d12",
 						"dice": true
 					},
 					{
-						"text": " poison damage and spends its action next turn retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect.  "
+						"text": ") poison damage and spends its action retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect.  "
 					},
 					{
-						"text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its Pluck, a ",
+						"text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its pluck, a ",
 						"newline": true
 					},
 					{
@@ -1834,8 +2009,36 @@
 				"recharge": "6"
 			}
 		],
-		"actionsize": 1811,
+		"actionsize": 1808,
 		"showinfo": false,
+		"info": [
+			{
+				"name": "Cursed Containers.",
+				"desc": [
+					"The tether needed to raise a voodoo coffin lies not within a link between a necromancer and the corpse within, but with the necromancer and the coffin itself. A casket or other funerary burial container can be inscribed with runes of dark magics lost to all but those who pervert the ancient art of voodoo. While the underlying belief of voodooism embraces the spirits that journey between the land of the living and the dead, the twisted ritual that creates the enchanted coffin tears a hole between the two worlds in order to let the unliving energy spill forth.",
+					"It can sometimes take weeks to inscribe the obscene markings within the coffin, but once finished the magical engravings become invisible to the naked eye. Those that choose to create one may turn to grave robbing, otherwise more nefarious mages may curse a coffin before a burial takes place."
+				]
+			},
+			{
+				"name": "Unruly Subjects.",
+				"desc": [
+					"Attempting to control a voodoo coffin is nearly impossible - it is far wiser to plan around its tendencies and let it run its wrathful course. Voodooism as a religion contacts one's spiritual ancestors for guidance, but the corruption of this sacred contract drives the souls beyond the veil mad with necromantic malevolence. Voodoo coffins seek out the descendants of the one who was buried within, or descendants of their predecessors. Once set on the trail of their targets, the voodoo coffin will not stop until it has devoured every last bit of its own bloodline. If a well-studied mage knows the burial place of their enemies forbearers, placing the voodoo curse on their coffin would create a ceaseless killer to hunt them to their end."
+				]
+			},
+			{
+				"name": "What's Inside?",
+				"desc": [
+					"Though the coffin appears to be growing the enlarged limbs of its deceased contents, the testimony of those who have escaped from a coffin's clutches proves otherwise. Once pulled within the interior where the poisonous smog of decay pours from, the coughing and gagging subject may see the swirling void of ravenous souls beyond a portal where the bottom of the coffin once belonged. No body remains inside, only the infinite deathly darkness beyond and the spirits that clamor forth to claim another vessel. Even if a victim is able to wrench themselves from the ghostly hands lunging from the netherrealms, the experience is enough to traumatize the soundest of minds into a state of insanity."
+				]
+			},
+			{
+				"name": "Combat.",
+				"desc": [
+					"As described, a voodoo coffin will pinpoint its descendant with some otherworldly perception, as indicated by its blindsight. Anything that gets in its way might be a temporary meal, but the coffin won't stall for very long. Its approach is simple - repeatedly using its pluck to grapple its target inside its coffin body, and use its disgorge when it can to keep other interlopers away.",
+					"To the further dismay of adventurers, a party member killed inside makes the voodoo coffin stronger. It will immediately disgorge the victim and allow the mummy of their former friend to fight. After disgorging its bloodline relation, the coffin will retreat. It has no use for combat after eliminating their previous relative."
+				]
+			}
+		],
 		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Voodoo%20Coffin.png",
 		"artist": "chloehx21"
 	},
