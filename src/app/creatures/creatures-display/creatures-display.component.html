@@ -216,7 +216,7 @@
             </div>
             <div class="flex abi-table">
                 <table>
-                    <tr>
+                    <tr style="height: 1rem">
                         <th style="width: 16.15%;" [attr.title]="proficiencyTitle('str')">STR<span *ngIf="creature.saves && creature.saves.str">*</span></th>
                         <th style="width: 16.15%;" [attr.title]="proficiencyTitle('dex')">DEX<span *ngIf="creature.saves && creature.saves.dex">*</span></th>
                         <th style="width: 16.15%;" [attr.title]="proficiencyTitle('con')">CON<span *ngIf="creature.saves && creature.saves.con">*</span></th>
@@ -284,7 +284,9 @@
                 <div *ngIf="creature.immunity"><strong>Condition Immunities </strong>{{creature.immunity}}</div>
                 <div *ngIf="creature.senses"><strong>Senses </strong>{{creature.senses}}</div>
                 <div *ngIf="creature.languages"><strong>Languages </strong>{{creature.languages}}</div>
-                <br />
+            </div>
+            <div>
+              <br />
             </div>
             <div style="margin-top: -1rem;"><!--dont change, sizing differs in firebase-->
                 <ng-template [ngTemplateOutlet]="divider" *ngIf="creature.traits && !traitsRight(creature)">
@@ -296,7 +298,7 @@
             </ng-template>
             <!-- <ng-template [ngTemplateOutlet]="actions" *ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
             </ng-template> -->
-            <div *ngIf="mobile" style="align-self: flex-end" class="scroll-arrows" (click)="quickScroll(true)">Actions &#9655;</div>
+            <div *ngIf="mobile" style="align-self: flex-end" class="scroll-arrows" (click)="quickScroll(true)" data-unselectable="Actions &#9655;"></div>
         </div>
     </div>
     <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.reactions || creature.legendary || creature.mythic || creature.actions || creature.traits"> 
@@ -362,7 +364,8 @@
                     </div>
                 </div>
             </ng-container>
-            <div *ngIf="mobile" style="align-self: flex-start" class="scroll-arrows" (click)="quickScroll(false)">&#9665; Traits</div>
+            <div *ngIf="mobile" style="align-self: flex-start" class="scroll-arrows" (click)="quickScroll(false)"
+            data-unselectable="&#9665; Traits"></div>
         </div>
     </div>
     <!-- <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.info">
