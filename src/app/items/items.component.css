@@ -33,6 +33,7 @@
   box-sizing: border-box;
   height: calc(100% - 3rem);
   overflow-x: hidden;
+  scrollbar-width: thin;
 }
 
 .data-table table {

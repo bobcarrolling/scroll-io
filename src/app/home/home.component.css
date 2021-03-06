@@ -20,6 +20,7 @@
   margin: 1rem;
   box-sizing: border-box;
   border-radius: 10px/50px;
+  scrollbar-width: thin;
 }
 
 .content p {
