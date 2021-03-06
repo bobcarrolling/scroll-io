@@ -9,6 +9,7 @@
   overflow-y: auto;
   height: 100%;
   margin: 0 0 0 0.5rem;
+  scrollbar-width: thin;
 }
 
 .total-tables {
