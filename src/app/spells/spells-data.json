@@ -155,7 +155,7 @@
   {
     "effects": [
       {
-        "text": "A 30 foot radius vortex of wrenching momentum focuses at a point on the ground you can see within range, the very center of which is a pitch black wormhole. When you cast this spell, you must also choose another unoccupied space on solid ground within 1000 feet that you have seen, which becomes the wormhole's exit."
+        "text": "A 30 foot radius sphere of wrenching momentum focuses at a point on the ground you can see within range, the very center of which is a pitch black wormhole. When you cast this spell, you must also choose another unoccupied space on solid ground within 1000 feet that you have seen, which becomes the wormhole's exit."
       },
       {
         "text": "Until the end of your next turn, a creature within the sphere that moves away from the center takes ",
