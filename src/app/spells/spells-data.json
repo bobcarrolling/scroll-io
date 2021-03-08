@@ -1,249 +1,322 @@
 [
-	{
-		"effects": [
-			{
-				"text": "You coerce an amount of matter that fits within a 5-foot cube to quake at a molecular level. You manipulate it in one of the following ways:"
-			},
-			{
-				"text": "- If you touch an area of hardened earth, stone, wood, or ice, you can cause it to slowly dry and crack apart. If you target a construct, elemental, or plant made of this material, you must make a melee spell attack to make contact. Upon touch, that area or creature takes an amount of bludgeoning damage equal to your level.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "- If you touch an area of loose dirt, sand, or soil on the ground, you can soften the surface and make it difficult terrain. If you continue to repeat this in the same spot on subsequent turns, the affected surface area increases by 5 feet radially. You can increase the size a number of times equal to your spellcasting ability modifier. The change lasts for 10 minutes from the initial casting. Using this again in a different location ends any previous effect.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "- If you touch an area of ice, you can melt it into liquid. The liquid refreezes at its own pace if conditions provide.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "- You can make any beverage held in your hand pleasantly warm to drink.",
-				"newline": true,
-				"list": true
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 1304,
-		"name": "Agitate",
-		"urlname": "agitate",
-		"level": "cantrip",
-		"levelnum": 0,
-		"school": "Evocation",
-		"castingtime": "1 action",
-		"range": "Touch",
-		"components": "S",
-		"duration": "Instantaneous",
-		"classes": "Artificer, Druid, Sorcerer"
-	},
-	{
-		"effects": [
-			{
-				"text": "You create a toxic rain cloud over a point you can see within range, provided there is 5 feet of unoccupied space above that point. Until the spell ends, the cloud rains acid in a 5-foot cube beneath it. Any creature in the rain's space when you cast the spell must succeed on a Constitution saving throw or take "
-			},
-			{
-				"text": "1d6",
-				"dice": true
-			},
-			{
-				"text": " acid damage. A creature takes 1 point of acid damage if it ends its turn in the rain's space. The cloud stops raining and disappears at the beginning of your next turn."
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "At Higher Levels.",
-				"bld": true,
-				"itl": true
-			},
-			{
-				"text": " The spell’s damage increases by "
-			},
-			{
-				"text": "1d6",
-				"dice": true
-			},
-			{
-				"text": " when cast and 1 additional point for creatures ending their turn within the space when you reach 5th level ("
-			},
-			{
-				"text": "2d6",
-				"dice": true
-			},
-			{
-				"text": " and 2), 11th level ("
-			},
-			{
-				"text": "3d6",
-				"dice": true
-			},
-			{
-				"text": " and 3), and 17th level ("
-			},
-			{
-				"text": "4d6",
-				"dice": true
-			},
-			{
-				"text": " and 4)."
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 921,
-		"name": "Erosion",
-		"urlname": "erosion",
-		"level": "cantrip",
-		"levelnum": 0,
-		"school": "Necromancy",
-		"castingtime": "1 action",
-		"range": "30 feet",
-		"components": "V, S",
-		"duration": "Instantaneous",
-		"classes": "Artificer, Druid, Sorcerer, Warlock, Wizard"
-	},
-	{
-		"effects": [
-			{
-				"text": "A 30 foot radius vortex of wrenching momentum focuses at a point on the ground you can see within range, the very center of which is a pitch black portal. When you cast this spell, choose an unoccupied space on solid ground you are aware of within 1000 feet. Until the end of your next turn, a creature within the sphere that moves away from the center takes "
-			},
-			{
-				"text": "1d10",
-				"dice": true
-			},
-			{
-				"text": " force damage for every 5 feet it moves. If a creature ends its turn within the sphere, it is pulled into the black portal and must make a Strength saving throw. On a failure, the creature is teleported to the unoccupied space chosen when casting. A creature can willingly fail this saving throw. Unsecured objects of size Medium or smaller are pulled along with any creatures."
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 958,
-		"name": "Gravitational Well",
-		"urlname": "gravitational_well",
-		"level": "7th-level",
-		"levelnum": "7",
-		"school": "conjuration",
-		"castingtime": "1 action",
-		"range": "120 feet",
-		"components": "V, S, M (two rings of black granite)",
-		"duration": "1 round",
-		"classes": "Warlock, Wizard"
-	},
-	{
-		"effects": [
-			{
-				"text": "You create a zone that prevents mortal wounds for safe dueling. Choose any number of willing humanoids within range that can hear and understand you to be affected. When the spell ends, all creatures affected by the spell regain any hit points lost from damage dealt by other creatures under the effect of the spell. The spell ends early if a creature yields or is reduced to 0 hit points. The spell also ends early if an affected creature damages an unaffected creature, or an unaffected creature damages an affected one. A creature that dies by damage dealt by another creature under this spell is instead reduced to 0 hit points and is stable."
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 865,
-		"name": "Spar",
-		"urlname": "spar",
-		"level": "1st-level",
-		"levelnum": "1",
-		"school": "enchantment",
-		"ritual": true,
-		"castingtime": "1 minute",
-		"range": "Self (30-foot radius)",
-		"components": "V, S, M (a small white flag)",
-		"duration": "1 minute",
-		"classes": "Cleric, Paladin"
-	},
-	{
-		"effects": [
-			{
-				"text": "Choose any number of constructs or inanimate nonmagical objects within 30 feet of you when you cast this spell. You imbue them with a facsimile of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed, a vague description of any objects they may contain, and other circumstances."
-			},
-			{
-				"text": "An affected object or construct remains unchanged and nonliving, and if unmoving, they are unable to carry out any services. Even if able, any request is subject to the whim of the construct. A construct in service to another master or an object held dear to another person may be reluctant to help at all.",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "If you choose a creature that is disguised as an inanimate object, it is immediately exposed as a creature to you.",
-				"newline": true,
-				"paragraph": true
-			}
-		],
-		"sectioncount": 3,
-		"lettercount": 1059,
-		"name": "Speak with Constructs",
-		"urlname": "speak_with_constructs",
-		"level": "3rd-level",
-		"levelnum": "3",
-		"school": "transmutation",
-		"castingtime": "1 action",
-		"range": "Self (30-foot radius)",
-		"components": "V, S",
-		"duration": "10 minutes",
-		"classes": "Artificer, Bard"
-	},
-	{
-		"effects": [
-			{
-				"text": "You attempt to see glimpses into the immediate future of a creature you can see, as long as it remains within range. The target must make a Wisdom saving throw, which it can willingly fail. If the creature has an Intelligence score of 6 or lower, it automatically succeeds. On a failed save, you gain sight of their intentions and steal time to react accordingly. During the creature's turn, you gain the following benefits:"
-			},
-			{
-				"text": "- You can move up to your speed during the creature's turn by moving in tandem. For every 5 feet the creature moves, you can also move 5 feet.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "- You know what action and bonus action the creature will take, along with its targets, just before it happens.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "- Before the creature uses its action or bonus action, you can expend your reaction to use any remaining movement you haven't used during the creature's turn and take an action or bonus action. Once the creature has chosen its action, it cannot change any part of that action (such as targets or direction), no matter how you respond.",
-				"newline": true,
-				"list": true
-			},
-			{
-				"text": "Regardless of the spell lasting for its duration, as long as the creature failed its saving throw, the stolen time pulls you back into its normal flow. On your next turn you must take only an action, a bonus action, or move exclusively.",
-				"newline": true,
-				"paragraph": true
-			}
-		],
-		"sectioncount": 2,
-		"lettercount": 1496,
-		"name": "Synchronization",
-		"urlname": "synchronization",
-		"level": "3rd-level",
-		"levelnum": "3",
-		"school": "divination",
-		"castingtime": "1 action",
-		"range": "60 feet",
-		"components": "V, S, M (a necklace of glass beads)",
-		"duration": "Concentration, up to 1 round",
-		"concentration": true,
-		"classes": "Sorcerer, Warlock, Wizard"
-	},
-	{
-		"effects": [
-			{
-				"text": "This spell has the same properties as the spell "
-			},
-			{
-				"text": "Unseen Servant",
-				"itl": true
-			},
-			{
-				"text": ", but grants the servant a semblance of intelligence and skill. The servant has a Dexterity and Wisdom of 10, and adds your spellcasting ability modifier to any Strength, Dexterity, or Wisdom check it makes. It cannot make ability checks with ability scores it does not have. The servant can hear and understand any question you mentally ask of it, and it can respond telepathically in a one-word whisper audible only to you."
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 734,
-		"name": "Whispering Servant",
-		"urlname": "whispering_servant",
-		"level": "2nd-level",
-		"levelnum": "2",
-		"school": "conjuration",
-		"ritual": true,
-		"castingtime": "1 minute",
-		"range": "60 feet",
-		"components": "V, S, M (a short piece of copper wire and a tin cup)",
-		"duration": "1 hour",
-		"classes": "Bard, Warlock, Wizard"
-	}
+  {
+    "effects": [
+      {
+        "text": "This spell has the same properties as the spell "
+      },
+      {
+        "text": "Unseen Servant",
+        "itl": true
+      },
+      {
+        "text": ", but grants the servant a semblance of intelligence and skill. The servant has a Dexterity and Wisdom of 10, and adds your spellcasting ability modifier to any Strength, Dexterity, or Wisdom check it makes. It cannot make ability checks with ability scores it does not have. The servant can hear and understand any question you mentally ask of it, and it can respond telepathically in a one-word whisper audible only to you."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 734,
+    "name": "Whispering Servant",
+    "urlname": "whispering_servant",
+    "level": "2nd-level",
+    "levelnum": "2",
+    "school": "conjuration",
+    "ritual": true,
+    "castingtime": "1 minute",
+    "range": "60 feet",
+    "components": "V, S, M (a short piece of copper wire and a tin cup)",
+    "duration": "1 hour",
+    "classes": "Bard, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You create a toxic rain cloud over a point you can see within range, provided there is 5 feet of unoccupied space above that point. Until the spell ends, the cloud rains acid in a 5-foot cube beneath it. Any creature in the rain's space when you cast the spell must succeed on a Constitution saving throw or take "
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " acid damage. A creature takes 1 point of acid damage if it ends its turn in the rain's space. The cloud stops raining and disappears at the beginning of your next turn."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "At Higher Levels.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " The spell’s damage increases by "
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " when cast and 1 additional point for creatures ending their turn within the space when you reach 5th level ("
+      },
+      {
+        "text": "2d6",
+        "dice": true
+      },
+      {
+        "text": " and 2), 11th level ("
+      },
+      {
+        "text": "3d6",
+        "dice": true
+      },
+      {
+        "text": " and 3), and 17th level ("
+      },
+      {
+        "text": "4d6",
+        "dice": true
+      },
+      {
+        "text": " and 4)."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 921,
+    "name": "Erosion",
+    "urlname": "erosion",
+    "level": "cantrip",
+    "levelnum": 0,
+    "school": "Necromancy",
+    "castingtime": "1 action",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Artificer, Druid, Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You create a zone that prevents mortal wounds for safe dueling. Choose any number of willing humanoids within range that can hear and understand you to be affected. When the spell ends, all creatures affected by the spell regain any hit points lost from damage dealt by other creatures under the effect of the spell. The spell ends early if a creature yields or is reduced to 0 hit points. The spell also ends early if an affected creature damages an unaffected creature, or an unaffected creature damages an affected one. A creature that dies by damage dealt by another creature under this spell is instead reduced to 0 hit points and is stable."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 865,
+    "name": "Spar",
+    "urlname": "spar",
+    "level": "1st-level",
+    "levelnum": "1",
+    "school": "enchantment",
+    "ritual": true,
+    "castingtime": "1 minute",
+    "range": "Self (30-foot radius)",
+    "components": "V, S, M (a small white flag)",
+    "duration": "1 minute",
+    "classes": "Cleric, Paladin"
+  },
+  {
+    "effects": [
+      {
+        "text": "You attempt to see glimpses into the immediate future of a creature you can see, as long as it remains within range. The target must make a Wisdom saving throw, which it can willingly fail. If the creature has an Intelligence score of 6 or lower, it automatically succeeds. On a failed save, you gain sight of their intentions and steal time to react accordingly. During the creature's turn, you gain the following benefits:"
+      },
+      {
+        "text": "- You can move up to your speed during the creature's turn by moving in tandem. For every 5 feet the creature moves, you can also move 5 feet.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- You know what action and bonus action the creature will take, along with its targets, just before it happens.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- Before the creature uses its action or bonus action, you can expend your reaction to use any remaining movement you haven't used during the creature's turn and take an action or bonus action. Once the creature has chosen its action, it cannot change any part of that action (such as targets or direction), no matter how you respond.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "Regardless of the spell lasting for its duration, as long as the creature failed its saving throw, the stolen time pulls you back into its normal flow. On your next turn you must take only an action, a bonus action, or move exclusively.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 1496,
+    "name": "Synchronization",
+    "urlname": "synchronization",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "divination",
+    "castingtime": "1 action",
+    "range": "60 feet",
+    "components": "V, S, M (a necklace of glass beads)",
+    "duration": "Concentration, up to 1 round",
+    "concentration": true,
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "A 30 foot radius vortex of wrenching momentum focuses at a point on the ground you can see within range, the very center of which is a pitch black wormhole. When you cast this spell, you must also choose another unoccupied space on solid ground within 1000 feet that you have seen, which becomes the wormhole's exit."
+      },
+      {
+        "text": "Until the end of your next turn, a creature within the sphere that moves away from the center takes ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d10",
+        "dice": true
+      },
+      {
+        "text": " force damage for every 5 feet it moves. If a creature ends its turn within the sphere, it is pulled into the central wormhole and must make a Strength saving throw. On a failure, the creature is teleported to the wormhole's exit. A creature can willingly fail this saving throw. Unsecured objects of size Medium or smaller are pulled along with any creatures."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 1000,
+    "name": "Gravitational Well",
+    "urlname": "gravitational_well",
+    "level": "7th-level",
+    "levelnum": "7",
+    "school": "conjuration",
+    "castingtime": "1 action",
+    "range": "120 feet",
+    "components": "V, S, M (two rings of black granite)",
+    "duration": "1 round",
+    "classes": "Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You coerce an amount of matter that fits within a 5-foot cube to quake at a molecular level. You manipulate it in one of the following ways:"
+      },
+      {
+        "text": "- If you touch an area of hardened earth, stone, wood, or ice, you can cause it to slowly dry and crack apart. If you target a construct, elemental, or plant made of this material, you must make a melee spell attack to make contact. Upon touch, that area or creature takes an amount of bludgeoning damage equal to your level.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- If you touch an area of loose dirt, sand, or soil on the ground, you can soften the surface and make it difficult terrain. If you continue to repeat this in the same spot on subsequent turns, the affected surface area increases by 5 feet radially. You can increase the size a number of times equal to your spellcasting ability modifier. The change lasts for 10 minutes from the initial casting. Using this again in a different location ends any previous effect.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- If you touch an area of ice, you can melt it into liquid. The liquid refreezes at its own pace if conditions provide.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- You can make any beverage held in your hand pleasantly warm to drink.",
+        "newline": true,
+        "list": true
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 1304,
+    "name": "Agitate",
+    "urlname": "agitate",
+    "level": "cantrip",
+    "levelnum": 0,
+    "school": "Evocation",
+    "castingtime": "1 action",
+    "range": "Touch",
+    "components": "S",
+    "duration": "Instantaneous",
+    "classes": "Artificer, Druid, Sorcerer"
+  },
+  {
+    "effects": [
+      {
+        "text": "Choose any number of constructs or inanimate nonmagical objects within 30 feet of you when you cast this spell. You imbue them with a facsimile of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed, a vague description of any objects they may contain, and other circumstances."
+      },
+      {
+        "text": "An affected object or construct remains unchanged and nonliving, and if unmoving, they are unable to carry out any services. Even if able, any request is subject to the whim of the construct. A construct in service to another master or an object held dear to another person may be reluctant to help at all.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "If you choose a creature that is disguised as an inanimate object, it is immediately exposed as a creature to you.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1062,
+    "name": "Speak with Constructs",
+    "urlname": "speak_with_constructs",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "transmutation",
+    "castingtime": "1 action",
+    "range": "Self (30-foot radius)",
+    "components": "V, S",
+    "duration": "10 minutes",
+    "classes": "Artificer, Bard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You override the mental instincts of another creature within range. The target must succeed a Wisdom saving throw or become linked with you. A creature can willingly fail this saving throw. While linked, the creature gains advantage on saving throws against being charmed, frightened, and stunned."
+      },
+      {
+        "text": "Also, choose either Intelligence, Wisdom, or Charisma when you cast the spell. The linked creature uses your saving throw bonus instead of their own for saving throws made with the chosen ability.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "On each of your turns for the duration, you must use your action to continue the link. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 973,
+    "name": "Lucid Link",
+    "urlname": "lucid_link",
+    "level": "2nd-level",
+    "levelnum": "2",
+    "school": "enchantment",
+    "castingtime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (the petrified eye of a newt)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "classes": "Cleric, Druid"
+  },
+  {
+    "effects": [
+      {
+        "text": "You create an exact and indiscernible replica of any object that can fit within a 10 foot cube. If the object was magical or had complex mechanical workings, the new object appears to have those same properties, but it does not work if used. Only the object’s original creator can tell it is a fake with a successful Intelligence (Investigation) check against your spell save DC. Otherwise, attempting to use the object immediately reveals it is fake."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 684,
+    "name": "Facsimile",
+    "urlname": "facsimile",
+    "level": "6th",
+    "levelnum": "6",
+    "school": "level",
+    "castingtime": "10 minutes",
+    "range": "30 feet",
+    "components": "V, S, M (the fragment of a color pool worth at least 50,000 gp)",
+    "duration": "Instantaneous",
+    "classes": "Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You send an ally and enemy into a mental battle. Choose one willing creature other than yourself and another creature that is hostile to the first, both of which must be within range and visible to you. If either creature resists or is immune to psychic damage, the spell fails. If the hostile creature fails a Wisdom saving throw, both creatures are temporarily sent to a harmless demiplane standing 30 feet apart from one another on solid ground. They both roll initiative, then each take one turn in that order. All damage dealt during this time is converted to psychic damage. The spell ends after both turns have been taken. Both creatures are returned to the space they disappeared from, though it appears as if they never left."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 980,
+    "name": "Psychic Clash",
+    "urlname": "psychic_clash",
+    "level": "4th-level",
+    "levelnum": "4",
+    "school": "divination",
+    "castingtime": "1 action",
+    "range": "60 feet",
+    "components": "V, S, M (a prism of electrum worth at least 50 gp, which the spell consumes)",
+    "duration": "Instantaneous",
+    "classes": "Wizard"
+  }
 ]
