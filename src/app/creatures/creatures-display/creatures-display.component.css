@@ -219,7 +219,7 @@ h3 {
   min-height: 8rem;
   margin-bottom: -1rem;
   cursor: auto;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; MOBILE ISSUES*/
 }
 .image-style a {
   align-self: flex-end;
