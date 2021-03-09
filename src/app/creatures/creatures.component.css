@@ -30,7 +30,7 @@
 }
 
 .data-table {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: calc(100% - 3rem);
   overflow-x: hidden;
   scrollbar-width: thin;
