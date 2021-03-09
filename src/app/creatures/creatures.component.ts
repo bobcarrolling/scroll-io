@@ -122,6 +122,7 @@ export class CreaturesComponent implements OnInit {
           });
         this.selected = creature;
       }
+      this.lastselected = undefined;
     }
   }
 
