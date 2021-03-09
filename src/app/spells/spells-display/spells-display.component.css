@@ -19,7 +19,7 @@ p {
 }
 
 .container-lg {
-  width: calc(53rem - 8px);
+  width: calc(53rem - 7px);
 }
 .container-sm {
   width: calc(100vw - 1rem + 1px);

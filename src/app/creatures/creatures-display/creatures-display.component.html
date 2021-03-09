@@ -144,6 +144,8 @@
     </ng-container>
 </ng-template>
 
+<!-- INFO & STATBLOCK -->
+
 <div *ngIf="creature && (creature.info || creature.image)" class="container flexrow" [ngClass]="{'container-lg': !mobile, 'container-sm': mobile}" style="border-bottom: 0">
   <div class="flexcol image-style"  style="width: 100%; padding: 0.2rem; background-color: transparent;">
     <div class="flexrow point" (click)="creature.showinfo = !creature.showinfo" style="background-color: rgba(0, 0, 0, 0.05); border-radius: 3px 3px 0 0;">
