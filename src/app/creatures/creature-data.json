@@ -1,2302 +1,2339 @@
 [
-	{
-		"name": "Absolution the Opalescent Dragon",
-		"urlname": "absolution_the_opalescent_dragon",
-		"size": {
-			"text": "Huge",
-			"value": 4
-		},
-		"type": "celestial (archangel, dragon)",
-		"alignment": "lawful good",
-		"ac": "21 (natural armor)",
-		"hp": "465 (30d12 + 270)",
-		"hpdice": "30d12 + 270",
-		"speed": "50 ft., fly 180 ft.",
-		"abilities": {
-			"str": {
-				"val": "30 (+10)",
-				"score": "30",
-				"bonus": "+10"
-			},
-			"dex": {
-				"val": "20 (+5)",
-				"score": "20",
-				"bonus": "+5"
-			},
-			"con": {
-				"val": "29 (+9)",
-				"score": "29",
-				"bonus": "+9"
-			},
-			"int": {
-				"val": "25 (+7)",
-				"score": "25",
-				"bonus": "+7"
-			},
-			"wis": {
-				"val": "29 (+9)",
-				"score": "29",
-				"bonus": "+9"
-			},
-			"cha": {
-				"val": "30 (+10)",
-				"score": "30",
-				"bonus": "+10"
-			},
-			"highest": "str"
-		},
-		"saves": {
-			"con": "+17",
-			"int": "+15",
-			"wis": "+17",
-			"cha": "+18"
-		},
-		"skills": {
-			"insight": "+17",
-			"perception": "+17",
-			"persuasion": "+18"
-		},
-		"resist": "necrotic",
-		"immune": "radiant",
-		"immunity": "charmed, exhaustion, frightened, poisoned",
-		"senses": "truesight 120 ft., passive Perception 27",
-		"languages": "all, telepathy 120 ft.",
-		"cr": {
-			"text": "26",
-			"value": 26
-		},
-		"traits": [
-			{
-				"name": "Legendary Might.",
-				"effect": [
-					{
-						"text": "Absolution can expend a legendary resistance to add a "
-					},
-					{
-						"text": "1d12",
-						"dice": true
-					},
-					{
-						"text": " bonus to one of the following:  "
-					},
-					{
-						"text": "- To their AC for a single attack that would hit them.  ",
-						"newline": true
-					},
-					{
-						"text": "- To one of their attack rolls after knowing whether or not it hits.  ",
-						"newline": true
-					},
-					{
-						"text": "- To one of their attacks' damage rolls as additional force damage.  ",
-						"newline": true
-					}
-				]
-			},
-			{
-				"name": "Legendary Resistance (3/Day).",
-				"effect": [
-					{
-						"text": "If Absolution fails a saving throw, they can choose to succeed instead.  "
-					}
-				]
-			},
-			{
-				"name": "Splendor of the Paragon.",
-				"effect": [
-					{
-						"text": "Any creature who targets Absolution with an attack or spell must first make a "
-					},
-					{
-						"text": "DC 18",
-						"dc": true
-					},
-					{
-						"text": " Wisdom saving throw. On a failed save, Absolution regains a legendary resistance, up to a maximum of 3.  "
-					}
-				]
-			},
-			{
-				"name": "Sublime Conceit.",
-				"effect": [
-					{
-						"text": "Absolution is visible or invisible to any creature it chooses at will.  "
-					}
-				]
-			}
-		],
-		"traitsize": 746,
-		"actions": [
-			{
-				"name": "Multiattack.",
-				"effect": [
-					{
-						"text": "Absolution can use their Divine Presence, then make three attacks: one with their bite and two with their claws.  "
-					}
-				]
-			},
-			{
-				"name": "Bite.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+18",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 10 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 21 ("
-					},
-					{
-						"text": "2d10 + 10",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage.  "
-					}
-				]
-			},
-			{
-				"name": "Claw.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+18",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 5 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 17 ("
-					},
-					{
-						"text": "2d6 + 10",
-						"dice": true
-					},
-					{
-						"text": ") slashing damage.  "
-					}
-				]
-			},
-			{
-				"name": "Tail.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+18",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 15 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 19 ("
-					},
-					{
-						"text": "2d8 + 10",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage.  "
-					}
-				]
-			},
-			{
-				"name": "Divine Presence.",
-				"effect": [
-					{
-						"text": "Each creature of Absolution's choice that is within 180 feet and aware of them must succeed on a "
-					},
-					{
-						"text": "DC 26",
-						"dc": true
-					},
-					{
-						"text": " Wisdom saving throw or it cannot gain advantage on any rolls for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Absolution's Divine Presence for the next 24 hours.  "
-					}
-				]
-			},
-			{
-				"name": "Breath Weapons ",
-				"effect": [
-					{
-						"text": "Absolution uses one of the following breath weapons.  "
-					}
-				],
-				"recharge": "5–6",
-				"options": [
-					{
-						"name": "Sun Breath.",
-						"effect": [
-							{
-								"text": "Absolution fires a concentrated beam of light in a 120-foot line. Each creature in that area must make a "
-							},
-							{
-								"text": "DC 25",
-								"dc": true
-							},
-							{
-								"text": " Dexterity saving throw, taking 54 ("
-							},
-							{
-								"text": "12d8",
-								"dice": true
-							},
-							{
-								"text": ") radiant damage on a failed save, or half as much damage on a successful one. After dealing damage Absolution can choose to further focus the beam by expending 3 of their legendary resistances. Once expended, Absolution deals an additional 54 ("
-							},
-							{
-								"text": "12d8",
-								"dice": true
-							},
-							{
-								"text": ") radiant damage for this attack."
-							}
-						]
-					},
-					{
-						"name": "Moon Breath.",
-						"effect": [
-							{
-								"text": "Absolution exhales starry polychromatic gas in a 90-foot cone. Each creature in that area must succeed on a "
-							},
-							{
-								"text": "DC 25",
-								"dc": true
-							},
-							{
-								"text": " Constitution saving throw or take 24 ("
-							},
-							{
-								"text": "7d6",
-								"dice": true
-							},
-							{
-								"text": ") radiant damage, 24 ("
-							},
-							{
-								"text": "7d6",
-								"dice": true
-							},
-							{
-								"text": ") fire damage, and 24 ("
-							},
-							{
-								"text": "7d6",
-								"dice": true
-							},
-							{
-								"text": ") cold damage, or half as much damage on a successful one."
-							}
-						]
-					}
-				]
-			},
-			{
-				"name": "Healing Touch (5/Day).",
-				"effect": [
-					{
-						"text": "Absolution touches a creature. The target magically regains 55 ("
-					},
-					{
-						"text": "10d8 + 10",
-						"dice": true
-					},
-					{
-						"text": ") hit points and is freed from any curse, disease, poison, blindness, or deafness.  "
-					}
-				]
-			}
-		],
-		"actionsize": 1963,
-		"legendary": {
-			"info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of their turn.",
-			"actions": [
-				{
-					"name": "Overawe.",
-					"effect": [
-						{
-							"text": "Absolution uses their divine presence on a single creature, ignoring immunity."
-						}
-					]
-				},
-				{
-					"name": "Tail Attack.",
-					"effect": [
-						{
-							"text": "Absolution makes a tail attack."
-						}
-					]
-				},
-				{
-					"name": "Heal (Costs 2 Actions).",
-					"effect": [
-						{
-							"text": "Absolution uses their healing touch."
-						}
-					]
-				},
-				{
-					"name": "Wing Attack (Costs 2 Actions).",
-					"effect": [
-						{
-							"text": "Absolution beats their wings. Each creature within 15 feet must succeed on a "
-						},
-						{
-							"text": "DC 25",
-							"dc": true
-						},
-						{
-							"text": " Dexterity saving throw or take 17 ("
-						},
-						{
-							"text": "2d6 + 10",
-							"dice": true
-						},
-						{
-							"text": ") bludgeoning damage and be knocked prone. Absolution can then fly up to half their flying speed."
-						}
-					]
-				}
-			]
-		},
-		"showinfo": false,
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
-		"artist": "chloehx21"
-	},
-	{
-		"name": "Bulu",
-		"urlname": "bulu",
-		"size": {
-			"text": "Tiny",
-			"value": 0
-		},
-		"type": "celestial",
-		"alignment": "lawful good",
-		"ac": "13",
-		"hp": "7 (5d4 - 5)",
-		"hpdice": "5d4 - 5",
-		"speed": "40 ft., fly 40 ft.",
-		"abilities": {
-			"str": {
-				"val": "6 (-2)",
-				"score": "6",
-				"bonus": "-2"
-			},
-			"dex": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"con": {
-				"val": "8 (-1)",
-				"score": "8",
-				"bonus": "-1"
-			},
-			"int": {
-				"val": "6 (-2)",
-				"score": "6",
-				"bonus": "-2"
-			},
-			"wis": {
-				"val": "14 (+2)",
-				"score": "14",
-				"bonus": "+2"
-			},
-			"cha": {
-				"val": "15 (+2)",
-				"score": "15",
-				"bonus": "+2"
-			},
-			"highest": "dex"
-		},
-		"skills": {
-			"acrobatics": "+5",
-			"perception": "+4"
-		},
-		"senses": "passive Perception 14",
-		"languages": "—",
-		"cr": {
-			"text": "1/8",
-			"value": 0.125
-		},
-		"traits": [
-			{
-				"name": "Keen Hearing.",
-				"effect": [
-					{
-						"text": "The bulu has advantage on Wisdom (Perception) checks that rely on hearing.  "
-					}
-				]
-			},
-			{
-				"name": "Spell Turning.",
-				"effect": [
-					{
-						"text": "The bulu has advantage on saving throws against any spell that targets only the bulu (not an area). If the bulu's saving throw succeeds and the spell is of a level equal to or less than the bulu's current hit points, the spell has no effect on the bulu and instead targets the caster.  "
-					}
-				]
-			},
-			{
-				"name": "Ward Self.",
-				"effect": [
-					{
-						"text": "The bulu can cast "
-					},
-					{
-						"text": "sanctuary",
-						"itl": true
-					},
-					{
-						"text": " (spell save "
-					},
-					{
-						"text": "DC 12",
-						"dc": true
-					},
-					{
-						"text": ") on itself at will.  "
-					}
-				]
-			}
-		],
-		"traitsize": 494,
-		"actions": [
-			{
-				"name": "Heal.",
-				"effect": [
-					{
-						"text": "The bulu regains 1 hit point."
-					}
-				]
-			}
-		],
-		"actionsize": 42
-	},
-	{
-		"name": "Dragon Tortoise",
-		"urlname": "dragon_tortoise",
-		"size": {
-			"text": "Gargantuan",
-			"value": 5
-		},
-		"type": "dragon",
-		"alignment": "neutral good",
-		"ac": "21 (natural armor)",
-		"hp": "356 (23d20 + 115)",
-		"hpdice": "23d20 + 115",
-		"speed": "25 ft., burrow 10 ft.",
-		"abilities": {
-			"str": {
-				"val": "26 (+8)",
-				"score": "26",
-				"bonus": "+8"
-			},
-			"dex": {
-				"val": "6 (-2)",
-				"score": "6",
-				"bonus": "-2"
-			},
-			"con": {
-				"val": "21 (+5)",
-				"score": "21",
-				"bonus": "+5"
-			},
-			"int": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"wis": {
-				"val": "14 (+2)",
-				"score": "14",
-				"bonus": "+2"
-			},
-			"cha": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"highest": "str"
-		},
-		"saves": {
-			"str": "+14",
-			"con": "+11",
-			"wis": "+8"
-		},
-		"resist": "thunder",
-		"senses": "passive Perception 12",
-		"languages": "Draconic, Terran",
-		"cr": {
-			"text": "17",
-			"value": 17
-		},
-		"traits": [
-			{
-				"name": "False Appearance.",
-				"effect": [
-					{
-						"text": "While the dragon tortoise remains motionless and half-buried, it is indistinguishable from a large boulder or other natural rock.  "
-					}
-				]
-			},
-			{
-				"name": "Heavy-Footed.",
-				"effect": [
-					{
-						"text": "The dragon tortoise has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will. Additionally, if the dragon tortoise is moved against its will, the distance it is moved is halved. If the distance is 5 ft. or less, the dragon tortoise is not moved.  "
-					}
-				]
-			}
-		],
-		"traitsize": 497,
-		"actions": [
-			{
-				"name": "Multiattack.",
-				"effect": [
-					{
-						"text": "The dragon tortoise makes three attacks: one with its bite, one with its stomp, and one with its tail. They cannot be against the same target.  "
-					}
-				]
-			},
-			{
-				"name": "Bite.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+14",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 20 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 30 ("
-					},
-					{
-						"text": "4d10 + 8",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage, and the dragon tortoise can choose to pull the target 20 ft. closer to itself.  "
-					}
-				]
-			},
-			{
-				"name": "Stomp.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+14",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 10 ft., one target that is on the ground. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 18 ("
-					},
-					{
-						"text": "3d6 + 8",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage, and the target is knocked prone.  "
-					}
-				]
-			},
-			{
-				"name": "Tail.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+14",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 10 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 34 ("
-					},
-					{
-						"text": "4d12 + 8",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage.  "
-					}
-				]
-			},
-			{
-				"name": "Warming Breath ",
-				"effect": [
-					{
-						"text": "The dragon tortoise exhales a relaxing breath in a 60-foot cone. Each creature in that area must make a "
-					},
-					{
-						"text": "DC 19",
-						"dc": true
-					},
-					{
-						"text": " Constitution saving throw. On a failure, a creature becomes indifferent to the dragon tortoise until the end of its next turn. This indifference ends if the target is attacked or if it witnesses any of its friends being harmed by the dragon tortoise.  "
-					}
-				],
-				"recharge": "5–6"
-			},
-			{
-				"name": "Withdrawal.",
-				"effect": [
-					{
-						"text": "The dragon tortoise retreats within its shell. Until it takes a different action, it gains resistance to all damage except psychic damage. On the turn the dragon tortoise uses its withdrawal, its walking speed is reduced to zero, and its burrow speed is reduced to 5 ft. If half-buried or more in this state, the dragon tortoise has advantage on all saving throws."
-					}
-				]
-			}
-		],
-		"actionsize": 1434,
-		"showinfo": false,
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Dragon%20Tortoise.png",
-		"artist": "LauraGalliArt"
-	},
-	{
-		"name": "Flitterpuff",
-		"urlname": "flitterpuff",
-		"size": {
-			"text": "Tiny",
-			"value": 0
-		},
-		"type": "fey",
-		"alignment": "neutral",
-		"ac": "15",
-		"hp": "7 (5d4 - 5)",
-		"hpdice": "5d4 - 5",
-		"speed": "20 ft., fly 30 ft.",
-		"abilities": {
-			"str": {
-				"val": "3 (-4)",
-				"score": "3",
-				"bonus": "-4"
-			},
-			"dex": {
-				"val": "20 (+5)",
-				"score": "20",
-				"bonus": "+5"
-			},
-			"con": {
-				"val": "8 (-1)",
-				"score": "8",
-				"bonus": "-1"
-			},
-			"int": {
-				"val": "6 (-2)",
-				"score": "6",
-				"bonus": "-2"
-			},
-			"wis": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"cha": {
-				"val": "14 (+2)",
-				"score": "14",
-				"bonus": "+2"
-			},
-			"highest": "dex"
-		},
-		"skills": {
-			"acrobatics": "+7"
-		},
-		"immune": "bludgeoning, piercing, slashing",
-		"senses": "passive Perception 11",
-		"languages": "understands Sylvan but can't speak",
-		"cr": {
-			"text": "1",
-			"value": 1
-		},
-		"traits": [
-			{
-				"name": "Drift.",
-				"effect": [
-					{
-						"text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity.  "
-					}
-				]
-			},
-			{
-				"name": "Lightning Absorption.",
-				"effect": [
-					{
-						"text": "Whenever the flitterpuff is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.  "
-					}
-				]
-			},
-			{
-				"name": "Spellcasting.",
-				"effect": [
-					{
-						"text": "The flitterpuff's innate spellcasting ability is Charisma (spell save "
-					},
-					{
-						"text": "DC 12",
-						"dc": true
-					},
-					{
-						"text": "). It can innately cast the following spells, requiring no components:  "
-					}
-				],
-				"spells": [
-					{
-						"label": "At will",
-						"list": "shocking grasp  "
-					},
-					{
-						"label": "1/day each",
-						"list": "absorb elements, cure wounds  "
-					}
-				]
-			}
-		],
-		"traitsize": 607,
-		"actions": [
-			{
-				"name": "Puff.",
-				"effect": [
-					{
-						"text": "The flitterpuff releases a cloud of its feathers. Each creature within 10 feet of the flitterpuff must succeed on a "
-					},
-					{
-						"text": "DC 10",
-						"dc": true
-					},
-					{
-						"text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn."
-					}
-				]
-			}
-		],
-		"actionsize": 221
-	},
-	{
-		"name": "Forest Giant",
-		"urlname": "forest_giant",
-		"size": {
-			"text": "Large",
-			"value": 3
-		},
-		"type": "giant",
-		"alignment": "chaotic neutral",
-		"ac": "14 (patchwork leather)",
-		"hp": "68 (8d10 + 24)",
-		"hpdice": "8d10 + 24",
-		"speed": "40 ft.",
-		"abilities": {
-			"str": {
-				"val": "20 (+5)",
-				"score": "20",
-				"bonus": "+5"
-			},
-			"dex": {
-				"val": "17 (+3)",
-				"score": "17",
-				"bonus": "+3"
-			},
-			"con": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"int": {
-				"val": "9 (-1)",
-				"score": "9",
-				"bonus": "-1"
-			},
-			"wis": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"cha": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"highest": "str"
-		},
-		"saves": {
-			"dex": "+5"
-		},
-		"skills": {
-			"acrobatics": "+5",
-			"perception": "+5",
-			"stealth": "+5",
-			"survival": "+7"
-		},
-		"senses": "darkvision 60 ft., passive Perception 15",
-		"languages": "Giant, Druidic",
-		"cr": {
-			"text": "4",
-			"value": 4
-		},
-		"traits": [
-			{
-				"name": "Timber Seeds (3/day).",
-				"effect": [
-					{
-						"text": "Before making a ranged weapon attack, the giant can choose to attach a pouch of timber seeds to the ammunition or the thrown weapon. When it does so, the range of the weapon is halved. If the attack hits a creature, the creature must make a "
-					},
-					{
-						"text": "DC 13",
-						"dc": true
-					},
-					{
-						"text": " Strength saving throw or be knocked 15 feet away from the giant. A 20 foot tall, 5 foot wide tree grows in the previously occupied space, and tangled roots create difficult terrain in a 15 foot radius centered on the tree. If the attack misses or the creature succeeds its saving throw, the tree grows in the space behind the creature.  "
-					}
-				]
-			}
-		],
-		"traitsize": 613,
-		"actions": [
-			{
-				"name": "Multiattack.",
-				"effect": [
-					{
-						"text": "The giant makes two attacks with its greatspear or greatbow.  "
-					}
-				]
-			},
-			{
-				"name": "Greatspear.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee  or Ranged Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+7",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 5 ft. or range 40/120 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 10 ("
-					},
-					{
-						"text": "1d10 + 5",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage, or 11 ("
-					},
-					{
-						"text": "1d12 + 5",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage if used with two hands to make a melee attack.  "
-					}
-				]
-			},
-			{
-				"name": "Greatbow.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Ranged Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+5",
-						"bonus": true
-					},
-					{
-						"text": " to hit, range 300/1200 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 8 ("
-					},
-					{
-						"text": "1d10 + 3",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage."
-					}
-				]
-			}
-		],
-		"actionsize": 432,
-		"showinfo": false,
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Forest%20Giant.png",
-		"artist": "artofagnes"
-	},
-	{
-		"name": "Leechpod",
-		"urlname": "leechpod",
-		"size": {
-			"text": "Small",
-			"value": 1
-		},
-		"type": "plant",
-		"alignment": "unaligned",
-		"ac": "13",
-		"hp": "24 (7d6)",
-		"hpdice": "7d6",
-		"speed": "0 ft.",
-		"abilities": {
-			"str": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"dex": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"con": {
-				"val": "11 (+0)",
-				"score": "11",
-				"bonus": "+0"
-			},
-			"int": {
-				"val": "1 (-5)",
-				"score": "1",
-				"bonus": "-5"
-			},
-			"wis": {
-				"val": "8 (-1)",
-				"score": "8",
-				"bonus": "-1"
-			},
-			"cha": {
-				"val": "2 (-4)",
-				"score": "2",
-				"bonus": "-4"
-			},
-			"highest": "dex"
-		},
-		"resist": "poison",
-		"immunity": "blinded, deafened, exhaustion, prone",
-		"senses": "tremorsense 15 ft., passive Perception 9",
-		"languages": "—",
-		"cr": {
-			"text": "2",
-			"value": 2
-		},
-		"actions": [
-			{
-				"name": "Fling.",
-				"effect": [
-					{
-						"text": "The leechpod severs itself from its roots and launches, jumping up to 30 ft. to a space it chooses. A creature occupying the space must make a "
-					},
-					{
-						"text": "DC 13",
-						"dc": true
-					},
-					{
-						"text": " Dexterity saving throw.  "
-					},
-					{
-						"text": "On a failed save, the leechpod latches onto the target's skin. While on the target's skin, the leechpod can be killed by normal means or pulled off with a successful ",
-						"newline": true
-					},
-					{
-						"text": "DC 13",
-						"dc": true
-					},
-					{
-						"text": " Strength check, after which it falls to an empty space within 5 feet. The leechpod cannot willingly unlatch itself from a target.  "
-					},
-					{
-						"text": "On a successful save, the leechpod flops to the ground in an empty space within 5 feet of the target. It ruptures on impact, and all creatures within 5 feet of the leechpod must make a ",
-						"newline": true
-					},
-					{
-						"text": "DC 10",
-						"dc": true
-					},
-					{
-						"text": " Constitution saving throw, taking 6 ("
-					},
-					{
-						"text": "1d12",
-						"dice": true
-					},
-					{
-						"text": ") poison damage on a failed save, or half as much on a successful one. The leechpod's current hit points are then reduced by 7 ("
-					},
-					{
-						"text": "2d6",
-						"dice": true
-					},
-					{
-						"text": "), and it regrows its roots in the new space.  "
-					}
-				]
-			},
-			{
-				"name": "Multiply.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+4",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 0 ft., one target the leechpod is currently latched onto. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 4 ("
-					},
-					{
-						"text": "1d4 + 2",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage plus 9 ("
-					},
-					{
-						"text": "2d8",
-						"dice": true
-					},
-					{
-						"text": ") necrotic damage. This attack is always made with advantage and cannot be disadvantaged.  "
-					},
-					{
-						"text": "After dealing damage with this attack, the leechpod spawns two new leechpods in empty spaces within 10 ft., acting on their own initiative count. The original leechpod then dies.",
-						"newline": true
-					}
-				]
-			}
-		],
-		"actionsize": 1338,
-		"showinfo": false,
-		"info": [
-			{
-				"name": "Prolific Multiplier.",
-				"desc": [
-					"None are quite sure where the first leechpod came from, but most everyone knows they are a terrible problem to have. Stories tell of towns where one was brought as an exotic specimen, only for the town to fall overnight - its residents becoming feed for the carnivorous plant.",
-					"Like a disease, one leechpod becomes two, two become four, and so on. An adventurer or creature caught off-guard by a leechpod serves not only as a meal, but also as a reproductive host. Even after undergoing their procreative fission, the results are not nascent sprouts. They are a fully grown duplicate of their original as soon as they have enough nutrients to split from their progenitor."
-				]
-			},
-			{
-				"name": "Dormant in Darkness.",
-				"desc": [
-					"The Underdark is the ideal habitat for the leechpod, following their tremorsense in the vast unlit caverns. Unfortunately, the scarcity of tasty humanoid blood can leave a leechpod unsatiated for weeks at a time. During those periods, leechpods have developed a form of hibernation where they retreat within their bulbs to preserve energy and hide from would-be predators. When they feel the presence of suitably sized prey walk nearby, the tendrils of the leechpod emerge forth. This can be a harrowing sight, as what appeared to be a copse of strange cabbage-like plants quickly grow mouthy tentacles and throw themselves at surprised adventurers."
-				]
-			},
-			{
-				"name": "Combat.",
-				"desc": [
-					"It should be noted that leechpods are best used as a deterrent. Sneaking around a colony of them can be simple for stealthy individuals, but heavy-footed personnel would do best to steer away from a grove.",
-					"Leechpods alone are not fatal, but multiple leechpods in combat can very quickly lead to a death spiral. Use them sparingly. In an overwhelming encounter with leechpods, they will not stop splitting and forming new foes, so allow retreat as a viable option.",
-					"The very basis of a leechpod's lifespan relies on their expendability. They will throw themselves at creatures with no self preservation in order to replicate."
-				]
-			}
-		],
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Leechpod.png",
-		"artist": "artofagnes"
-	},
-	{
-		"name": "Owlrex",
-		"urlname": "owlrex",
-		"size": {
-			"text": "Huge",
-			"value": 4
-		},
-		"type": "monstrosity",
-		"alignment": "unaligned",
-		"ac": "16 (natural armor)",
-		"hp": "126 (12d10 + 60)",
-		"hpdice": "12d10 + 60",
-		"speed": "50 ft., fly 25 ft. (glide)",
-		"abilities": {
-			"str": {
-				"val": "24 (+7)",
-				"score": "24",
-				"bonus": "+7"
-			},
-			"dex": {
-				"val": "18 (+4)",
-				"score": "18",
-				"bonus": "+4"
-			},
-			"con": {
-				"val": "21 (+5)",
-				"score": "21",
-				"bonus": "+5"
-			},
-			"int": {
-				"val": "3 (-4)",
-				"score": "3",
-				"bonus": "-4"
-			},
-			"wis": {
-				"val": "14 (+2)",
-				"score": "14",
-				"bonus": "+2"
-			},
-			"cha": {
-				"val": "7 (-2)",
-				"score": "7",
-				"bonus": "-2"
-			},
-			"highest": "str"
-		},
-		"skills": {
-			"perception": "+6"
-		},
-		"senses": "darkvision 60 ft., passive Perception 16",
-		"languages": "—",
-		"cr": {
-			"text": "9",
-			"value": 9
-		},
-		"traits": [
-			{
-				"name": "Keen Sight and Smell.",
-				"effect": [
-					{
-						"text": "The owlrex has advantage on Wisdom (Perception) checks that rely on sight or smell.  "
-					}
-				]
-			}
-		],
-		"traitsize": 114,
-		"actions": [
-			{
-				"name": "Multiattack.",
-				"effect": [
-					{
-						"text": "The owlrex makes two attacks: one with its beak and one with its claws.  "
-					}
-				]
-			},
-			{
-				"name": "Beak.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+11",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 10 ft., one creature. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 29 ("
-					},
-					{
-						"text": "4d10 + 7",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage. If the target is a Medium or smaller creature, it is grappled (escape "
-					},
-					{
-						"text": "DC 17",
-						"dc": true
-					},
-					{
-						"text": "). Until this grapple ends, the target is restrained, and the owlrex can't bite another target.  "
-					}
-				]
-			},
-			{
-				"name": "Claws.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+11",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 10 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 26 ("
-					},
-					{
-						"text": "3d12 + 7",
-						"dice": true
-					},
-					{
-						"text": ") slashing damage.  "
-					}
-				]
-			},
-			{
-				"name": "Wing Attack.",
-				"effect": [
-					{
-						"text": "The owlrex beats its wings. Each creature within 10 feet of the owlrex must succeed on a "
-					},
-					{
-						"text": "DC 19",
-						"dc": true
-					},
-					{
-						"text": " Dexterity saving throw or take 21 ("
-					},
-					{
-						"text": "4d6 + 7",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage and be knocked prone. The owlrex can then jump up to 25 ft. away."
-					}
-				]
-			}
-		],
-		"actionsize": 739,
-		"showinfo": false,
-		"info": [
-			{
-				"name": "Fusion or Fey?",
-				"desc": [
-					"A harrowing mix between the greatest predatorial beast and the most furtive night stalker, the owlrex marries two fearsome foes into one. Bestial academics and seasoned hunters alike cannot identify the ancestry of the creature, partly due to the scarcity of viable specimen. No mating ritual has been witnessed, nor can their composition be directly traced to the material or fey planes. Because of how little is known, an owlrex found in the wild is a rarity and should be treated with care - and not just because of its ferocious nature. Bringing evidence of it to an historical researcher or arcane practitioner would certainly pique their interest. If an owlrex must be killed, a trophy from it would fetch an astoundingly steep price on the black market."
-				]
-			},
-			{
-				"name": "Woodland Scavengers.",
-				"desc": [
-					"Unlike their ursine and saurian counterparts, owlrex are surprisingly shy. Preferring to pounce at night upon unaware prey, they must live in forested areas or land with enough cover to hide their large bodies. That said, owlrex tend to seek carrion rather than kill for meat. In a curiously intelligent way, they prefer easy food rather than a hunt, and will avoid a fight they deem too difficult. However discerning, don't mistake an owlrex's particularity as a trait fit for taming. A free meal may deter an owlrex from attacking, but its hunger will return along with its wild nature."
-				]
-			},
-			{
-				"name": "Nest Collectors.",
-				"desc": [
-					"Any sizeable landmark an owlrex can jump atop of becomes its nest. This can sometimes be an outcropping of rock, a stout tree, or even an old tower. Using entire logs, an owlrex will assemble a roost the size of a large house to sleep within. The area for miles around an owlrex nest is devoid of sizeable fauna, since it has likely brought down any game it could eat, or any that rivaled it.",
-					"Once an owlrex's quarry has been worn down, it will incapacitate it and drag it back to its lair and store it in a decaying pile of flesh to feast on. This rotting hoard serves two purposes. One, for a steady food supply during colder seasons, and two, for the horrendous smell to keep away predators who travel too close. If one can recognize the smell of an owlrex nest, they can be easily tracked - that is, if the stench can be overcome."
-				]
-			},
-			{
-				"name": "Combat.",
-				"desc": [
-					"A fight with an owlrex outside of its nest is fast and ferocious. Most likely, the owlrex will strike first as it hunts from the shadows. It will pick a feeble target to focus on and will not relent until it is worn down. After grappling the weakened target, it will use its wing attack to jump up and away 25 feet, then glide using the rest of its movement to escape with its meal back to its nest. If hurt or sufficiently frightened, an owlrex will readily flee in the same way with its wing attack, and may even drop its prey."
-				]
-			},
-			{
-				"name": "Glide.",
-				"desc": [
-					"The owlrex has a fly speed where it glides. Gliding means a creature can fly, but it must end its turn at least 5 feet lower than where it began its flight, and cannot ascend during its flight."
-				]
-			}
-		],
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Owlrex.png",
-		"artist": "LauraGalliArt"
-	},
-	{
-		"name": "Swarm of Hostile Magic Items",
-		"urlname": "swarm_of_hostile_magic_items",
-		"size": {
-			"text": "Medium",
-			"value": 2
-		},
-		"type": "swarm of tiny constructs",
-		"alignment": "unaligned",
-		"ac": "15 (natural armor)",
-		"hp": "99 (18d8 + 18)",
-		"hpdice": "18d8 + 18",
-		"speed": "0 ft., fly 30 ft. (hover)",
-		"abilities": {
-			"str": {
-				"val": "17 (+3)",
-				"score": "17",
-				"bonus": "+3"
-			},
-			"dex": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"con": {
-				"val": "12 (+1)",
-				"score": "12",
-				"bonus": "+1"
-			},
-			"int": {
-				"val": "4 (-3)",
-				"score": "4",
-				"bonus": "-3"
-			},
-			"wis": {
-				"val": "10 (+0)",
-				"score": "10",
-				"bonus": "+0"
-			},
-			"cha": {
-				"val": "4 (-3)",
-				"score": "4",
-				"bonus": "-3"
-			},
-			"highest": "str"
-		},
-		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
-		"immune": "poison, psychic",
-		"immunity": "all ",
-		"senses": "blindsight 60 ft., passive Perception 10",
-		"languages": "—",
-		"cr": {
-			"text": "9",
-			"value": 9
-		},
-		"traits": [
-			{
-				"name": "Antimagic Susceptibility.",
-				"effect": [
-					{
-						"text": "The swarm is incapacitated while in the area of an "
-					},
-					{
-						"text": "antimagic field",
-						"itl": true
-					},
-					{
-						"text": ". If targeted by "
-					},
-					{
-						"text": "dispel magic",
-						"itl": true
-					},
-					{
-						"text": ", the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.  "
-					}
-				]
-			},
-			{
-				"name": "Magic Resistance.",
-				"effect": [
-					{
-						"text": "The swarm has advantage on saving throws against spells and other magical effects.  "
-					}
-				]
-			},
-			{
-				"name": "Random Trait.",
-				"effect": [
-					{
-						"text": "At the beginning of every turn in the initiative and lasting until the end of that turn, the swarm gains a random trait from the list below.  "
-					}
-				],
-				"options": [
-					{
-						"name": "1. Shield of Defence.",
-						"effect": [
-							{
-								"text": "The swarm gains a "
-							},
-							{
-								"text": "+2",
-								"bonus": true
-							},
-							{
-								"text": " bonus to AC and saving throws."
-							}
-						]
-					},
-					{
-						"name": "2. Unseeing Cloak.",
-						"effect": [
-							{
-								"text": "The swarm is invisible and gains truesight out to 60 feet."
-							}
-						]
-					},
-					{
-						"name": "3. Amulet of Heartiness.",
-						"effect": [
-							{
-								"text": "The swarm's Constitution score becomes 20, and it regains "
-							},
-							{
-								"text": "4d8",
-								"dice": true
-							},
-							{
-								"text": " hit points. This effect does not increase the swarm's maximum amount of hit points."
-							}
-						]
-					},
-					{
-						"name": "4. Mirror Armor.",
-						"effect": [
-							{
-								"text": "The swarm undergoes the effect of the spell "
-							},
-							{
-								"text": "mirror image",
-								"itl": true
-							},
-							{
-								"text": ". When a duplicate is destroyed, creatures within 5 feet take 3 ("
-							},
-							{
-								"text": "1d6",
-								"dice": true
-							},
-							{
-								"text": ") cold damage."
-							}
-						]
-					},
-					{
-						"name": "5. Circlet of Warping.",
-						"effect": [
-							{
-								"text": "The swarm teleports to a space within 60 feet."
-							}
-						]
-					},
-					{
-						"name": "6. Divine Ring.",
-						"effect": [
-							{
-								"text": "The swarm's Intelligence, Wisdom, and Charisma scores all become 22."
-							}
-						]
-					}
-				]
-			},
-			{
-				"name": "Swarm.",
-				"effect": [
-					{
-						"text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points unless by one of its traits.  "
-					}
-				]
-			}
-		],
-		"traitsize": 1458,
-		"actions": [
-			{
-				"name": "Random Action.",
-				"effect": [
-					{
-						"text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more.  "
-					}
-				],
-				"options": [
-					{
-						"name": "1. Sword of Light.",
-						"effect": [
-							{
-								"text": ""
-							},
-							{
-								"text": "Melee Weapon Attack:",
-								"itl": true
-							},
-							{
-								"text": " "
-							},
-							{
-								"text": "+9",
-								"bonus": true
-							},
-							{
-								"text": " to hit, reach 5 ft., one target. "
-							},
-							{
-								"text": "Hit:",
-								"itl": true
-							},
-							{
-								"text": " 12 ("
-							},
-							{
-								"text": "2d6 + 5",
-								"dice": true
-							},
-							{
-								"text": ") piercing damage plus 9 ("
-							},
-							{
-								"text": "2d8",
-								"dice": true
-							},
-							{
-								"text": ") radiant damage. Whether the attack hits or misses, the creature must make a "
-							},
-							{
-								"text": "DC 13",
-								"dc": true
-							},
-							{
-								"text": " Constitution saving throw or be blinded."
-							}
-						]
-					},
-					{
-						"name": "2. Bloodcurse Axe.",
-						"effect": [
-							{
-								"text": ""
-							},
-							{
-								"text": "Melee Weapon Attack:",
-								"itl": true
-							},
-							{
-								"text": " "
-							},
-							{
-								"text": "+7",
-								"bonus": true
-							},
-							{
-								"text": " to hit, reach 5 ft., one target. "
-							},
-							{
-								"text": "Hit:",
-								"itl": true
-							},
-							{
-								"text": " 9 ("
-							},
-							{
-								"text": "1d12 + 3",
-								"dice": true
-							},
-							{
-								"text": ") slashing damage. The swarm makes two attacks with this trait, and is considered a critical hit on a roll of 18 or above."
-							}
-						]
-					},
-					{
-						"name": "3. Psionic Dagger.",
-						"effect": [
-							{
-								"text": ""
-							},
-							{
-								"text": "Melee  or Ranged Weapon Attack:",
-								"itl": true
-							},
-							{
-								"text": " "
-							},
-							{
-								"text": "+7",
-								"bonus": true
-							},
-							{
-								"text": " to hit, reach 5 ft. or range 20/60 ft., one target. "
-							},
-							{
-								"text": "Hit:",
-								"itl": true
-							},
-							{
-								"text": " 5 ("
-							},
-							{
-								"text": "1d4 + 3",
-								"dice": true
-							},
-							{
-								"text": ") piercing damage plus 11 ("
-							},
-							{
-								"text": "2d10",
-								"dice": true
-							},
-							{
-								"text": ") psychic damage. If the attack hits, the dagger can make another attack against a target within 10 feet of the original target before returning to the swarm."
-							}
-						]
-					},
-					{
-						"name": "4. Bow of Binding.",
-						"effect": [
-							{
-								"text": ""
-							},
-							{
-								"text": "Ranged Weapon Attack:",
-								"itl": true
-							},
-							{
-								"text": " "
-							},
-							{
-								"text": "+8",
-								"bonus": true
-							},
-							{
-								"text": " to hit, ranged 150/600 ft., one target. "
-							},
-							{
-								"text": "Hit:",
-								"itl": true
-							},
-							{
-								"text": " 8 ("
-							},
-							{
-								"text": "1d8 + 4",
-								"dice": true
-							},
-							{
-								"text": ") piercing damage plus 6 ("
-							},
-							{
-								"text": "1d12",
-								"dice": true
-							},
-							{
-								"text": ") poison damage, and the creature must make a "
-							},
-							{
-								"text": "DC 15",
-								"dc": true
-							},
-							{
-								"text": " Strength saving throw or become restrained. A creature can repeat the saving throw at the end of its turns to end the effect."
-							}
-						]
-					},
-					{
-						"name": "5. Wand of the Artillerist.",
-						"effect": [
-							{
-								"text": "The swarm summons a hail of fire. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within 80 feet must make a "
-							},
-							{
-								"text": "DC 14",
-								"dc": true
-							},
-							{
-								"text": " Dexterity saving throw. A creature takes 7 ("
-							},
-							{
-								"text": "2d6",
-								"dice": true
-							},
-							{
-								"text": ") fire damage and 7 ("
-							},
-							{
-								"text": "2d6",
-								"dice": true
-							},
-							{
-								"text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder is subject to its effects."
-							}
-						]
-					},
-					{
-						"name": "6. Deathstriker Staff.",
-						"effect": [
-							{
-								"text": "The swarm shoots crimson lightning in a line 60 feet long and 5 feet wide. Each creature in the line must make a "
-							},
-							{
-								"text": "DC 16",
-								"dc": true
-							},
-							{
-								"text": " Charisma saving throw. On a failed save, a creature takes 13 ("
-							},
-							{
-								"text": "3d8",
-								"dice": true
-							},
-							{
-								"text": ") lightning damage and 10 ("
-							},
-							{
-								"text": "3d6",
-								"dice": true
-							},
-							{
-								"text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest."
-							}
-						]
-					}
-				]
-			}
-		],
-		"actionsize": 2261
-	},
-	{
-		"name": "Voodoo Coffin",
-		"urlname": "voodoo_coffin",
-		"size": {
-			"text": "Medium",
-			"value": 2
-		},
-		"type": "undead",
-		"alignment": "lawful evil",
-		"ac": "16 (natural armor)",
-		"hp": "68 (8d8 + 32)",
-		"hpdice": "8d8 + 32",
-		"speed": "30 ft.",
-		"abilities": {
-			"str": {
-				"val": "19 (+4)",
-				"score": "19",
-				"bonus": "+4"
-			},
-			"dex": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"con": {
-				"val": "19 (+4)",
-				"score": "19",
-				"bonus": "+4"
-			},
-			"int": {
-				"val": "5 (-3)",
-				"score": "5",
-				"bonus": "-3"
-			},
-			"wis": {
-				"val": "6 (-2)",
-				"score": "6",
-				"bonus": "-2"
-			},
-			"cha": {
-				"val": "5 (-3)",
-				"score": "5",
-				"bonus": "-3"
-			},
-			"highest": "str"
-		},
-		"saves": {
-			"con": "+7",
-			"wis": "+1"
-		},
-		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
-		"immune": "necrotic, poison, psychic",
-		"immunity": "charmed, exhaustion, frightened, paralyzed, poisoned",
-		"senses": "blindsight 60 ft., blind beyond this radius, passive Perception 8",
-		"languages": "—",
-		"cr": {
-			"text": "6",
-			"value": 6
-		},
-		"actions": [
-			{
-				"name": "Pluck.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+7",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 5 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 11 ("
-					},
-					{
-						"text": "2d6 + 4",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage plus 7 ("
-					},
-					{
-						"text": "2d6",
-						"dice": true
-					},
-					{
-						"text": ") necrotic damage. If the target is a Medium or smaller creature, it is grappled (escape "
-					},
-					{
-						"text": "DC 15",
-						"dc": true
-					},
-					{
-						"text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin.  "
-					},
-					{
-						"text": "At the beginning of each turn a target spends grappled inside the coffin, the target must make a ",
-						"newline": true
-					},
-					{
-						"text": "DC 15",
-						"dc": true
-					},
-					{
-						"text": " Constitution saving throw against poison, taking 7 ("
-					},
-					{
-						"text": "2d6",
-						"dice": true
-					},
-					{
-						"text": ") poison damage and 7 ("
-					},
-					{
-						"text": "2d6",
-						"dice": true
-					},
-					{
-						"text": ") necrotic damage on a failed save, and half as much on a success. A creature dies if it is reduced to 0 hit points while grappled within the coffin and is considered consumed, immediately becoming a "
-					},
-					{
-						"text": "mummy",
-						"bld": true
-					},
-					{
-						"text": " and recharging the coffin's disgorge.  "
-					}
-				]
-			},
-			{
-				"name": "Disgorge ",
-				"effect": [
-					{
-						"text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. Each creature that starts its turn within the cloud must make a "
-					},
-					{
-						"text": "DC 15",
-						"dc": true
-					},
-					{
-						"text": " Constitution saving throw against poison. On a failed save, the creature takes 26 ("
-					},
-					{
-						"text": "4d12",
-						"dice": true
-					},
-					{
-						"text": ") poison damage and spends its action retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect.  "
-					},
-					{
-						"text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its pluck, a ",
-						"newline": true
-					},
-					{
-						"text": "mummy",
-						"bld": true
-					},
-					{
-						"text": " steps out of the open casket, emerging into an unoccupied space within 5ft. of the coffin. The casket then closes."
-					}
-				],
-				"recharge": "6"
-			}
-		],
-		"actionsize": 1808,
-		"showinfo": false,
-		"info": [
-			{
-				"name": "Cursed Containers.",
-				"desc": [
-					"The tether needed to raise a voodoo coffin lies not within a link between a necromancer and the corpse within, but with the necromancer and the coffin itself. A casket or other funerary burial container can be inscribed with runes of dark magics lost to all but those who pervert the ancient art of voodoo. While the underlying belief of voodooism embraces the spirits that journey between the land of the living and the dead, the twisted ritual that creates the enchanted coffin tears a hole between the two worlds in order to let the unliving energy spill forth.",
-					"It can sometimes take weeks to inscribe the obscene markings within the coffin, but once finished the magical engravings become invisible to the naked eye. Those that choose to create one may turn to grave robbing, otherwise more nefarious mages may curse a coffin before a burial takes place."
-				]
-			},
-			{
-				"name": "Unruly Subjects.",
-				"desc": [
-					"Attempting to control a voodoo coffin is nearly impossible - it is far wiser to plan around its tendencies and let it run its wrathful course. Voodooism as a religion contacts one's spiritual ancestors for guidance, but the corruption of this sacred contract drives the souls beyond the veil mad with necromantic malevolence. Voodoo coffins seek out the descendants of the one who was buried within, or descendants of their predecessors. Once set on the trail of their targets, the voodoo coffin will not stop until it has devoured every last bit of its own bloodline. If a well-studied mage knows the burial place of their enemies forbearers, placing the voodoo curse on their coffin would create a ceaseless killer to hunt them to their end."
-				]
-			},
-			{
-				"name": "What's Inside?",
-				"desc": [
-					"Though the coffin appears to be growing the enlarged limbs of its deceased contents, the testimony of those who have escaped from a coffin's clutches proves otherwise. Once pulled within the interior where the poisonous smog of decay pours from, the coughing and gagging subject may see the swirling void of ravenous souls beyond a portal where the bottom of the coffin once belonged. No body remains inside, only the infinite deathly darkness beyond and the spirits that clamor forth to claim another vessel. Even if a victim is able to wrench themselves from the ghostly hands lunging from the Shadowfell, the experience is enough to traumatize the soundest of minds into a state of insanity."
-				]
-			},
-			{
-				"name": "Combat.",
-				"desc": [
-					"As described, a voodoo coffin will pinpoint its descendant with some otherworldly perception, as indicated by its blindsight. Anything that gets in its way might be a temporary meal, but the coffin won't stall for very long. Its approach is simple - repeatedly using its pluck to grapple its target inside its coffin body, and use its disgorge when it can to keep other interlopers away.",
-					"To the further dismay of adventurers, a party member killed inside makes the voodoo coffin stronger. It will immediately disgorge the victim and allow the mummy of their former friend to fight. After disgorging its bloodline relation, the coffin will retreat. It has no use for combat after eliminating their previous relative."
-				]
-			}
-		],
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Voodoo%20Coffin.png",
-		"artist": "chloehx21"
-	},
-	{
-		"name": "Xylodynn",
-		"urlname": "xylodynn",
-		"size": {
-			"text": "Large",
-			"value": 3
-		},
-		"type": "fiend (demon)",
-		"alignment": "chaotic evil",
-		"ac": "19 (natural armor)",
-		"hp": "168 (16d10 + 80)",
-		"hpdice": "16d10 + 80",
-		"speed": "30 ft.",
-		"abilities": {
-			"str": {
-				"val": "20 (+5)",
-				"score": "20",
-				"bonus": "+5"
-			},
-			"dex": {
-				"val": "19 (+4)",
-				"score": "19",
-				"bonus": "+4"
-			},
-			"con": {
-				"val": "20 (+5)",
-				"score": "20",
-				"bonus": "+5"
-			},
-			"int": {
-				"val": "14 (+2)",
-				"score": "14",
-				"bonus": "+2"
-			},
-			"wis": {
-				"val": "16 (+3)",
-				"score": "16",
-				"bonus": "+3"
-			},
-			"cha": {
-				"val": "15 (+2)",
-				"score": "15",
-				"bonus": "+2"
-			},
-			"highest": "str"
-		},
-		"saves": {
-			"dex": "+8",
-			"con": "+9",
-			"wis": "+7",
-			"cha": "+6"
-		},
-		"resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-		"immune": "poison",
-		"immunity": "poisoned",
-		"senses": "truesight 120 ft., passive Perception 13",
-		"languages": "Abyssal, telepathy 120 ft.",
-		"cr": {
-			"text": "12",
-			"value": 12
-		},
-		"traits": [
-			{
-				"name": "Augmented Flight.",
-				"effect": [
-					{
-						"text": "The xylodynn can use a bonus action to fly an additional 30 feet until the end of its turn. Attack rolls have disadvantage against it during this movement.  "
-					}
-				]
-			},
-			{
-				"name": "Magic Resistance.",
-				"effect": [
-					{
-						"text": "The xylodynn has advantage on saving throws against spells and other magical effects.  "
-					}
-				]
-			}
-		],
-		"traitsize": 295,
-		"actions": [
-			{
-				"name": "Multiattack.",
-				"effect": [
-					{
-						"text": "The xylodynn makes two hook claw attacks, then makes one horn attack.  "
-					}
-				]
-			},
-			{
-				"name": "Hook Claw.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+9",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 15 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 14 ("
-					},
-					{
-						"text": "2d6 + 5",
-						"dice": true
-					},
-					{
-						"text": ") piercing damage, and if the target is Large or smaller, the xylodynn can force the target to make a "
-					},
-					{
-						"text": "DC 17",
-						"dc": true
-					},
-					{
-						"text": " Dexterity saving throw. On a failed save, the target is pulled within 5 feet of the xylodynn and is knocked prone.  "
-					}
-				]
-			},
-			{
-				"name": "Horn.",
-				"effect": [
-					{
-						"text": ""
-					},
-					{
-						"text": "Melee Weapon Attack:",
-						"itl": true
-					},
-					{
-						"text": " "
-					},
-					{
-						"text": "+9",
-						"bonus": true
-					},
-					{
-						"text": " to hit, reach 5 ft., one target. "
-					},
-					{
-						"text": "Hit:",
-						"itl": true
-					},
-					{
-						"text": " 16 ("
-					},
-					{
-						"text": "2d10 + 5",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage, and if the target is Large or smaller, the xylodynn can force the target to make a "
-					},
-					{
-						"text": "DC 17",
-						"dc": true
-					},
-					{
-						"text": " Strength saving throw. A prone target automatically fails this saving throw. On a failed save, the target takes an additional 5 ("
-					},
-					{
-						"text": "1d10",
-						"dice": true
-					},
-					{
-						"text": ") bludgeoning damage, and the xylodynn tosses the target anywhere between 20 to 40 feet away in any direction. The target lands prone.  "
-					}
-				]
-			}
-		],
-		"actionsize": 309,
-		"reactions": [
-			{
-				"name": "Spell Hatred.",
-				"effect": [
-					{
-						"text": "When a creature within 30 feet that the xylodynn can hear casts a spell, the xylodynn can move using its augmented flight and make a horn attack against the creature. If the attack hits, the target is unable to finish the spell and forfeits their action, as well as losing the spell slot."
-					}
-				]
-			}
-		],
-		"showinfo": false,
-		"info": [
-			{
-				"name": "Militant Enforcers.",
-				"desc": [
-					"Amidst the chaos of the Abyss, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
-				]
-			},
-			{
-				"name": "Infectious Barbarism.",
-				"desc": [
-					"Xylodynn crave utter decimation of their foes in warfare, and are perfectly suited for it. While other demons prefer to corrupt and scheme in the material realms by subverting others to their will, a xylodynn seeks those who already have a thirst for blood and intensify it with hellish fury. Murderers and warmongers will likely find themselves tempted by a xylodynn's offers of power and tactical knowledge.",
-					"It is said that the mere presence of a xylodynn can lead an entire community to reverting to cruel tribal mentalities. Once their minds have unraveled, the xylodynn seizes control and quickly becomes their overlord, seen as an almost deistic figure that they zealously follow to war. Any that are crushed under the might of a xylodynn's army are subject to the same madness, and so its influence spreads like a disease of killing intent."
-				]
-			},
-			{
-				"name": "Spell Shunners.",
-				"desc": [
-					"Xylodynn have an intriguing enmity towards spellcasters. Not only will they never approach one to offer their services, they will actively help any insurrection against one. In battle, should they hear spells being woven, they are overtaken by a raging impulse to silence the effect. This often leads to conflicts between xylodynn and other more wizardly commanders of demon armies, and even sometimes leads to rebellion against the demon lords who created them.",
-					"Some think that perhaps the xylodynn can hear the shrill sound of reality tearing as magic is summoned forth, and therefore fear and hate it. Alternate theories assert it stems from envy due to their own lack of spellcasting ability, while others hypothesize their scorn for arcane treachery comes from their own warped perspective of a fair fight."
-				]
-			},
-			{
-				"name": "Combat.",
-				"desc": [
-					"A xylodynn seldom fights alone, and will issue orders to its underlings to have them fight much more tactically than a normal disorganized demon horde. Rather than sitting back and letting its lackeys fight for it, a xylodynn is more than willing to jump in and out of the thick of battle using its augmented flight. No military formation can stand against it as it pulls creatures away with its hook claws, then tosses them afar with its horn.",
-					"A xylodynn fights extremely optimally and makes very few mistakes when engaging in combat - that is, until it hears spellcasting. While its spell hatred reaction is quite strong, it can be used as a weakness against a xylodynn since they won't resist the urge to strike out at a mage. Baiting a xylodynn by casting spells is very easy, but the demon will likely become even angrier after being outsmarted. That anger might lead it to be more analytic in its decisions, or it may fly into a heated raging fury that could lead to even more slip-ups.",
-					"Though not cowardly, a xylodynn knows the importance of a retreat. When battles turn for the worse, a xylodynn will make haste to escape, plotting to return with a force strong enough to crush those who bested it."
-				]
-			}
-		],
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Xylodynn.png",
-		"artist": "MaxBConceptArt"
-	}
+  {
+    "name": "Owlrex",
+    "urlname": "owlrex",
+    "size": {
+      "text": "Huge",
+      "value": 4
+    },
+    "type": "monstrosity",
+    "alignment": "unaligned",
+    "ac": "16 (natural armor)",
+    "hp": "126 (12d10 + 60)",
+    "hpdice": "12d10 + 60",
+    "speed": "50 ft., fly 25 ft. (glide)",
+    "abilities": {
+      "str": {
+        "val": "24 (+7)",
+        "score": "24",
+        "bonus": "+7"
+      },
+      "dex": {
+        "val": "18 (+4)",
+        "score": "18",
+        "bonus": "+4"
+      },
+      "con": {
+        "val": "21 (+5)",
+        "score": "21",
+        "bonus": "+5"
+      },
+      "int": {
+        "val": "3 (-4)",
+        "score": "3",
+        "bonus": "-4"
+      },
+      "wis": {
+        "val": "14 (+2)",
+        "score": "14",
+        "bonus": "+2"
+      },
+      "cha": {
+        "val": "7 (-2)",
+        "score": "7",
+        "bonus": "-2"
+      },
+      "highest": "str"
+    },
+    "skills": {
+      "perception": "+6"
+    },
+    "senses": "darkvision 60 ft., passive Perception 16",
+    "languages": "—",
+    "cr": {
+      "text": "9",
+      "value": 9
+    },
+    "traits": [
+      {
+        "name": "Keen Sight and Smell.",
+        "effect": [
+          {
+            "text": "The owlrex has advantage on Wisdom (Perception) checks that rely on sight or smell.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 114,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The owlrex makes two attacks: one with its beak and one with its claws.  "
+          }
+        ]
+      },
+      {
+        "name": "Beak.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+11",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 10 ft., one creature. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 29 ("
+          },
+          {
+            "text": "4d10 + 7",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage. If the target is a Medium or smaller creature, it is grappled (escape "
+          },
+          {
+            "text": "DC 17",
+            "dc": true
+          },
+          {
+            "text": "). Until this grapple ends, the target is restrained, and the owlrex can't bite another target.  "
+          }
+        ]
+      },
+      {
+        "name": "Claws.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+11",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 10 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 26 ("
+          },
+          {
+            "text": "3d12 + 7",
+            "dice": true
+          },
+          {
+            "text": ") slashing damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Wing Attack.",
+        "effect": [
+          {
+            "text": "The owlrex beats its wings. Each creature within 10 feet of the owlrex must succeed on a "
+          },
+          {
+            "text": "DC 19",
+            "dc": true
+          },
+          {
+            "text": " Dexterity saving throw or take 21 ("
+          },
+          {
+            "text": "4d6 + 7",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage and be knocked prone. The owlrex can then jump up to 25 ft. away."
+          }
+        ]
+      }
+    ],
+    "actionsize": 739,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Fusion or Fey?",
+        "desc": [
+          "A harrowing mix between the greatest predatorial beast and the most furtive night stalker, the owlrex marries two fearsome foes into one. Bestial academics and seasoned hunters alike cannot identify the ancestry of the creature, partly due to the scarcity of viable specimen. No mating ritual has been witnessed, nor can their composition be directly traced to the Terren or Fae realms. Because of how little is known, an owlrex found in the wild is a rarity and should be treated with care - and not just because of its ferocious nature. Bringing evidence of it to an historical researcher or arcane practitioner would certainly pique their interest. If an owlrex must be killed, a trophy from it would fetch an astoundingly steep price on the black market."
+        ]
+      },
+      {
+        "name": "Woodland Scavengers.",
+        "desc": [
+          "Unlike their ursine and saurian counterparts, owlrex are surprisingly shy. Preferring to pounce at night upon unaware prey, they must live in forested areas or land with enough cover to hide their large bodies. That said, owlrex tend to seek carrion rather than kill for meat. In a curiously intelligent way, they prefer easy food rather than a hunt, and will avoid a fight they deem too difficult. However discerning, don't mistake an owlrex's particularity as a trait fit for taming. A free meal may deter an owlrex from attacking, but its hunger will return along with its wild nature."
+        ]
+      },
+      {
+        "name": "Nest Collectors.",
+        "desc": [
+          "Any sizeable landmark an owlrex can jump atop of becomes its nest. This can sometimes be an outcropping of rock, a stout tree, or even an old tower. Using entire logs, an owlrex will assemble a roost the size of a large house to sleep within. The area for miles around an owlrex nest is devoid of sizeable fauna, since it has likely brought down any game it could eat, or any that rivaled it.",
+          "Once an owlrex's quarry has been worn down, it will incapacitate it and drag it back to its lair and store it in a decaying pile of flesh to feast on. This rotting hoard serves two purposes. One, for a steady food supply during colder seasons, and two, for the horrendous smell to keep away predators who travel too close. If one can recognize the smell of an owlrex nest, they can be easily tracked - that is, if the stench can be overcome."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "A fight with an owlrex outside of its nest is fast and ferocious. Most likely, the owlrex will strike first as it hunts from the shadows. It will pick a feeble target to focus on and will not relent until it is worn down. After grappling the weakened target, it will use its wing attack to jump up and away 25 feet, then glide using the rest of its movement to escape with its meal back to its nest. If hurt or sufficiently frightened, an owlrex will readily flee in the same way with its wing attack, and may even drop its prey."
+        ]
+      },
+      {
+        "name": "Glide.",
+        "desc": [
+          "The owlrex has a fly speed where it glides. Gliding means a creature can fly, but it must end its turn at least 5 feet lower than where it began its flight, and cannot ascend during its flight."
+        ]
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Owlrex.png",
+    "artist": "LauraGalliArt"
+  },
+  {
+    "name": "Voodoo Coffin",
+    "urlname": "voodoo_coffin",
+    "size": {
+      "text": "Medium",
+      "value": 2
+    },
+    "type": "undead",
+    "alignment": "lawful evil",
+    "ac": "16 (natural armor)",
+    "hp": "68 (8d8 + 32)",
+    "hpdice": "8d8 + 32",
+    "speed": "30 ft.",
+    "abilities": {
+      "str": {
+        "val": "19 (+4)",
+        "score": "19",
+        "bonus": "+4"
+      },
+      "dex": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "19 (+4)",
+        "score": "19",
+        "bonus": "+4"
+      },
+      "int": {
+        "val": "5 (-3)",
+        "score": "5",
+        "bonus": "-3"
+      },
+      "wis": {
+        "val": "6 (-2)",
+        "score": "6",
+        "bonus": "-2"
+      },
+      "cha": {
+        "val": "5 (-3)",
+        "score": "5",
+        "bonus": "-3"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "con": "+7",
+      "wis": "+1"
+    },
+    "resist": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "immune": "necrotic, poison, psychic",
+    "immunity": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "senses": "blindsight 60 ft., blind beyond this radius, passive Perception 8",
+    "languages": "—",
+    "cr": {
+      "text": "6",
+      "value": 6
+    },
+    "actions": [
+      {
+        "name": "Pluck.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+7",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 11 ("
+          },
+          {
+            "text": "2d6 + 4",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage plus 7 ("
+          },
+          {
+            "text": "2d6",
+            "dice": true
+          },
+          {
+            "text": ") necrotic damage. If the target is a Medium or smaller creature, it is grappled (escape "
+          },
+          {
+            "text": "DC 15",
+            "dc": true
+          },
+          {
+            "text": ") and the coffin cannot grapple another target. Until this grapple ends, the target is restrained, blinded, cannot hear, and has total cover against all other creatures as it is dragged within the coffin.  "
+          },
+          {
+            "text": "At the beginning of each turn a target spends grappled inside the coffin, the target must make a ",
+            "newline": true
+          },
+          {
+            "text": "DC 15",
+            "dc": true
+          },
+          {
+            "text": " Constitution saving throw against poison, taking 7 ("
+          },
+          {
+            "text": "2d6",
+            "dice": true
+          },
+          {
+            "text": ") poison damage and 7 ("
+          },
+          {
+            "text": "2d6",
+            "dice": true
+          },
+          {
+            "text": ") necrotic damage on a failed save, and half as much on a success. A creature dies if it is reduced to 0 hit points while grappled within the coffin and is considered consumed, immediately becoming a "
+          },
+          {
+            "text": "mummy",
+            "bld": true
+          },
+          {
+            "text": " and recharging the coffin's disgorge.  "
+          }
+        ]
+      },
+      {
+        "name": "Disgorge ",
+        "effect": [
+          {
+            "text": "The coffin opens its casket door and releases a 20-foot-radius noxious cloud of poison gas centered on itself. The cloud spreads around corners, and clings to the ground until the end of the coffin's next turn. The miasma-like cloud cannot be dispersed. Each creature that starts its turn within the cloud must make a "
+          },
+          {
+            "text": "DC 15",
+            "dc": true
+          },
+          {
+            "text": " Constitution saving throw against poison. On a failed save, the creature takes 26 ("
+          },
+          {
+            "text": "4d12",
+            "dice": true
+          },
+          {
+            "text": ") poison damage and spends its action retching and reeling. A creature that succeeds on its saving throw takes half as much damage and does not lose its action. Creatures that don't need to breathe or are immune to poison suffer no consequences from this effect.  "
+          },
+          {
+            "text": "If this is the first time the Voodoo Coffin has used this ability today or since consuming a target with its pluck, a ",
+            "newline": true
+          },
+          {
+            "text": "mummy",
+            "bld": true
+          },
+          {
+            "text": " steps out of the open casket, emerging into an unoccupied space within 5ft. of the coffin. The casket then closes."
+          }
+        ],
+        "recharge": "6"
+      }
+    ],
+    "actionsize": 1808,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Cursed Containers.",
+        "desc": [
+          "The tether needed to raise a voodoo coffin lies not within a link between a necromancer and the corpse within, but with the necromancer and the coffin itself. A casket or other funerary burial container can be inscribed with runes of dark magics lost to all but those who pervert the ancient art of voodoo. While the underlying belief of voodooism embraces the spirits that journey between the land of the living and the dead, the twisted ritual that creates the enchanted coffin tears a hole between the two worlds in order to let the unliving energy spill forth.",
+          "It can sometimes take weeks to inscribe the obscene markings within the coffin, but once finished the magical engravings become invisible to the naked eye. Those that choose to create one may turn to grave robbing, otherwise more nefarious mages may curse a coffin before a burial takes place."
+        ]
+      },
+      {
+        "name": "Unruly Subjects.",
+        "desc": [
+          "Attempting to control a voodoo coffin is nearly impossible - it is far wiser to plan around its tendencies and let it run its wrathful course. Voodooism as a religion contacts one's spiritual ancestors for guidance, but the corruption of this sacred contract drives the souls beyond the veil mad with necromantic malevolence. Voodoo coffins seek out the descendants of the one who was buried within, or descendants of their predecessors. Once set on the trail of their targets, the voodoo coffin will not stop until it has devoured every last bit of its own bloodline. If a well-studied mage knows the burial place of their enemies forbearers, placing the voodoo curse on their coffin would create a ceaseless killer to hunt them to their end."
+        ]
+      },
+      {
+        "name": "What's Inside?",
+        "desc": [
+          "Though the coffin appears to be growing the enlarged limbs of its deceased contents, the testimony of those who have escaped from a coffin's clutches proves otherwise. Once pulled within the interior where the poisonous smog of decay pours from, the coughing and gagging subject may see the swirling void of ravenous souls beyond a portal where the bottom of the coffin once belonged. No body remains inside, only the infinite deathly darkness beyond and the spirits that clamor forth to claim another vessel. Even if a victim is able to wrench themselves from the ghostly hands lunging from the Shaderealms, the experience is enough to traumatize the soundest of minds into a state of insanity."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "As described, a voodoo coffin will pinpoint its descendant with some otherworldly perception, as indicated by its blindsight. Anything that gets in its way might be a temporary meal, but the coffin won't stall for very long. Its approach is simple - repeatedly using its pluck to grapple its target inside its coffin body, and use its disgorge when it can to keep other interlopers away.",
+          "To the further dismay of adventurers, a party member killed inside makes the voodoo coffin stronger. It will immediately disgorge the victim and allow the mummy of their former friend to fight. After disgorging its bloodline relation, the coffin will retreat. It has no use for combat after eliminating their previous relative."
+        ]
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Voodoo%20Coffin.png",
+    "artist": "chloehx21"
+  },
+  {
+    "name": "Leechpod",
+    "urlname": "leechpod",
+    "size": {
+      "text": "Small",
+      "value": 1
+    },
+    "type": "plant",
+    "alignment": "unaligned",
+    "ac": "13",
+    "hp": "24 (7d6)",
+    "hpdice": "7d6",
+    "speed": "0 ft.",
+    "abilities": {
+      "str": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "dex": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "11 (+0)",
+        "score": "11",
+        "bonus": "+0"
+      },
+      "int": {
+        "val": "1 (-5)",
+        "score": "1",
+        "bonus": "-5"
+      },
+      "wis": {
+        "val": "8 (-1)",
+        "score": "8",
+        "bonus": "-1"
+      },
+      "cha": {
+        "val": "2 (-4)",
+        "score": "2",
+        "bonus": "-4"
+      },
+      "highest": "dex"
+    },
+    "resist": "poison",
+    "immunity": "blinded, deafened, exhaustion, prone",
+    "senses": "tremorsense 15 ft., passive Perception 9",
+    "languages": "—",
+    "cr": {
+      "text": "2",
+      "value": 2
+    },
+    "actions": [
+      {
+        "name": "Fling.",
+        "effect": [
+          {
+            "text": "The leechpod severs itself from its roots and launches, jumping up to 30 ft. to a space it chooses. A creature occupying the space must make a "
+          },
+          {
+            "text": "DC 13",
+            "dc": true
+          },
+          {
+            "text": " Dexterity saving throw.  "
+          },
+          {
+            "text": "On a failed save, the leechpod latches onto the target's skin. While on the target's skin, the leechpod can be killed by normal means or pulled off with a successful ",
+            "newline": true
+          },
+          {
+            "text": "DC 13",
+            "dc": true
+          },
+          {
+            "text": " Strength check, after which it falls to an empty space within 5 feet. The leechpod cannot willingly unlatch itself from a target.  "
+          },
+          {
+            "text": "On a successful save, the leechpod flops to the ground in an empty space within 5 feet of the target. It ruptures on impact, and all creatures within 5 feet of the leechpod must make a ",
+            "newline": true
+          },
+          {
+            "text": "DC 10",
+            "dc": true
+          },
+          {
+            "text": " Constitution saving throw, taking 6 ("
+          },
+          {
+            "text": "1d12",
+            "dice": true
+          },
+          {
+            "text": ") poison damage on a failed save, or half as much on a successful one. The leechpod's current hit points are then reduced by 7 ("
+          },
+          {
+            "text": "2d6",
+            "dice": true
+          },
+          {
+            "text": "), and it regrows its roots in the new space.  "
+          }
+        ]
+      },
+      {
+        "name": "Multiply.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+4",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 0 ft., one target the leechpod is currently latched onto. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 4 ("
+          },
+          {
+            "text": "1d4 + 2",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage plus 9 ("
+          },
+          {
+            "text": "2d8",
+            "dice": true
+          },
+          {
+            "text": ") necrotic damage. This attack is always made with advantage and cannot be disadvantaged.  "
+          },
+          {
+            "text": "After dealing damage with this attack, the leechpod spawns two new leechpods in empty spaces within 10 ft., acting on their own initiative count. The original leechpod then dies.",
+            "newline": true
+          }
+        ]
+      }
+    ],
+    "actionsize": 1338,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Prolific Multiplier.",
+        "desc": [
+          "None are quite sure where the first leechpod came from, but most everyone knows they are a terrible problem to have. Stories tell of towns where one was brought as an exotic specimen, only for the town to fall overnight - its residents becoming feed for the carnivorous plant.",
+          "Like a disease, one leechpod becomes two, two become four, and so on. An adventurer or creature caught off-guard by a leechpod serves not only as a meal, but also as a reproductive host. Even after undergoing their procreative fission, the results are not nascent sprouts. They are a fully grown duplicate of their original as soon as they have enough nutrients to split from their progenitor."
+        ]
+      },
+      {
+        "name": "Dormant in Darkness.",
+        "desc": [
+          "The Underrealms are the ideal habitat for the leechpod, following their tremorsense in the vast unlit caverns. Unfortunately, the scarcity of tasty humanoid blood can leave a leechpod unsatiated for weeks at a time. During those periods, leechpods have developed a form of hibernation where they retreat within their bulbs to preserve energy and hide from would-be predators. When they feel the presence of suitably sized prey walk nearby, the tendrils of the leechpod emerge forth. This can be a harrowing sight, as what appeared to be a copse of strange cabbage-like plants quickly grow mouthy tentacles and throw themselves at surprised adventurers."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "It should be noted that leechpods are best used as a deterrent. Sneaking around a colony of them can be simple for stealthy individuals, but heavy-footed personnel would do best to steer away from a grove.",
+          "Leechpods alone are not fatal, but multiple leechpods in combat can very quickly lead to a death spiral. Use them sparingly. In an overwhelming encounter with leechpods, they will not stop splitting and forming new foes, so allow retreat as a viable option.",
+          "The very basis of a leechpod's lifespan relies on their expendability. They will throw themselves at creatures with no self preservation in order to replicate."
+        ]
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Leechpod.png",
+    "artist": "artofagnes"
+  },
+  {
+    "name": "Dragon Tortoise",
+    "urlname": "dragon_tortoise",
+    "size": {
+      "text": "Gargantuan",
+      "value": 5
+    },
+    "type": "dragon",
+    "alignment": "neutral good",
+    "ac": "21 (natural armor)",
+    "hp": "356 (23d20 + 115)",
+    "hpdice": "23d20 + 115",
+    "speed": "25 ft., burrow 10 ft.",
+    "abilities": {
+      "str": {
+        "val": "26 (+8)",
+        "score": "26",
+        "bonus": "+8"
+      },
+      "dex": {
+        "val": "6 (-2)",
+        "score": "6",
+        "bonus": "-2"
+      },
+      "con": {
+        "val": "21 (+5)",
+        "score": "21",
+        "bonus": "+5"
+      },
+      "int": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "wis": {
+        "val": "14 (+2)",
+        "score": "14",
+        "bonus": "+2"
+      },
+      "cha": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "str": "+14",
+      "con": "+11",
+      "wis": "+8"
+    },
+    "resist": "thunder",
+    "senses": "passive Perception 12",
+    "languages": "Draconic, Terran",
+    "cr": {
+      "text": "17",
+      "value": 17
+    },
+    "traits": [
+      {
+        "name": "False Appearance.",
+        "effect": [
+          {
+            "text": "While the dragon tortoise remains motionless and half-buried, it is indistinguishable from a large boulder or other natural rock.  "
+          }
+        ]
+      },
+      {
+        "name": "Heavy-Footed.",
+        "effect": [
+          {
+            "text": "The dragon tortoise has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will. Additionally, if the dragon tortoise is moved against its will, the distance it is moved is halved. If the distance is 5 ft. or less, the dragon tortoise is not moved.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 497,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The dragon tortoise makes three attacks: one with its bite, one with its stomp, and one with its tail. They cannot be against the same target.  "
+          }
+        ]
+      },
+      {
+        "name": "Bite.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+14",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 20 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 30 ("
+          },
+          {
+            "text": "4d10 + 8",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage, and the dragon tortoise can choose to pull the target 20 ft. closer to itself.  "
+          }
+        ]
+      },
+      {
+        "name": "Stomp.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+14",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 10 ft., one target that is on the ground. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 18 ("
+          },
+          {
+            "text": "3d6 + 8",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage, and the target is knocked prone.  "
+          }
+        ]
+      },
+      {
+        "name": "Tail.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+14",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 10 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 34 ("
+          },
+          {
+            "text": "4d12 + 8",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Warming Breath ",
+        "effect": [
+          {
+            "text": "The dragon tortoise exhales a relaxing breath in a 60-foot cone. Each creature in that area must make a "
+          },
+          {
+            "text": "DC 19",
+            "dc": true
+          },
+          {
+            "text": " Constitution saving throw. On a failure, a creature becomes indifferent to the dragon tortoise until the end of its next turn. This indifference ends if the target is attacked or if it witnesses any of its friends being harmed by the dragon tortoise.  "
+          }
+        ],
+        "recharge": "5–6"
+      },
+      {
+        "name": "Withdrawal.",
+        "effect": [
+          {
+            "text": "The dragon tortoise retreats within its shell. Until it takes a different action, it gains resistance to all damage except psychic damage. On the turn the dragon tortoise uses its withdrawal, its walking speed is reduced to zero, and its burrow speed is reduced to 5 ft. If half-buried or more in this state, the dragon tortoise has advantage on all saving throws."
+          }
+        ]
+      }
+    ],
+    "actionsize": 1434,
+    "showinfo": false,
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Dragon%20Tortoise.png",
+    "artist": "LauraGalliArt"
+  },
+  {
+    "name": "Flitterpuff",
+    "urlname": "flitterpuff",
+    "size": {
+      "text": "Tiny",
+      "value": 0
+    },
+    "type": "fey",
+    "alignment": "neutral",
+    "ac": "15",
+    "hp": "7 (5d4 - 5)",
+    "hpdice": "5d4 - 5",
+    "speed": "20 ft., fly 30 ft.",
+    "abilities": {
+      "str": {
+        "val": "3 (-4)",
+        "score": "3",
+        "bonus": "-4"
+      },
+      "dex": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "con": {
+        "val": "8 (-1)",
+        "score": "8",
+        "bonus": "-1"
+      },
+      "int": {
+        "val": "6 (-2)",
+        "score": "6",
+        "bonus": "-2"
+      },
+      "wis": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "cha": {
+        "val": "14 (+2)",
+        "score": "14",
+        "bonus": "+2"
+      },
+      "highest": "dex"
+    },
+    "skills": {
+      "acrobatics": "+7"
+    },
+    "immune": "bludgeoning, piercing, slashing",
+    "senses": "passive Perception 11",
+    "languages": "understands Sylvan but can't speak",
+    "cr": {
+      "text": "1",
+      "value": 1
+    },
+    "traits": [
+      {
+        "name": "Drift.",
+        "effect": [
+          {
+            "text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity.  "
+          }
+        ]
+      },
+      {
+        "name": "Lightning Absorption.",
+        "effect": [
+          {
+            "text": "Whenever the flitterpuff is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.  "
+          }
+        ]
+      },
+      {
+        "name": "Spellcasting.",
+        "effect": [
+          {
+            "text": "The flitterpuff's innate spellcasting ability is Charisma (spell save "
+          },
+          {
+            "text": "DC 12",
+            "dc": true
+          },
+          {
+            "text": "). It can innately cast the following spells, requiring no components:  "
+          }
+        ],
+        "spells": [
+          {
+            "label": "At will",
+            "list": "shocking grasp  "
+          },
+          {
+            "label": "1/day each",
+            "list": "absorb elements, cure wounds  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 607,
+    "actions": [
+      {
+        "name": "Puff.",
+        "effect": [
+          {
+            "text": "The flitterpuff releases a cloud of its feathers. Each creature within 10 feet of the flitterpuff must succeed on a "
+          },
+          {
+            "text": "DC 10",
+            "dc": true
+          },
+          {
+            "text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn."
+          }
+        ]
+      }
+    ],
+    "actionsize": 221
+  },
+  {
+    "name": "Forest Giant",
+    "urlname": "forest_giant",
+    "size": {
+      "text": "Large",
+      "value": 3
+    },
+    "type": "giant",
+    "alignment": "chaotic neutral",
+    "ac": "14 (patchwork leather)",
+    "hp": "68 (8d10 + 24)",
+    "hpdice": "8d10 + 24",
+    "speed": "40 ft.",
+    "abilities": {
+      "str": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "dex": {
+        "val": "17 (+3)",
+        "score": "17",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "int": {
+        "val": "9 (-1)",
+        "score": "9",
+        "bonus": "-1"
+      },
+      "wis": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "cha": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "dex": "+5",
+      "wis": "+5"
+    },
+    "skills": {
+      "acrobatics": "+5",
+      "perception": "+5",
+      "stealth": "+5",
+      "survival": "+7"
+    },
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Giant, Druidic",
+    "cr": {
+      "text": "4",
+      "value": 4
+    },
+    "traits": [
+      {
+        "name": "Timber Seeds (3/day).",
+        "effect": [
+          {
+            "text": "Before making a ranged weapon attack, the giant can choose to attach a pouch of timber seeds to the ammunition or the thrown weapon. When it does so, the range of the weapon is halved. If the attack hits a creature, the creature must make a "
+          },
+          {
+            "text": "DC 13",
+            "dc": true
+          },
+          {
+            "text": " Strength saving throw or be knocked 15 feet away from the giant. A 20 foot tall, 5 foot wide tree grows in the previously occupied space, and tangled roots create difficult terrain in a 15 foot radius centered on the tree. If the attack misses or the creature succeeds its saving throw, the tree grows in the space behind the creature.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 613,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The giant makes two attacks with its greatspear or greatbow.  "
+          }
+        ]
+      },
+      {
+        "name": "Greatspear.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee  or Ranged Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+7",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft. or range 40/120 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 10 ("
+          },
+          {
+            "text": "1d10 + 5",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage, or 11 ("
+          },
+          {
+            "text": "1d12 + 5",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage if used with two hands to make a melee attack.  "
+          }
+        ]
+      },
+      {
+        "name": "Greatbow.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Ranged Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+5",
+            "bonus": true
+          },
+          {
+            "text": " to hit, range 300/1200 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 8 ("
+          },
+          {
+            "text": "1d10 + 3",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage."
+          }
+        ]
+      }
+    ],
+    "actionsize": 432,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Wildborn.",
+        "desc": [
+          "Forest giants are a species of giant-kin who do not descend from any lineage of true giants, nor are the spawn of a giant deity. When a revered beast of great power within a forest attains the blessing of a nature god or elder druid, they are elevated from their animal flesh into the form of a forest giant. Sometimes, when a forest is in great peril, this process will happen on its own, and a forest giant will be born unto the wilderness that has need of it.",
+          "The appearance of a forest giant reflects what beast it came from. Many have horns or antlers and are covered in fur, while others may have cloven feet or long tails. They are quite small as giants stand, reaching only 10 to 12 feet in height. They make no homes and hunt no game, preferring to eat leaves of the trees they can now reach. Forest giants have a keener intellect than what their animalistic nature suggests, using simple weapons and crafting materials to outfit themselves."
+        ]
+      },
+      {
+        "name": "Shepherds and Caretakers.",
+        "desc": [
+          "A forest giant always has a purpose that it was created for. Oftentimes, this sacred mission entails protecting a certain rare and magical creature and its herd from overly greedy hunters. It may also mean defending a certain sanctum within the forest from defilement, or preserving a plot of land where a unique and delicate plant grows.",
+          "Forest giants live for an indefinite period of time, but are aged and weary after 300 years. When their task is deemed complete by their creator, or they grow too old, they are returned to their bestial form to live out the remainder of their now mortal days, and another animal protector is raised to answer the call."
+        ]
+      },
+      {
+        "name": "An Indifferent Selfishness.",
+        "desc": [
+          "Outside of their realm, forest giants are willing to trade their harvests and crafts, and actively engage in teaching young species the ways of protecting nature. They can be a great boon to a community that supports the forest giant's cause. This is, however, at their own discretion, as their mission is beyond mortal comprehension and they may disappear for decades to focus on their appointed quest.",
+          "Inside their home turf, forest giants take a more apathetic approach and let nature run its course unless it directly interferes with their vocation. A traveler lost in the woods is unlikely to receive directions from a forest giant, as the giant may already foresee the traveler's demise in the jaws of wild beasts as an inevitable event. Unless one makes themselves useful to the giant, they may as well not exist."
+        ]
+      },
+      {
+        "name": "Timber Seeds.",
+        "desc": [
+          "A blessing all forest giants have is an unmatched green thumb. Plants they touch grow to maturity within minutes, and flourish beyond normal lifetimes. Forest giants can take advantage of this innate magic and use it as an offensive measure. While they prefer trees for their harmless nature, they can sprout any plant launched using the pouches they carefully craft and imbue with their druidic power."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "A forest giant is wise enough to know that negotiation should always be the first option, but when push comes to shove it won't hesitate to use its immense strength. When interacting with humanoids or other intelligent creatures, a forest giant will always issue warnings before resorting to combat. It will fight to the death if it fears its sacred mission is at risk.",
+          "Forest giants are skilled in guerilla warfare, and the range granted by their strength makes them deadly snipers. It hides and attacks from afar, using timber seeds to knock down enemies. While their foe is off guard, a forest giant will relocate and continue firing from a distance. As a last resort to put distance between itself and its aggressors, a forest giant will use a timber seed beneath its feet and hold onto the tree as it grows, lifting itself into the air."
+        ]
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Forest%20Giant.png",
+    "artist": "artofagnes"
+  },
+  {
+    "name": "Xylodynn",
+    "urlname": "xylodynn",
+    "size": {
+      "text": "Large",
+      "value": 3
+    },
+    "type": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "19 (natural armor)",
+    "hp": "168 (16d10 + 80)",
+    "hpdice": "16d10 + 80",
+    "speed": "30 ft.",
+    "abilities": {
+      "str": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "dex": {
+        "val": "19 (+4)",
+        "score": "19",
+        "bonus": "+4"
+      },
+      "con": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "int": {
+        "val": "14 (+2)",
+        "score": "14",
+        "bonus": "+2"
+      },
+      "wis": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "cha": {
+        "val": "15 (+2)",
+        "score": "15",
+        "bonus": "+2"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "dex": "+8",
+      "con": "+9",
+      "wis": "+7",
+      "cha": "+6"
+    },
+    "resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "immune": "poison",
+    "immunity": "poisoned",
+    "senses": "truesight 120 ft., passive Perception 13",
+    "languages": "Abyssal, telepathy 120 ft.",
+    "cr": {
+      "text": "12",
+      "value": 12
+    },
+    "traits": [
+      {
+        "name": "Augmented Flight.",
+        "effect": [
+          {
+            "text": "The xylodynn can use a bonus action to fly an additional 30 feet until the end of its turn. Attack rolls have disadvantage against it during this movement.  "
+          }
+        ]
+      },
+      {
+        "name": "Magic Resistance.",
+        "effect": [
+          {
+            "text": "The xylodynn has advantage on saving throws against spells and other magical effects.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 295,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The xylodynn makes two hook claw attacks, then makes one horn attack.  "
+          }
+        ]
+      },
+      {
+        "name": "Hook Claw.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+9",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 15 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 14 ("
+          },
+          {
+            "text": "2d6 + 5",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage, and if the target is Large or smaller, the xylodynn can force the target to make a "
+          },
+          {
+            "text": "DC 17",
+            "dc": true
+          },
+          {
+            "text": " Dexterity saving throw. On a failed save, the target is pulled within 5 feet of the xylodynn and is knocked prone.  "
+          }
+        ]
+      },
+      {
+        "name": "Horn.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+9",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 16 ("
+          },
+          {
+            "text": "2d10 + 5",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage, and if the target is Large or smaller, the xylodynn can force the target to make a "
+          },
+          {
+            "text": "DC 17",
+            "dc": true
+          },
+          {
+            "text": " Strength saving throw. A prone target automatically fails this saving throw. On a failed save, the target takes an additional 5 ("
+          },
+          {
+            "text": "1d10",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage, and the xylodynn tosses the target anywhere between 20 to 40 feet away in any direction. The target lands prone.  "
+          }
+        ]
+      }
+    ],
+    "actionsize": 309,
+    "reactions": [
+      {
+        "name": "Spell Hatred.",
+        "effect": [
+          {
+            "text": "When a creature within 30 feet that the xylodynn can hear casts a spell, the xylodynn can move using its augmented flight and make a horn attack against the creature. If the attack hits, the target is unable to finish the spell and forfeits their action, as well as losing the spell slot."
+          }
+        ]
+      }
+    ],
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Militant Enforcers.",
+        "desc": [
+          "Amidst the chaos of the Necrorealms, xylodynn are a force of will to whip the madness into a machine of war. Though not the most intelligent of its fiendish cousins, a xylodynn has unparalleled cunning in battle - so much so that demons of a greater order will reluctantly bow to listen to a xylodynn's command. A demon that usurps and devours those above itself with skill rather than brutal force may evolve into a xylodynn, or a demon lord may raise a commander to the rank of a xylodynn to exert greater control over their armies."
+        ]
+      },
+      {
+        "name": "Infectious Barbarism.",
+        "desc": [
+          "Xylodynn crave utter decimation of their foes in warfare, and are perfectly suited for it. While other demons prefer to corrupt and scheme in the Terrenrealms by subverting others to their will, a xylodynn seeks those who already have a thirst for blood and intensify it with hellish fury. Murderers and warmongers will likely find themselves tempted by a xylodynn's offers of power and tactical knowledge.",
+          "It is said that the mere presence of a xylodynn can lead an entire community to reverting to cruel tribal mentalities. Once their minds have unraveled, the xylodynn seizes control and quickly becomes their overlord, seen as an almost deistic figure that they zealously follow to war. Any that are crushed under the might of a xylodynn's army are subject to the same madness, and so its influence spreads like a disease of killing intent."
+        ]
+      },
+      {
+        "name": "Spell Shunners.",
+        "desc": [
+          "Xylodynn have an intriguing enmity towards spellcasters. Not only will they never approach one to offer their services, they will actively help any insurrection against one. In battle, should they hear spells being woven, they are overtaken by a raging impulse to silence the effect. This often leads to conflicts between xylodynn and other more wizardly commanders of demon armies, and even sometimes leads to rebellion against the demon lords who created them.",
+          "Some think that perhaps the xylodynn can hear the shrill sound of reality tearing as magic is summoned forth, and therefore fear and hate it. Alternate theories assert it stems from envy due to their own lack of spellcasting ability, while others hypothesize their scorn for arcane treachery comes from their own warped perspective of a fair fight."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "A xylodynn seldom fights alone, and will issue orders to its underlings to have them fight much more tactically than a normal disorganized demon horde. Rather than sitting back and letting its lackeys fight for it, a xylodynn is more than willing to jump in and out of the thick of battle using its augmented flight. No military formation can stand against it as it pulls creatures away with its hook claws, then tosses them afar with its horn.",
+          "A xylodynn fights extremely optimally and makes very few mistakes when engaging in combat - that is, until it hears spellcasting. While its spell hatred reaction is quite strong, it can be used as a weakness against a xylodynn since they won't resist the urge to strike out at a mage. Baiting a xylodynn by casting spells is very easy, but the demon will likely become even angrier after being outsmarted. That anger might lead it to be more analytic in its decisions, or it may fly into a heated raging fury that could lead to even more slip-ups.",
+          "Though not cowardly, a xylodynn knows the importance of a retreat. When battles turn for the worse, a xylodynn will make haste to escape, plotting to return with a force strong enough to crush those who bested it."
+        ]
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Xylodynn.png",
+    "artist": "MaxBConceptArt"
+  },
+  {
+    "name": "Absolution the Opalescent Dragon",
+    "urlname": "absolution_the_opalescent_dragon",
+    "size": {
+      "text": "Huge",
+      "value": 4
+    },
+    "type": "celestial (archangel, dragon)",
+    "alignment": "lawful good",
+    "ac": "21 (natural armor)",
+    "hp": "465 (30d12 + 270)",
+    "hpdice": "30d12 + 270",
+    "speed": "50 ft., fly 180 ft.",
+    "abilities": {
+      "str": {
+        "val": "30 (+10)",
+        "score": "30",
+        "bonus": "+10"
+      },
+      "dex": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "con": {
+        "val": "29 (+9)",
+        "score": "29",
+        "bonus": "+9"
+      },
+      "int": {
+        "val": "25 (+7)",
+        "score": "25",
+        "bonus": "+7"
+      },
+      "wis": {
+        "val": "29 (+9)",
+        "score": "29",
+        "bonus": "+9"
+      },
+      "cha": {
+        "val": "30 (+10)",
+        "score": "30",
+        "bonus": "+10"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "con": "+17",
+      "int": "+15",
+      "wis": "+17",
+      "cha": "+18"
+    },
+    "skills": {
+      "insight": "+17",
+      "perception": "+17",
+      "persuasion": "+18"
+    },
+    "resist": "necrotic",
+    "immune": "radiant",
+    "immunity": "charmed, exhaustion, frightened, poisoned",
+    "senses": "truesight 120 ft., passive Perception 27",
+    "languages": "all, telepathy 120 ft.",
+    "cr": {
+      "text": "26",
+      "value": 26
+    },
+    "traits": [
+      {
+        "name": "Legendary Might.",
+        "effect": [
+          {
+            "text": "Absolution can expend a legendary resistance to add a "
+          },
+          {
+            "text": "1d12",
+            "dice": true
+          },
+          {
+            "text": " bonus to one of the following:  "
+          },
+          {
+            "text": "- To their AC for a single attack that would hit them.  ",
+            "newline": true
+          },
+          {
+            "text": "- To one of their attack rolls after knowing whether or not it hits.  ",
+            "newline": true
+          },
+          {
+            "text": "- To one of their attacks' damage rolls as additional force damage.  ",
+            "newline": true
+          }
+        ]
+      },
+      {
+        "name": "Legendary Resistance (3/Day).",
+        "effect": [
+          {
+            "text": "If Absolution fails a saving throw, they can choose to succeed instead.  "
+          }
+        ]
+      },
+      {
+        "name": "Splendor of the Paragon.",
+        "effect": [
+          {
+            "text": "Any creature who targets Absolution with an attack or spell must first make a "
+          },
+          {
+            "text": "DC 18",
+            "dc": true
+          },
+          {
+            "text": " Wisdom saving throw. On a failed save, Absolution regains a legendary resistance, up to a maximum of 3.  "
+          }
+        ]
+      },
+      {
+        "name": "Sublime Conceit.",
+        "effect": [
+          {
+            "text": "Absolution is visible or invisible to any creature it chooses at will.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 746,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "Absolution can use their Divine Presence, then make three attacks: one with their bite and two with their claws.  "
+          }
+        ]
+      },
+      {
+        "name": "Bite.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+18",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 10 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 21 ("
+          },
+          {
+            "text": "2d10 + 10",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Claw.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+18",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 17 ("
+          },
+          {
+            "text": "2d6 + 10",
+            "dice": true
+          },
+          {
+            "text": ") slashing damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Tail.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+18",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 15 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 19 ("
+          },
+          {
+            "text": "2d8 + 10",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Divine Presence.",
+        "effect": [
+          {
+            "text": "Each creature of Absolution's choice that is within 180 feet and aware of them must succeed on a "
+          },
+          {
+            "text": "DC 26",
+            "dc": true
+          },
+          {
+            "text": " Wisdom saving throw or it cannot gain advantage on any rolls for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Absolution's Divine Presence for the next 24 hours.  "
+          }
+        ]
+      },
+      {
+        "name": "Breath Weapons ",
+        "effect": [
+          {
+            "text": "Absolution uses one of the following breath weapons.  "
+          }
+        ],
+        "recharge": "5–6",
+        "options": [
+          {
+            "name": "Sun Breath.",
+            "effect": [
+              {
+                "text": "Absolution fires a concentrated beam of light in a 120-foot line. Each creature in that area must make a "
+              },
+              {
+                "text": "DC 25",
+                "dc": true
+              },
+              {
+                "text": " Dexterity saving throw, taking 54 ("
+              },
+              {
+                "text": "12d8",
+                "dice": true
+              },
+              {
+                "text": ") radiant damage on a failed save, or half as much damage on a successful one. After dealing damage Absolution can choose to further focus the beam by expending 3 of their legendary resistances. Once expended, Absolution deals an additional 54 ("
+              },
+              {
+                "text": "12d8",
+                "dice": true
+              },
+              {
+                "text": ") radiant damage for this attack."
+              }
+            ]
+          },
+          {
+            "name": "Moon Breath.",
+            "effect": [
+              {
+                "text": "Absolution exhales starry polychromatic gas in a 90-foot cone. Each creature in that area must succeed on a "
+              },
+              {
+                "text": "DC 25",
+                "dc": true
+              },
+              {
+                "text": " Constitution saving throw or take 24 ("
+              },
+              {
+                "text": "7d6",
+                "dice": true
+              },
+              {
+                "text": ") radiant damage, 24 ("
+              },
+              {
+                "text": "7d6",
+                "dice": true
+              },
+              {
+                "text": ") fire damage, and 24 ("
+              },
+              {
+                "text": "7d6",
+                "dice": true
+              },
+              {
+                "text": ") cold damage, or half as much damage on a successful one."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Healing Touch (5/Day).",
+        "effect": [
+          {
+            "text": "Absolution touches a creature. The target magically regains 55 ("
+          },
+          {
+            "text": "10d8 + 10",
+            "dice": true
+          },
+          {
+            "text": ") hit points and is freed from any curse, disease, poison, blindness, or deafness.  "
+          }
+        ]
+      }
+    ],
+    "actionsize": 1963,
+    "legendary": {
+      "info": "Absolution can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Absolution regains spent legendary actions at the start of their turn.",
+      "actions": [
+        {
+          "name": "Overawe.",
+          "effect": [
+            {
+              "text": "Absolution uses their divine presence on a single creature, ignoring immunity."
+            }
+          ]
+        },
+        {
+          "name": "Tail Attack.",
+          "effect": [
+            {
+              "text": "Absolution makes a tail attack."
+            }
+          ]
+        },
+        {
+          "name": "Heal (Costs 2 Actions).",
+          "effect": [
+            {
+              "text": "Absolution uses their healing touch."
+            }
+          ]
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions).",
+          "effect": [
+            {
+              "text": "Absolution beats their wings. Each creature within 15 feet must succeed on a "
+            },
+            {
+              "text": "DC 25",
+              "dc": true
+            },
+            {
+              "text": " Dexterity saving throw or take 17 ("
+            },
+            {
+              "text": "2d6 + 10",
+              "dice": true
+            },
+            {
+              "text": ") bludgeoning damage and be knocked prone. Absolution can then fly up to half their flying speed."
+            }
+          ]
+        }
+      ]
+    },
+    "showinfo": false,
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
+    "artist": "chloehx21"
+  },
+  {
+    "name": "Bulu",
+    "urlname": "bulu",
+    "size": {
+      "text": "Tiny",
+      "value": 0
+    },
+    "type": "celestial",
+    "alignment": "lawful good",
+    "ac": "13",
+    "hp": "7 (5d4 - 5)",
+    "hpdice": "5d4 - 5",
+    "speed": "40 ft., fly 40 ft.",
+    "abilities": {
+      "str": {
+        "val": "6 (-2)",
+        "score": "6",
+        "bonus": "-2"
+      },
+      "dex": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "8 (-1)",
+        "score": "8",
+        "bonus": "-1"
+      },
+      "int": {
+        "val": "6 (-2)",
+        "score": "6",
+        "bonus": "-2"
+      },
+      "wis": {
+        "val": "14 (+2)",
+        "score": "14",
+        "bonus": "+2"
+      },
+      "cha": {
+        "val": "15 (+2)",
+        "score": "15",
+        "bonus": "+2"
+      },
+      "highest": "dex"
+    },
+    "skills": {
+      "acrobatics": "+5",
+      "perception": "+4"
+    },
+    "senses": "passive Perception 14",
+    "languages": "—",
+    "cr": {
+      "text": "1/8",
+      "value": 0.125
+    },
+    "traits": [
+      {
+        "name": "Keen Hearing.",
+        "effect": [
+          {
+            "text": "The bulu has advantage on Wisdom (Perception) checks that rely on hearing.  "
+          }
+        ]
+      },
+      {
+        "name": "Spell Turning.",
+        "effect": [
+          {
+            "text": "The bulu has advantage on saving throws against any spell that targets only the bulu (not an area). If the bulu's saving throw succeeds and the spell is of a level equal to or less than the bulu's current hit points, the spell has no effect on the bulu and instead targets the caster.  "
+          }
+        ]
+      },
+      {
+        "name": "Ward Self.",
+        "effect": [
+          {
+            "text": "The bulu can cast "
+          },
+          {
+            "text": "sanctuary",
+            "itl": true
+          },
+          {
+            "text": " (spell save "
+          },
+          {
+            "text": "DC 12",
+            "dc": true
+          },
+          {
+            "text": ") on itself at will.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 494,
+    "actions": [
+      {
+        "name": "Heal.",
+        "effect": [
+          {
+            "text": "The bulu regains 1 hit point."
+          }
+        ]
+      }
+    ],
+    "actionsize": 42
+  },
+  {
+    "name": "Swarm of Hostile Magic Items",
+    "urlname": "swarm_of_hostile_magic_items",
+    "size": {
+      "text": "Medium",
+      "value": 2
+    },
+    "type": "swarm of tiny constructs",
+    "alignment": "unaligned",
+    "ac": "15 (natural armor)",
+    "hp": "99 (18d8 + 18)",
+    "hpdice": "18d8 + 18",
+    "speed": "0 ft., fly 30 ft. (hover)",
+    "abilities": {
+      "str": {
+        "val": "17 (+3)",
+        "score": "17",
+        "bonus": "+3"
+      },
+      "dex": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "12 (+1)",
+        "score": "12",
+        "bonus": "+1"
+      },
+      "int": {
+        "val": "4 (-3)",
+        "score": "4",
+        "bonus": "-3"
+      },
+      "wis": {
+        "val": "10 (+0)",
+        "score": "10",
+        "bonus": "+0"
+      },
+      "cha": {
+        "val": "4 (-3)",
+        "score": "4",
+        "bonus": "-3"
+      },
+      "highest": "str"
+    },
+    "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "immune": "poison, psychic",
+    "immunity": "all ",
+    "senses": "blindsight 60 ft., passive Perception 10",
+    "languages": "—",
+    "cr": {
+      "text": "9",
+      "value": 9
+    },
+    "traits": [
+      {
+        "name": "Antimagic Susceptibility.",
+        "effect": [
+          {
+            "text": "The swarm is incapacitated while in the area of an "
+          },
+          {
+            "text": "antimagic field",
+            "itl": true
+          },
+          {
+            "text": ". If targeted by "
+          },
+          {
+            "text": "dispel magic",
+            "itl": true
+          },
+          {
+            "text": ", the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.  "
+          }
+        ]
+      },
+      {
+        "name": "Magic Resistance.",
+        "effect": [
+          {
+            "text": "The swarm has advantage on saving throws against spells and other magical effects.  "
+          }
+        ]
+      },
+      {
+        "name": "Random Trait.",
+        "effect": [
+          {
+            "text": "At the beginning of every turn in the initiative and lasting until the end of that turn, the swarm gains a random trait from the list below.  "
+          }
+        ],
+        "options": [
+          {
+            "name": "1. Shield of Defence.",
+            "effect": [
+              {
+                "text": "The swarm gains a "
+              },
+              {
+                "text": "+2",
+                "bonus": true
+              },
+              {
+                "text": " bonus to AC and saving throws."
+              }
+            ]
+          },
+          {
+            "name": "2. Unseeing Cloak.",
+            "effect": [
+              {
+                "text": "The swarm is invisible and gains truesight out to 60 feet."
+              }
+            ]
+          },
+          {
+            "name": "3. Amulet of Heartiness.",
+            "effect": [
+              {
+                "text": "The swarm's Constitution score becomes 20, and it regains "
+              },
+              {
+                "text": "4d8",
+                "dice": true
+              },
+              {
+                "text": " hit points. This effect does not increase the swarm's maximum amount of hit points."
+              }
+            ]
+          },
+          {
+            "name": "4. Mirror Armor.",
+            "effect": [
+              {
+                "text": "The swarm undergoes the effect of the spell "
+              },
+              {
+                "text": "mirror image",
+                "itl": true
+              },
+              {
+                "text": ". When a duplicate is destroyed, creatures within 5 feet take 3 ("
+              },
+              {
+                "text": "1d6",
+                "dice": true
+              },
+              {
+                "text": ") cold damage."
+              }
+            ]
+          },
+          {
+            "name": "5. Circlet of Warping.",
+            "effect": [
+              {
+                "text": "The swarm teleports to a space within 60 feet."
+              }
+            ]
+          },
+          {
+            "name": "6. Divine Ring.",
+            "effect": [
+              {
+                "text": "The swarm's Intelligence, Wisdom, and Charisma scores all become 22."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Swarm.",
+        "effect": [
+          {
+            "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points unless by one of its traits.  "
+          }
+        ]
+      }
+    ],
+    "traitsize": 1458,
+    "actions": [
+      {
+        "name": "Random Action.",
+        "effect": [
+          {
+            "text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more.  "
+          }
+        ],
+        "options": [
+          {
+            "name": "1. Sword of Light.",
+            "effect": [
+              {
+                "text": ""
+              },
+              {
+                "text": "Melee Weapon Attack:",
+                "itl": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "+9",
+                "bonus": true
+              },
+              {
+                "text": " to hit, reach 5 ft., one target. "
+              },
+              {
+                "text": "Hit:",
+                "itl": true
+              },
+              {
+                "text": " 12 ("
+              },
+              {
+                "text": "2d6 + 5",
+                "dice": true
+              },
+              {
+                "text": ") piercing damage plus 9 ("
+              },
+              {
+                "text": "2d8",
+                "dice": true
+              },
+              {
+                "text": ") radiant damage. Whether the attack hits or misses, the creature must make a "
+              },
+              {
+                "text": "DC 13",
+                "dc": true
+              },
+              {
+                "text": " Constitution saving throw or be blinded."
+              }
+            ]
+          },
+          {
+            "name": "2. Bloodcurse Axe.",
+            "effect": [
+              {
+                "text": ""
+              },
+              {
+                "text": "Melee Weapon Attack:",
+                "itl": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "+7",
+                "bonus": true
+              },
+              {
+                "text": " to hit, reach 5 ft., one target. "
+              },
+              {
+                "text": "Hit:",
+                "itl": true
+              },
+              {
+                "text": " 9 ("
+              },
+              {
+                "text": "1d12 + 3",
+                "dice": true
+              },
+              {
+                "text": ") slashing damage. The swarm makes two attacks with this trait, and is considered a critical hit on a roll of 18 or above."
+              }
+            ]
+          },
+          {
+            "name": "3. Psionic Dagger.",
+            "effect": [
+              {
+                "text": ""
+              },
+              {
+                "text": "Melee  or Ranged Weapon Attack:",
+                "itl": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "+7",
+                "bonus": true
+              },
+              {
+                "text": " to hit, reach 5 ft. or range 20/60 ft., one target. "
+              },
+              {
+                "text": "Hit:",
+                "itl": true
+              },
+              {
+                "text": " 5 ("
+              },
+              {
+                "text": "1d4 + 3",
+                "dice": true
+              },
+              {
+                "text": ") piercing damage plus 11 ("
+              },
+              {
+                "text": "2d10",
+                "dice": true
+              },
+              {
+                "text": ") psychic damage. If the attack hits, the dagger can make another attack against a target within 10 feet of the original target before returning to the swarm."
+              }
+            ]
+          },
+          {
+            "name": "4. Bow of Binding.",
+            "effect": [
+              {
+                "text": ""
+              },
+              {
+                "text": "Ranged Weapon Attack:",
+                "itl": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "+8",
+                "bonus": true
+              },
+              {
+                "text": " to hit, ranged 150/600 ft., one target. "
+              },
+              {
+                "text": "Hit:",
+                "itl": true
+              },
+              {
+                "text": " 8 ("
+              },
+              {
+                "text": "1d8 + 4",
+                "dice": true
+              },
+              {
+                "text": ") piercing damage plus 6 ("
+              },
+              {
+                "text": "1d12",
+                "dice": true
+              },
+              {
+                "text": ") poison damage, and the creature must make a "
+              },
+              {
+                "text": "DC 15",
+                "dc": true
+              },
+              {
+                "text": " Strength saving throw or become restrained. A creature can repeat the saving throw at the end of its turns to end the effect."
+              }
+            ]
+          },
+          {
+            "name": "5. Wand of the Artillerist.",
+            "effect": [
+              {
+                "text": "The swarm summons a hail of fire. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within 80 feet must make a "
+              },
+              {
+                "text": "DC 14",
+                "dc": true
+              },
+              {
+                "text": " Dexterity saving throw. A creature takes 7 ("
+              },
+              {
+                "text": "2d6",
+                "dice": true
+              },
+              {
+                "text": ") fire damage and 7 ("
+              },
+              {
+                "text": "2d6",
+                "dice": true
+              },
+              {
+                "text": ") force damage on a failed save, or half as much damage on a successful one. The cylinder remains until the start of the swarm's next turn. A creature that ends its turn in the cylinder is subject to its effects."
+              }
+            ]
+          },
+          {
+            "name": "6. Deathstriker Staff.",
+            "effect": [
+              {
+                "text": "The swarm shoots crimson lightning in a line 60 feet long and 5 feet wide. Each creature in the line must make a "
+              },
+              {
+                "text": "DC 16",
+                "dc": true
+              },
+              {
+                "text": " Charisma saving throw. On a failed save, a creature takes 13 ("
+              },
+              {
+                "text": "3d8",
+                "dice": true
+              },
+              {
+                "text": ") lightning damage and 10 ("
+              },
+              {
+                "text": "3d6",
+                "dice": true
+              },
+              {
+                "text": ") necrotic damage, or half as much on a successful one. Creatures that fail their saving throw have their maximum hit points reduced by the amount of necrotic damage taken until their next short or long rest."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actionsize": 2261
+  }
 ]
