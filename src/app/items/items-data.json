@@ -1,310 +1,310 @@
 [
-	{
-		"effects": [
-			{
-				"text": "This thick belt is studded with iron-forged depictions of elephantine creatures. As an action, you can activate the belt until the start of your next turn."
-			},
-			{
-				"text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "DC 8",
-				"dc": true
-			},
-			{
-				"text": " Strength check when you activate the belt. If successful, you break free of all effects binding you."
-			}
-		],
-		"sectioncount": 2,
-		"lettercount": 709,
-		"name": "Belt of the Behemoth",
-		"urlname": "belt_of_the_behemoth",
-		"subtext": "Wondrous item (belt), legendary (requires attunement)",
-		"attune": {
-			"text": "(requires attunement)"
-		},
-		"type": "Wondrous item (belt)",
-		"rarity": {
-			"text": "legendary",
-			"rating": 4
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt%20Of%20The%20Behemoth.png",
-		"artist": "dgalexandre1"
-	},
-	{
-		"effects": [
-			{
-				"text": "A crossbow with a beehive attached. When making a ranged attack with honeyshot, a bolt is covered with honey from the hive before firing, embedding itself in the target on a hit. Creatures cannot remove a bolt to ignore the following effects, as residual honey remains in the wound."
-			},
-			{
-				"text": "When you hit a target with a ranged attack from honeyshot, if it has not already released its bees, a friendly ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "Swarm of Wasps (Bees)",
-				"itl": true
-			},
-			{
-				"text": " appears within 5 feet of you. The swarm is so thick that its space is considered lightly obscured."
-			},
-			{
-				"text": "The swarm takes its turn immediately after yours. The bees act independently and have only one goal, which is to bite the creature most coated in their honey. They follow and pursue the creature that has the most honeyshot bolts currently embedded within them. Each of their bite attacks that hits an enemy destroys one nonmagical honeyshot bolt, or removes the honey from a magical one. They continue to make bite attacks against that creature until it has no honey left embedded. They then reassess which creature is most coated in their honey within 60 feet, choosing the closest target or randomly if an even tie. They repeat this process until no honey exists or until killed, whereupon they disperse and return to the hive. If the swarm is killed, another swarm will not appear until the next dawn.",
-				"newline": true,
-				"paragraph": true
-			}
-		],
-		"sectioncount": 3,
-		"lettercount": 1505,
-		"name": "Honeyshot",
-		"urlname": "honeyshot",
-		"subtext": "Weapon (light crossbow), rare (requires attunement)",
-		"attune": {
-			"text": "(requires attunement)"
-		},
-		"type": "Weapon (light crossbow)",
-		"rarity": {
-			"text": "rare",
-			"rating": 2
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Honeyshot.png",
-		"artist": "dgalexandre1"
-	},
-	{
-		"effects": [
-			{
-				"text": "A black iron lantern that burns indefinitely with a small violet flame. A creature within the bright light of the lantern has advantage on saving throws against effects that would deal fire damage."
-			},
-			{
-				"text": "While holding the lantern, you can use an action to extinguish any flames (magical or nonmagical) that fit within a 10 foot cube centered no more than 30 feet away. You can also target a creature with this effect instead, which must make a ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "DC 18",
-				"dc": true
-			},
-			{
-				"text": " Charisma saving throw. On a failure, that creature becomes cursed by the lantern. While cursed, the creature deals two less dice of damage when inflicting fire damage. If this reduces the number of damage dice to zero or less, the damage is negated. The creature can repeat the saving throw at the end of their turns, ending the curse on a success."
-			}
-		],
-		"sectioncount": 2,
-		"lettercount": 985,
-		"name": "Lighteater Lantern",
-		"urlname": "lighteater_lantern",
-		"subtext": "Wondrous item (hooded lantern), very rare",
-		"type": "Wondrous item (hooded lantern)",
-		"rarity": {
-			"text": "very rare",
-			"rating": 3
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater%20Lantern.png",
-		"artist": "dgalexandre1"
-	},
-	{
-		"effects": [
-			{
-				"text": "This staff's ornate and intricate design resembles a very tall and thin wizard's tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius above you, you can place the staff upright into the ground and speak its command word. Over the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius stone tower with 8 interior floors plus rooftop access, as many windows as you wish, and a ground level front door suitable for your height. The tower's interior is determined by you upon speaking the command word, using the same methods as "
-			},
-			{
-				"text": "Galder's Tower (Lost Library of Kwalish, page 57)",
-				"itl": true
-			},
-			{
-				"text": ". While anything not conjured by the tower remains inside, the tower's layout cannot be changed."
-			},
-			{
-				"text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower. The staff shrinks to the same place it was set.",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "If something is inside while the tower is in its staff form, anyone can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "DC 7",
-				"dc": true
-			},
-			{
-				"text": " Wisdom check. On a success, the chosen object or creature is shaken out of the tower and magically appears at its normal size in an unoccupied space adjacent to you. On a failure, a different object or creature at random is released, if available within."
-			},
-			{
-				"text": "The tower has AC 15 and 500 hit points. If reduced to 0 hit points, the tower safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "mending",
-				"itl": true
-			},
-			{
-				"text": " is cast on the staff for one hour, it regains 50 hit points. Only once the staff has full hit points do its magical properties return, if lost."
-			}
-		],
-		"sectioncount": 4,
-		"lettercount": 2333,
-		"name": "Staff of the Spire",
-		"urlname": "staff_of_the_spire",
-		"subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
-		"attune": {
-			"text": "(requires attunement by an arcane caster)",
-			"by": "an arcane caster"
-		},
-		"type": "Simple weapon (staff), spellcasting focus",
-		"rarity": {
-			"text": "very rare",
-			"rating": 3
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Staff%20Of%20The%20Spire.png",
-		"artist": "dgalexandre1"
-	},
-	{
-		"effects": [
-			{
-				"text": "This rusted hand chime resembles a skull. While attuned, you know the spell "
-			},
-			{
-				"text": "toll the dead",
-				"itl": true
-			},
-			{
-				"text": "."
-			},
-			{
-				"text": "The chime has 5 charges. While holding it, you can use an action to expend 1 or more of its charges. Any undead within 30 feet, the sum of whose CR is equal to or less than the number of charges expended (starting with the lowest CR first), must make a ",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "DC 16",
-				"dc": true
-			},
-			{
-				"text": " Wisdom saving throw or be compelled to treat you as their new master for the next minute, as though under the effect of the "
-			},
-			{
-				"text": "dominate monster",
-				"itl": true
-			},
-			{
-				"text": " spell. The chime regains "
-			},
-			{
-				"text": "1d4 + 1",
-				"dice": true
-			},
-			{
-				"text": " charges at midnight."
-			},
-			{
-				"text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spell save DC, with empowerments to those spells:",
-				"newline": true,
-				"paragraph": true
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "Animate Dead (1 charge).",
-				"itl": true
-			},
-			{
-				"text": " The spell's casting time is 1 action."
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "Feign Death (1 charge).",
-				"itl": true
-			},
-			{
-				"text": " The creature gains the benefit of a short rest while unconscious."
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "Inflict Wounds (2 charges).",
-				"itl": true
-			},
-			{
-				"text": " The creature must make a Charisma saving throw against your spell save DC or become stunned."
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "Life Transference (2 charges).",
-				"itl": true
-			},
-			{
-				"text": " You instead take "
-			},
-			{
-				"text": "6d8",
-				"dice": true
-			},
-			{
-				"text": " necrotic damage. You can choose up to two creatures to heal."
-			},
-			{
-				"text": "",
-				"newline": true
-			},
-			{
-				"text": "Circle of Death (4 charges).",
-				"itl": true
-			},
-			{
-				"text": " The sphere is centered on you, and you can choose which creatures are affected."
-			}
-		],
-		"sectioncount": 3,
-		"lettercount": 1458,
-		"name": "The Dead Ringer",
-		"urlname": "the_dead_ringer",
-		"subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
-		"attune": {
-			"text": "(requires attunement by a spellcaster)",
-			"by": "a spellcaster"
-		},
-		"type": "Wondrous item, spellcasting focus",
-		"rarity": {
-			"text": "legendary",
-			"rating": 4
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/The%20Dead%20Ringer.png",
-		"artist": "dgalexandre1"
-	},
-	{
-		"effects": [
-			{
-				"text": "This armor is made from condensed woollysheep fleece. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
-			}
-		],
-		"sectioncount": 1,
-		"lettercount": 426,
-		"name": "Woollysheep Armor",
-		"urlname": "woollysheep_armor",
-		"subtext": "Armor (any), very rare (requires attunement)",
-		"attune": {
-			"text": "(requires attunement)"
-		},
-		"type": "Armor (any)",
-		"rarity": {
-			"text": "very rare",
-			"rating": 3
-		},
-		"image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woollysheep%20Armour.png",
-		"artist": "dgalexandre1"
-	}
+  {
+    "effects": [
+      {
+        "text": "This thick belt is studded with iron-forged depictions of elephantine creatures. As an action, you can activate the belt until the start of your next turn."
+      },
+      {
+        "text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 8",
+        "dc": true
+      },
+      {
+        "text": " Strength check when you activate the belt. If successful, you break free of all effects binding you."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 709,
+    "name": "Belt of the Behemoth",
+    "urlname": "belt_of_the_behemoth",
+    "subtext": "Wondrous item (belt), legendary (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (belt)",
+    "rarity": {
+      "text": "legendary",
+      "rating": 4
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt%20Of%20The%20Behemoth.png",
+    "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "This armor is made from condensed woollysheep fleece. While wearing it, you have resistance to cold and bludgeoning damage, and magic can't put you to sleep. You do not have to doff this armor to gain the full benefits of a long rest."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 426,
+    "name": "Woollysheep Armor",
+    "urlname": "woollysheep_armor",
+    "subtext": "Armor (any), very rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Armor (any)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Woollysheep%20Armour.png",
+    "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "This rusted hand chime resembles a skull. While attuned, you know the spell "
+      },
+      {
+        "text": "toll the dead",
+        "itl": true
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The chime has 5 charges. While holding it, you can use an action to expend 1 or more of its charges. Any undead within 30 feet, the sum of whose CR is equal to or less than the number of charges expended (starting with the lowest CR first), must make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 16",
+        "dc": true
+      },
+      {
+        "text": " Wisdom saving throw or be compelled to treat you as their new master for the next minute, as though under the effect of the "
+      },
+      {
+        "text": "dominate monster",
+        "itl": true
+      },
+      {
+        "text": " spell. The chime regains "
+      },
+      {
+        "text": "1d4 + 1",
+        "dice": true
+      },
+      {
+        "text": " charges at midnight."
+      },
+      {
+        "text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spell save DC, with empowerments to those spells:",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Animate Dead (1 charge).",
+        "itl": true
+      },
+      {
+        "text": " The spell's casting time is 1 action."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Feign Death (1 charge).",
+        "itl": true
+      },
+      {
+        "text": " The creature gains the benefit of a short rest while unconscious."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Inflict Wounds (2 charges).",
+        "itl": true
+      },
+      {
+        "text": " The creature must make a Charisma saving throw against your spell save DC or become stunned."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Life Transference (2 charges).",
+        "itl": true
+      },
+      {
+        "text": " You instead take "
+      },
+      {
+        "text": "6d8",
+        "dice": true
+      },
+      {
+        "text": " necrotic damage. You can choose up to two creatures to heal."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Circle of Death (4 charges).",
+        "itl": true
+      },
+      {
+        "text": " The sphere is centered on you, and you can choose which creatures are affected."
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1458,
+    "name": "The Dead Ringer",
+    "urlname": "the_dead_ringer",
+    "subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
+    "attune": {
+      "text": "(requires attunement by a spellcaster)",
+      "by": "a spellcaster"
+    },
+    "type": "Wondrous item, spellcasting focus",
+    "rarity": {
+      "text": "legendary",
+      "rating": 4
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/The%20Dead%20Ringer.png",
+    "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "This staff's ornate and intricate design resembles a very tall and thin wizard's tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius above you, you can place the staff upright into the ground and speak its command word. Over the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius stone tower with 8 interior floors plus rooftop access, as many windows as you wish, and a ground level front door suitable for your height. The tower's interior is determined by you upon speaking the command word, using the same methods as "
+      },
+      {
+        "text": "Galder's Tower (Lost Library of Kwalish, page 57)",
+        "itl": true
+      },
+      {
+        "text": ". While anything not conjured by the tower remains inside, the tower's layout cannot be changed."
+      },
+      {
+        "text": "Transforming the tower back into a staff takes one minute after speaking its command word from its outside. Creatures and objects left in the tower remain inside and shrink with the interior, noticing little difference other than a faint rumbling. The doors and windows seal shut while shrunk or during the resizing process, ensuring no creature or object can physically leave without breaking the tower. The staff shrinks to the same place it was set.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "If something is inside while the tower is in its staff form, anyone can give it a shake as an action, choosing either an object or a creature known to be contained in the staff. Make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 7",
+        "dc": true
+      },
+      {
+        "text": " Wisdom check. On a success, the chosen object or creature is shaken out of the tower and magically appears at its normal size in an unoccupied space adjacent to you. On a failure, a different object or creature at random is released, if available within."
+      },
+      {
+        "text": "The tower has AC 15 and 500 hit points. If reduced to 0 hit points, the tower safely expels all creatures and objects (which return to their normal size) and begins to shrink if not already in its staff form. The staff then loses its magical properties and cannot be damaged any further. If the spell ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "mending",
+        "itl": true
+      },
+      {
+        "text": " is cast on the staff for one hour, it regains 50 hit points. Only once the staff has full hit points do its magical properties return, if lost."
+      }
+    ],
+    "sectioncount": 4,
+    "lettercount": 2333,
+    "name": "Staff of the Spire",
+    "urlname": "staff_of_the_spire",
+    "subtext": "Simple weapon (staff), spellcasting focus, very rare (requires attunement by an arcane caster)",
+    "attune": {
+      "text": "(requires attunement by an arcane caster)",
+      "by": "an arcane caster"
+    },
+    "type": "Simple weapon (staff), spellcasting focus",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Staff%20Of%20The%20Spire.png",
+    "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "A black iron lantern that burns indefinitely with a small violet flame. A creature within the bright light of the lantern has advantage on saving throws against effects that would deal fire damage."
+      },
+      {
+        "text": "While holding the lantern, you can use an action to extinguish any flames (magical or nonmagical) that fit within a 10 foot cube centered no more than 30 feet away. You can also target a creature with this effect instead, which must make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 16",
+        "dc": true
+      },
+      {
+        "text": " Charisma saving throw. On a failure, that creature becomes cursed by the lantern. While cursed, the creature deals one less die of damage when inflicting fire damage. If this reduces the number of damage dice to zero, the damage is negated. The creature can repeat the saving throw at the end of its turns, lifting the curse on a success."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 975,
+    "name": "Lighteater Lantern",
+    "urlname": "lighteater_lantern",
+    "subtext": "Wondrous item (hooded lantern), very rare",
+    "type": "Wondrous item (hooded lantern)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater%20Lantern.png",
+    "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "A crossbow with a beehive attached. When making a ranged attack with honeyshot, a bolt is covered with honey from the hive before firing, embedding itself in the target on a hit. Creatures cannot remove a bolt to ignore the following effects, as residual honey remains in the wound."
+      },
+      {
+        "text": "When you hit a target with a ranged attack from honeyshot, if it has not already released its bees, a friendly ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "Swarm of Wasps (Bees)",
+        "itl": true
+      },
+      {
+        "text": " appears within 5 feet of you. The swarm is so thick that its space is considered lightly obscured."
+      },
+      {
+        "text": "The swarm takes its turn immediately after yours. The bees act independently and have only one goal, which is to bite the creature most coated in their honey. They follow and pursue the creature that has the most honeyshot bolts currently embedded within them. Each of their bite attacks that hits an enemy destroys one nonmagical honeyshot bolt, or removes the honey from a magical one. They continue to make bite attacks against that creature until it has no honey left embedded. They then reassess which creature is most coated in their honey within 60 feet, choosing the closest target or randomly if an even tie. They repeat this process until no honey exists or until killed, whereupon they disperse and return to the hive. If the swarm is killed, another swarm will not appear until the next dawn.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1505,
+    "name": "Honeyshot",
+    "urlname": "honeyshot",
+    "subtext": "Weapon (light crossbow), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Weapon (light crossbow)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    },
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Honeyshot.png",
+    "artist": "dgalexandre1"
+  }
 ]
