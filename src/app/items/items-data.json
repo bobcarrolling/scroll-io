@@ -5,7 +5,7 @@
         "text": "This thick belt is studded with the iron-forged depiction of an elephantine creature. As an action, you can activate the belt until the start of your next turn."
       },
       {
-        "text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved and you cannot benefit from a fly speed, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
+        "text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved and you cannot benefit from a fly or swim speed, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
         "newline": true,
         "paragraph": true
       },
@@ -18,7 +18,7 @@
       }
     ],
     "sectioncount": 2,
-    "lettercount": 754,
+    "lettercount": 762,
     "name": "Belt of the Behemoth",
     "urlname": "belt_of_the_behemoth",
     "subtext": "Wondrous item (belt), legendary (requires attunement)",
