@@ -947,7 +947,10 @@
         ]
       }
     ],
-    "actionsize": 221
+    "actionsize": 221,
+    "showinfo": false,
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Flitterpuff.png",
+    "artist": "chloehx21"
   },
   {
     "name": "Forest Giant",
@@ -1901,7 +1904,10 @@
         ]
       }
     ],
-    "actionsize": 42
+    "actionsize": 42,
+    "showinfo": false,
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Bulu.png",
+    "artist": "chloehx21"
   },
   {
     "name": "Swarm of Hostile Magic Items",
