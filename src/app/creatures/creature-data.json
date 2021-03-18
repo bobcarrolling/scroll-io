@@ -2340,6 +2340,9 @@
         ]
       }
     ],
-    "actionsize": 2261
+    "actionsize": 2261,
+    "showinfo": false,
+    "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Swarm%20of%20Hostile%20Magic%20Items.png",
+    "artist": "dgalexandre1"
   }
 ]
