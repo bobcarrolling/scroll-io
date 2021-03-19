@@ -225,7 +225,7 @@
   {
     "effects": [
       {
-        "text": "Choose three constructs or inanimate nonmagical objects within 30 feet of you when you cast this spell. You imbue them with the similitude of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed through, a vague description of any items the object may contain, and other related circumstances."
+        "text": "Choose three constructs or inanimate nonmagical objects you can see within 30 feet of you when you cast this spell. You imbue them with the similitude of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed through, a vague description of any items the object may contain, and other related circumstances."
       },
       {
         "text": "Objects and constructs might be able to perform other tasks on your behalf, but they remain unchanged and nonliving, and if lacking locomotion, they are unable to carry out any services. Even if able, any request is subject to the whim of the target. A hostile construct, one in service to another master, or an object held dear to another person may be reluctant to help, whereas inanimate furnishings are generally happy to oblige.",
@@ -239,7 +239,7 @@
       }
     ],
     "sectioncount": 3,
-    "lettercount": 1204,
+    "lettercount": 1216,
     "name": "Speak with Constructs",
     "urlname": "speak_with_constructs",
     "level": "3rd-level",
