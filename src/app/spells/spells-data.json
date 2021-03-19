@@ -225,10 +225,10 @@
   {
     "effects": [
       {
-        "text": "Choose any number of constructs or inanimate nonmagical objects within 30 feet of you when you cast this spell. You imbue them with a facsimile of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed, a vague description of any objects they may contain, and other circumstances."
+        "text": "Choose three constructs or inanimate nonmagical objects within 30 feet of you when you cast this spell. You imbue them with the similitude of thought and speech, giving them the ability to communicate with you. You can question the objects about events in the spell's area within the past hour, gaining information about creatures that have passed through, a vague description of any items the object may contain, and other related circumstances."
       },
       {
-        "text": "An affected object or construct remains unchanged and nonliving, and if unmoving, they are unable to carry out any services. Even if able, any request is subject to the whim of the construct. A construct in service to another master or an object held dear to another person may be reluctant to help at all.",
+        "text": "Objects and constructs might be able to perform other tasks on your behalf, but they remain unchanged and nonliving, and if lacking locomotion, they are unable to carry out any services. Even if able, any request is subject to the whim of the target. A hostile construct, one in service to another master, or an object held dear to another person may be reluctant to help, whereas inanimate furnishings are generally happy to oblige.",
         "newline": true,
         "paragraph": true
       },
@@ -239,7 +239,7 @@
       }
     ],
     "sectioncount": 3,
-    "lettercount": 1062,
+    "lettercount": 1204,
     "name": "Speak with Constructs",
     "urlname": "speak_with_constructs",
     "level": "3rd-level",
@@ -307,7 +307,7 @@
       }
     ],
     "sectioncount": 1,
-    "lettercount": 981,
+    "lettercount": 983,
     "name": "Psychic Clash",
     "urlname": "psychic_clash",
     "level": "4th-level",
@@ -318,5 +318,61 @@
     "components": "V, S, M (a prism of electrum worth at least 50 gp, which the spell consumes)",
     "duration": "Instantaneous",
     "classes": "Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "The brilliance of a star explodes sunlight out from a point 500 feet directly above you. The spell fails if you can't see a point in the air where the light could appear (for example, if you are in a room without 500 feet of space above). The light fills a 1000 foot cube centered on the point the spell was cast, and dispels any darkness that was created by a spell."
+      },
+      {
+        "text": "When you cast the spell and at the beginning of each of your turns for its duration, roll a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "d6",
+        "dice": true
+      },
+      {
+        "text": ". The spell then affects all creatures within its light that are not behind total cover and are of a CR equal to or lower than the rolled value that have one or more of the following traits:"
+      },
+      {
+        "text": "- The creature is undead.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The creature is an ooze.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The creature has resistance or immunity to cold damage.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The creature has resistance or immunity to necrotic damage.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "If an affected creature has 10 hit points or fewer, it dies and is reduced to dust. Otherwise, an affected creature loses half of its current hit points.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1184,
+    "name": "Incandescence",
+    "urlname": "incandescence",
+    "level": "9th-level",
+    "levelnum": "9",
+    "school": "evocation",
+    "castingtime": "1 action",
+    "range": "500 feet",
+    "components": "V, S, M (a piece of meteorite)",
+    "duration": "1 minute",
+    "classes": "Cleric, Druid"
   }
 ]
