@@ -65,10 +65,49 @@ export class CreaturesDisplayComponent implements OnInit {
   }
 
   traitsRight(creature: any) {
-    if (!creature.reactions && !creature.legendary && !creature.mythic && (creature.actions && creature.traitsize < 400 && creature.actionsize + creature.traitsize < 400 || !creature.actions || creature.actions && creature.actionsize < 400)) {
+    if (this.actionsLeft(creature)){
+      return false;
+    }
+    const LIMIT = 400 + this.addSpacing(creature);
+    console.log(LIMIT);
+    if (!creature.reactions && !creature.legendary && !creature.mythic && (creature.actions && creature.traitsize < LIMIT && creature.actionsize + creature.traitsize < LIMIT || !creature.actions || creature.actions && creature.actionsize < LIMIT)) {
       return true;
     }
     return false;
+  }
+
+  actionsLeft(creature: any) {
+    if (creature.legendary || creature.mythic || !this.mobile) {
+      return false;
+    }
+    if ((!creature.actions && creature.reactions && creature.reactionsize < 400)
+    ||(creature.actions && !creature.reactions && creature.actionsize < 400)) {
+      return true;
+    }
+    return false;
+  }
+
+  addSpacing(creature: any): number {
+    let sum = 0;
+    if (creature.saves) {
+      sum += 60;
+    }
+    if (creature.skills) {
+      sum += 60;
+    }
+    if (creature.vuln) {
+      sum += 60;
+    }
+    if (creature.resist) {
+      sum += 60;
+    }
+    if (creature.immune) {
+      sum += 60;
+    }
+    if (creature.immunity) {
+      sum += 60;
+    }
+    return sum;
   }
 
   diceRoll: string;

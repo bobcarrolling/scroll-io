@@ -374,5 +374,24 @@
     "components": "V, S, M (a piece of meteorite)",
     "duration": "1 minute",
     "classes": "Cleric, Druid"
+  },
+  {
+    "effects": [
+      {
+        "text": "The cryptic words of a spell scroll you hold become meaningful to you. When you cast this spell, it is automatically cast at the level of the scroll's spell. Afterwards, you are able to attempt to use the spell scroll, regardless if the spell is on your class's spell list. If you have the ability to learn spells from spell scrolls, you cannot learn a spell deciphered by this one."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 573,
+    "name": "Decipher Scroll",
+    "urlname": "decipher_scroll",
+    "level": "1st-level",
+    "levelnum": "1",
+    "school": "divination",
+    "castingtime": "1 action",
+    "range": "Self",
+    "components": "V, S, M (a kaleidoscope)",
+    "duration": "Instantaneous",
+    "classes": "Any"
   }
 ]

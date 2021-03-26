@@ -182,7 +182,7 @@
       {
         "name": "Fusion or Fey?",
         "desc": [
-          "A harrowing mix between the greatest predatorial beast and the most furtive night stalker, the owlrex marries two fearsome foes into one. Bestial academics and seasoned hunters alike cannot identify the ancestry of the creature, partly due to the scarcity of viable specimen. No mating ritual has been witnessed, nor can their composition be directly traced to the Terren or Fae realms. Because of how little is known, an owlrex found in the wild is a rarity and should be treated with care - and not just because of its ferocious nature. Bringing evidence of it to an historical researcher or arcane practitioner would certainly pique their interest. If an owlrex must be killed, a trophy from it would fetch an astoundingly steep price on the black market."
+          "A harrowing mix between the greatest predatorial beast and the most furtive night stalker, the owlrex marries two fearsome foes into one. Bestial academics and seasoned hunters alike cannot identify the ancestry of the creature, partly due to the scarcity of viable specimen. No mating ritual has been witnessed, nor can their composition be directly traced to the Terren or Faerie realms. Because of how little is known, an owlrex found in the wild is a rarity and should be treated with care - and not just because of its ferocious nature. Bringing evidence of it to an historical researcher or arcane practitioner would certainly pique their interest. If an owlrex must be killed, a trophy from it would fetch an astoundingly steep price on the black market."
         ]
       },
       {
@@ -879,19 +879,20 @@
     "skills": {
       "acrobatics": "+7"
     },
-    "immune": "bludgeoning, piercing, slashing",
+    "resist": "bludgeoning, piercing, slashing",
+    "immune": "bludgeoning, piercing, and slashing from attacks not made with advantage",
     "senses": "passive Perception 11",
     "languages": "understands Sylvan but can't speak",
     "cr": {
-      "text": "1",
-      "value": 1
+      "text": "1/2",
+      "value": 0.5
     },
     "traits": [
       {
         "name": "Drift.",
         "effect": [
           {
-            "text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity.  "
+            "text": "After the flitterpuff is subjected to an attack roll, it moves 5 feet in a direction of its choosing. This movement does not provoke attacks of opportunity. If the flitterpuff's speed is 0, it loses this ability as well as its immunities.  "
           }
         ]
       },
@@ -929,26 +930,47 @@
         ]
       }
     ],
-    "traitsize": 607,
-    "actions": [
+    "traitsize": 689,
+    "reactions": [
       {
         "name": "Puff.",
         "effect": [
           {
-            "text": "The flitterpuff releases a cloud of its feathers. Each creature within 10 feet of the flitterpuff must succeed on a "
+            "text": "When a creature targets the flitterpuff with an attack or spell, it can release a cloud of its feathers. Each creature within 10 feet of the flitterpuff must succeed on a "
           },
           {
             "text": "DC 10",
             "dc": true
           },
           {
-            "text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn."
+            "text": " Dexterity saving throw or become blinded until the end of the flitterpuff's next turn. Other flitterpuffs automatically succeed this saving throw."
           }
         ]
       }
     ],
-    "actionsize": 221,
+    "reactionsize": 336,
     "showinfo": false,
+    "info": [
+      {
+        "name": "Playful Pests.",
+        "desc": [
+          "Floating in on a gentle breeze through the technicolor wilderness of the Faerierealms, flitterpuffs are adorable to the ignorant and annoying to the acquainted. They rely solely on the shifting winds to whisk them away on their travels, sometimes lingering for mere minutes, other times for days.",
+          "Friendly and seemingly harmless, it is tempting to befriend the fuzzy drifters. However, a large enough collection of flitterpuffs can blot out sunlight as they collect into a cloudy blanket, and their feathery shedding can drape over the earth like stubborn snow. All told, they are a nuisance to farmers, whose crops can suffer greatly if a colony does not blow away in time for harvest."
+        ]
+      },
+      {
+        "name": "Surprisingly Shocking.",
+        "desc": [
+          "The dry, cotton-like feathers of flitterpuffs can generate a latent field of static electricity. Curious investigators of flitterpuff swarms will find their hair standing on end and may experience a zap or two if they attempt to catch the critters. This electric energy is their lifeforce, and also how they hunt. By stunning tiny insects where they alight, flitterpuffs can render their meal helpless with a slight ruffle. When gathered in groups numbering in the hundreds, flitterpuffs dance in a revelry that can generate destructive static storms."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "Fighting a flitterpuff is difficult, not only because of their evasive nature, but because it rarely fights back and will take flight into the wind. Its small size, fluffy nature, and playful attitude gives it an uncaring disposition regarding personal survival. A flitterpuff will approach any beast to befriend it, without holding grudges if the beast lashes out. After all, most creatures can do little to nothing to harm it since any attack creates drafts for it to ride out of reach. A flitterpuff's ability to waft away from enemies has conditioned it to soar merrily to safety rather than continuously engage something dangerous."
+        ]
+      }
+    ],
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Flitterpuff.png",
     "artist": "chloehx21"
   },
@@ -1345,7 +1367,7 @@
         ]
       }
     ],
-    "actionsize": 309,
+    "actionsize": 884,
     "reactions": [
       {
         "name": "Spell Hatred.",
@@ -1356,6 +1378,7 @@
         ]
       }
     ],
+    "reactionsize": 309,
     "showinfo": false,
     "info": [
       {
@@ -1906,6 +1929,35 @@
     ],
     "actionsize": 42,
     "showinfo": false,
+    "info": [
+      {
+        "name": "Angelic Omen.",
+        "desc": [
+          "Sent by heavenly hosts to the Terrenrealms as guides for the souls of ancient beasts, the appearance of a bulu is a well-documented phenomenon among experienced rangers. Also called a snowfeather hare, bulu intercede between a hunter and their quarry, long enough for the prey to escape. It is both a beautiful and melancholy sight, as bulu are said to only appear to hunters who will very soon pass away. At the very least, it is common that a hunter who witnesses a bulu never hunts again.",
+          "The science behind this phenomenon is dubious. Bulu have been captured and studied, though with great difficulty. It has been discovered that a celestial protection enshrouds the creatures. Their innocence is so compelling that magic, space, time, and nature themselves bend around a bulu to protect it. The hare's absolute inability to cause harm is seen as the source of this heavenly blessing.",
+          "Philosophers hypothesize that hunters who cease their profession after viewing a bulu may be suffering from its celestial aftereffects, and can no longer willingly hurt an innocent creature. What cannot be proven, but has strong evidence supporting it, is the conclusion that harming a bulu does eventually bring about a terrible curse. After all, every critic that ensnares a bulu to curiously prod and provoke it meets their end in horrific fashion, or disappears entirely."
+        ]
+      },
+      {
+        "name": "Deliciously Irresistable.",
+        "desc": [
+          "Those who do not cower in the face of irrational tall tales and successfully slay a bulu report that its meat is incomparably delicious. So much so that men have been driven mad by its flavor, searching endlessly for its equal and endlessly failing.",
+          "For the demons and devils uncaring of curses, the taste of bulu is beyond a delicacy - it is an obsession. Denizens of lower planes have broken contracts just for a morsel, no matter how binding their word. If a bulu is presented as the sinful offering to extraplanar overlords, then equally potent, rare, and depraved the reward would be."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "A bulu cannot fight, and will immediately flee upon hearing nearby enemies. When tasked by their angelic hosts, a bulu will intercept the attacks of foes by putting itself between an innocent creature and the attackers, but only long enough for the target to escape. Their only means of dealing damage are by turning spells back on their casters. All its other abilities in combat are meant to let a bulu fly to safety where it can heal at a rapid pace."
+        ]
+      },
+      {
+        "name": "Warlock Familiar.",
+        "desc": [
+          "With the DM's permission, a pact of the chain warlock who casts the find familiar spell can choose to conjure a bulu, so long as the patron is of a good alignment."
+        ]
+      }
+    ],
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Bulu.png",
     "artist": "chloehx21"
   },
@@ -1955,7 +2007,7 @@
       },
       "highest": "str"
     },
-    "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "resist": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
     "immune": "poison, psychic",
     "immunity": "all ",
     "senses": "blindsight 60 ft., passive Perception 10",
@@ -2096,7 +2148,7 @@
         "name": "Random Action.",
         "effect": [
           {
-            "text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use any of its rolled actions, it rolls once more.  "
+            "text": "At the beginning of its turn, the swarm rolls twice to determine which random actions it can use that turn. If the swarm cannot reach a creature to use one of its rolled actions, it rolls once more.  "
           }
         ],
         "options": [
@@ -2342,6 +2394,28 @@
     ],
     "actionsize": 2261,
     "showinfo": false,
+    "info": [
+      {
+        "name": "Living Loot.",
+        "desc": [
+          "An especially cunning spellcaster weaves an enchanted trap upon his prized possessions. A set of cursed armor levitates towards greedy adventurers. The ghost of a dead hero rises and takes hold of its legendary weapons to roam once again. However a swarm of hostile magic items is conjured, its animate whirling malice magnifies the intensity of the sorcery within.",
+          "Creating this perilous construct isn't easy, and keeping it from wonton destruction is just as hard. The simplest way to utilize the swarm's power is to keep it sealed alongside whatever needs protecting, so that whoever stumbles inside is unaware of the nasty surprise locked within. A more skilled arcane practitioner can make use of the swarm's antimagic susceptibility by creating an antimagic area within the swarm. When unwanted visitors trigger a trap, the antimagic is dispelled, and the swarm springs to life."
+        ]
+      },
+      {
+        "name": "Minimal Magic Control.",
+        "desc": [
+          "The swarm is not living, and cannot control magic items as well as an intelligent creature. It can amplify the destructive aspect of items, but has negligible fine control over nuanced operations. With this in mind, a swarm can contain any items of varying abilities and potency, but manifests them in ways similar to what is listed.",
+          "A swarm also need not true enchanted items. Nonmagical items used in the same summoning ritual will yield magical properties whilst the swarm survives, though the cost of raw components is much greater to the caster. Conjuration experts can even produce the items from thin air. That way, when a conjured swarm is defeated, the mage loses no personal belongings as the items dissolve into smoky ashen heaps."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "The uncontrollable anarchic behavior of the swarm is reflected by its lack of optimal item utilization. Every turn (not round), the swarm becomes a significantly different creature. Sometimes the swarm will be as deadly as an archmage, and other times it will fare no better than a fledgling soldier. The swarm is aggressive towards anyone other than its creator and their designated allies, and has no mortal fear considering its constructed anatomy. Therefore, it is best for the swarm to carelessly wade into combat to best make use of any of its fluctuating abilities at any time."
+        ]
+      }
+    ],
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Swarm%20of%20Hostile%20Magic%20Items.png",
     "artist": "dgalexandre1"
   }

@@ -298,18 +298,20 @@
             <ng-template [ngTemplateOutlet]="traits" *ngIf="!traitsRight(creature)">
                 <!--TRAITS-->
             </ng-template>
+            <ng-template [ngTemplateOutlet]="actions" *ngIf="actionsLeft(creature)">
+            </ng-template>
             <!-- <ng-template [ngTemplateOutlet]="actions" *ngIf="!creature.reactions && !creature.legendary && !creature.mythic && creature.actions && creature.actionsize < 400">
             </ng-template> -->
-            <div *ngIf="mobile" style="align-self: flex-end" class="scroll-arrows" (click)="quickScroll(true)" data-unselectable="Actions &#9655;"></div>
+            <div *ngIf="mobile && !actionsLeft(creature)" style="align-self: flex-end" class="scroll-arrows" (click)="quickScroll(true)" data-unselectable="Actions &#9655;"></div>
         </div>
     </div>
-    <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="creature.reactions || creature.legendary || creature.mythic || creature.actions || creature.traits"> 
+    <div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}" *ngIf="!actionsLeft(creature) && (creature.reactions || creature.legendary || creature.mythic || creature.actions || creature.traits)"> 
       <!-- *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)" -->
         <div class="column flexcol">
             <ng-template [ngTemplateOutlet]="traits" *ngIf="traitsRight(creature)">
                 <!--TRAITS-->
             </ng-template>
-            <ng-template [ngTemplateOutlet]="actions">
+            <ng-template [ngTemplateOutlet]="actions" *ngIf="!actionsLeft(creature)">
                 <!--ACTIONS *ngIf="creature.reactions || creature.legendary || creature.mythic || (creature.actions && creature.actionsize >= 400)"-->
             </ng-template>
             <ng-container *ngIf="creature.legendary">
