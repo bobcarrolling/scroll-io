@@ -375,7 +375,7 @@
     "levelnum": "9",
     "school": "evocation",
     "castingtime": "1 action",
-    "range": "S",
+    "range": "Self",
     "components": "V, S, M (a piece of meteorite)",
     "duration": "1 minute",
     "classes": "Cleric, Druid"
