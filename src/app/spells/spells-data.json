@@ -99,7 +99,7 @@
       }
     ],
     "sectioncount": 1,
-    "lettercount": 865,
+    "lettercount": 871,
     "name": "Spar",
     "urlname": "spar",
     "level": "1st-level",
@@ -110,7 +110,7 @@
     "range": "Self (30-foot radius)",
     "components": "V, S, M (a small white flag)",
     "duration": "1 minute",
-    "classes": "Cleric, Paladin"
+    "classes": "Bard, Cleric, Paladin"
   },
   {
     "effects": [
@@ -284,11 +284,11 @@
   {
     "effects": [
       {
-        "text": "You create an exact and indiscernible replica of any object that can fit within a 10 foot cube. If the object was magical or had complex mechanical workings, the new object appears to have those same properties, but it does not work if used. Only the object’s original creator can tell it is a fake with a successful Intelligence (Investigation) check against your spell save DC. Otherwise, attempting to use the object immediately reveals it is fake."
+        "text": "You create an exact and indiscernible replica of any object you have seen that can fit within a 10 foot cube. If the object was magical or had complex mechanical workings, the new object appears to have those same properties, but it does not work if used. Only the object’s original creator can tell it is a fake with a successful Intelligence (Investigation) check against your spell save DC. Otherwise, attempting to use the object immediately reveals it is fake."
       }
     ],
     "sectioncount": 1,
-    "lettercount": 680,
+    "lettercount": 694,
     "name": "Facsimile",
     "urlname": "facsimile",
     "level": "6th-level",
@@ -322,7 +322,7 @@
   {
     "effects": [
       {
-        "text": "The brilliance of a star explodes sunlight out from a point 500 feet directly above you. The spell fails if you can't see a point in the air where the light could appear (for example, if you are in a room without 500 feet of space above). The light fills a 1000 foot cube centered on the point the spell was cast, and dispels any darkness that was created by a spell."
+        "text": "The brilliance of a star explodes sunlight out from a point 100 feet directly above you. The spell fails if you can't see a point in the air where the light could appear (for example, if you are in a room without 100 feet of space above). The light fills a 1000 foot cube centered on the point the spell was cast, and dispels any darkness that was created by a spell."
       },
       {
         "text": "When you cast the spell and at the beginning of each of your turns for its duration, roll a ",
@@ -334,7 +334,7 @@
         "dice": true
       },
       {
-        "text": ". The spell then affects all creatures within its light that are not behind total cover and are of a CR equal to or lower than the rolled value that have one or more of the following traits:"
+        "text": ". The spell then affects all creatures within its light that are not behind total cover, are of a CR equal to or lower than the rolled value, and have one or more of the following traits:"
       },
       {
         "text": "- The creature is undead.",
@@ -347,12 +347,17 @@
         "list": true
       },
       {
-        "text": "- The creature has resistance or immunity to cold damage.",
+        "text": "- The creature is naturally resistant or immune to cold damage.",
         "newline": true,
         "list": true
       },
       {
-        "text": "- The creature has resistance or immunity to necrotic damage.",
+        "text": "- The creature is naturally resistant or immune to necrotic damage.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The creature is naturally vulnerable to fire or radiant damage.",
         "newline": true,
         "list": true
       },
@@ -363,14 +368,14 @@
       }
     ],
     "sectioncount": 3,
-    "lettercount": 1184,
+    "lettercount": 1259,
     "name": "Incandescence",
     "urlname": "incandescence",
     "level": "9th-level",
     "levelnum": "9",
     "school": "evocation",
     "castingtime": "1 action",
-    "range": "500 feet",
+    "range": "S",
     "components": "V, S, M (a piece of meteorite)",
     "duration": "1 minute",
     "classes": "Cleric, Druid"
