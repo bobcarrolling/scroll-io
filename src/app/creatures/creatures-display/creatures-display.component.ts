@@ -69,7 +69,6 @@ export class CreaturesDisplayComponent implements OnInit {
       return false;
     }
     const LIMIT = 400 + this.addSpacing(creature);
-    console.log(LIMIT);
     if (!creature.reactions && !creature.legendary && !creature.mythic && (creature.actions && creature.traitsize < LIMIT && creature.actionsize + creature.traitsize < LIMIT || !creature.actions || creature.actions && creature.actionsize < LIMIT)) {
       return true;
     }

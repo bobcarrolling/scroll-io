@@ -1851,6 +1851,56 @@
       ]
     },
     "showinfo": false,
+    "info": [
+      {
+        "name": "boxtext",
+        "desc": [
+          "Dear reader, since you are studying this, then either your interest has been piqued by such a high level entity, or you are searching for something challenging for a party nearing their capstones. Absolution can make an incredible friend or foe to such players, and will most certainly be of use to you. However, for the sake of your own settings and campaigns, any details of Absolution's deistic order and axioms are omitted, and no history is given. This is intentional, as presenting too many factual ties would inevitably overlap your own ideas of who Absolution could be. What is written below is instead a list of possible ways Absolution could be included in your campaign, with very little instruction shackling them to a single perspective. Let loose your creativity and read along for an inspirational journey."
+        ]
+      },
+      {
+        "name": "A Party's Patron.",
+        "desc": [
+          "Your players need a patron to oversee their deeds and reward them as adherents to a cause. Absolution can fill the role of one who watches over the party at all times, meddling only when needed and praising as often as they can. They may even chastise characters that stray from their path, and help guide them back to their righteous purpose.",
+          "When used this way, Absolution can either be an angelic presence sent by a greater deity, or a god in their own right. Insightful and perceptive characters may detect a warm and supportive presence around them as Absolution lingers invisibly nearby."
+        ]
+      },
+      {
+        "name": "A Corrupted Idol.",
+        "desc": [
+          "If your players are up to the challenge, Absolution can become a villain. Although tending towards good, all deities can fall from grace.",
+          "Perhaps the orchestration of sin was a divine conspiracy, with entities of the Netherrealms conducting the plot. In this scenario, Absolution would likely command the devils or demons in question, lending uncertainty to who is the puppet and who is the puppet master.",
+          "Perhaps Absolution drove themselves mad with obsession over perfection, considering mortals beyond saving and only worthy of annihilation. Absolution's power within the pantheon would still have standing, as they command legions of celestials to wipe away the Terrenrealms to begin anew on a clean slate."
+        ]
+      },
+      {
+        "name": "A Draconic Emperor.",
+        "desc": [
+          "Stronger than any of their ancient peers, Absolution could command the obedience of dragonkin. Consider making them the king of dragons, whose word is law even among the most chaotic of the deathspitters.",
+          "With this approach, Absolution could take a more neutral presence in your world. It may be that they sit among the stars in the heavens and are revered as the dragon god. Or they may even reside in the world itself, with dragons from across the land heeding Absolution's guidance.",
+          "Your players could plead Absolution to give aid to their allies and armies. If swayed, the draconic power at their command could change the tide of forthcoming battles."
+        ]
+      },
+      {
+        "name": "An Ancestral Progenitor.",
+        "desc": [
+          "If the descendants of celestials or dragonkin feature strongly in your world, consider an additional variant using Absolution's abilities. Any unifying features would likely include sparkling multicolor scales or pearly white and blue feathered wings.",
+          "Perhaps Absolution's children see them within the constellations, driving the heavens onwards with their sun and moon breath. Maybe they revel in combat superiority, adopting their inherited adaptability and raw strength."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "Should your party come to blows with Absolution, it is imperative they come prepared. Absolution's ability to become invisible to any creatures at will is unrivaled. Even the strongest party who approaches Absolution without a plan to overcome the visibility problem will likely lose. This would require research before the fight, or a meeting with Absolution prior to combat could reveal the trait.",
+          "Futhermore, Absolution has their divine presence, an enhanced frightful presence action. It cannot be negated by immunity, nor does succeeding it once guarantee lifting the affliction. Armed with a modestly strong AC and an immense saving throw DC, Absolution will make quick work of a party that relies heavily on advantage for high rolls. Succeeding the initial saving throw or boosting a character's base Wisdom score can be crucial to winning the fight.",
+          "The splendor of the paragon trait is the pinnacle variant of an ability that all archangels have. This trait will undoubtedly slow down combat, but will increase the tension players feel. No matter how they approach Absolution, they may end up strengthening their foe.",
+          "Players will likely experience frustration fighting Absolution, as the godlike force before them will cause many good plans to fail. Absolution's legendary resistances, paired with their legendary might, makes them a formidably versatile and well equipped opponent even when its not their turn.",
+          "Coming prepared to resist radiant damage against Absolution is smart, but alternative breath weapons provide adaptability that is beyond player control. Absolution's sun breath is staggeringly powerful and able to be focused to even greater strengths at the cost of Absolution's legendary resistances. Their moon breath is much more like a standard dragon's breath weapon, but deals many types of damage to overwhelm resistant players.",
+          "Absolution is quick, hearty, and able to take more of a beating than their hit points suggest. When things are dire, Absolution will use their legendary actions to use their healing touch on themselves. This defensive strategy can be a signal to players that Absolution is on the ropes, and keeping up the offensive could soon lead to victory.",
+          "As a last additional note, if Absolution is still not up to par with the power level needed to challenge your players, consider that they are bipedal and have two free hands to wield whatever magic items you decide."
+        ]
+      }
+    ],
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Absolution.png",
     "artist": "chloehx21"
   },
