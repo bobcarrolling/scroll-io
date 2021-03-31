@@ -161,7 +161,7 @@
       <div class="trait-container" *ngIf="creature.info" style="margin-bottom: 0">
           <div class="flexcol" style="white-space: pre-line;">
               <div *ngFor="let info of creature.info" class="indent info-text">
-                  <div style="margin-bottom: 0.1rem" *ngFor="let desc of info.desc; let i = index"><span class="bld" *ngIf="i === 0">{{info.name}} </span>{{desc}}</div>
+                  <div style="margin-bottom: 0.1rem" *ngFor="let desc of info.desc; let i = index" [ngClass]="{'boxtext' : info.name === 'boxtext'}"><span class="bld" *ngIf="i === 0 && info.name !== 'boxtext'">{{info.name}} </span>{{desc}}</div>
               </div>
           </div>
       </div>

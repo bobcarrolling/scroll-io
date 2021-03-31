@@ -203,6 +203,17 @@ h3 {
 .point {
   cursor: pointer;
 }
+.boxtext {
+  font-style: italic;
+  font-family: monospace;
+  font-size: larger;
+  border-style: solid;
+  border-width: 12px;
+  border-image-source: url(https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/sidebars.png);
+  border-image-slice: 12;
+  border-image-width: 1;
+  border-image-repeat: stretch;
+}
 
 .hover-shadow {
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3));

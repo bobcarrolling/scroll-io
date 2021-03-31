@@ -669,7 +669,7 @@
         "name": "False Appearance.",
         "effect": [
           {
-            "text": "While the dragon tortoise remains motionless and half-buried, it is indistinguishable from a large boulder or other natural rock.  "
+            "text": "While the dragon tortoise remains motionless and half-buried, it is indistinguishable from a large boulder or hill.  "
           }
         ]
       },
@@ -682,7 +682,7 @@
         ]
       }
     ],
-    "traitsize": 497,
+    "traitsize": 483,
     "actions": [
       {
         "name": "Multiattack.",
@@ -820,13 +820,47 @@
         "name": "Withdrawal.",
         "effect": [
           {
-            "text": "The dragon tortoise retreats within its shell. Until it takes a different action, it gains resistance to all damage except psychic damage. On the turn the dragon tortoise uses its withdrawal, its walking speed is reduced to zero, and its burrow speed is reduced to 5 ft. If half-buried or more in this state, the dragon tortoise has advantage on all saving throws."
+            "text": "The dragon tortoise retreats within its shell. Until it takes a different action, it gains resistance to all damage except psychic damage. On the turn the dragon tortoise uses its withdrawal, it loses its walking speed and its burrow speed is reduced to 5 feet. If the dragon tortoise is half-buried or more when it takes this action, it regains 20 hit points and has advantage on all saving throws until it takes a different action."
           }
         ]
       }
     ],
-    "actionsize": 1434,
+    "actionsize": 1503,
     "showinfo": false,
+    "info": [
+      {
+        "name": "boxtext",
+        "desc": [
+          "The sand and dirt covering a nearby dune shifts as the hot sun reflects off moss encrusted scales. A head and neck unearth themselves and rear upwards, casting shadows and debris across those below. Large eyes blink and reflect an intelligent glint as enormous feet lift a timeworn and overgrown shell. With a swish and a shake of its serpentine tail, the dragon tortoise stands up to its full majestic height to greet the daylight sun."
+        ]
+      },
+      {
+        "name": "Season Bringers.",
+        "desc": [
+          "In their preferred element, a dragon tortoise keeps its shelled back comfortably warm and exposed, while it buries its head and limbs in the cool ground. When the stars shift and the weather changes, dragon tortoises uproot from their months-long slumber to find warmer climates.",
+          "This migratory pattern has given rise to folk tales of the dragon tortoise being responsible for the changing of the seasons. As the stories go, a dragon will gather the sunlight on its back and bring it along on its travels. Where it makes its rest, the sun will shine brightly for all who pay it homage."
+        ]
+      },
+      {
+        "name": "Social Nesters.",
+        "desc": [
+          "Unlike others of their kin, dragon tortoises sometimes gather in herds to commune and migrate together, but most will split off once they find a new home. Especially dry and sunny areas can be congregational spots for dragon tortoises on the move and can prove to be fruitful nesting grounds. None have ever seen a dragon tortoise eat nor do they speak of preying on a particular flora or fauna. Instead, the hypothesis is that dragon tortoises are photosynthetic, and bright expanses are necessary for successful reproduction."
+        ]
+      },
+      {
+        "name": "Venerable Ancients.",
+        "desc": [
+          "An astounding reverence is kept for dragon tortoises, known sometimes as hillwalker dragons. They are treated like gods of nature for their power and majesty, matched with their deep wisdom of the land before the mountains were born. Dragon tortoises live like an extension of the Terrenrealm they call home and can sense the changes it undergoes over the course of their indefinite lifetime, dying only when the land itself dies. The oldest dragon tortoises can detect when unnatural beings or extraplanar phenomena exist within the bordering miles, and will grant their knowledge to brave smallfolk as armaments against such threats."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "A dragon tortoise is disinclined from fighting whatsoever. Attempting to damage it during its slumber will only prompt it to dig itself further underground until it is completely buried so its attackers lose interest. This behavior stems not from cowardice, but from the dragon's own experience that very few have the capacity to combat it. Were a dragon tortoise to unleash its full fury, few mortal creatures could bear it. The more pesky and relentless foes are turned back by its warming breath, which soothes the very soul. To truly fight a dragon tortoise, one must speak with it and have cause to challenge it to an honorable duel. Even then, the dragon will likely decline unless it feels its competitors are worthy of a challenge, and will not kill a creature lesser than itself.",
+          "In combat with many enemies, a dragon tortoise's bite can pull in ranged attackers, its stomp can flatten close combatants, and its tail can knock the wind out of the staunchest of defenders. These melee attacks may pack a punch, but the dragon tortoise is still very weak to spells and attacks made from long ranges. It deems such combat as dishonorable, and will have no hesitation in ending an unfair fight with its warming breath, or by retreating with its withdrawal and digging underground until its enemies draw close."
+        ]
+      }
+    ],
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/creatures/Dragon%20Tortoise.png",
     "artist": "LauraGalliArt"
   },
@@ -2396,10 +2430,15 @@
     "showinfo": false,
     "info": [
       {
+        "name": "boxtext",
+        "desc": [
+          "An especially cunning spellcaster weaves an enchanted trap upon his prized possessions. A set of cursed armor levitates towards greedy adventurers. The ghost of a dead hero rises and takes hold of its legendary weapons to roam once again."
+        ]
+      },
+      {
         "name": "Living Loot.",
         "desc": [
-          "An especially cunning spellcaster weaves an enchanted trap upon his prized possessions. A set of cursed armor levitates towards greedy adventurers. The ghost of a dead hero rises and takes hold of its legendary weapons to roam once again. However a swarm of hostile magic items is conjured, its animate whirling malice magnifies the intensity of the sorcery within.",
-          "Creating this perilous construct isn't easy, and keeping it from wonton destruction is just as hard. The simplest way to utilize the swarm's power is to keep it sealed alongside whatever needs protecting, so that whoever stumbles inside is unaware of the nasty surprise locked within. A more skilled arcane practitioner can make use of the swarm's antimagic susceptibility by creating an antimagic area within the swarm. When unwanted visitors trigger a trap, the antimagic is dispelled, and the swarm springs to life."
+          "However a swarm of hostile magic items is conjured, its animate whirling malice magnifies the intensity of the sorcery within. Creating this perilous construct isn't easy, and keeping it from wonton destruction is just as hard. The simplest way to utilize the swarm's power is to keep it sealed alongside whatever needs protecting, so that whoever stumbles inside is unaware of the nasty surprise locked within. A more skilled arcane practitioner can make use of the swarm's antimagic susceptibility by creating an antimagic area within the swarm. When unwanted visitors trigger a trap, the antimagic is dispelled, and the swarm springs to life."
         ]
       },
       {
