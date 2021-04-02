@@ -942,14 +942,7 @@
         "name": "Spellcasting.",
         "effect": [
           {
-            "text": "The flitterpuff's innate spellcasting ability is Charisma (spell save "
-          },
-          {
-            "text": "DC 12",
-            "dc": true
-          },
-          {
-            "text": "). It can innately cast the following spells, requiring no components:  "
+            "text": "The flitterpuff's innate spellcasting ability is Charisma (+4 to hit with spell attacks). It can innately cast the following spells, requiring no components:  "
           }
         ],
         "spells": [
@@ -964,7 +957,7 @@
         ]
       }
     ],
-    "traitsize": 689,
+    "traitsize": 701,
     "reactions": [
       {
         "name": "Puff.",
