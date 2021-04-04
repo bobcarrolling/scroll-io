@@ -5,7 +5,7 @@
         "text": "This thick belt is studded with the iron-forged depiction of an elephantine creature. As an action, you can activate the belt until the start of your next turn."
       },
       {
-        "text": "While activated, your weight becomes tenfold and you become immune to bludgeoning damage. Your speed is halved and you cannot benefit from a fly or swim speed, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
+        "text": "While activated, your weight becomes tenfold. You become immune to bludgeoning damage, and you cannot be moved against your will. Your speed is halved and you cannot benefit from a fly or swim speed, but otherwise you feel no change. If you are grappled, restrained, or held aloft by magic or another effect, you can make a ",
         "newline": true,
         "paragraph": true
       },
@@ -18,7 +18,7 @@
       }
     ],
     "sectioncount": 2,
-    "lettercount": 762,
+    "lettercount": 802,
     "name": "Belt of the Behemoth",
     "urlname": "belt_of_the_behemoth",
     "subtext": "Wondrous item (belt), legendary (requires attunement)",
@@ -58,14 +58,14 @@
   {
     "effects": [
       {
-        "text": "This rusted hand chime resembles a skull. While attuned, you know the spell "
+        "text": "This rusted hand chime resembles a skull. While attuned, you know the "
       },
       {
         "text": "toll the dead",
         "itl": true
       },
       {
-        "text": "."
+        "text": " cantrip and can cast it using your spellcasting ability."
       },
       {
         "text": "The chime has 5 charges. While holding it, you can use an action to expend 1 or more of its charges. Any undead within 30 feet, the sum of whose CR is equal to or less than the number of charges expended (starting with the lowest CR first), must make a ",
@@ -94,7 +94,7 @@
         "text": " charges at midnight."
       },
       {
-        "text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spell save DC, with empowerments to those spells:",
+        "text": "You can also use an action to expend one or more of its charges to cast one of the following spells from it using your spellcasting ability, with empowerments to those spells:",
         "newline": true,
         "paragraph": true
       },
@@ -129,7 +129,7 @@
         "itl": true
       },
       {
-        "text": " The creature must make a Charisma saving throw against your spell save DC or become stunned."
+        "text": " On a hit, creature must make a Charisma saving throw against your spell save DC or become stunned until the end of its next turn."
       },
       {
         "text": "",
@@ -162,7 +162,7 @@
       }
     ],
     "sectioncount": 3,
-    "lettercount": 1458,
+    "lettercount": 1552,
     "name": "The Dead Ringer",
     "urlname": "the_dead_ringer",
     "subtext": "Wondrous item, spellcasting focus, legendary (requires attunement by a spellcaster)",
