@@ -113,6 +113,7 @@ export class ItemsComponent implements OnInit {
           });
         this.selected = item;
       }
+      this.lastselected = undefined;
     }
   }
 

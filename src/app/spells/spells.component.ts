@@ -117,6 +117,7 @@ export class SpellsComponent implements OnInit {
           });
         this.selected = spell;
       }
+      this.lastselected = undefined;
     }
   }
 

@@ -111,6 +111,7 @@ export class CreaturesComponent implements OnInit {
         this.lastselected.name === creature.name
       ) {
         //prevents history clogging when opening/closing the same row
+        this.lastselected = undefined;
         history.back();
       } else {
         this.router
