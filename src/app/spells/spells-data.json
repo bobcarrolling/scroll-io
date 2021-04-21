@@ -254,7 +254,7 @@
   {
     "effects": [
       {
-        "text": "You override the mental instincts of another creature within range. The target must succeed a Wisdom saving throw or become linked with you. A creature can willingly fail this saving throw. While linked, the creature gains advantage on saving throws against being charmed, frightened, and stunned."
+        "text": "You override the mental instincts of another creature within range. The target must succeed a Wisdom saving throw or become linked with you. A creature can automatically succeed if it is immune to being charmed, though any creature can willingly fail this saving throw. While linked, the creature gains advantage on saving throws against being charmed, frightened, and stunned."
       },
       {
         "text": "Also, choose either Intelligence, Wisdom, or Charisma when you cast the spell. The linked creature uses your saving throw bonus instead of their own for saving throws made with the chosen ability.",
@@ -262,13 +262,13 @@
         "paragraph": true
       },
       {
-        "text": "On each of your turns for the duration, you must use your action to continue the link. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you.",
+        "text": "On each of your turns for the duration, you must use your action to continue the link. The spell ends if you use your action to do anything else.",
         "newline": true,
         "paragraph": true
       }
     ],
     "sectioncount": 3,
-    "lettercount": 973,
+    "lettercount": 945,
     "name": "Lucid Link",
     "urlname": "lucid_link",
     "level": "2nd-level",
@@ -276,7 +276,7 @@
     "school": "enchantment",
     "castingtime": "1 action",
     "range": "30 feet",
-    "components": "V, S, M (the petrified eye of a newt)",
+    "components": "V, S, M (a hypnotist's pendulum)",
     "duration": "Concentration, up to 1 minute",
     "concentration": true,
     "classes": "Cleric, Druid"
@@ -284,11 +284,11 @@
   {
     "effects": [
       {
-        "text": "You create an exact and indiscernible replica of any object you have seen that can fit within a 10 foot cube. If the object was magical or had complex mechanical workings, the new object appears to have those same properties, but it does not work if used. Only the object’s original creator can tell it is a fake with a successful Intelligence (Investigation) check against your spell save DC. Otherwise, attempting to use the object immediately reveals it is fake."
+        "text": "You create an exact and indiscernible replica of any object you have seen that can fit within a 10 foot cube. If the object was magical or had complex mechanical workings, the new object appears to have those same properties, but it does not work if used. Only the object’s original creator can tell it is a fake on sight with a successful Intelligence (Investigation) check against your spell save DC. Any creature attempting to use the object can make the same check to determine if the object is fake."
       }
     ],
     "sectioncount": 1,
-    "lettercount": 694,
+    "lettercount": 732,
     "name": "Facsimile",
     "urlname": "facsimile",
     "level": "6th-level",
@@ -296,7 +296,7 @@
     "school": "illusion",
     "castingtime": "10 minutes",
     "range": "30 feet",
-    "components": "V, S, M (the fragment of a color pool worth at least 50,000 gp)",
+    "components": "V, S, M (the fragment of a color pool worth at least 5,000 gp)",
     "duration": "Instantaneous",
     "classes": "Wizard"
   },
@@ -357,7 +357,7 @@
         "list": true
       },
       {
-        "text": "- The creature is naturally vulnerable to fire or radiant damage.",
+        "text": "- The creature is naturally vulnerable to fire or radiant damage and is not a plant.",
         "newline": true,
         "list": true
       },
@@ -368,11 +368,11 @@
       }
     ],
     "sectioncount": 3,
-    "lettercount": 1259,
+    "lettercount": 1274,
     "name": "Incandescence",
     "urlname": "incandescence",
-    "level": "9th-level",
-    "levelnum": "9",
+    "level": "8th-level",
+    "levelnum": "8",
     "school": "evocation",
     "castingtime": "1 action",
     "range": "Self",
@@ -387,7 +387,7 @@
       }
     ],
     "sectioncount": 1,
-    "lettercount": 573,
+    "lettercount": 574,
     "name": "Decipher Scroll",
     "urlname": "decipher_scroll",
     "level": "1st-level",
@@ -398,5 +398,197 @@
     "components": "V, S, M (a kaleidoscope)",
     "duration": "Instantaneous",
     "classes": "Any"
+  },
+  {
+    "effects": [
+      {
+        "text": "You become elusive and slippery for a brief moment. As part of the bonus action used to cast this spell, you can immediately repeat an ability check or saving throw needed to end the grappled or restrained condition on yourself with a "
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to the roll."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "At Higher Levels.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " When you cast this spell using a spell slot of 2nd level or higher, the bonus increases by 1 for each slot level above 1st."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 642,
+    "name": "Escape Art",
+    "urlname": "escape_art",
+    "level": "1st-level",
+    "levelnum": "1",
+    "school": "abjuration",
+    "castingtime": "1 bonus action",
+    "range": "Self",
+    "components": "S, M (some used cooking oil)",
+    "duration": "Instantaneous",
+    "classes": "Bard, Druid, Ranger, *Arcane Trickster Rogue*"
+  },
+  {
+    "effects": [
+      {
+        "text": "The terrain in a 10 foot square centered on a point within range becomes pliable and bouncy until the end of your next turn. A Large or smaller creature that jumps while standing on that space has its jump distance tripled. A Medium or smaller creature that falls on that space has its falling damage halved."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 523,
+    "name": "Rubberize",
+    "urlname": "rubberize",
+    "level": "2nd-level",
+    "levelnum": "2",
+    "school": "transmutation",
+    "castingtime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a ball of tar and a sling)",
+    "duration": "Instantaneous",
+    "classes": "Artificer, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "A spectral mirror of ever-changing shape appears for the duration at a space you can see within range. When you cast this spell, you can mentally designate any number of creatures. Only those creatures are able to see the mirror. The mirror reflects a clear and separate image of all creatures within 20 feet of it, regardless of visibility and cover. As a bonus action on your turn, you can move the mirror up to 20 feet."
+      },
+      {
+        "text": "A creature that can see the mirror can choose to make ranged attacks at a reflection of a creature in the mirror, so long as the creature they would be targeting is within range. The attacks bounce off the mirror and aim towards the intended target, bypassing cover granted by terrain.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 988,
+    "name": "Speculum",
+    "urlname": "speculum",
+    "level": "2nd-level",
+    "levelnum": "2",
+    "school": "divination",
+    "castingtime": "1 bonus action",
+    "range": "60 feet",
+    "components": "V, S, M (a polished sphere of steel and a pinch of powdered silver)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "classes": "Cleric, Sorcerer, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You attempt to reflect back a portion destructive magic. Make an ability check using your spellcasting ability. The DC equals 8 + the triggering spell's level. On a success, roll a number of "
+      },
+      {
+        "text": "d8",
+        "dice": true
+      },
+      {
+        "text": " equal to 1 plus the level at which this spell was cast. The triggering spell's damage is reduced by the rolled amount. If the spell has multiple types or sources of damage, each type or source is reduced by that amount. This effect cannot reduce the damage of a spell past zero, nor can it cannot negate any other effects of a spell."
+      },
+      {
+        "text": "After reducing the spell, the creature that cast the triggering spell must make an Constitution saving throw against your spell save DC. The creature takes force damage equal to the reduced amount (the highest from one source) on a failed save, or half as much on a successful one.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 1080,
+    "name": "Turnspell",
+    "urlname": "turnspell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take when a spell deals damage to a creature within 60 feet of you",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You create a ward of rebounding energy to protect creatures against a spell. Any creatures you choose that you can see within range can add your spellcasting ability bonus to their first failed saving throw against the triggering spell, possibly causing a creature to succeed."
+      },
+      {
+        "text": "Each time this effect causes a creature to succeed its saving throw against the triggering spell, the creature that cast it must make a spellcasting ability check against a DC equal to 8 + the level this spell was cast at. On a failure, the creature falls prone. If the creature fails its check by 5 or more, it ends its concentration on any spells it was casting.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 932,
+    "name": "Hedgespell",
+    "urlname": "hedgespell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take when a creature you can see within 60 feet fails a saving throw against a spell",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You attempt to halt a spellcaster by severing the magical tethers left behind by their spell. Choose a creature that was within range and you could see when it had cast its spell. It must succeed a spellcasting ability check against your spell save DC. On a failure, that creature cannot cast that spell again for a number of rounds equal to the level this spell was cast at. If the creature is concentrating on that spell, it has disadvantage on Constitution saving throws made to maintain concentration during those rounds. Additionally, if the triggering creature's spell teleported them away from their previous location, they are instantly teleported back to where they began casting the spell."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 985,
+    "name": "Severspell",
+    "urlname": "severspell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take immediately after you have seen a creature within 60 feet of you cast a spell",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You disrupt the control that a spellcaster has over a creature. Make an ability check using your spellcasting ability, with a bonus equal to the level at which this spell was cast. The DC equals 8 + the triggering spell's level. On a success, for the duration of the triggering spell the charmed or summoned creature is also under the effect of the spell "
+      },
+      {
+        "text": "confusion",
+        "itl": true
+      },
+      {
+        "text": " with the following alterations:"
+      },
+      {
+        "text": "- On a roll of 7-8, the creature defaults to the triggering spell's effects.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- On a roll of 9-10, the creature is instead charmed by you for that turn.",
+        "newline": true,
+        "list": true
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 836,
+    "name": "Addlespell",
+    "urlname": "addlespell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take when a creature you can see within 60 feet is charmed or summoned by a spell",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
   }
 ]

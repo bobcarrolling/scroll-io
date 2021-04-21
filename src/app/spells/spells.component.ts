@@ -164,7 +164,7 @@ export class SpellsComponent implements OnInit {
       ) {
         spell.filtered = true;
       }
-      if (classSearch && spell.classes.toLowerCase().indexOf(classSearch) < 0) {
+      if (classSearch && spell.classes.toLowerCase().indexOf(classSearch) < 0 && spell.classes.toLowerCase().trim() !== 'any') {
         spell.filtered = true;
       }
       if (
