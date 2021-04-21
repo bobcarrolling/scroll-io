@@ -425,7 +425,7 @@
       }
     ],
     "sectioncount": 1,
-    "lettercount": 642,
+    "lettercount": 616,
     "name": "Escape Art",
     "urlname": "escape_art",
     "level": "1st-level",
@@ -435,7 +435,7 @@
     "range": "Self",
     "components": "S, M (some used cooking oil)",
     "duration": "Instantaneous",
-    "classes": "Bard, Druid, Ranger, *Arcane Trickster Rogue*"
+    "classes": "Bard, Druid, Ranger"
   },
   {
     "effects": [
