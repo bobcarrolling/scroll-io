@@ -14,6 +14,7 @@ import { ItemsDisplayComponent } from "./items/items-display/items-display.compo
 import { APP_BASE_HREF } from "@angular/common";
 import { SpellsComponent } from './spells/spells.component';
 import { SpellsDisplayComponent } from './spells/spells-display/spells-display.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
@@ -27,7 +28,8 @@ import { SpellsDisplayComponent } from './spells/spells-display/spells-display.c
     ItemsComponent,
     ItemsDisplayComponent,
     SpellsComponent,
-    SpellsDisplayComponent
+    SpellsDisplayComponent,
+    LandingComponent
   ],
   bootstrap: [AppComponent],
   providers: [{ provide: APP_BASE_HREF, useValue: "" }]
