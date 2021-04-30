@@ -1,8 +1,8 @@
 <div class="box">
 	<div class="header">
-		<app-navbar></app-navbar>
+		<app-navbar *ngIf="localStorage.getItem('patreontoken')"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet></router-outlet>
+		<router-outlet id="outlet" *ngIf="router.url === '/home' || localStorage.getItem('patreontoken')" ></router-outlet>
 	</div>
 </div>

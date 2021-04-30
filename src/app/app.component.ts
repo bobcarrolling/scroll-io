@@ -1,10 +1,18 @@
-import { Component, VERSION } from "@angular/core";
+import { Component, VERSION, AfterViewInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   name = "Angular " + VERSION.major;
+  localStorage = localStorage;
+  constructor(public router: Router) {}
+  ngAfterViewInit(): void {
+    if (!document.getElementById('router')) {
+      this.router.navigate(['/home']);
+    }
+  }
 }

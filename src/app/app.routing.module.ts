@@ -4,7 +4,6 @@ import { CreaturesComponent } from "./creatures/creatures.component";
 import { ItemsComponent } from "./items/items.component";
 import { SpellsComponent } from "./spells/spells.component";
 import { HomeComponent } from "./home/home.component";
-import { StorageServiceModule} from 'angular-webstorage-service';
 
 
 @NgModule({
