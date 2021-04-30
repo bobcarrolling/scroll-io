@@ -11,7 +11,7 @@ export class AppComponent implements AfterViewInit {
   localStorage = localStorage;
   constructor(public router: Router) {}
   ngAfterViewInit(): void {
-    if (!document.getElementById('router')) {
+    if (!document.getElementById('outlet')) {
       this.router.navigate(['/home']);
     }
   }
