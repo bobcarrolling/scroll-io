@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
   selector: "app-home",
@@ -7,12 +8,13 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
   ogl = "Show";
+  localStorage = localStorage;
 
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
 
-  constructor() {}
+  constructor(public router: Router, public route: ActivatedRoute) {}
 
   ngOnInit() {
     document.title = "Scroll-io: A Catalog Of D&D 5e Homebrew";
@@ -22,6 +24,9 @@ export class HomeComponent implements OnInit {
         "content",
         "Sortable and searchable tables of Dungeons and Dragons 5th Edition content, all custom made by The Cobbler Barrel."
       );
+    this.route.queryParams.subscribe(params => {
+      console.log(params); 
+    });
   }
 
   oglToggle() {

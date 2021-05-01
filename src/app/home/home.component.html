@@ -13,7 +13,11 @@
       your own!</p>
 
     <p style="text-align: center">
-      <img class="patreon-button" (click)="null" src="https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/patreon_logo.jpg" alt="Sign in with Patreon">
+      <a href="www.patreon.com/oauth2/authorize?response_type=code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&redirect_uri=https://scroll-io.web.app/creatures">
+        <img class="patreon-button"
+      *ngIf="!localStorage.getItem('patreontoken')"
+        src="https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/patreon_logo.jpg" alt="Sign in with Patreon">
+      </a>
     </p>
 
     <!-- <p>There's hundreds of homebrew options on standby, ready
