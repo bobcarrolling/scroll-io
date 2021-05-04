@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import * as authData from "./authData.json";
+import * as authData from "../authData.json";
 
 @Component({
   selector: "app-home",
