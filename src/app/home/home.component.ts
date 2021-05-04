@@ -9,9 +9,7 @@ import * as authData from "../auth-data.json";
 export class HomeComponent implements OnInit {
   ogl = "Show";
   localStorage = localStorage;
-
-  authData: any = authData;
-
+  
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
