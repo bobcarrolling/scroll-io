@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import * as authData from "../auth-data.json";
+import * as auth from "../auth-data.json";
 
 @Component({
   selector: "app-home",
@@ -9,12 +9,16 @@ import * as authData from "../auth-data.json";
 export class HomeComponent implements OnInit {
   ogl = "Show";
   localStorage = localStorage;
-  
+
+  authData: any;
+
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
 
-  constructor() {}
+  constructor() {
+    this.authData = auth;
+  }
 
   ngOnInit() {
     document.title = "Scroll-io: A Catalog Of D&D 5e Homebrew";
