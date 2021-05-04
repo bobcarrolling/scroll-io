@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   arrow = this.rightarrow;
 
   constructor() {
-    this.authData = auth;
+    //this.authData = auth;
   }
 
   ngOnInit() {
