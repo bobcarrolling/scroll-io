@@ -3,6 +3,7 @@
 		<app-navbar *ngIf="localStorage.getItem('patreontoken')"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet id="outlet" *ngIf="router.url === '/home' || localStorage.getItem('patreontoken')" ></router-outlet>
+		<router-outlet id="outlet" ></router-outlet>
+    <!-- *ngIf="router.url === '/home' || localStorage.getItem('patreontoken')" -->
 	</div>
 </div>

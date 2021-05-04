@@ -4,6 +4,7 @@ import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app.routing.module";
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from "./app.component";
+import { AuthGuard } from "./auth.guard";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { CreaturesComponent } from "./creatures/creatures.component";
 import { HomeComponent } from "./home/home.component";
@@ -30,6 +31,6 @@ import { SpellsDisplayComponent } from './spells/spells-display/spells-display.c
     SpellsDisplayComponent,
   ],
   bootstrap: [AppComponent],
-  providers: [{ provide: APP_BASE_HREF, useValue: "" }]
+  providers: [AuthGuard, { provide: APP_BASE_HREF, useValue: "" }]
 })
 export class AppModule {}

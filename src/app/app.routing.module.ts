@@ -4,7 +4,7 @@ import { CreaturesComponent } from "./creatures/creatures.component";
 import { ItemsComponent } from "./items/items.component";
 import { SpellsComponent } from "./spells/spells.component";
 import { HomeComponent } from "./home/home.component";
-
+import { AuthGuard } from "./auth.guard";
 
 @NgModule({
   imports: [
@@ -12,33 +12,40 @@ import { HomeComponent } from "./home/home.component";
       {
         path: "creatures",
         redirectTo: "creatures/",
-        pathMatch: "full"
+        pathMatch: "full",
+        canActivate: [AuthGuard]
       },
       {
         path: "creatures/:selected",
         component: CreaturesComponent,
+        canActivate: [AuthGuard]
       },
       {
         path: "items",
         redirectTo: "items/",
-        pathMatch: "full"
+        pathMatch: "full",
+        canActivate: [AuthGuard]
       },
       {
         path: "items/:selected",
         component: ItemsComponent,
+        canActivate: [AuthGuard]
       },
       {
         path: "spells",
         redirectTo: "spells/",
-        pathMatch: "full"
+        pathMatch: "full",
+        canActivate: [AuthGuard]
       },
       {
         path: "spells/:selected",
         component: SpellsComponent,
+        canActivate: [AuthGuard]
       },
-      { path: "home", component: HomeComponent },
-      { path: "**", redirectTo: "home" },
-      { path: null, redirectTo: "home" }
+      // { path: "home", component: HomeComponent },
+      // { path: "**", redirectTo: "home" },
+      // { path: null, redirectTo: "home" }
+      { path: "**", component: HomeComponent }
     ])
   ],
   exports: [RouterModule],

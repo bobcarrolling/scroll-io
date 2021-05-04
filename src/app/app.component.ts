@@ -1,5 +1,4 @@
 import { Component, VERSION, AfterViewInit } from "@angular/core";
-import { Router } from "@angular/router";
 
 @Component({
   selector: "app",
@@ -9,10 +8,11 @@ import { Router } from "@angular/router";
 export class AppComponent implements AfterViewInit {
   name = "Angular " + VERSION.major;
   localStorage = localStorage;
-  constructor(public router: Router) {}
+  constructor() {
+  }
   ngAfterViewInit(): void {
-    if (!document.getElementById('outlet')) {
-      this.router.navigate(['/home']);
-    }
+    // if (!document.getElementById("outlet")) {
+    //   this.router.navigate(["/home"]);
+    // }
   }
 }
