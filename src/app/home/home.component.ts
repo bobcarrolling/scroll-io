@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { NavigationStart, Router } from "@angular/router";
+import * as authData from "./authData.json";
 
 @Component({
   selector: "app-home",
@@ -10,17 +10,13 @@ export class HomeComponent implements OnInit {
   ogl = "Show";
   localStorage = localStorage;
 
+  authData: any = (authData as any).default;
+
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
 
-  constructor(private router: Router) {
-    this.router.events.subscribe(e => {
-      if (e instanceof NavigationStart) {
-        console.log(e);
-      }
-    });
-  }
+  constructor() {}
 
   ngOnInit() {
     document.title = "Scroll-io: A Catalog Of D&D 5e Homebrew";
@@ -30,7 +26,6 @@ export class HomeComponent implements OnInit {
         "content",
         "Sortable and searchable tables of Dungeons and Dragons 5th Edition content, all custom made by The Cobbler Barrel."
       );
-    
   }
 
   oglToggle() {
