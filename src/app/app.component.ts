@@ -11,7 +11,7 @@ export class AppComponent implements AfterViewInit {
   name = "Angular " + VERSION.major;
   localStorage = localStorage;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private http: HttpClient) {
     this.router.events.subscribe(e => {
       if (e instanceof NavigationStart) {
         console.log(e);
