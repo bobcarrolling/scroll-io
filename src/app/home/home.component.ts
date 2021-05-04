@@ -9,7 +9,6 @@ export class HomeComponent implements OnInit {
   ogl = "Show";
   localStorage = localStorage;
 
-  // authData: any = (authData as any).default;
 
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
