@@ -1,3 +1,4 @@
+import { HttpClient } from "@angular/common/http";
 import { Component, VERSION, AfterViewInit } from "@angular/core";
 import { NavigationStart, Router } from "@angular/router";
 
