@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-import * as auth from "../auth-data.json";
 
 @Component({
   selector: "app-home",
@@ -10,14 +9,11 @@ export class HomeComponent implements OnInit {
   ogl = "Show";
   localStorage = localStorage;
 
-  authData: any;
-
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";
   arrow = this.rightarrow;
 
   constructor() {
-    //this.authData = auth;
   }
 
   ngOnInit() {
