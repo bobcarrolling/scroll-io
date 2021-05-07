@@ -3,6 +3,6 @@
 		<app-navbar *ngIf="sessionStorage.getItem('patreontoken') === '746865636f62626c657262617272656c'"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet id="outlet" *ngIf="router.url === '/home' || sessionStorage.getItem('patreontoken') === '746865636f62626c657262617272656c'"></router-outlet>
+		<router-outlet id="outlet" *ngIf="router.url === '/home' || router.url === '/redirect' || sessionStorage.getItem('patreontoken') === '746865636f62626c657262617272656c'"></router-outlet>
 	</div>
 </div>

@@ -10,11 +10,7 @@ export class RedirectComponent implements OnInit {
 
   sessionStorage = sessionStorage;
 
-  constructor(private router: Router) { }
-
-  redirect() {
-    this.router.navigate(['./home']);
-  }
+  constructor(public router: Router) { }
 
   ngOnInit() {
     console.log(document.referrer);

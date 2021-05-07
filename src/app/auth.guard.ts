@@ -11,10 +11,11 @@ export class AuthGuard implements CanActivate {
   constructor(private router: Router) {}
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-    if (sessionStorage.getItem("patreontoken") || state.url === "redirect") {
+    console.log()
+    if (sessionStorage.getItem("patreontoken")) {
       return true;
     }
-    this.router.navigate(["/home"], { queryParams: { returnUrl: state.url } });
+    this.router.navigate(["/home"]);
     return false;
   }
 }
