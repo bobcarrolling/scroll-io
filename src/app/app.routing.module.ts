@@ -44,10 +44,10 @@ import { RedirectComponent } from "./redirect/redirect.component";
         canActivate: [AuthGuard]
       },
       { path: "redirect", component: RedirectComponent },
-      // { path: "home", component: HomeComponent },
-      // { path: "**", redirectTo: "home" },
-      // { path: null, redirectTo: "home" }
-      { path: "**", component: HomeComponent }
+      { path: "home", component: HomeComponent },
+      { path: "**", redirectTo: "home" },
+      { path: null, redirectTo: "home" }
+      // { path: "**", component: HomeComponent }
     ])
   ],
   exports: [RouterModule],

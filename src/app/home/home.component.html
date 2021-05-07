@@ -15,7 +15,7 @@
       <a [href]="'https://www.patreon.com/posts/50981058'"> 
         <!-- 'https://www.patreon.com/oauth2/authorize?response_type=code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&redirect_uri=https://scroll-io.stackblitz.io/home' -->
         <img class="patreon-button"
-      *ngIf="!localStorage.getItem('patreontoken')"
+      *ngIf="sessionStorage.getItem('patreontoken') !== '746865636f62626c657262617272656c'"
         src="https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/patreon_logo.jpg" alt="Sign in with Patreon">
       </a>
     </p>

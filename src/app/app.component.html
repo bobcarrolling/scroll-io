@@ -1,9 +1,8 @@
 <div class="box">
 	<div class="header">
-		<app-navbar *ngIf="localStorage.getItem('patreontoken')"></app-navbar>
+		<app-navbar *ngIf="sessionStorage.getItem('patreontoken') === '746865636f62626c657262617272656c'"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet id="outlet" ></router-outlet>
-    <!-- *ngIf="router.url === '/home' || localStorage.getItem('patreontoken')" -->
+		<router-outlet id="outlet" *ngIf="router.url === '/home' || sessionStorage.getItem('patreontoken') === '746865636f62626c657262617272656c'"></router-outlet>
 	</div>
 </div>
