@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./redirect.component.css']
 })
 export class RedirectComponent implements AfterViewInit {
-  sessionStorage = sessionStorage;
+  localStorage = localStorage;
   document = document;
 
   constructor(public router: Router) {}

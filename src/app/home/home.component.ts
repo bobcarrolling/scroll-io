@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
   ogl = "Show";
-  sessionStorage = sessionStorage;
+  localStorage = localStorage;
 
   readonly rightarrow = "&#9655;";
   readonly downarrow = "&#9661;";

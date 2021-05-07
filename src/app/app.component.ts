@@ -10,7 +10,7 @@ import { from } from 'rxjs';
 })
 export class AppComponent implements AfterViewInit {
   name = 'Angular ' + VERSION.major;
-  sessionStorage = sessionStorage;
+  localStorage = localStorage;
   /*httpOptions = {
     headers: new HttpHeaders()
       .set("content-type", "application/x-www-form-urlencoded")
