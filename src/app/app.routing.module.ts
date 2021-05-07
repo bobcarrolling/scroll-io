@@ -47,6 +47,10 @@ import { RedirectComponent } from './redirect/redirect.component';
         path: 'redirect',
         component: RedirectComponent
       },
+      {
+        path: '6966796f75726572656164696e6774686973796f756b6e6f777468697369736166616b6575726c',
+        redirectTo: '/redirect'
+      },
       { path: 'home', component: HomeComponent },
       { path: '**', redirectTo: '/home' },
       { path: null, redirectTo: '/home' }

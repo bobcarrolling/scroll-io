@@ -1,6 +1,10 @@
 <div class="container flexcol align-center">
-  <div class="content"
+  <div class="content" *ngIf="document.referrer === 'https://www.patreon.com/'"
     (click)="sessionStorage.setItem('patreontoken', '746865636f62626c657262617272656c'); router.navigate(['/home']);">
     <h4 class="link">Click here to continue to Scroll-io.</h4>
+  </div>
+  <div class="content" *ngIf="document.referrer !== 'https://www.patreon.com/'"
+    (click)="router.navigate(['/home']);">
+    <h4 class="link">Click here to continue to scroll-io.</h4>
   </div>
 </div>

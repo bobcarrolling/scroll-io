@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,14 +6,11 @@ import { Router } from '@angular/router';
   templateUrl: './redirect.component.html',
   styleUrls: ['./redirect.component.css']
 })
-export class RedirectComponent implements OnInit {
+export class RedirectComponent {
 
   sessionStorage = sessionStorage;
+  document = document;
 
   constructor(public router: Router) { }
-
-  ngOnInit() {
-    console.log(document.referrer);
-  }
 
 }
