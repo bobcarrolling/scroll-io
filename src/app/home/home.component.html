@@ -1,21 +1,21 @@
 <div class="container flexcol align-center">
   <div class="content">
-    
+
     <h1 style="text-align: center; font-style: italic">welcome to</h1>
     <div class="image-div"><img src="https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/scroll_logo.png" alt="Scroll-io logo">
     </div>
     <p>This is the ever-expanding catalog of Dungeons and Dragons 5th Edition homebrew content from <a
-        href="https://twitter.com/CobblerBarrel">The Cobbler Barrel</a>. When logged in, navigating using the categorical links
+        href="https://twitter.com/CobblerBarrel">The Cobbler Barrel</a>. When logged in, navigating using the
+      categorical links
       above
       will take you to the indexed and searchable tables of various homebrew articles. The website gets frequent
       content and code updates, so always check back in to find something new. Feel free to browse, copy, and make
       your own!</p>
 
-    <p style="text-align: center">
-      <a [href]="'https://www.patreon.com/posts/50992367'"> 
+    <p style="text-align: center" *ngIf="sessionStorage.getItem('patreontoken') !== '746865636f62626c657262617272656c'">
+      <a [href]="'https://www.patreon.com/posts/50992367'">
         <!-- 'https://www.patreon.com/oauth2/authorize?response_type=code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&redirect_uri=https://scroll-io.stackblitz.io/home' -->
         <img class="patreon-button"
-      *ngIf="sessionStorage.getItem('patreontoken') !== '746865636f62626c657262617272656c'"
         src="https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/patreon_logo.jpg" alt="Sign in with Patreon">
       </a>
     </p>
