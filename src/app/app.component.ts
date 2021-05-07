@@ -11,13 +11,14 @@ import { from } from "rxjs";
 export class AppComponent implements AfterViewInit {
   name = "Angular " + VERSION.major;
   localStorage = localStorage;
-  // httpOptions = {
-  //   headers: new HttpHeaders()
-  //     .set("content-type", "application/x-www-form-urlencoded")
-  //     .set("Access-Control-Allow-Origin", "*")
-  // };
+  /*httpOptions = {
+    headers: new HttpHeaders()
+      .set("content-type", "application/x-www-form-urlencoded")
+      .set("Access-Control-Allow-Origin", "*")
+  };*/
 
   constructor(private router: Router, private http: HttpClient) {
+    /*console.log(document.referrer);*/
     this.router.events.subscribe(e => {
       if (e instanceof NavigationStart) {
         if (e.url.indexOf("/home?code=") === 0) {
@@ -30,15 +31,15 @@ export class AppComponent implements AfterViewInit {
             code +
             "&grant_type=authorization_code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&client_secret=RvBZYrNVNNw4GsofPoSJKficYFHWq65KBhUfC_Y0wSO-UN23YPHt2Q87qhnG6c9p&redirect_uri=https://scroll-io.stackblitz.io/home";
           console.log(body);
-          // this.http
-          //   .post(
-          //     "https://www.patreon.com/api/oauth2/token",
-          //     "code=" +
-          //       code +
-          //       "&grant_type=authorization_code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&client_secret=RvBZYrNVNNw4GsofPoSJKficYFHWq65KBhUfC_Y0wSO-UN23YPHt2Q87qhnG6c9p&redirect_uri=https://scroll-io.stackblitz.io/home",
-          //     this.httpOptions
-          //   )
-          //   .subscribe(resp => console.log(resp));
+          /*this.http
+            .post(
+              "https://www.patreon.com/api/oauth2/token",
+              "code=" +
+                code +
+                "&grant_type=authorization_code&client_id=i30yvmws2WeyVWxt7HMzoy6rXDRIrZV4Lf8c3or_ZgnTDM8Adlq9sFFJs5bPy_Hl&client_secret=RvBZYrNVNNw4GsofPoSJKficYFHWq65KBhUfC_Y0wSO-UN23YPHt2Q87qhnG6c9p&redirect_uri=https://scroll-io.stackblitz.io/home",
+              this.httpOptions
+            )
+            .subscribe(resp => console.log(resp));*/
 
           from(
             fetch(
