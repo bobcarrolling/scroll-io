@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,11 +6,15 @@ import { Router } from '@angular/router';
   templateUrl: './redirect.component.html',
   styleUrls: ['./redirect.component.css']
 })
-export class RedirectComponent {
-
+export class RedirectComponent implements AfterViewInit {
   sessionStorage = sessionStorage;
   document = document;
+  @ViewChild('content') content: ElementRef<HTMLElement>;
 
-  constructor(public router: Router) { }
+  constructor(public router: Router) {}
 
+  ngAfterViewInit(): void {
+    const el: HTMLElement = this.content.nativeElement;
+    el.click();
+  }
 }
