@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,14 +9,13 @@ import { Router } from '@angular/router';
 export class RedirectComponent implements AfterViewInit {
   sessionStorage = sessionStorage;
   document = document;
-  @ViewChild('content') content: ElementRef<HTMLElement>;
 
   constructor(public router: Router) {}
 
   ngAfterViewInit(): void {
     setTimeout(() => {
-      const el: HTMLElement = this.content.nativeElement;
-      el.click();
+      const link = document.getElementById('content');
+      link.click();
     });
   }
 }

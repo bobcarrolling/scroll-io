@@ -1,5 +1,6 @@
 .container {
   height: auto;
+  opacity: 0;
 }
 
 .link {
@@ -8,9 +9,8 @@
   /* cursor: pointer; */
 }
 
-.content {
+#content {
   cursor: pointer;
-  opacity: transparent;
   width: 90%;
   max-width: 40rem;
   background-color: rgb(240, 240, 240);
