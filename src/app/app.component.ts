@@ -18,7 +18,6 @@ export class AppComponent implements AfterViewInit {
   };*/
 
   constructor(private router: Router, private http: HttpClient) {
-    /*console.log(document.referrer);*/
     this.router.events.subscribe(e => {
       if (e instanceof NavigationStart) {
         if (e.url.indexOf("/home?code=") === 0) {

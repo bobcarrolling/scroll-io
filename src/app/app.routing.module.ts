@@ -5,6 +5,7 @@ import { ItemsComponent } from "./items/items.component";
 import { SpellsComponent } from "./spells/spells.component";
 import { HomeComponent } from "./home/home.component";
 import { AuthGuard } from "./auth.guard";
+import { RedirectComponent } from "./redirect/redirect.component";
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { AuthGuard } from "./auth.guard";
         component: SpellsComponent,
         canActivate: [AuthGuard]
       },
+      { path: "redirect", component: RedirectComponent },
       // { path: "home", component: HomeComponent },
       // { path: "**", redirectTo: "home" },
       // { path: null, redirectTo: "home" }
