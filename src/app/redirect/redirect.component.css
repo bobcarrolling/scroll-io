@@ -5,10 +5,11 @@
 .link {
   text-align: center;
   text-decoration: underline;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .content {
+  cursor: pointer;
   width: 90%;
   max-width: 40rem;
   background-color: rgb(240, 240, 240);
