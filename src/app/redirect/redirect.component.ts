@@ -14,7 +14,9 @@ export class RedirectComponent implements AfterViewInit {
   constructor(public router: Router) {}
 
   ngAfterViewInit(): void {
-    const el: HTMLElement = this.content.nativeElement;
-    el.click();
+    setTimeout(() => {
+      const el: HTMLElement = this.content.nativeElement;
+      el.click();
+    });
   }
 }
