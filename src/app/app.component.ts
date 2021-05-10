@@ -10,6 +10,7 @@ import { from } from 'rxjs';
 })
 export class AppComponent implements AfterViewInit {
   name = 'Angular ' + VERSION.major;
+  window = window;
   localStorage = localStorage;
   /*httpOptions = {
     headers: new HttpHeaders()

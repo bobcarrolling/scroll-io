@@ -383,11 +383,11 @@
   {
     "effects": [
       {
-        "text": "The cryptic words of a spell scroll you hold become meaningful to you. When you cast this spell, it is automatically cast at the level of the scroll's spell. Afterwards, you are able to attempt to use the spell scroll, regardless if the spell is on your class's spell list. If you have the ability to learn spells from spell scrolls, you cannot learn a spell deciphered by this one."
+        "text": "The cryptic words of a spell scroll you hold become meaningful to you. When you cast this spell, it is automatically cast at the level of the scroll's spell. If the scroll's spell is of a higher level than you can normally cast, you cannot cast this spell upon the scroll. If this spell is successful, you are able to attempt to use the spell scroll, regardless if the spell is on your class's spell list."
       }
     ],
     "sectioncount": 1,
-    "lettercount": 574,
+    "lettercount": 597,
     "name": "Decipher Scroll",
     "urlname": "decipher_scroll",
     "level": "1st-level",
@@ -579,7 +579,7 @@
       }
     ],
     "sectioncount": 1,
-    "lettercount": 836,
+    "lettercount": 837,
     "name": "Addlespell",
     "urlname": "addlespell",
     "level": "3rd-level",

@@ -2,6 +2,144 @@
   {
     "effects": [
       {
+        "text": "This item appears as the spirit of a friendly fey encased within a gem. When attuned to the gem, it hovers around you in very slow circles. It emits faint light, which can be increased or decreased as an action to 10 feet of bright light and dim light for another 10 feet. At will, you can change the color the gem emits."
+      },
+      {
+        "text": "As a bonus action, you can activate or deactivate the gem. While activated, the gem glows red and circles faster, moving between you and your enemies to intercept attacks from afar. When targeted by a ranged attack, roll a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "d8",
+        "dice": true
+      },
+      {
+        "text": " and add it to your AC. If this bonus causes the attack to miss, the die is decremented from a "
+      },
+      {
+        "text": "d8",
+        "dice": true
+      },
+      {
+        "text": " to a "
+      },
+      {
+        "text": "d6",
+        "dice": true
+      },
+      {
+        "text": ", then from a "
+      },
+      {
+        "text": "d6",
+        "dice": true
+      },
+      {
+        "text": " to a "
+      },
+      {
+        "text": "d4",
+        "dice": true
+      },
+      {
+        "text": ", but continues to function in the same way. After the "
+      },
+      {
+        "text": "d4",
+        "dice": true
+      },
+      {
+        "text": " bonus causes a ranged attack to miss, the gem ceases shining light and grants no more bonuses until the next dawn."
+      },
+      {
+        "text": "While the gem is activated, you can use your action to fluctuate the radius the gem protects, from just yourself to any creature within a 10 foot radius centered on you. Deactivating the gem returns it to its normal hover pattern around yourself.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1182,
+    "name": "Diadem's Orbital Defence",
+    "urlname": "diadem's_orbital_defence",
+    "subtext": "Wondrous item (necklace), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (necklace)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This arrow leaves a small current of wind behind it as it flies. If this arrow hits and deals damage, the next arrow fired from the same bow towards the same target has advantage and an additional "
+      },
+      {
+        "text": "+5",
+        "bonus": true
+      },
+      {
+        "text": " bonus to hit. If the next arrow hits, the cheating arrow is split by the next arrow and is rendered useless."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 359,
+    "name": "Cheating Arrow",
+    "urlname": "cheating_arrow",
+    "subtext": "Ammunition (arrow), uncommon",
+    "type": "Ammunition (arrow)",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A huge hammer used to prepare meat for giantkin. You gain a "
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon. When attacking with this weapon, if the total of your attack roll meets or exceeds 20, you deal an additional "
+      },
+      {
+        "text": "1d4",
+        "dice": true
+      },
+      {
+        "text": " bludgeoning and "
+      },
+      {
+        "text": "1d4",
+        "dice": true
+      },
+      {
+        "text": " piercing damage. If your target is unarmored or lightly armored, the piercing damage becomes "
+      },
+      {
+        "text": "1d12.",
+        "dice": true
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 406,
+    "name": "The Tenderizer",
+    "urlname": "the_tenderizer",
+    "subtext": "Martial weapon (maul), very rare",
+    "type": "Martial weapon (maul)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
+  },
+  {
+    "effects": [
+      {
         "text": "This thick belt is studded with the iron-forged depiction of an elephantine creature. As an action, you can activate the belt until the start of your next turn."
       },
       {
@@ -32,6 +170,23 @@
     },
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Belt%20Of%20The%20Behemoth.png",
     "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "This rapier seems flimsy and poorly made at first, but bends and sways strangely on its own whim. When attacking with fleshfinder, a creature's AC cannot exceed its Dexterity score. Fleshfinder has no damage dice and instead deals 1 point of piercing damage."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 307,
+    "name": "Fleshfinder",
+    "urlname": "fleshfinder",
+    "subtext": "Martial weapon (rapier), rare",
+    "type": "Martial weapon (rapier)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
   },
   {
     "effects": [
@@ -181,6 +336,320 @@
   {
     "effects": [
       {
+        "text": "This expertly crafted spear is light and hollow, reinforced with counterweights for balance and strength. You gain a "
+      },
+      {
+        "text": "+2",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon, and a "
+      },
+      {
+        "text": "+2",
+        "bonus": true
+      },
+      {
+        "text": " bonus to Dexterity based ability checks made with this weapon drawn."
+      },
+      {
+        "text": "This weapon's reach is 10 feet. When jumping with this weapon drawn, your jump distance and height are each increased by 5 feet.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 462,
+    "name": "Longspear of Balance",
+    "urlname": "longspear_of_balance",
+    "subtext": "Martial weapon (spear), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Martial weapon (spear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "These gold shoes have designs of mechanized wings on the sides. While attuned to the sandals, you gain a pool of 60 feet of fly speed that is consumed per foot of use. The pool replenishes each day at noon."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 283,
+    "name": "Icarus Sandals",
+    "urlname": "icarus_sandals",
+    "subtext": "Wondrous item (footwear), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (footwear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This cloak has streaks of shifting colors, which twist and swirl to blend into the environment. While attuned to the shawl and prone, you can take the hide action, even while within plain sight."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 271,
+    "name": "Shawl of Vanishing",
+    "urlname": "shawl_of_vanishing",
+    "subtext": "Wondrous item (cloak), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (cloak)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This sword is made entirely of carved aquamarine, with blue crystals set across the handle and hilt. It appears semi-translucent, with crashing waves of water slowly roiling within. You gain a "
+      },
+      {
+        "text": "+3",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon. This weapon deals slashing instead of piercing damage, and deals "
+      },
+      {
+        "text": "2d6",
+        "dice": true
+      },
+      {
+        "text": " slashing damage plus "
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " cold damage on a hit. While attuned, you gain a swim speed of 30 feet and can cast "
+      },
+      {
+        "text": "water walk",
+        "itl": true
+      },
+      {
+        "text": " on yourself at will."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Altering Touch.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " You can dip this weapon into any liquid without damaging the sword. When you do, you can alter the surface to make it safe to walk upon in a 5 foot square around where it was dipped. For example, lava cools into rock, water freezes into ice, mud or dries into soil, acid solidifies into gel. The effect lasts for 10 minutes."
+      },
+      {
+        "text": "When you dip or coat the weapon with a substance that would cause the sword any type of the listed damage in the spell ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "elemental weapon",
+        "itl": true
+      },
+      {
+        "text": ", it instead causes the sword to be under the effect of that spell for 10 minutes, dealing the appropriate damage type."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Parting Flow.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " Once per short rest you can clear an area in liquid and turn it into a battlefield. As an action, you can activate the sword. When you do, the liquid in a 100 foot radius cylinder centered on you that extends 100 feet upwards disappears and is replaced with air. The affected surrounding liquid cannot enter the cylinder, and the bottom of the cylinder becomes a solid and safely walkable flat surface. The cylinder cannot be dispelled, and lasts for 1 hour, after which the liquid magically reappears and the solid floor dissolves."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Obedience.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " So long as a 1000 cubic foot basin of liquid or similar substance is within 30 feet, you can beckon it to your aid. While within range, you can cast "
+      },
+      {
+        "text": "control water",
+        "itl": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "conjure elemental",
+        "itl": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "wall of water",
+        "itl": true
+      },
+      {
+        "text": ", and "
+      },
+      {
+        "text": "watery sphere",
+        "itl": true
+      },
+      {
+        "text": " (spell save "
+      },
+      {
+        "text": "DC 16",
+        "dc": true
+      },
+      {
+        "text": ") twice each per long rest without needing concentration. An elemental must be chosen that matches the type of the liquid. For the other spells, if the liquid would deal any damage to a creature submerged in it, it still does so in its new form. You may only have one of these spell effects active at any given time."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Energy Razor.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " You can cast "
+      },
+      {
+        "text": "absorb elements",
+        "itl": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "chaos bolt",
+        "itl": true
+      },
+      {
+        "text": " at will (+8 to hit). "
+      },
+      {
+        "text": "Chaos bolt",
+        "itl": true
+      },
+      {
+        "text": " can be cast instead of a melee attack with this weapon."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 2435,
+    "name": "Malifluous",
+    "urlname": "malifluous",
+    "subtext": "Martial weapon (shortsword), artifact (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Martial weapon (shortsword)",
+    "rarity": {
+      "text": "artifact",
+      "rating": 5
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "Comprised of semi-corporeal storm clouds in the shape of a halo, this circlet floats above its bearer's head and crackles tiny bolts of multicolor lightning. Once attuned to this item, it remains active and visible above your head no matter what form you take."
+      },
+      {
+        "text": "When you deal damage with a melee attack, you deal an additional ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d8",
+        "dice": true
+      },
+      {
+        "text": " fire, cold and lightning damage, rolling separately. After rolling, you may choose which die deals which type of damage."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Cloudcall.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " You can cast "
+      },
+      {
+        "text": "skywrite",
+        "itl": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "control weather",
+        "itl": true
+      },
+      {
+        "text": " at will. When cast using the circlet, the range of "
+      },
+      {
+        "text": "control weather",
+        "itl": true
+      },
+      {
+        "text": " is changed to a 60 foot radius centered on yourself, and the casting time is one action. Moving outside the radius ends the spell early."
+      },
+      {
+        "text": "Additionally, you are aware of all weather patterns within a 10 mile radius, and you know if any of them were created or manipulated by magic or other unnatural phenomena.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1013,
+    "name": "Circlet of Stormvenge",
+    "urlname": "circlet_of_stormvenge",
+    "subtext": "Wondrous item (headpiece), spellcasting focus, legendary (requires attunement by a druid)",
+    "attune": {
+      "text": "(requires attunement by a druid)",
+      "by": "a druid"
+    },
+    "type": "Wondrous item (headpiece), spellcasting focus",
+    "rarity": {
+      "text": "legendary",
+      "rating": 4
+    }
+  },
+  {
+    "effects": [
+      {
         "text": "This staff's ornate and intricate design resembles a very tall and thin wizard's tower. When attuned to this weapon, if there is 80 feet of room in a 5 foot radius above you, you can place the staff upright into the ground and speak its command word. Over the next minute, the staff grows in size until it is an 80 foot tall, 5 foot radius stone tower with 8 interior floors plus rooftop access, as many windows as you wish, and a ground level front door suitable for your height. The tower's interior is determined by you upon speaking the command word, using the same methods as "
       },
       {
@@ -240,6 +709,848 @@
   {
     "effects": [
       {
+        "text": "A clump of dirt and roots that stay congealed together within a small jar. The dirt starts with "
+      },
+      {
+        "text": "1d3",
+        "dice": true
+      },
+      {
+        "text": " random mushrooms of various colors growing within. Each mushroom has a fungal type, and each type of fungus needs a certain amount of time to grow. Only one type of fungal type exists in the jar at one time. If used by you or another creature within one minute of being plucked, a mushroom has a unique magical effect. Afterwards, the mushroom becomes nonmagical and can be eaten to replace a day's worth of rations, and a random replacement mushroom of the same fungal type starts to regrow and take its place. The fungal types and the mushroom's effects are listed below:"
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Glowspores (1 day).",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "1. Lichtenschleim.",
+        "itl": true
+      },
+      {
+        "text": " A white growth of moss. As an action, throw it up to 20 feet by making a ranged attack against a creature or object. On a hit, the target glows as though under the effect of the "
+      },
+      {
+        "text": "light",
+        "itl": true
+      },
+      {
+        "text": " spell for its full duration."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "2. Faerie Puff.",
+        "itl": true
+      },
+      {
+        "text": " A velvety lavender ball. When thrown as an action at a surface within 20 feet, a 10 foot radius sphere of its fluffy discharge expands from its point of impact and drifts through the air for 1 minute. A creature that starts its turn in that space must make a "
+      },
+      {
+        "text": "DC 12",
+        "dc": true
+      },
+      {
+        "text": " Dexterity saving throw or undergo the effects of the spell "
+      },
+      {
+        "text": "faerie fire",
+        "itl": true
+      },
+      {
+        "text": " until the start of its next turn."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "3. Yellow Truffle.",
+        "itl": true
+      },
+      {
+        "text": " A bumpy ball with yellow spots. You can eat this mushroom as a bonus action. After you do, you gain resistance to necrotic damage and all damage you deal with spells deals an additional "
+      },
+      {
+        "text": "2d6",
+        "dice": true
+      },
+      {
+        "text": " radiant damage. The effects fade after one hour."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Mushitakes (3 days).",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "1. Heffercap.",
+        "itl": true
+      },
+      {
+        "text": " A brown and tan mottled stalk. You can eat this mushroom as a bonus action. After you do, your Strength score is increased by 2 and you deal an additional die of damage with weapon attacks until the end of your next turn."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "2. Moss Polyp.",
+        "itl": true
+      },
+      {
+        "text": " A warty purple husk. You can plant this mushroom in an unoccupied space within 5 feet as an action. At the beginning of your next turn, it grows into a friendly "
+      },
+      {
+        "text": "vegepygmy (VGM 196)",
+        "itl": true
+      },
+      {
+        "text": ". The vegepygmy is loyal to you until the end of the day, after which is may choose to stay or leave you."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "3. Blushburn.",
+        "itl": true
+      },
+      {
+        "text": " A blue and red streaked umbrella. You can bury this mushroom in an unoccupied space within 5 feet as an action. A creature that steps on the same space as the buried mushroom triggers a "
+      },
+      {
+        "text": "fireball",
+        "itl": true
+      },
+      {
+        "text": " centered on that space (save "
+      },
+      {
+        "text": "DC 14",
+        "dc": true
+      },
+      {
+        "text": ")."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Angelbells (5 days).",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "1. Spotted Crown.",
+        "itl": true
+      },
+      {
+        "text": " A gray cup containing a watery liquid. You can rub this mushroom on a creature or object as an action to secrete its sap. The object or creature is hidden from divination magic, and can't be targeted by such magic or perceived by it. The mushroom withers away after using its sap, and the effects of the sap fade after one day."
+      },
+      {
+        "text": "If the sap is applied to a weapon, that weapon is considered silvered and magical. If a creature is hit by the weapon, the next time the creature takes damage of any type the weapon dealt, the creature is vulnerable to that damage type. The weapon's sap wears away after dealing damage.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "2. Troll's Ear.",
+        "itl": true
+      },
+      {
+        "text": " A wavy pink sponge. You can eat this mushroom as an action. After you do, you are relieved of all the conditions that "
+      },
+      {
+        "text": "greater restoration",
+        "itl": true
+      },
+      {
+        "text": " can cure, and you regain "
+      },
+      {
+        "text": "4d6",
+        "dice": true
+      },
+      {
+        "text": " hit points."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "3. Heavensbane.",
+        "itl": true
+      },
+      {
+        "text": " A tall green stem with a golden honeycomb tip. You can shake the mushroom as an action, coating a creature underneath it in its spores. For the next ten minutes, that creature is treated as though under the effect of the spells "
+      },
+      {
+        "text": "greater invisibility",
+        "itl": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "sanctuary",
+        "itl": true
+      },
+      {
+        "text": ". After shaking loose its spores, the mushroom loses this property."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 3671,
+    "name": "Spore Colony",
+    "urlname": "spore_colony",
+    "subtext": "Wondrous item, rare",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This sinister set of helm and pauldrons is made of monstrous bones, with the bearer's face obscured within its shark-like jaw. You have a "
+      },
+      {
+        "text": "+3",
+        "bonus": true
+      },
+      {
+        "text": " bonus to AC while wearing this armor. You feel a racing bloodlust surge from the helm. While attuned, your actions lean towards chaotic and evil, no matter your true alignment."
+      },
+      {
+        "text": "While attuned to this item and raging, you must always use your reckless attack feature, and your attacks cannot be non-lethal. When you make a melee weapon attack, roll ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " and add it to a pool. At the end of your turn, if you hit a creature with a melee weapon attack this turn, add the pool as temporary hit points. If you did not hit any creatures with a melee weapon attack this turn, you subtract the pool from your current hit points. The pool is then reset."
+      },
+      {
+        "text": "While attuned and raging, if you are hit by an attack roll, you can move up to 10 feet towards the attacker and make an unarmed attack against against them with advantage, provided you can see the target. If the unarmed attack hits, the target takes an additional ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " piercing damage as the toothy helm bites down on them, and you can gain the same amount of piercing damage as temporary hit points if you choose. This ability does not require a reaction to use."
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1354,
+    "name": "Skull of Canid Molaris",
+    "urlname": "skull_of_canid_molaris",
+    "subtext": "Wondrous item (headpiece), legendary (requires attunement by a barbarian)",
+    "attune": {
+      "text": "(requires attunement by a barbarian)",
+      "by": "a barbarian"
+    },
+    "type": "Wondrous item (headpiece)",
+    "rarity": {
+      "text": "legendary",
+      "rating": 4
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "An ornate spear made to look like the needle of a compass. While attuned, you have advantage on Wisdom (Survival) checks made to navigate while traveling. Any distance or time spent away from this weapon does not end its attunement - the weapon's attunement only ends when attuned to a new creature. The spear will only attune to a new creature if it has not been used by its previous wielder for one year. While attuned, you can innately sense the direction to the weapon's location, and unerringly determine the fastest route to its location."
+      },
+      {
+        "text": "When you are holding the spear, you can focus on a specific enemy you dealt damage to with it. When you do, you know the general direction towards that creature, or its exact location if it is within 60 feet. You also gain a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+5",
+        "bonus": true
+      },
+      {
+        "text": " bonus to Wisdom (Survival) checks made to track that creature."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Will.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item searches for a wielder to help rescue the lost, either physically or spiritually. It tends towards lawful and good alignments."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Advancements.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 1 (minimum 5th level).",
+        "itl": true
+      },
+      {
+        "text": "You gain a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon, and it deals an additional "
+      },
+      {
+        "text": "1d4",
+        "dice": true
+      },
+      {
+        "text": " lightning damage on a hit. If you are within 120 feet of the spear, you may use a bonus action to teleport it to your hand."
+      },
+      {
+        "text": "The spear pulls and defends you automatically when fighting. Once per round, without expending a reaction, you may add a bonus equal to the attack bonus of this weapon to your AC against one melee weapon attack that would hit you. Additionally, once on your turn during your attack action, you can forgo one attack with the spear to gain advantage and a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d8",
+        "dice": true
+      },
+      {
+        "text": " bonus to hit for the next attack you make with it."
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 2 (minimum 10th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+2,",
+        "bonus": true
+      },
+      {
+        "text": " and its lightning damage increases from "
+      },
+      {
+        "text": "1d4",
+        "dice": true
+      },
+      {
+        "text": " to "
+      },
+      {
+        "text": "1d8.",
+        "dice": true
+      },
+      {
+        "text": " If you are within 1 mile of the spear, you may use a bonus action to teleport it to your hand."
+      },
+      {
+        "text": "As you gain familiarity with it, the spear seems to have lodestone-like magnetic traits. The spear has the same properties as an Immovable Rod, using a command word which only you can speak instead of a button (no action required).",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "After hitting a creature with the spear, you can speak its command word. When you do, you must release the spear if you already haven't. The spear embeds itself in the creature, which must make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 21",
+        "dc": true
+      },
+      {
+        "text": " Strength saving throw. On a failure, the creature's speed becomes 0 as it is held in place by the spear. A creature can make a Strength check against the same DC as an action, freeing the held creature and pushing the spear 5 feet away on a success. The spear remains stationary until its command word is spoken again, or until teleported to your hand."
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 3 (minimum 14th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+3,",
+        "bonus": true
+      },
+      {
+        "text": " and its lightning damage increases from "
+      },
+      {
+        "text": "1d8",
+        "dice": true
+      },
+      {
+        "text": " to "
+      },
+      {
+        "text": "1d12.",
+        "dice": true
+      },
+      {
+        "text": " If you are within 30 miles of the spear, you may use a bonus action to teleport it to your hand."
+      },
+      {
+        "text": "The magnetism of the spear becomes great enough for you to control. While you are within 120 feet of the spear, you are considered to be under the effect of the spell ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "Spider Climb",
+        "itl": true
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "When in your hand, you can point the spear towards a surface within 30 feet as a bonus action. You fly directly in a line towards that surface and land safely where you pointed. Along the way, you do not provoke attacks of opportunity, and you can make a melee attack roll at disadvantage against each creature within range of the ending location, striking them as you charge forward.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 13,
+    "lettercount": 4106,
+    "name": "Spear of Neverloss",
+    "urlname": "spear_of_neverloss",
+    "subtext": "Simple weapon (spear), artifact (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Simple weapon (spear)",
+    "rarity": {
+      "text": "artifact",
+      "rating": 5
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This arrow has razor edges lining its shaft. The arrow deals an additional "
+      },
+      {
+        "text": "2d4",
+        "dice": true
+      },
+      {
+        "text": " slashing damage on a hit. If the target creature is flying but not hovering, the damage increases to "
+      },
+      {
+        "text": "4d4,",
+        "dice": true
+      },
+      {
+        "text": " and the creature must make a Dexterity saving throw against a DC equal to 8 plus the slashing damage dealt by the arrow. On a failure, the creature falls 30 feet straight down."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 411,
+    "name": "Wingclipper Arrow",
+    "urlname": "wingclipper_arrow",
+    "subtext": "Ammunition (arrow), rare",
+    "type": "Ammunition (arrow)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A necklace that holds "
+      },
+      {
+        "text": "1d4 + 2",
+        "dice": true
+      },
+      {
+        "text": " large pearls. When using your wild shape to become a beast with a name prefaced by the word \"Giant\", you may choose to expend any number of the pearls, which shatter. For each expended pearl, you summon one creature with the same name as your chosen wild shape without the word \"Giant\". A summoned creature disappears when it drops to 0 hit points or after 1 hour."
+      },
+      {
+        "text": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any mental commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "An empty rivière retains some magical essence, despite having no pearls. If you spend 4 hours performing a ceremonial blessing on a large pearl worth at least 50 gp, the new pearl can be threaded onto the necklace.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1051,
+    "name": "Summoner's Rivière",
+    "urlname": "summoner's_rivière",
+    "subtext": "Wondrous item (necklace), rare (requires attunement by a druid)",
+    "attune": {
+      "text": "(requires attunement by a druid)",
+      "by": "a druid"
+    },
+    "type": "Wondrous item (necklace)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A typical fluffy nightcap, with starry patterns that shift and turn. While attuned and wearing the cap, you can cast the spell "
+      },
+      {
+        "text": "Catnap",
+        "itl": true
+      },
+      {
+        "text": " on yourself once per day. During a short rest, if you roll a 1 on a hit die, you may reroll the result. After awakening from a short or long rest, you can choose one of the following benefits:"
+      },
+      {
+        "text": "- You awaken with ",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "4d6",
+        "dice": true
+      },
+      {
+        "text": " temporary hit points."
+      },
+      {
+        "text": "- The first 4th level or lower spell you cast after awakening is treated as though cast at one level higher than the slot used.",
+        "newline": true,
+        "list": true
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 587,
+    "name": "Nightcap of Restfulness",
+    "urlname": "nightcap_of_restfulness",
+    "subtext": "Wondrous item (headpiece), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (headpiece)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A rune-engraved wooden handle with a crystalline blade. You gain a "
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon, and it deals an additional "
+      },
+      {
+        "text": "2d6",
+        "dice": true
+      },
+      {
+        "text": " cold damage on a hit. While attuned and wielding the axe, you can cast the spell "
+      },
+      {
+        "text": "Ice Knife",
+        "itl": true
+      },
+      {
+        "text": " in place of a ranged weapon attack with the weapon. It uses your attack bonus as its spell attack bonus, with a spell save DC of 12."
+      },
+      {
+        "text": "You score a critical hit on a melee attack roll of 19 or 20 with the axe. On a critical hit, iceglass releases a wave of intense chill as though it had cast ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "Cone of Cold",
+        "itl": true
+      },
+      {
+        "text": " in a 15 foot cone facing the target (spell save "
+      },
+      {
+        "text": "DC 12",
+        "dc": true
+      },
+      {
+        "text": "). On a critical failure, iceglass breaks, leaving only the handle. When it shatters, it shrouds you in frost energy as though you were under the effects of the spell "
+      },
+      {
+        "text": "Investiture of Ice",
+        "itl": true
+      },
+      {
+        "text": " for its full duration (spell save "
+      },
+      {
+        "text": "DC 12",
+        "dc": true
+      },
+      {
+        "text": ")."
+      },
+      {
+        "text": "You can choose to break iceglass as an action with a successful ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 12",
+        "dc": true
+      },
+      {
+        "text": " Strength check, which has the same effect as its critical failure. The hilt of the broken axe can be dipped into water at sunrise to restore the crystalline blade."
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 1146,
+    "name": "Iceglass",
+    "urlname": "iceglass",
+    "subtext": "Simple weapon (handaxe), legendary (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Simple weapon (handaxe)",
+    "rarity": {
+      "text": "legendary",
+      "rating": 4
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This form fitting robe has the color and texture of rusted metal. As an action, you can expend a spell slot of at least third level. When you do, choose three damage types. Until the end of your next turn, you are immune to one of those types, resist another, and are vulnerable to the last."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 383,
+    "name": "Coat of the Golem",
+    "urlname": "coat_of_the_golem",
+    "subtext": "Wondrous item (cloak), rare (requires attunement by a spellcaster)",
+    "attune": {
+      "text": "(requires attunement by a spellcaster)",
+      "by": "a spellcaster"
+    },
+    "type": "Wondrous item (cloak)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A fabled dwarven pick that was responsible for slaying a great and evil dragon. As an action, you can make a Strength check with the pick against a creature within 5 feet, with a DC equal to the creature's Constitution score. This effect can only be successful once against a creature with light armor, twice against medium armor, and three times against heavy or natural armor. On a success, scalepeeler shears off a part of the target's armor. The creature incurs a -1 penalty to its AC and becomes exposed. When hitting an exposed creature with an attack roll, roll "
+      },
+      {
+        "text": "1d10.",
+        "dice": true
+      },
+      {
+        "text": " If the result is equal to or below the sum penalty amount to the creature's AC, the attack deals an extra die of damage."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 748,
+    "name": "Scalepeeler",
+    "urlname": "scalepeeler",
+    "subtext": "Martial weapon (war pick), rare",
+    "type": "Martial weapon (war pick)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A plain golden bracelet that shines a rainbow hue in the light. While attuned, you lose a spell slot of each level. The wristlet adds the borrowed power to your cantrips, which gain a damage bonus equal to your proficiency modifier."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 338,
+    "name": "Wristlet of the Novice Adept",
+    "urlname": "wristlet_of_the_novice_adept",
+    "subtext": "Wondrous item (handwear), rare (requires attunement by a spellcaster)",
+    "attune": {
+      "text": "(requires attunement by a spellcaster)",
+      "by": "a spellcaster"
+    },
+    "type": "Wondrous item (handwear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "Leather and cloth wrapped gloves with special silver thread that reinforces the wrists. At the beginning of your turn, you can make an attempt to push away each creature within 5 feet of you. If you succeed by 10 or more, the creature falls prone as well as being pushed away."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 365,
+    "name": "Handwraps of the Frayfighter",
+    "urlname": "handwraps_of_the_frayfighter",
+    "subtext": "Wondrous item (handwear), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (handwear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "If you would hit a creature with an attack from this weapon but the creature creates an effect that causes the attack to miss, you can use your reaction to ignore that effect."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 225,
+    "name": "Overwhelming Weapon",
+    "urlname": "overwhelming_weapon",
+    "subtext": "Weapon (any), uncommon",
+    "type": "Weapon (any)",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A slender piece of carved wood not unlike a flute. When placed in your mouth, you can breathe water like air, and air becomes like breathing water. While held in your mouth, you must concentrate on keeping the waterlog in place as though concentrating on a spell. If your concentration fails, the waterlog falls from your lips. You cannot speak while using the waterlog."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 410,
+    "name": "Waterlog",
+    "urlname": "waterlog",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A plain pair of boots that seems to trail into smoke where it would meet the ankles. When removed and placed together, you can speak the boots' command word to summon the Stranger. The Stranger appears within the boots and acts the same as the spell "
+      },
+      {
+        "text": "Unseen Servant",
+        "itl": true
+      },
+      {
+        "text": ", but the boots remain visible. No creature can wear the boots until the Stranger is killed or dismissed. If the Stranger is killed, he will not return until the boots are left unworn over a long rest."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 553,
+    "name": "Boots of the Stranger",
+    "urlname": "boots_of_the_stranger",
+    "subtext": "Wondrous item (footwear), uncommon (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (footwear)",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
         "text": "A black iron lantern that burns indefinitely with a small violet flame. A creature within the bright light of the lantern has advantage on saving throws against effects that would deal fire damage."
       },
       {
@@ -267,6 +1578,326 @@
     },
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Lighteater%20Lantern.png",
     "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "A red metal gauntlet with a magic circle that floats over the palm. At the beginning of your turn, you can choose to temporarily drain the power from a magic weapon you are currently wielding. Until the beginning of your next turn, the weapon loses any special benefits it has and becomes nonmagical. During that time, you can make an additional attack with that weapon as a bonus action."
+      },
+      {
+        "text": "For the purposes of the gauntlet, a magic weapon is any weapon with additional beneficial properties besides having a bonus to hit, damage, or AC. A static bonus to hit, damage, or AC is not drained from the weapon. The weapon retains any of its negative drawbacks while drained.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 757,
+    "name": "Gauntlet of Sapping Strikes",
+    "urlname": "gauntlet_of_sapping_strikes",
+    "subtext": "Wondrous item (handwear), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (handwear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A ring that seems to be made entirely of condensed light. While attuned, if you succeed the DC of a saving throw by 10 or more, you take no damage and suffer no consequences from the triggering effect."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 284,
+    "name": "Ring of Transcendence",
+    "urlname": "ring_of_transcendence",
+    "subtext": "Wondrous item (ring), very rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (ring)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A twisted, hook edged katana with flourishes of red and black fire engraved along the blade. The aura of fear the sword radiates puts both friend and foe off-guard. Any creature within 5 feet of you while the blade is drawn has a -2 penalty to their AC."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Curse.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the item, keeping it within reach at all times. You also undergo the following effects:"
+      },
+      {
+        "text": "When you reduce a creature to 0 hit points with this weapon, all creatures within 30 feet of you must make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 15",
+        "dc": true
+      },
+      {
+        "text": " Wisdom saving throw. Hostile creatures have advantage on this saving throw. On a failure, a creature is frightened of you for 1 minute. You have a strange attraction to the fear, and must end your subsequent turns closer to one of the targets you frightened until the effect fades."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Will.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item searches for a wielder that dominates in battle and gives no mercy. It tends towards neutral and evil alignments."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Advancements.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 1 (minimum 5th level).",
+        "itl": true
+      },
+      {
+        "text": "You gain a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon. Creatures with 20 or less hit points are considered vulnerable to damage dealt by the sword."
+      },
+      {
+        "text": "You can smell desperation. You gain proficiency in the Insight skill while attuned to hopeslayer, and when a creature mentions a person, place, or thing, you can make a Wisdom (Insight) check with advantage to determine if it is something they desire or something they fear.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 2 (minimum 10th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+2.",
+        "bonus": true
+      },
+      {
+        "text": " You can make attacks of opportunity with hopeslayer regardless of how a creature leaves your reach (disengage, teleportation, invisibility, etc)."
+      },
+      {
+        "text": "You itch to draw your weapon and cause your enemies to despair. You gain proficiency in the Intimidation skill while attuned to hopeslayer. With hopeslayer drawn, when you make a Charisma (Intimidation) check as an action against a creature that is of a challenge rating equal to or lower than your proficiency bonus, it must make a Wisdom saving throw against the total of your check. On a failure, the creature is frightened of you until you sheath the sword. A creature that succeeds this saving throw cannot be frightened of you in this way until the next nightfall.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 3 (minimum 15th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+3.",
+        "bonus": true
+      },
+      {
+        "text": " When you hit a creature with an attack of opportunity, the creature must make a "
+      },
+      {
+        "text": "DC 20",
+        "dc": true
+      },
+      {
+        "text": " Dexterity saving throw or fall prone. If the creature falls prone and would have used an ability or spell to escape without provoking a normal attack of opportunity, that ability or spell ends."
+      },
+      {
+        "text": "The urge for violence pushes you beyond normal limits. If an inhibiting effect causes you to make a check or saving throw to escape or clear it at the end or as part of your turn, you can instead make that check or saving throw at the beginning of your turn, with no action required.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 11,
+    "lettercount": 3573,
+    "name": "Hopeslayer",
+    "urlname": "hopeslayer",
+    "subtext": "Martial weapon (longsword), artifact (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Martial weapon (longsword)",
+    "rarity": {
+      "text": "artifact",
+      "rating": 5
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "An enchanted egg that is warm to the touch. You can throw the egg up to 30 feet as an action. Your DM may call for a Dexterity check of appropriate difficutly according to where you throw the egg. It can also be dropped within 5 feet as a bonus action, needing no Dexterity check. The fragile egg shatters on impact, releasing brilliant flame and smoke. You disappear in a similar display, and reappear in the space the egg shattered, but you are size Tiny."
+      },
+      {
+        "text": "When you reappear, you are one-eighth your normal size in all directions, and your weight is reduced to one one-hundredth of normal. When one-eighth your size, all rolls that use Strength, Dexterity, or Constitution have a -12 penalty.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "After ten minutes, you grow to one-quarter your normal size in all directions, and your weight is reduced to one-twentieth of normal. When one-quarter your size, all rolls that use Strength, Dexterity, or Constitution have a -6 penalty.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "After another ten minutes, you are no longer Tiny and have regrown to your normal size and weight. The penalties and other effects of the egg subside.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 4,
+    "lettercount": 1134,
+    "name": "Phoenix Eggshell",
+    "urlname": "phoenix_eggshell",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A plain black mask with an attached gray hood and veil. The mask has 6 charges. When you make an ability check, you can expend a charge to add "
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " to the roll. For each creature that you are aware can see you, one of the current charges becomes unusable, but not expended. The mask regains a charge for every 10 minutes spent alone, with no creatures you are aware of able to see you."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Curse.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the item, keeping it within reach at all times. You also undergo the following effects:"
+      },
+      {
+        "text": "While wearing and attuned to the mask, you have disadvantage on Wisdom and Charisma checks while in direct sunlight, as it becomes bright and irritating to you.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 864,
+    "name": "Mask of the Recluse",
+    "urlname": "mask_of_the_recluse",
+    "subtext": "Wondrous item (headpiece), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (headpiece)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "When dealing damage with this weapon, roll two of each damage die and use the higher result."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 132,
+    "name": "Brutal Weapon",
+    "urlname": "brutal_weapon",
+    "subtext": "Weapon (any), rare",
+    "type": "Weapon (any)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "After a creature within 5 feet casts a spell, you can use your reaction to make a melee weapon attack against that creature with this weapon."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 185,
+    "name": "Mageslayer Weapon",
+    "urlname": "mageslayer_weapon",
+    "subtext": "Weapon (any), rare",
+    "type": "Weapon (any)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
   },
   {
     "effects": [
@@ -306,5 +1937,737 @@
     },
     "image": "https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/items/Honeyshot.png",
     "artist": "dgalexandre1"
+  },
+  {
+    "effects": [
+      {
+        "text": "An endless supply of hopelessly entangled, hefty rope. As an action, you can make a "
+      },
+      {
+        "text": "DC 6",
+        "dc": true
+      },
+      {
+        "text": " Intelligence check to unravel 10 feet of rope from the knot. For each successful unraveling, the DC increases by one. On a failed check the knot becomes even more tangled and requires spending a short rest fixing it before it can be unraveled again. After fixing the knot, the DC resets to 6."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 426,
+    "name": "Infinity Knot",
+    "urlname": "infinity_knot",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A magical klein bottle. Over the course of an hour, you can attempt to fill the bottle with a potion or poison by making a "
+      },
+      {
+        "text": "DC 10",
+        "dc": true
+      },
+      {
+        "text": " Intelligence check. On a failure, the bottle empties onto the ground and is wasted."
+      },
+      {
+        "text": "The bottle can be drank from or applied as an action, requiring an Intelligence check. On a result of 7 or lower, the bottle empties onto the ground and is wasted. On a result between 8 and 18, the liquid is used normally and the bottle becomes empty. On a result of 19 or higher, the liquid is used, but an equal amount of liquid magically remains in the bottle for another use.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 642,
+    "name": "Impossible Bottle",
+    "urlname": "impossible_bottle",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A silver crown set with an agate, garnet, and ruby gemstone. While attuned and wearing the crown, when you succeed a death saving throw, you regain 1 hit point. When you fail death saving throws, the failures accumulate and do not disappear until you finish a long rest, or until you roll a 20 on a death saving throw."
+      },
+      {
+        "text": "While unconscious and at 0 hit points, you can choose to permanently subtract ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " from your maximum hit points to gain advantage on your next death saving throw."
+      },
+      {
+        "text": "You cannot instantly die. Any remaining damage inflicted on you past 0 hit points is negated, and any magical effect that would kill you instantly after reducing you to 0 hit points instead leaves you unconscious (such as the ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "disintegration",
+        "itl": true
+      },
+      {
+        "text": " spell)."
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 820,
+    "name": "Crown of the Undying",
+    "urlname": "crown_of_the_undying",
+    "subtext": "Wondrous item (headpiece), very rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (headpiece)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A cobalt blue metal mitten with winter wolf fur linings. While attuned to the gauntlet, you can cast "
+      },
+      {
+        "text": "Shape Water",
+        "itl": true
+      },
+      {
+        "text": " at will, with the following addition to the spell's options:"
+      },
+      {
+        "text": "- You can freeze the water into the shape of a simple weapon. For the duration, you can use your spellcasting ability instead of Strength or Dexterity for the attack and damage rolls of the weapon. The weapon is magical and deals an additional ",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " cold damage."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 514,
+    "name": "Glacial Gauntlet",
+    "urlname": "glacial_gauntlet",
+    "subtext": "Wondrous item (handwear), rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item (handwear)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "An enchanted imitation silver piece that is an obvious forgery on close inspection, but from a distance is indistinguishable from a normal coin. As an action, you can whisper the coin's command word and flip it anywhere within 10 feet. At the beginning of each of your subsequent turns for the next minute, "
+      },
+      {
+        "text": "2d20",
+        "dice": true
+      },
+      {
+        "text": " duplicate coins sprout from the original like a fountain. At the end of the minute, all the coins turn to sand, including the original."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 487,
+    "name": "Decoyn",
+    "urlname": "decoyn",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A bag full of reflective sand. The bag comes with "
+      },
+      {
+        "text": "1d4+1",
+        "dice": true
+      },
+      {
+        "text": " handfuls. As an action, you can take a handful and toss it into the air. The air in a 10 foot radius around you fills with the reflective particulate for the next minute, and can be dispersed with a strong breeze. A creature inside the radius is considered invisible to a creature outside the radius while the powder remains."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 422,
+    "name": "Mirror Powder",
+    "urlname": "mirror_powder",
+    "subtext": "Wondrous item, rare",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A bag of ground salt crystals, blessed by a priest of a good-aligned deity. The bag comes with "
+      },
+      {
+        "text": "1d4+1",
+        "dice": true
+      },
+      {
+        "text": " handfuls. As an action, you can chant a prayer while making a line of salt 5 feet long on the ground beneath you. An aberration, fiend, or undead that steps onto or over the line and is not 20 feet above it must use their entire movement to do so. When they do, they take "
+      },
+      {
+        "text": "1d6",
+        "dice": true
+      },
+      {
+        "text": " radiant damage. If a creature of those types attempts to touch the salt in order to scatter or break it, they must make a "
+      },
+      {
+        "text": "DC 14",
+        "dc": true
+      },
+      {
+        "text": " Wisdom saving throw. On a failed save, a creature takes "
+      },
+      {
+        "text": "8d6",
+        "dice": true
+      },
+      {
+        "text": " radiant damage and is unable to break the line. On a successful save, the creature takes half as much damage and can move the line. The salt becomes inert if moved after being placed."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 792,
+    "name": "Blessed Salt",
+    "urlname": "blessed_salt",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A glassy marble with a hollow interior. As an action, you can tap it against a hard, solid surface. The stone will resonate if the wall is less than 1 foot thick, or let out a dull thud if thicker. You can also tap the stone on hard ground to produce a ringing tone. The lower the tone, the larger the room you are within."
+      },
+      {
+        "text": "Each time you tap the stone, roll ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d10.",
+        "dice": true
+      },
+      {
+        "text": " On a 1, the stone cracks and loses its magical capabilities."
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 466,
+    "name": "Echo Stone",
+    "urlname": "echo_stone",
+    "subtext": "Wondrous item, uncommon",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A canine tooth that melds over the top of one's own molars upon attunement. While attuned, you can converse with dogs and other similar beasts as though under the effect of the spell "
+      },
+      {
+        "text": "speak with animals",
+        "itl": true
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "As a variant, many different types of household pet teeth can be found that have similar effects for beasts of their kind.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 391,
+    "name": "Dogpack Tooth",
+    "urlname": "dogpack_tooth",
+    "subtext": "Wondrous item, rare (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "When sheathed or stowed, this weapon is invisible to all but you."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 107,
+    "name": "Sly Weapon",
+    "urlname": "sly_weapon",
+    "subtext": "Weapon (any), very rare",
+    "type": "Weapon (any)",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A normal compass that appears broken on first inspection, but whirs to life when underground. If you are underground, it displays how many vertical feet you have descended from your entry point, and always points towards the shortest exit to the surface. While following the compass out from underground, you gain advantage on Wisdom (Survival) checks made to navigate."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 415,
+    "name": "Delver's Compass",
+    "urlname": "delver's_compass",
+    "subtext": "Wondrous item, rare",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A small ring with engravings of eyes. As an action, you can press the peephole against a solid surface that is no more than 10 feet deep. So long as the ring maintains contact, you can press your eye or ear to the hole to see or hear out of the other side of the surface as if you were there. The hole is not visible or detectable from the opposite side of the surface, as it is magical and does not physically exist. Nothing can be passed through the hole from either side."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 519,
+    "name": "Portable Peephole",
+    "urlname": "portable_peephole",
+    "subtext": "Wondrous item, rare",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "If you take the dodge action on your turn while wielding this weapon, you gain a "
+      },
+      {
+        "text": "+2",
+        "bonus": true
+      },
+      {
+        "text": " bonus to AC."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 143,
+    "name": "Defensive Weapon",
+    "urlname": "defensive_weapon",
+    "subtext": "Weapon (any), uncommon",
+    "type": "Weapon (any)",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A rigid staff that has an unusual bouncy quality when striking. You gain a "
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon. After you hit a creature with this weapon, you can move up to 10 feet without expending movement and without provoking attacks of opportunity."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 367,
+    "name": "Momentum Quarterstaff",
+    "urlname": "momentum_quarterstaff",
+    "subtext": "Weapon (quarterstaff), rare (requires attunement by a monk)",
+    "attune": {
+      "text": "(requires attunement by a monk)",
+      "by": "a monk"
+    },
+    "type": "Weapon (quarterstaff)",
+    "rarity": {
+      "text": "rare",
+      "rating": 2
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A stiletto formed from a rare pink amethyst and enchanted with starlight. Whenever you make an attack roll with this weapon that lets you add your proficiency bonus, you can treat a "
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " roll of 4 or lower as a 5."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Curse.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the item, keeping it within reach at all times. You also undergo the following effects:"
+      },
+      {
+        "text": "When you roll a 1 on a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " as the result of an attack roll with this weapon, you gain a level of exhaustion. Any levels of exhaustion eternum imparts on you are only felt while the dagger is unsheathed and held by you, and are lifted on a long rest."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Will.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item searches for a wielder that severs the lifeforce of those who circumvent death. It tends towards true neutral alignments."
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Advancements.",
+        "bld": true,
+        "itl": true
+      },
+      {
+        "text": " This item grows with its wielder, and awaits advancing to the stages below. Should the wielder accomplish a great deed in accordance with the item's will, or require its additional powers to accomplish such a deed, the item will respond and immediately advance to its next stage, keeping all properties of previous stages. Such advancements are additional properties of the item for that wielder alone, and significant disuse or acting contrary to the item's will may revert advancements."
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 1 (minimum 5th level).",
+        "itl": true
+      },
+      {
+        "text": "You gain a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+1",
+        "bonus": true
+      },
+      {
+        "text": " bonus to attack and damage rolls made with this weapon. You now treat a "
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " attack roll of 5 or lower as a 6. A creature slain by eternum that would rejuvenate takes four times as long to do so."
+      },
+      {
+        "text": "Eternum detects those who pervert life. While wielding eternum, you know the location of any undead within 30 feet of you that isn't behind total cover.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 2 (minimum 10th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+2.",
+        "bonus": true
+      },
+      {
+        "text": " You now treat a "
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " attack roll of 6 or lower as a 7. A creature slain by eternum that would rejuvenate takes ten times as long to do so."
+      },
+      {
+        "text": "Eternum takes a toll on those who extend life. A creature that regenerates hit points on its turn as part of a natural trait cannot do so for 1 hour after taking damage from eternum.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "___",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "",
+        "newline": true
+      },
+      {
+        "text": "Stage 3 (minimum 15th level).",
+        "itl": true
+      },
+      {
+        "text": "The weapon's bonus to attack and damage rolls increases to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "+3.",
+        "bonus": true
+      },
+      {
+        "text": " You now treat a "
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " attack roll of 7 or lower as an 8. A creature slain by eternum cannot rejuvenate."
+      },
+      {
+        "text": "Eternum sees those who hide from death. While wielding eternum, you gain truesight out to 30 feet.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 11,
+    "lettercount": 2551,
+    "name": "Eternum",
+    "urlname": "eternum",
+    "subtext": "Simple weapon (dagger), artifact (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Simple weapon (dagger)",
+    "rarity": {
+      "text": "artifact",
+      "rating": 5
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "An ordinary looking wand that glows with candlelight when held. While holding it, you can touch its tip to a different magic item as action. When you do, if the other magic item has charges, it regains half of its expended charges, rounded down. Afterwards, roll a "
+      },
+      {
+        "text": "d6",
+        "dice": true
+      },
+      {
+        "text": ". On a 1, the wand crumbles into ashes and is destroyed."
+      },
+      {
+        "text": "This property of the wand cannot be used again until dawn, and until then the wand no longer glows when held.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "The wand can also be broken as an action which releases its essence, rendering the wand inert. If you break the wand, choose a spellcaster within 5 feet for the essence to amplify. That spellcaster regains half of their spell slots up to ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "1d6th",
+        "dice": true
+      },
+      {
+        "text": " level, rounded down."
+      }
+    ],
+    "sectioncount": 3,
+    "lettercount": 740,
+    "name": "Wand of Charging",
+    "urlname": "wand_of_charging",
+    "subtext": "Wand, very rare",
+    "type": "Wand",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "A fate bending coin. Whenever you make an attack roll, an ability check, or a saving throw, or when an attack roll is made against you, you may flip a coin. On a heads, you can force advantage or disadvantage on the "
+      },
+      {
+        "text": "d20",
+        "dice": true
+      },
+      {
+        "text": " roll. Once you've used this property, it can't be used again until you place a coin into a well or fountain while attuned to the penny."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 420,
+    "name": "Lucky Penny",
+    "urlname": "lucky_penny",
+    "subtext": "Wondrous item, uncommon (requires attunement)",
+    "attune": {
+      "text": "(requires attunement)"
+    },
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "uncommon",
+      "rating": 1
+    }
+  },
+  {
+    "effects": [
+      {
+        "text": "This drawstring bag superficially resembles a bag of holding but instead looks red and fleshy and leads to the rancid belly of a massive demon. It has all the properties of a bag of holding, with the following changes."
+      },
+      {
+        "text": "The space inside is a 10 foot cube. The bag can hold that volume of or a total of 2000 pounds. The inside of the bag is not considered extradimensional, though its outside size and shape never changes.",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "Animal or vegetable matter placed wholly in the bag is instantly digested and lost forever. When part of a creature is placed in the bag, as happens when someone reaches inside, it must make a ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 15",
+        "dc": true
+      },
+      {
+        "text": " Strength saving throw or be pulled inside the bag. The bag can be calmed with a "
+      },
+      {
+        "text": "DC 10",
+        "dc": true
+      },
+      {
+        "text": " Wisdom (Animal Handling) check as part of the action to reach inside. On a success, the bag does not try to pull the creature within."
+      },
+      {
+        "text": "A creature inside the bag can use its action to try to escape with a successful ",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "DC 15",
+        "dc": true
+      },
+      {
+        "text": " Strength check. A creature outside the bag can use its action to give advantage to a creature's next attempt to escape. A creature that starts its turn inside the bag takes 10 ("
+      },
+      {
+        "text": "3d6",
+        "dice": true
+      },
+      {
+        "text": ") poison damage and begins suffocating. A living creature that dies while inside the bag is devoured, its body destroyed."
+      },
+      {
+        "text": "The bag cannot be ruptured, pierced or torn. The bag cannot be turned inside out by means other than the following, which have a 50 percent chance of forcing the bag to turn itself inside out:",
+        "newline": true,
+        "paragraph": true
+      },
+      {
+        "text": "- The contents change to exceed the capacity.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The bag takes 30 damage or more in one turn.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The bag takes 10 radiant damage or more in one turn.",
+        "newline": true,
+        "list": true
+      },
+      {
+        "text": "- The bag devours a flask of holy water (100% chance).",
+        "newline": true,
+        "list": true
+      }
+    ],
+    "sectioncount": 5,
+    "lettercount": 1675,
+    "name": "Bag of Gluttony",
+    "urlname": "bag_of_gluttony",
+    "subtext": "Wondrous item, very rare",
+    "type": "Wondrous item",
+    "rarity": {
+      "text": "very rare",
+      "rating": 3
+    }
   }
 ]
