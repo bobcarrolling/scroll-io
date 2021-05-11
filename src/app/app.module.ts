@@ -16,6 +16,7 @@ import { APP_BASE_HREF } from '@angular/common';
 import { SpellsComponent } from './spells/spells.component';
 import { SpellsDisplayComponent } from './spells/spells-display/spells-display.component';
 import { RedirectComponent } from './redirect/redirect.component';
+import { NpcgenComponent } from './npcgen/npcgen.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
@@ -30,7 +31,8 @@ import { RedirectComponent } from './redirect/redirect.component';
     ItemsDisplayComponent,
     SpellsComponent,
     SpellsDisplayComponent,
-    RedirectComponent
+    RedirectComponent,
+    NpcgenComponent
   ],
   bootstrap: [AppComponent],
   providers: [AuthGuard, { provide: APP_BASE_HREF, useValue: '' }]

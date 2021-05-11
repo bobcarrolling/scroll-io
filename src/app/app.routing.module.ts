@@ -6,6 +6,7 @@ import { SpellsComponent } from './spells/spells.component';
 import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth.guard';
 import { RedirectComponent } from './redirect/redirect.component';
+import { NpcgenComponent } from './npcgen/npcgen.component';
 
 @NgModule({
   imports: [
@@ -41,6 +42,17 @@ import { RedirectComponent } from './redirect/redirect.component';
       {
         path: 'spells/:selected',
         component: SpellsComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'npcgen',
+        redirectTo: 'npcgen/',
+        pathMatch: 'full',
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'npcgen/:selected',
+        component: NpcgenComponent,
         canActivate: [AuthGuard]
       },
       {

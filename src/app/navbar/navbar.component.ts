@@ -9,19 +9,19 @@ import { Router } from "@angular/router";
 export class NavbarComponent implements OnInit {
   constructor(private router: Router) {}
 
-  pages = this.array("Home", "Creatures", "Items", "Spells");
+  pages = this.array("Home", "Creatures", "Items", "Spells", "NPC Gen");
 
   array<T extends any[]>(...v: T) {
     return v;
   }
 
   navigate(page: string) {
-    page = page.toLowerCase();
+    page = page.toLowerCase().replaceAll(" ", "");
     this.router.navigate(["/" + page]);
   }
 
   checkCurrent(page: string) {
-    if (this.router.url.indexOf("/" + page.toLowerCase()) === 0) {
+    if (this.router.url.indexOf("/" + page.toLowerCase().replaceAll(" ", "")) === 0) {
       return true;
     }
     return false;
