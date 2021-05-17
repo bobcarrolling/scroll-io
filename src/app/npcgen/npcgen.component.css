@@ -46,6 +46,11 @@ h4 {
   line-height: 1.2rem;
 }
 
+span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 button {
   cursor: pointer;
   margin-bottom: 1rem;
