@@ -3,6 +3,6 @@
 		<app-navbar *ngIf="localStorage.getItem('patreontoken') === '746865636f62626c657262617272656c' || window.location.href.indexOf('https://scroll-io.stackblitz.io') === 0"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet id="outlet" *ngIf="router.url === '/npcgen' || router.url === '/home' || router.url === '/redirect' || localStorage.getItem('patreontoken') === '746865636f62626c657262617272656c' || window.location.href.indexOf('https://scroll-io.stackblitz.io') === 0"></router-outlet>
+		<router-outlet id="outlet" *ngIf="router.url === '/home' || router.url === '/redirect' || localStorage.getItem('patreontoken') === '746865636f62626c657262617272656c' || window.location.href.indexOf('https://scroll-io.stackblitz.io') === 0"></router-outlet>
 	</div>
 </div>
