@@ -5,12 +5,12 @@
     </p>
     <h3>
       <span (click)="reroll('name.first')">{{pick.name.first}}</span>&nbsp;<span (click)="reroll('name.last')">{{pick.name.last}}</span>
-      ({{gender}})
+      (<span (click)="reroll('gender')">{{gender}}</span>)
     </h3>
     <h4>Appearance.</h4>
-    <p>A<ng-container *ngIf="vowel(pick.appearance.bodyshape)">(n)</ng-container>&nbsp;<span (click)="reroll('appearance.bodyshape')">{{pick.appearance.bodyshape}}</span>&nbsp;<span (click)="reroll('appearance.age')">{{pick.appearance.age}}</span>
+    <p>A<ng-container *ngIf="vowel(pick.appearance.bodyshape)">n</ng-container>&nbsp;<span (click)="reroll('appearance.bodyshape')">{{pick.appearance.bodyshape}}</span>&nbsp;<span (click)="reroll('appearance.age')">{{pick.appearance.age}}</span>
       {{genderNoun}} with <span (click)="reroll('appearance.hairstyle')">{{pick.appearance.hairstyle}}</span>&nbsp;<span (click)="reroll('appearance.hairlength')">{{pick.appearance.hairlength}}</span>&nbsp;<span (click)="reroll('appearance.haircolor')">{{pick.appearance.haircolor}}</span>
-      hair<span *ngIf="gender === 'male' && beardBoolean" (click)="reroll('appearance.beardstyle')">, a<ng-container *ngIf="vowel(pick.appearance.bodyshape)">(n)</ng-container> {{pick.appearance.beardstyle}} beard,</span>
+      hair<span *ngIf="gender === 'male' && beardBoolean" (click)="reroll('appearance.beardstyle')">, a<ng-container *ngIf="vowel(pick.appearance.beardstyle)">n</ng-container> {{pick.appearance.beardstyle}} beard,</span>
       and <span (click)="reroll('appearance.eyecolor')">{{pick.appearance.eyecolor}}</span> eyes.
     </p>
     <p>
@@ -18,17 +18,20 @@
       <span (click)="reroll('appearance.clothing')">{{pick.appearance.clothing}}</span>.
     </p>
     <h4>Backstory.</h4>
-    <p>
+    <i>coming soon!</i>
+    <!-- <p>
       Because they *cause, they now *effect.
-    </p>
+    </p> -->
     <h4>Character.</h4>
-    <p>
+    <i>coming soon!</i>
+    <!-- <p>
       *adjective. Agreeable to those who *agree. Biased against those who *bias.
-    </p>
+    </p> -->
     <h4>Dialect.</h4>
-    <p>
+    <i>coming soon!</i>
+    <!-- <p>
       *dialect.
-    </p>
+    </p> -->
 
 
 

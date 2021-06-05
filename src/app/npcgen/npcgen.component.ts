@@ -86,8 +86,7 @@ export class NpcgenComponent implements OnInit {
       s[0] === 'e' ||
       s[0] === 'i' ||
       s[0] === 'o' ||
-      s[0] === 'u' ||
-      s[0] === 'h'
+      s[0] === 'u' 
     );
   }
 
@@ -98,7 +97,7 @@ export class NpcgenComponent implements OnInit {
     return this.randL(arr);
   }
 
-  findVal(obj: any, path: string, separator = '.'): string[] {
+  findVal(obj: any, path: string, separator = '.'): any {
     var properties = Array.isArray(path) ? path : path.split(separator);
     return properties.reduce((prev, curr) => prev && prev[curr], obj);
   }
@@ -114,16 +113,29 @@ export class NpcgenComponent implements OnInit {
   }
 
   reroll(path: string) {
+    let original: string;
     if (path === 'name.first') {
-      this.pick.name.first = this.randL(this.list.name.first[this.gender]);
+      original = this.pick.name.first;
+      while (original === this.pick.name.first) {
+        this.pick.name.first = this.randL(this.list.name.first[this.gender]);
+      }
     } else if (path === 'appearance.clothing') {
-      this.pick.appearance.clothing = this.randL(
-        this.list.appearance.clothing[this.gender]
-      );
+      original = this.pick.appearance.clothing;
+      while (original === this.pick.appearance.clothing) {
+        this.pick.appearance.clothing = this.randL(
+          this.list.appearance.clothing[this.gender]
+        );
+      }
     } else if (path === 'gender') {
-      this.setGender();
+      original = this.gender;
+      while (original === this.gender) {
+        this.setGender();
+      }
     } else {
-      this.setVal(this.pick, path, this.randL(this.findVal(this.list, path)));
+      original = this.findVal(this.pick, path);
+      while (original === this.findVal(this.pick, path)) {
+        this.setVal(this.pick, path, this.randL(this.findVal(this.list, path)));
+      }
     }
   }
 }
