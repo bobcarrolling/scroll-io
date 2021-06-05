@@ -48,12 +48,12 @@ import { NpcgenComponent } from './npcgen/npcgen.component';
         path: 'npcgen',
         redirectTo: 'npcgen/',
         pathMatch: 'full',
-        // canActivate: [AuthGuard]
+        canActivate: [AuthGuard]
       },
       {
         path: 'npcgen/:selected',
         component: NpcgenComponent,
-        // canActivate: [AuthGuard]
+        canActivate: [AuthGuard]
       },
       {
         path: 'redirect',
