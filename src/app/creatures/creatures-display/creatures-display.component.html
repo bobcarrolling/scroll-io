@@ -280,6 +280,7 @@
                 </ng-template>
             </div>
             <div class="flexcol resist-text">
+                <div *ngIf="creature.skills"><strong>Skills </strong><span *ngFor="let skill of creature.skills; let i = index">{{skill.name}} <span class="udl highlight point" (click)="toRoll(skill.bonus.toString())">{{skill.bonus}}</span><span *ngIf="i !== creature.skills.length-1" style="margin-left: 0.1rem">, </span></span></div>
                 <div *ngIf="creature.vuln"><strong>Damage Vulnerabilities </strong>{{creature.vuln}}</div>
                 <div *ngIf="creature.resist"><strong>Damage Resistances </strong>{{creature.resist}}</div>
                 <div *ngIf="creature.immune"><strong>Damage Immunities </strong>{{creature.immune}}</div>
