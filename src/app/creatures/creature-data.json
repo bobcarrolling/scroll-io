@@ -6196,7 +6196,7 @@
         "name": "Colossus.",
         "effect": [
           {
-            "text": "The cetasaurus occupies a 20 foot sided cubic area, as well as four 10 foot sided cubic spaces that follow behind it in a trail as it moves. Its head is always in the largest area at the front, and its tail is at the rear.  "
+            "text": "The cetasaurus occupies a 20 foot cube, as well as four 10 foot cubes that follow behind the head in a trail as it moves. Its head is always in the largest area at the front, and its tail is at the rear.  "
           }
         ]
       },
@@ -6240,7 +6240,7 @@
         ]
       }
     ],
-    "traitsize": 596,
+    "traitsize": 577,
     "actions": [
       {
         "name": "Ram.",
@@ -6319,14 +6319,14 @@
             "dc": true
           },
           {
-            "text": "), requiring no components. Creatures aboard the cetasaurus count as objects it can carry, and all objects aboard the cetasaurus take half damage from this effect. The spell also deals an additional 33 ("
+            "text": "), requiring no components. The spell also deals an additional 33 ("
           },
           {
             "text": "6d10",
             "dice": true
           },
           {
-            "text": ") force damage.  "
+            "text": ") force damage. Creatures aboard the cetasaurus count as objects it can carry, and all objects aboard the cetasaurus take half damage from this effect.  "
           }
         ],
         "recharge": "5–6"
@@ -6353,7 +6353,7 @@
           ]
         },
         {
-          "name": "Steaming Spout (Costs 3 Actions).",
+          "name": "Recharge 5–6) ",
           "effect": [
             {
               "text": "The cetasaurus releases burning hot steam from its dorsal spout. It does so as though it innately cast "
@@ -6384,12 +6384,36 @@
               "dice": true
             },
             {
-              "text": ") poison damage on a failed save, or half as much on a successful one. The cetasaurus can then move up to half its flying speed and make Dexterity (Stealth) check to hide."
+              "text": ") poison damage on a failed save, or half as much on a successful one. The cetasaurus can then move until it is fully outside of the fog cloud and make a Dexterity (Stealth) check with advantage to hide."
             }
-          ]
+          ],
+          "recharge": "3 Actions"
         }
       ]
-    }
+    },
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Galactic Wonders.",
+        "desc": [
+          "Phlux sailors tell of a rare beast like no other, appearing only for moments in misty multicolor fog, then vanishing below the cosmic tide. Though frequently thought to be mythic, astral cetasaurs are no work of fiction. They are proof that there are worlds beneath the realms that defy imagination.",
+          "Cetasaurs have an appearance much like whales, but even the smallest cetasaur is twice as large as a sizeable terrestrial whale. Their hide is almost glasslike, with both a transparent and reflective sheen. Between their folds of skin run fluorescent veins of mana plasmids, like neon highlights that streak across the voidscape. Their eyes sparkle with starlight, and their calls sound like the echoes of a distant choir."
+        ]
+      },
+      {
+        "name": "Seafaring Gift.",
+        "desc": [
+          "The appearance of a cetasaur can be taken as a blessing for most phlux sailors. Besides the awe and reverie they inspire, their size is so large that they carve their own streams in the phlux that can be ridden upon for safe and quick passage.",
+          "When killed, cetasaurs disperse back into the phlux from whence they were born, so hunters are usually dissuaded from poaching for rewards. Unfortunately, less savory characters of the psionrealms have turned cetasaur hunting into a sport. Cetasaurs have many defense mechanisms that are seen as a challenge for pirates on the psion seas. Almost none have successfully slain a cetasaur, but the act of poaching provokes pirates to join in the fight - weapons used on a cetasaur become embedded in its hide, and the more lucrative the weapon lost, the more desirable the hunt becomes."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "Astral cetasaurs are incredibly passive, and may not attack unless sustaining considerable damage. In all encounters, a cetasaur's primary objective is to escape. It is not very fast for its size, so its methods to evade attackers are its abilities. Its rattling wail can give its aggressors pause by intimidating them. Its steaming spout can burn off anyone hitching a ride and allow the cetasaur to hide with obscurement. Most important is the cetasuar's astral breaching. Within the phlux, this is the cetasaur's mode of transit from psionrealm to psionrealm. By twisting the mana within and around itself, it can propel itself far away with a single teleporting leap. If the cetasaur finds itself bound by restraints, it has an extra legendary action it can use to buck off anything grappling it or holding it still. This characterizes its immense strength and ability to twist and roll away from attackers."
+        ]
+      }
+    ]
   },
   {
     "name": "Honor",
@@ -14104,8 +14128,34 @@
     "showinfo": false,
     "info": [
       {
-        "name": "",
-        "desc": "\n\n\n\nDemonic Giant ancestor.\n\n\n\n"
+        "name": "Ancestor of Giants.",
+        "desc": [
+          "Giants believe they are descended from their gods and their demigod offspring. However, a certain theory among arcanists has raised questions as to the origins of giants. The anaqim, a small race of giants that dwell in the necrorealms, have been proven to exist before most material realms even formed. Are the anaqim an early strain of giantkin, or are they a mutated cousin? Perhaps even they are demigods unto themselves, fallen from grace into the depths below the phlux.",
+          "Anaqim stand shorter than most true giants at about 20 feet tall, but almost equally wide. Their scrunched, stout physique resembles a hairless dwarf. Their skin is a dimpled pattern of dark gravely skin, like a jagged rock fallen from a volcano."
+        ]
+      },
+      {
+        "name": "Gemstone Crust.",
+        "desc": [
+          "True giants are adapted to a single element from their ancestry. Anaqim seem to be made from a substance beyond normal flesh that exceeds the true giants' capabilities. When taking damage from magic of any type, their skin grows hard with crystal that corresponds to the color and damage of that magic. Further abuse from that damage simply coats the anaqim in more crystals until nothing original remains. If left alone, the gems quickly fall away and dissolve into dusty granite along the ground."
+        ]
+      },
+      {
+        "name": "Seekers of Solitude.",
+        "desc": [
+          "Anaqim abhor social interaction and quickly grow impatient and aggressive when engaged in conversation. They can only be found in the harshest of environments where they seek soundless peace to meditate alone. What they desire from their seclusion, or what they wish to avoid by undertaking it is not known, as any who have asked an anaqim for more than a few words are hastily turned into pulp.",
+          "Anaqim do not need to eat, sleep, or breathe. As such, some examples of places they can be found include:",
+          "- sunk to the bottom of a lake of lava",
+          "- within a steam vent deep underwater",
+          "- occupying an asteroid as its domain in the voidscape",
+          "- the highest peak of a floating mountain"
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "Anaqim are unafraid of anything. Anything that it can't kill, the environment around it will. They will charge heedless into battle to rid themselves of annoyances as quickly as possible. By grasping first then slamming, an anaqim can make quick work of a single target, or by tossing can try to kill two birds with one stone."
+        ]
       }
     ]
   },
@@ -14511,7 +14561,7 @@
         "name": "Dive.",
         "effect": [
           {
-            "text": "If the worm flies at least 20 feet before reaching a surface, it can burrow up to 30 feet as it lands, moving through any Large or smaller creature's spaces as it does. If the worm makes a bite attack as it lands, the bite deals an extra 13 ("
+            "text": "If the worm flies at least 20 feet before reaching a surface, it can use its bonus action to burrow an additional 30 feet as it lands, moving through any Large or smaller creature's spaces as it does. If the worm makes a bite attack as it lands, the bite deals an extra 13 ("
           },
           {
             "text": "3d8",
@@ -14526,25 +14576,14 @@
         "name": "Launch.",
         "effect": [
           {
-            "text": "If the worm burrows at least 20 feet before reaching air, it can jump 30 feet vertically as it erupts, moving through any Large or smaller creature's spaces as it does. Each creature within the worm's space as it erupts must make a "
+            "text": "If the worm burrows at least 20 feet before reaching air, it can use its bonus action to jump an additional 30 feet vertically as it erupts, moving through any Large or smaller creature's spaces as it does. Each creature within the worm's space as it erupts must make a "
           },
           {
             "text": "DC 18",
             "dc": true
           },
           {
-            "text": " Dexterity saving throw. On a failed save, a creature takes 14 ("
-          },
-          {
-            "text": "4d6",
-            "dice": true
-          },
-          {
-            "text": ") bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and stays standing.  "
-          },
-          {
-            "text": "If the worm makes a bite attack as it erupts and the attack misses, the target is instead thrown upwards and sideways in a random direction as many feet as the worm jumps.  ",
-            "newline": true
+            "text": " Dexterity saving throw. On a failed save, a creature is thrown upwards and sideways in a random direction as many feet as the worm jumps, falling prone and taking normal falling damage.  "
           }
         ]
       },
@@ -14557,7 +14596,7 @@
         ]
       }
     ],
-    "traitsize": 1028,
+    "traitsize": 921,
     "actions": [
       {
         "name": "Bite.",
@@ -14608,7 +14647,7 @@
             "text": ") acid damage at the start of each of the worm's turns.  "
           },
           {
-            "text": "If the worm takes 20 damage or more on a single turn from a creature inside it, the worm must succeed on a ",
+            "text": "If the worm takes 25 damage or more on a single turn from a creature inside it, the worm must succeed on a ",
             "newline": true
           },
           {
@@ -14625,8 +14664,23 @@
     "showinfo": false,
     "info": [
       {
-        "name": "",
-        "desc": "\n\n\n\nAlso known as a \"jumping worm\"\n\n\n\n"
+        "name": "Goliath Gliders.",
+        "desc": [
+          "Also known as the \"jumping worm\", the avian worm is a smaller more lithe version of its genetic neighbors. Avian worms can vary from 30 feet to 100 feet long with a scaly earthworm like appearance. Long, thin, and coated in lighter chitinous plates, avian worms tend to swell in areas of softer soil to accommodate their inferior tunneling ability. What they lack in power they make up for in mobility and physical aptitude.",
+          "The side scales of an avian worm look like they have strange hooked spines that lay flat alongside their exterior. When the worm builds up speed, it can propel itself into the air with its momentum. Like a flying snake, the spines fold outward to reveal membranous skin that keeps the worm aloft for just long enough that its silent aerial approach goes unnoticed by prey below."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "These worms use an undulating wave-like motion to engage in combat. Their dive and launch are both tied to bonus actions and cannot be used within the same turn, thus a typical round of combat for an avian worm is as such. On turn one, the worm burrows up from under the party and emerges, biting and swallowing one target and scattering the rest with its launch ability. It then ends its turn in the air, surveying where its prey has fallen. On turn two, it circles the air and crashes with its dive, dealing even more damage to whichever target it bites. It uses the additional movement granted by the dive to escape harm from above and closes itself into the earth once more to repeat its actions form turn one."
+        ]
+      },
+      {
+        "name": "Glide.",
+        "desc": [
+          "The avian worm has a fly speed where it glides. Gliding means a creature can fly, but it must end its turn at least 5 feet lower than where it began its flight, and cannot ascend during its flight."
+        ]
       }
     ]
   },
@@ -15500,7 +15554,7 @@
       "text": "Tiny",
       "value": 0
     },
-    "type": "construct",
+    "type": "elemental",
     "alignment": "lawful evil",
     "ac": "13 (natural armor)",
     "hp": "49 (14d4 + 28)",
@@ -15545,7 +15599,7 @@
     "immune": "fire, poison",
     "immunity": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft., passive Perception 13",
-    "languages": "the languages of its creator, usually Dwarvish",
+    "languages": "Primordial, the languages of its summoner, usually Dwarvish",
     "cr": {
       "text": "0",
       "value": 0
@@ -15555,7 +15609,7 @@
         "name": "Immutable Form.",
         "effect": [
           {
-            "text": "The aleph is immune to any spell or effect that would alter its form.  "
+            "text": "The aleph and its host are immune to any spell or effect that would alter their form.  "
           }
         ]
       },
@@ -15600,13 +15654,13 @@
         ]
       }
     ],
-    "traitsize": 967,
+    "traitsize": 983,
     "actions": [
       {
         "name": "Graft.",
         "effect": [
           {
-            "text": "The aleph melds into the body of a golem or other construct within 5 feet. While in its host body, the aleph has total cover against attacks and other effects from outside. If a grafted host is targeted by dispel magic or an area of antimagic, the aleph must succeed a Constitution saving throw against the caster's spell save DC or be forcibly removed and placed in an empty space within 5 feet. An aleph is similarly removed if its host dies.  "
+            "text": "The aleph melds into the body of a golem or other construct within 5 feet. While in its host body, the aleph has total cover against attacks and other effects from outside. If a grafted host is targeted by dispel magic or an area of antimagic, the aleph must succeed a Constitution saving throw against the caster's spell save DC or be forcibly removed and placed in an empty space within 5 feet. An aleph is similarly removed if its host dies, or if it chooses to leave as a bonus action.  "
           },
           {
             "text": "While grafted, a host gains the Intelligence, Wisdom, and Charisma scores of the aleph if they are higher than the host's, as well as its blindsight and languages. The aleph has total control over the host, which loses its own initiative and is instead controlled on the aleph's turn.  ",
@@ -15623,7 +15677,7 @@
         ]
       }
     ],
-    "actionsize": 929,
+    "actionsize": 974,
     "legendary": {
       "info": "The aleph can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The aleph regains spent legendary actions at the start of its turn.",
       "actions": [
@@ -15644,7 +15698,29 @@
           ]
         }
       ]
-    }
+    },
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Golem Spirits.",
+        "desc": [
+          "When an artificer desires its golem to behave autonomously, with adaptive thoughts and emotions, one solution to the equation is to introduce an aleph into the golem. Alephs are elemental trickster spirits that have the ability to possess and control mechanical constructs. Like placing a brain into a body, an aleph fully becomes its host in all respects. Many artificers have tried this method but miscalculated the power and guile of an aleph, falling victim to their own creation. Those that succeeded did so only by satisfying the whimsical desires of the aleph for as long as they could, then banished them back to the protorealms from whence they came.",
+          "Alephs appear as a simple, tiny humanoid figurine of semi-molten rock. Their only features come from little coals that burn for eyes and a small divot for a mouth. Their miniscule stature may give an innocent impression, but once grafted an aleph is anything but."
+        ]
+      },
+      {
+        "name": "Vexing Villains.",
+        "desc": [
+          "A particularly dastardly aleph can become a great recurring campaign villain. By grafting to progressively more powerful hosts, then setting up failsafes for escape in case of defeat, alephs can grow alongside the party in power and annoyance. Cunning alephs will sometimes set up one host as a battle drone, and another to jump into as an escape option. Only those wise enough to reveal their secret weaknesses stand a chance of destroying an aleph once and for all."
+        ]
+      },
+      {
+        "name": "Combat.",
+        "desc": [
+          "In battle, alephs bolster their host's capabilities by casting spells from within while attacking from without. Their own regeneration extends to the host, giving protection that both heals and harms. Its legendary actions push their host to their limit by increasing mobility and damage output. Alephs prefer to incapacitate spellcasters that may dispel their abilities with their hold person spell. That said, a more ruthless aleph, or one cornered out of desperation, may hold a melee fighter and clobber them with their host's vicious attacks."
+        ]
+      }
+    ]
   },
   {
     "name": "Criquette",
@@ -18345,7 +18421,16 @@
         ]
       }
     ],
-    "actionsize": 921
+    "actionsize": 921,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Immobilizing Killers.",
+        "desc": [
+          "Batcatcher spiders are visually similar to giant spiders, with a slightly more crablike appearance similar to a tick. They don't weave webs as traps, preferring to wait for flying prey to pass by. Their incredible eyesight can track small airborne creatures even at night, hence their name. When their prey comes close, they let loose a glob of sticky web tissue that wraps the target tight and binds them instantly. Before they can escape, the spider will inject its venom until the prey slows down, immobilizes, then perishes."
+        ]
+      }
+    ]
   },
   {
     "name": "Nessilochus",
@@ -23719,7 +23804,17 @@
         ]
       }
     ],
-    "actionsize": 109
+    "actionsize": 109,
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Mobile Practice Targets.",
+        "desc": [
+          "Artificers designed the animated training dummy with the sole intent of a cheaply fixed or replaced construct against which to test theirs and their allies' abilities. They can be outfitted with any equipment, gaining its properties as any humanoid creature would. Their simple design does not include legs. Their locomotion includes hopping and sliding to move along. The design choice is more than just a cost-saving measure. It also lends a killswitch that can be tripped, literally, should the dummy run amok, or a smug artificer try to raise an army of the half-witted warriors.",
+          "If a manual of creation can be obtained, it takes 12 hours to make an animated training dummy and costs 10 gold for raw materials. For an artificer or those proficient with carpenter's tools it takes half as long."
+        ]
+      }
+    ]
   },
   {
     "name": "Basilisk Tyrant",
@@ -23910,5 +24005,223 @@
         }
       ]
     }
+  },
+  {
+    "name": "House Mimic",
+    "urlname": "house_mimic",
+    "size": {
+      "text": "Gargantuan",
+      "value": 5
+    },
+    "type": "monstrosity (shapechanger, titan)",
+    "alignment": "neutral",
+    "ac": "14 (natural armor)",
+    "hp": "161 (14d8 + 98)",
+    "hpdice": "14d8 + 98",
+    "speed": "15 ft.",
+    "abilities": {
+      "str": {
+        "val": "20 (+5)",
+        "score": "20",
+        "bonus": "+5"
+      },
+      "dex": {
+        "val": "5 (-3)",
+        "score": "5",
+        "bonus": "-3"
+      },
+      "con": {
+        "val": "24 (+7)",
+        "score": "24",
+        "bonus": "+7"
+      },
+      "int": {
+        "val": "5 (-3)",
+        "score": "5",
+        "bonus": "-3"
+      },
+      "wis": {
+        "val": "13 (+1)",
+        "score": "13",
+        "bonus": "+1"
+      },
+      "cha": {
+        "val": "8 (-1)",
+        "score": "8",
+        "bonus": "-1"
+      },
+      "highest": "con"
+    },
+    "skills": [
+      {
+        "name": "Stealth",
+        "bonus": "+5"
+      }
+    ],
+    "immune": "acid",
+    "immunity": "prone",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "—",
+    "cr": {
+      "text": "11",
+      "value": 11
+    },
+    "traits": [
+      {
+        "name": "False Appearance.",
+        "effect": [
+          {
+            "text": "While the mimic remains motionless, it is indistinguishable from an abandoned home.  "
+          }
+        ]
+      },
+      {
+        "name": "Interior.",
+        "effect": [
+          {
+            "text": "A Large or smaller creature can enter the mimic's space and be carried along with it. Its interior consists of four 10 foot square rooms, each with one window (which leads outside) and two doors (which lead to adjacent rooms). A "
+          },
+          {
+            "text": "mimic",
+            "bld": true
+          },
+          {
+            "text": " resides in each of the rooms, which they cannot leave. If the house mimic wishes to keep a creature contained, exiting the room requires a "
+          },
+          {
+            "text": "DC 19",
+            "dc": true
+          },
+          {
+            "text": " Strength check. A creature cannot make this check while grappled.  "
+          },
+          {
+            "text": "The mimic takes the minimum possible rolled damage when damaged from their interior.  ",
+            "newline": true
+          }
+        ]
+      }
+    ],
+    "traitsize": 667,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The mimic makes two pseudopod attacks and one bite attack. It then uses either its gulp or its chuck.  "
+          }
+        ]
+      },
+      {
+        "name": "Pseudopod.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+9",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 15 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 11 ("
+          },
+          {
+            "text": "1d10 + 5",
+            "dice": true
+          },
+          {
+            "text": ") bludgeoning damage.  "
+          }
+        ]
+      },
+      {
+        "name": "Bite.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+9",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 11 ("
+          },
+          {
+            "text": "1d10 + 5",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage plus 9 ("
+          },
+          {
+            "text": "2d8",
+            "dice": true
+          },
+          {
+            "text": ") acid damage. The mimic cannot bite a creature within its interior.  "
+          }
+        ]
+      },
+      {
+        "name": "Gulp.",
+        "effect": [
+          {
+            "text": "All creatures hit by the mimic's pseudopod or bite attacks this turn are pulled within the mimic's interior and stored in rooms of its choice.  "
+          }
+        ]
+      },
+      {
+        "name": "Chuck (3/Day).",
+        "effect": [
+          {
+            "text": "The mimic throws "
+          },
+          {
+            "text": "1d4",
+            "dice": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "juvenile mimic ",
+            "bld": true
+          },
+          {
+            "text": "s (TCE p167) out its windows into unoccupied exterior spaces of its choice within 30 feet."
+          }
+        ]
+      }
+    ],
+    "actionsize": 746
   }
 ]
