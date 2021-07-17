@@ -116,6 +116,14 @@ export class SpellsComponent implements OnInit {
             document.title = "Scroll-io Spells: " + spell.name;
           });
         this.selected = spell;
+        setTimeout(() => {
+          document.getElementById("data-table").scrollTop =
+                document.getElementById(this.selected.urlname).getBoundingClientRect()
+                  .top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+        });
       }
       this.lastselected = undefined;
     }

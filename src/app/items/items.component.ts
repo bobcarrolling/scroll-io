@@ -112,6 +112,15 @@ export class ItemsComponent implements OnInit {
             document.title = "Scroll-io Items: " + item.name;
           });
         this.selected = item;
+        setTimeout(() => {
+          document.getElementById("data-table").scrollTop =
+                document.getElementById(this.selected.urlname).getBoundingClientRect()
+                  .top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+        })
+        
       }
       this.lastselected = undefined;
     }

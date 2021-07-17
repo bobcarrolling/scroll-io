@@ -50,7 +50,6 @@ export class CreaturesComponent implements OnInit {
               c => c.urlname === params.selected
             );
             if (i >= 0) {
-              //scrollIntoView is broken here
               document.getElementById("data-table").scrollTop =
                 document.getElementById(params.selected).getBoundingClientRect()
                   .top -
@@ -121,6 +120,14 @@ export class CreaturesComponent implements OnInit {
             document.title = "Scroll-io Creatures: " + creature.name;
           });
         this.selected = creature;
+        setTimeout(() => {
+          document.getElementById("data-table").scrollTop =
+                document.getElementById(this.selected.urlname).getBoundingClientRect()
+                  .top -
+                document
+                  .getElementById("table-interior")
+                  .getBoundingClientRect().top;
+        });
       }
       this.lastselected = undefined;
     }
