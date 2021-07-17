@@ -122,8 +122,11 @@
         "text": " piercing damage. If your target is unarmored or lightly armored, the piercing damage becomes "
       },
       {
-        "text": "1d12.",
+        "text": "1d12",
         "dice": true
+      },
+      {
+        "text": "."
       }
     ],
     "sectioncount": 1,
@@ -1108,11 +1111,11 @@
         "text": " to "
       },
       {
-        "text": "1d8.",
+        "text": "1d8",
         "dice": true
       },
       {
-        "text": " If you are within 1 mile of the spear, you may use a bonus action to teleport it to your hand."
+        "text": ". If you are within 1 mile of the spear, you may use a bonus action to teleport it to your hand."
       },
       {
         "text": "As you gain familiarity with it, the spear seems to have lodestone-like magnetic traits. The spear has the same properties as an Immovable Rod, using a command word which only you can speak instead of a button (no action required).",
@@ -1164,11 +1167,11 @@
         "text": " to "
       },
       {
-        "text": "1d12.",
+        "text": "1d12",
         "dice": true
       },
       {
-        "text": " If you are within 30 miles of the spear, you may use a bonus action to teleport it to your hand."
+        "text": ". If you are within 30 miles of the spear, you may use a bonus action to teleport it to your hand."
       },
       {
         "text": "The magnetism of the spear becomes great enough for you to control. While you are within 120 feet of the spear, you are considered to be under the effect of the spell ",
@@ -1428,11 +1431,11 @@
         "text": "A fabled dwarven pick that was responsible for slaying a great and evil dragon. As an action, you can make a Strength check with the pick against a creature within 5 feet, with a DC equal to the creature's Constitution score. This effect can only be successful once against a creature with light armor, twice against medium armor, and three times against heavy or natural armor. On a success, scalepeeler shears off a part of the target's armor. The creature incurs a -1 penalty to its AC and becomes exposed. When hitting an exposed creature with an attack roll, roll "
       },
       {
-        "text": "1d10.",
+        "text": "1d10",
         "dice": true
       },
       {
-        "text": " If the result is equal to or below the sum penalty amount to the creature's AC, the attack deals an extra die of damage."
+        "text": ". If the result is equal to or below the sum penalty amount to the creature's AC, the attack deals an extra die of damage."
       }
     ],
     "sectioncount": 1,
@@ -2178,11 +2181,11 @@
         "paragraph": true
       },
       {
-        "text": "1d10.",
+        "text": "1d10",
         "dice": true
       },
       {
-        "text": " On a 1, the stone cracks and loses its magical capabilities."
+        "text": ". On a 1, the stone cracks and loses its magical capabilities."
       }
     ],
     "sectioncount": 2,

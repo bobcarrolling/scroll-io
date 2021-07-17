@@ -59,20 +59,9 @@
 						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
 					</th>
 					<th class="column-header">
-						<select class="search-input" [(ngModel)]="classSearch" (ngModelChange)="this.searchUpdate.next()">
-              <option [ngValue]="undefined" hidden>Classes...</option>
-              <option value="">*Any Class</option>
-              <option value="Artificer">Artificer</option>
-              <option value="Bard">Bard</option>
-              <option value="Cleric">Cleric</option>
-              <option value="Druid">Druid</option>
-              <option value="Monk">Monk</option>
-              <option value="Paladin">Paladin</option>
-              <option value="Ranger">Ranger</option>
-              <option value="Sorcerer">Sorcerer</option>
-              <option value="Warlock">Warlock</option>
-              <option value="Wizard">Wizard</option>
-            </select>
+						
+						<input type="search" class="search-input" [(ngModel)]="classSearch" (ngModelChange)="this.searchUpdate.next()"
+              placeholder="Search by class...">
 						<span class="sort-arrow" [innerHTML]="icons[5]" (click)="sortClick(5)"></span>
 					</th>
 				</tr>

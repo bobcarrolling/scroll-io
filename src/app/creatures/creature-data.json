@@ -1735,8 +1735,18 @@
     "showinfo": false,
     "info": [
       {
-        "name": "",
-        "desc": "\n\n\n\nThe long-forgotten constructs of Gemfathom continue to execute their designated tasks endlessly. Danger persists within the mines, but no invention inspires as much fear in would-be adventurers as the Lightning Golem.\n\nBuilt to defend the tunnels from the threat of deep dwelling evils, the golems were soldiers, artillery, and transit all in one. The howdah on their back was meant as a means of escape and protection for fleeing dwarves. Their powerful arms would shock any monster into submission, while the beam that shot from their chest could melt through stone.\n\nNow abandoned, the golems have difficulty pinpointing friend from foe due to a lack of circuitry maintanence. Some creatures the golem was built to destroy have now inhabited the fortress carried on their back, turning them back into nigh-unstoppable war machines.\n\n\n\n"
+        "name": "Abandoned Automatons.",
+        "desc": [
+          "The long-forgotten constructs of Gemfathom continue to execute their designated tasks endlessly. Danger persists within the mines, but no invention inspires as much fear in would-be adventurers as the lightning golem.",
+          "Built to defend the tunnels from the threat of deep dwelling evils, the golems were soldiers, artillery, and transit all in one. The howdah on their back was meant as a means of escape and protection for fleeing dwarves. Their powerful arms would shock any monster into submission, while the beam that shot from their chest could melt through stone.",
+          "Now abandoned, the golems have difficulty pinpointing friend from foe due to a lack of circuitry maintenance. Some creatures the golem was built to destroy have now inhabited the fortress carried on their back, turning them back into nigh-unstoppable war machines."
+        ]
+      },
+      {
+        "name": "Variant: Golem Howdah.",
+        "desc": [
+          "The golem carries a compact fort on its back. Up to four Small creatures can ride in the fort without squeezing. To make a melee attack against a target within 5 feet of the golem, they must use spears or weapons with reach. Creatures in the fort have three-quarters cover against attacks and effects from outside it. If the golem dies, creatures in the fort are placed in unoccupied spaces within 5 feet of the golem. The howdah has 30 hp and AC 20 (from 1/2 cover)."
+        ]
       }
     ]
   },
@@ -4090,8 +4100,14 @@
     "showinfo": false,
     "info": [
       {
-        "name": "",
-        "desc": "\n\n\n\nFor use as a high-level questgiver, but also makes a great villain.\n\nThe armor of fate is less actual physical armor, and more of a means of describing the Clairvoyant's uncanny ability to predict attacks before they happen.\n\n\n\n"
+        "name": "Variant: True Clairvoyance.",
+        "desc": [
+          "Some clairvoyants can see a clearer picture of the future than others. Those that do have this additional trait:",
+          "True Clairvoyance. At the start of the clairvoyant's turn, all creatures within 600 feet must declare an exact procedure of what they wish to execute on their turn, which then becomes known to the clairvoyant. This must include the following:",
+          "- If they are moving, what target they are moving toward",
+          "- Any actions they will take and the target of those actions",
+          "At the beginning of a creature's turn, they can choose to make a DC 15 Intelligence saving throw. On a success, the creature can change their intended procedure on their turn. On a failure, the creature cannot change its procedure from what was stated on the clairvoyant's prior turn. A creature that disrupts its fate by disobeying its own intended procedure even after failing its saving throw provokes the ire of the clairvoyant, who may use its seal fate as a reaction on the disobedient creature."
+        ]
       }
     ]
   },
@@ -4547,7 +4563,19 @@
           ]
         }
       ]
-    }
+    },
+    "showinfo": false,
+    "info": [
+      {
+        "name": "Colossus.",
+        "desc": [
+          "The planetwalker occupies a 40 by 40 ft. area. It stretches into the space above, extending upwards to 160 ft. in height.",
+          "Smaller than Gargantuan creatures can move within the planetwalker's space. The planetwalker can be climbed by a creature, but its surface is considered difficult terrain. A creature climbing the planetwalker loses its grip and falls if pushed more than 5ft. in one round. All creatures climbing the planetwalker move along with it.",
+          "The planetwalker has three weak layers at certain elevations: its knees 50 ft. up, its chest 100 ft. up, and its head 150 ft. up. These layers can be targeted with melee attacks made by an attacker at their respective heights. Ranged attacks can be aimed at the layers from a distance, but when over 30 feet away the layers have three-quarters cover. The layers are unaffected by damage over an area.",
+          "Each weak layer has 75 hit points (separate from the planetwalker's hit points), and has no damage resistances. If all weak layers are reduced to 0 hit points, the planetwalker falls to 0 hit points and is destroyed."
+        ]
+      }
+    ]
   },
   {
     "name": "Fixator",
@@ -15717,7 +15745,8 @@
       {
         "name": "Combat.",
         "desc": [
-          "In battle, alephs bolster their host's capabilities by casting spells from within while attacking from without. Their own regeneration extends to the host, giving protection that both heals and harms. Its legendary actions push their host to their limit by increasing mobility and damage output. Alephs prefer to incapacitate spellcasters that may dispel their abilities with their hold person spell. That said, a more ruthless aleph, or one cornered out of desperation, may hold a melee fighter and clobber them with their host's vicious attacks."
+          "In battle, alephs bolster their host's capabilities by casting spells from within while attacking from without. Their own regeneration extends to the host, giving protection that both heals and harms. Its legendary actions push their host to their limit by increasing mobility and damage output. Alephs prefer to incapacitate spellcasters that may dispel their abilities with their hold person spell. That said, a more ruthless aleph, or one cornered out of desperation, may hold a melee fighter and clobber them with their host's vicious attacks.",
+          "Though an aleph alone has a challenge rating of zero since it cannot deal any damage, an aleph and its host together become a more powerful creature when melded into one. Consider a grafted aleph's challenge rating to be two or three levels greater than that of its host."
         ]
       }
     ]
