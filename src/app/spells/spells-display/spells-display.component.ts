@@ -82,4 +82,25 @@ export class SpellsDisplayComponent implements OnInit {
     }
     return true;
   }
+
+  getColorDegree(school: string): number {
+    switch(school.toLowerCase()) {
+      case 'abjuration':
+        return 170;
+      case 'conjuration':
+        return 120;
+      case 'divination':
+        return 80;
+      case 'enchantment':
+        return 250;
+      case 'evocation':
+        return 310;
+      case 'illusion':
+        return 200;
+      case 'necromancy':
+        return null;
+      case 'transmutation':
+        return 350;
+    }
+  }
 }

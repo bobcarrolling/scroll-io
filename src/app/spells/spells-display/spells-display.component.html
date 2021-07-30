@@ -2,12 +2,14 @@
 	<div class="column-container flexrow" [ngClass]="{'column-lg': !mobile, 'column-sm': mobile}">
 		<div class="column flexcol">
 			<div class="name-box">
+        <div style="float: right; filter: sepia(100) saturate(60) brightness(60%) hue-rotate({{getColorDegree(spell.school)}}deg)"><img style="filter: drop-shadow(0px 0px 4px white) brightness({{getColorDegree(spell.school) ? 1 : 0.55}}) invert({{getColorDegree(spell.school) ? 0 : 1}})" src="https://ciaccodavi.de/qbdp/acg/alchemymod.php?id={{spell.urlname + spell.lettercount}}" alt="{{spell.name}} magic circle">
+        </div>
 				<h1 class="flexrow namerow">
-                <span class="name" *ngFor="let c of splitName; let i = index" [ngClass]="{'name-word': isWord(c)}">
-                    {{c.toUpperCase()}}&nbsp;
-                    <span *ngIf="i < splitName.length-1" style="margin-right: 0.1rem;"></span>
-                </span>
-            </h1>
+          <span class="name" *ngFor="let c of splitName; let i = index" [ngClass]="{'name-word': isWord(c)}">
+              {{c.toUpperCase()}}&nbsp;
+              <span *ngIf="i < splitName.length-1" style="margin-right: 0.1rem;"></span>
+          </span>
+        </h1>
 				<p class="type" *ngIf="spell.level === 'cantrip'">
 					{{spell.school}} cantrip
 				</p>
