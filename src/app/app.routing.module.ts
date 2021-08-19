@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth.guard';
 import { RedirectComponent } from './redirect/redirect.component';
 import { NpcgenComponent } from './npcgen/npcgen.component';
+import { ClassesComponent } from './classes/classes.component';
+
 
 @NgModule({
   imports: [
@@ -53,6 +55,17 @@ import { NpcgenComponent } from './npcgen/npcgen.component';
       {
         path: 'npcgen/:selected',
         component: NpcgenComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'classes',
+        redirectTo: 'classes/',
+        pathMatch: 'full',
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'classes/:selected',
+        component: ClassesComponent,
         canActivate: [AuthGuard]
       },
       {

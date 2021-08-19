@@ -1,0 +1,70 @@
+.page-container {
+  display: flex;
+  height: calc(100% - 1.5rem);
+  justify-content: center;
+}
+
+.classes-page {
+  overflow-x: auto; /* if the display panel is up, turn off horizontal scroll */
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0.5rem;
+  scrollbar-width: thin;
+}
+
+.total-tables {
+  width: 100%;
+  height: 100%;
+}
+
+.header-table {
+  height: 3rem;
+  border-spacing: unset;
+}
+
+.column-header {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.data-table {
+  overflow-y: scroll;
+  box-sizing: border-box;
+  height: calc(100% - 3rem);
+  overflow-x: hidden;
+  scrollbar-width: thin;
+}
+
+.data-table table {
+  border-top: 2px dotted lightgray;
+  border-bottom: 2px dotted lightgray;
+  cursor: pointer;
+}
+
+.data-row {
+  background-image: none;
+}
+
+.data-table tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.data-table .has-subclass:nth-child(odd):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.data-table .has-subclass:nth-child(even):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18));
+}
+
+.data-table .no-subclass {
+  font-style: italic;
+  color: gray;
+}
+
+.data-interior {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
