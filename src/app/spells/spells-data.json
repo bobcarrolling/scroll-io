@@ -515,22 +515,22 @@
   {
     "effects": [
       {
-        "text": "You create a ward of rebounding energy to protect creatures against a spell. Any creatures you choose that you can see within range can add your spellcasting ability bonus to their first failed saving throw against the triggering spell, possibly causing a creature to succeed."
+        "text": "You create a ward of rebounding energy to protect creatures against a spell. Choose a number of creatures equal to the level this spell was cast at that you can see within range. They can add your spellcasting ability bonus to their failed saving throw against the triggering spell, possibly causing a creature to succeed."
       },
       {
-        "text": "Each time this effect causes a creature to succeed its saving throw against the triggering spell, the creature that cast it must make a spellcasting ability check against a DC equal to 8 + the level this spell was cast at. On a failure, the creature falls prone. If the creature fails its check by 5 or more, it ends its concentration on any spells it was casting.",
+        "text": "Each time this spell turns a saving throw failure into a success, the creature that cast the triggering spell must make a spellcasting ability check against your spell save DC. On a failure, the creature falls prone. If the creature fails its check by 5 or more, it ends its concentration on any spells it was casting.",
         "newline": true,
         "paragraph": true
       }
     ],
     "sectioncount": 2,
-    "lettercount": 932,
+    "lettercount": 930,
     "name": "Hedgespell",
     "urlname": "hedgespell",
     "level": "3rd-level",
     "levelnum": "3",
     "school": "abjuration",
-    "castingtime": "1 reaction, which you take when a creature you can see within 60 feet fails a saving throw against a spell",
+    "castingtime": "1 reaction, which you take when creatures you can see within 60 feet fail a saving throw against a spell",
     "range": "60 feet",
     "components": "V, S",
     "duration": "Instantaneous",
@@ -576,10 +576,15 @@
         "text": "- On a roll of 9-10, the creature is instead charmed by you for that turn.",
         "newline": true,
         "list": true
+      },
+      {
+        "text": "If you succeed your spellcasting ability check by 5 or more, the creature that cast the triggering spell is unaware of your interference in the spell's effects.",
+        "newline": true,
+        "paragraph": true
       }
     ],
-    "sectioncount": 1,
-    "lettercount": 837,
+    "sectioncount": 2,
+    "lettercount": 999,
     "name": "Addlespell",
     "urlname": "addlespell",
     "level": "3rd-level",
