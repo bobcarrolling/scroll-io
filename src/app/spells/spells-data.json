@@ -484,80 +484,6 @@
   {
     "effects": [
       {
-        "text": "You attempt to reflect back a portion destructive magic. Make an ability check using your spellcasting ability. The DC equals 8 + the triggering spell's level. On a success, roll a number of "
-      },
-      {
-        "text": "d8",
-        "dice": true
-      },
-      {
-        "text": " equal to 1 plus the level at which this spell was cast. The triggering spell's damage is reduced by the rolled amount. If the spell has multiple types or sources of damage, each type or source is reduced by that amount. This effect cannot reduce the damage of a spell past zero, nor can it cannot negate any other effects of a spell."
-      },
-      {
-        "text": "After reducing the spell, the creature that cast the triggering spell must make an Constitution saving throw against your spell save DC. The creature takes force damage equal to the reduced amount (the highest from one source) on a failed save, or half as much on a successful one.",
-        "newline": true,
-        "paragraph": true
-      }
-    ],
-    "sectioncount": 2,
-    "lettercount": 1080,
-    "name": "Turnspell",
-    "urlname": "turnspell",
-    "level": "3rd-level",
-    "levelnum": "3",
-    "school": "abjuration",
-    "castingtime": "1 reaction, which you take when a spell deals damage to a creature within 60 feet of you",
-    "range": "60 feet",
-    "components": "V, S",
-    "duration": "Instantaneous",
-    "classes": "Sorcerer, Warlock, Wizard"
-  },
-  {
-    "effects": [
-      {
-        "text": "You create a ward of rebounding energy to protect creatures against a spell. Choose a number of creatures equal to the level this spell was cast at that you can see within range. They can add your spellcasting ability bonus to their failed saving throw against the triggering spell, possibly causing a creature to succeed."
-      },
-      {
-        "text": "Each time this spell turns a saving throw failure into a success, the creature that cast the triggering spell must make a spellcasting ability check against your spell save DC. On a failure, the creature falls prone. If the creature fails its check by 5 or more, it ends its concentration on any spells it was casting.",
-        "newline": true,
-        "paragraph": true
-      }
-    ],
-    "sectioncount": 2,
-    "lettercount": 930,
-    "name": "Hedgespell",
-    "urlname": "hedgespell",
-    "level": "3rd-level",
-    "levelnum": "3",
-    "school": "abjuration",
-    "castingtime": "1 reaction, which you take when creatures you can see within 60 feet fail a saving throw against a spell",
-    "range": "60 feet",
-    "components": "V, S",
-    "duration": "Instantaneous",
-    "classes": "Sorcerer, Warlock, Wizard"
-  },
-  {
-    "effects": [
-      {
-        "text": "You attempt to halt a spellcaster by severing the magical tethers left behind by their spell. Choose a creature that was within range and you could see when it had cast its spell. It must succeed a spellcasting ability check against your spell save DC. On a failure, that creature cannot cast that spell again for a number of rounds equal to the level this spell was cast at. If the creature is concentrating on that spell, it has disadvantage on Constitution saving throws made to maintain concentration during those rounds. Additionally, if the triggering creature's spell teleported them away from their previous location, they are instantly teleported back to where they began casting the spell."
-      }
-    ],
-    "sectioncount": 1,
-    "lettercount": 985,
-    "name": "Severspell",
-    "urlname": "severspell",
-    "level": "3rd-level",
-    "levelnum": "3",
-    "school": "abjuration",
-    "castingtime": "1 reaction, which you take immediately after you have seen a creature within 60 feet of you cast a spell",
-    "range": "60 feet",
-    "components": "V, S",
-    "duration": "Instantaneous",
-    "classes": "Sorcerer, Warlock, Wizard"
-  },
-  {
-    "effects": [
-      {
         "text": "You disrupt the control that a spellcaster has over a creature. Make an ability check using your spellcasting ability, with a bonus equal to the level at which this spell was cast. The DC equals 8 + the triggering spell's level. On a success, for the duration of the triggering spell the charmed or summoned creature is also under the effect of the spell "
       },
       {
@@ -578,19 +504,93 @@
         "list": true
       },
       {
-        "text": "If you succeed your spellcasting ability check by 5 or more, the creature that cast the triggering spell is unaware of your interference in the spell's effects.",
+        "text": "If you succeed your spellcasting ability check by 5 or more, the creature that cast the triggering spell is unaware of your interference in their spell's effects.",
         "newline": true,
         "paragraph": true
       }
     ],
     "sectioncount": 2,
-    "lettercount": 999,
+    "lettercount": 1000,
     "name": "Addlespell",
     "urlname": "addlespell",
     "level": "3rd-level",
     "levelnum": "3",
     "school": "abjuration",
     "castingtime": "1 reaction, which you take when a creature you can see within 60 feet is charmed or summoned by a spell",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You create a ward of rebounding energy to protect creatures against a spell. Choose a number of creatures equal to the level at which this spell was cast that you can see within range. They can add your spellcasting ability bonus to their failed saving throw against the triggering spell, possibly causing a creature to succeed."
+      },
+      {
+        "text": "Each time this spell turns a saving throw failure into a success, the creature that cast the triggering spell must make a spellcasting ability check against your spell save DC. On a failure, the creature falls prone. If the creature fails its check by 5 or more, it ends its concentration on any spells it was casting.",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 936,
+    "name": "Hedgespell",
+    "urlname": "hedgespell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take when creatures you can see within 60 feet fail a saving throw against a spell",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You attempt to reflect back a portion destructive magic. Roll a number of "
+      },
+      {
+        "text": "d4",
+        "dice": true
+      },
+      {
+        "text": " equal to 1 plus the level at which this spell was cast. The triggering spell's damage is reduced by the rolled amount. If the spell has multiple types or sources of damage, each type or source is reduced by that amount. This effect cannot reduce the damage of a spell past zero, nor can it negate any other effects of a spell."
+      },
+      {
+        "text": "After reducing the spell's damage, make a ranged spell attack against the creature that cast the triggering spell. On a hit, the creature takes force damage equal to half the reduced amount (the highest from one source).",
+        "newline": true,
+        "paragraph": true
+      }
+    ],
+    "sectioncount": 2,
+    "lettercount": 898,
+    "name": "Turnspell",
+    "urlname": "turnspell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take when a spell deals damage to creatures you can see within 60 feet",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "classes": "Sorcerer, Warlock, Wizard"
+  },
+  {
+    "effects": [
+      {
+        "text": "You attempt to interrupt a spellcaster by severing the magical tethers left behind by their spell. Choose a creature that you could see and was within range when it had cast its spell. It must succeed a spellcasting ability check against your spell save DC. On a failure, that creature cannot cast that spell again for a number of rounds equal to half the level this spell was cast at, rounded down. If the creature is concentrating on that spell, it has disadvantage on Constitution saving throws made to maintain concentration during those rounds. Additionally, if the triggering creature's spell teleported them away from their previous location, they are instantly teleported back to where they began casting the spell."
+      }
+    ],
+    "sectioncount": 1,
+    "lettercount": 1009,
+    "name": "Severspell",
+    "urlname": "severspell",
+    "level": "3rd-level",
+    "levelnum": "3",
+    "school": "abjuration",
+    "castingtime": "1 reaction, which you take immediately after you have seen a creature within 60 feet of you cast a spell",
     "range": "60 feet",
     "components": "V, S",
     "duration": "Instantaneous",
