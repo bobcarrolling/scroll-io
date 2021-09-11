@@ -24252,5 +24252,200 @@
       }
     ],
     "actionsize": 746
+  },
+  {
+    "name": "Zihveshi",
+    "urlname": "zihveshi",
+    "size": {
+      "text": "Large",
+      "value": 3
+    },
+    "type": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "16 (natural armor)",
+    "hp": "110 (13d10 + 39)",
+    "hpdice": "13d10 + 39",
+    "speed": "40 ft.",
+    "abilities": {
+      "str": {
+        "val": "18 (+4)",
+        "score": "18",
+        "bonus": "+4"
+      },
+      "dex": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "con": {
+        "val": "16 (+3)",
+        "score": "16",
+        "bonus": "+3"
+      },
+      "int": {
+        "val": "9 (-1)",
+        "score": "9",
+        "bonus": "-1"
+      },
+      "wis": {
+        "val": "13 (+1)",
+        "score": "13",
+        "bonus": "+1"
+      },
+      "cha": {
+        "val": "13 (+1)",
+        "score": "13",
+        "bonus": "+1"
+      },
+      "highest": "str"
+    },
+    "saves": {
+      "dex": "+6",
+      "con": "+6",
+      "wis": "+4"
+    },
+    "skills": [
+      {
+        "name": "Survival",
+        "bonus": "+7"
+      }
+    ],
+    "resist": "fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "immune": "cold, poison",
+    "immunity": "poisoned",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Abyssal, telepathy 120 ft.",
+    "cr": {
+      "text": "8",
+      "value": 8
+    },
+    "traits": [
+      {
+        "name": "Disappearance.",
+        "effect": [
+          {
+            "text": "If no creatures can see the zihveshi, it can use its reaction to become invisible until it attacks or until it chooses to become visible.  "
+          }
+        ]
+      },
+      {
+        "name": "Magic Resistance.",
+        "effect": [
+          {
+            "text": "The zihveshi has advantage on saving throws against spells and other magical effects.  "
+          }
+        ]
+      },
+      {
+        "name": "Ravenous Gaze.",
+        "effect": [
+          {
+            "text": "If a humanoid creature starts its turn within 40 feet of the zihveshi and the two of them can see each other, the zihveshi can force the creature to make a "
+          },
+          {
+            "text": "DC 14",
+            "dc": true
+          },
+          {
+            "text": " Wisdom saving throw if the zihveshi isn't incapacitated. On a failed save, the creature's Constitution score is decreased by 2 until the end of their next long rest. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the zihveshi until the start of its next turn, when it can avert its eyes again.  "
+          },
+          {
+            "text": "If this effect reduces a creature's Constitution score to 7 or less, that creature becomes cursed. While cursed, the creature undergoes the effects of the spell enemies abound when in dim light or darkness, and the creature's Constitution score remains reduced until after their next long rest after the curse is lifted. A creature that dies while cursed becomes a zihveshi at the next nightfall.  ",
+            "newline": true
+          }
+        ]
+      }
+    ],
+    "traitsize": 1238,
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "effect": [
+          {
+            "text": "The zihveshi makes three melee attacks: one with its bite and two with its claws.  "
+          }
+        ]
+      },
+      {
+        "name": "Bite.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+7",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 9 ("
+          },
+          {
+            "text": "1d10 + 4",
+            "dice": true
+          },
+          {
+            "text": ") piercing damage. If the target is cursed by the zihveshi's ravenous gaze, the zihveshi regains hit points equal to half the amount of damage dealt, and the target's maximum hit points are reduced by the same amount.  "
+          }
+        ]
+      },
+      {
+        "name": "Claws.",
+        "effect": [
+          {
+            "text": ""
+          },
+          {
+            "text": "Melee Weapon Attack:",
+            "itl": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+7",
+            "bonus": true
+          },
+          {
+            "text": " to hit, reach 5 ft., one target. "
+          },
+          {
+            "text": "Hit:",
+            "itl": true
+          },
+          {
+            "text": " 8 ("
+          },
+          {
+            "text": "1d8 + 4",
+            "dice": true
+          },
+          {
+            "text": ") slashing damage plus 4 ("
+          },
+          {
+            "text": "1d8",
+            "dice": true
+          },
+          {
+            "text": ") cold damage."
+          }
+        ]
+      }
+    ],
+    "actionsize": 547
   }
 ]
