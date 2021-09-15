@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./classes.component.css']
 })
 export class ClassesComponent implements OnInit {
-  selected: any;
+  selectedClass: any;
+  selectedSubclass: any;
   classList: any = (classList as any).default;
 
   constructor() {}
@@ -20,17 +21,33 @@ export class ClassesComponent implements OnInit {
         'content',
         'Classes and subclasses for players in Dungeons and Dragons 5th Edition, all custom made by The Cobbler Barrel.'
       );
-  }
-
-  selectClass(clas: any) {
-    if (clas === this.selected) {
-      this.deselectItem();
-    } else {
-      this.selected = clas;
+    for (const c of this.classList) {
+      if (c.subclasses) {
+        for (const sc of c.subclasses) {
+          if (sc.name) {
+            this.selectedClass = c;
+            this.selectedSubclass = sc;
+            return;
+          }
+        }
+      }
     }
   }
 
-  deselectClass() {
-    this.selected = undefined;
+  selectClass(clas: any) {
+    if (clas.subclasses) {
+      if (clas !== this.selectedClass) {
+        this.selectedClass = clas;
+        this.selectedSubclass = undefined;
+      }
+    }
+  }
+
+  selectSublass(subclass: any) {
+    if (subclass.name) {
+      if (subclass !== this.selectedSubclass) {
+        this.selectedSubclass = subclass;
+      }
+    }
   }
 }

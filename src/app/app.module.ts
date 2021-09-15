@@ -18,6 +18,7 @@ import { SpellsDisplayComponent } from './spells/spells-display/spells-display.c
 import { RedirectComponent } from './redirect/redirect.component';
 import { NpcgenComponent } from './npcgen/npcgen.component';
 import { ClassesComponent } from './classes/classes.component';
+import { ClassesDisplayComponent } from './classes/classes-display/classes-display.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ClassesComponent } from './classes/classes.component';
     SpellsDisplayComponent,
     RedirectComponent,
     NpcgenComponent,
-    ClassesComponent
+    ClassesComponent,
+    ClassesDisplayComponent
   ],
   bootstrap: [AppComponent],
   providers: [AuthGuard, { provide: APP_BASE_HREF, useValue: '' }]
