@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
 export class NavbarComponent implements OnInit {
   constructor(private router: Router) {}
 
-  pages = this.array("Home", "Classes", "Creatures", "Items", "Spells", "NPC Gen");
+  pages = this.array("Home", "Creatures", "Items", "Spells", "NPC Gen"); //"Classes",
 
   array<T extends any[]>(...v: T) {
     return v;
