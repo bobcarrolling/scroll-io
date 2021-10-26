@@ -33,7 +33,7 @@
 .data-table {
   overflow-y: scroll;
   box-sizing: border-box;
-  height: 100%;
+  height: calc(100% - 1rem);
   overflow-x: hidden;
   scrollbar-width: thin;
   text-align: center;
@@ -50,9 +50,17 @@
 
 .subclass-row {
   border-top: 2px dotted lightgray;
+}
+
+.other-row {
   display: flex;
   justify-content: center;
   padding-top: 2px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
 }
 
 .data-button {
@@ -89,6 +97,8 @@
 .data-interior {
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
+  cursor: pointer;
+  user-select: none;
 }
 
 .class-container {
@@ -104,4 +114,19 @@
   overflow-wrap: anywhere;
 }
 
+.jump-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  font-size: 0.6rem;
+  margin: 0.3rem 0 0.1rem 0;
+  display: flex;
+  justify-content: center;
+}
 
+.jump-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+}

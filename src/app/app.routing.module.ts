@@ -53,16 +53,16 @@ import { ClassesComponent } from './classes/classes.component';
         component: NpcgenComponent,
         canActivate: [AuthGuard]
       },
-      // {
-      //   path: 'classes',
-      //   redirectTo: 'classes/',
-      //   pathMatch: 'full',
-      // },
-      // {
-      //   path: 'classes/:selected',
-      //   component: ClassesComponent,
-      //   canActivate: [AuthGuard]
-      // },
+      {
+        path: 'classes',
+        redirectTo: 'classes/',
+        pathMatch: 'full',
+      },
+      {
+        path: 'classes/:selected',
+        component: ClassesComponent,
+        canActivate: [AuthGuard]
+      },
       {
         path: 'redirect',
         component: RedirectComponent

@@ -5,8 +5,15 @@
         <table id="table-interior">
           <tr class="table-row">
             <ng-container *ngFor="let class of classList">
-              <td class="data-button" (click)="selectClass(class)"
-                [ngClass]="{'selected-button':selectedClass === class, 'no-subclass': !class.subclasses, 'has-subclass': class.subclasses}">
+              <td
+                class="data-button"
+                (click)="selectClass(class)"
+                [ngClass]="{
+                  'selected-button': selectedClass === class,
+                  'no-subclass': !class.subclasses,
+                  'has-subclass': class.subclasses
+                }"
+              >
                 <div class="data-interior name-data">{{ class.name }}</div>
                 <!-- <td class="data-interior">{{ item.type }}</td>
 							<td class="data-interior medium-data">{{ item.rarity.text }}</td>
@@ -16,11 +23,16 @@
               </td>
             </ng-container>
           </tr>
-          <div class="subclass-row" *ngIf="selectedClass">
+          <div class="subclass-row other-row" *ngIf="selectedClass">
             <tr class="table-row">
               <ng-container *ngFor="let subclass of selectedClass.subclasses">
-                <td class="data-button subclass-button" (click)="selectSublass(subclass)"
-                  [ngClass]="{'selected-button':selectedSubclass === subclass}">
+                <td
+                  class="data-button subclass-button"
+                  (click)="selectSublass(subclass)"
+                  [ngClass]="{
+                    'selected-button': selectedSubclass === subclass
+                  }"
+                >
                   <div class="data-interior name-data">{{ subclass.name }}</div>
                   <!-- <td class="data-interior">{{ item.type }}</td>
 							<td class="data-interior medium-data">{{ item.rarity.text }}</td>
@@ -31,11 +43,40 @@
               </ng-container>
             </tr>
           </div>
-           <div class="class-container" *ngIf="selectedClass && selectedSubclass">
-            <app-classes-display [C]="selectedClass" [SC]="selectedSubclass"></app-classes-display>
+          <div class="other-row" *ngIf="selectedClass">
+            <tr class="table-row checkbox-row">
+              <input type="checkbox" id="showintro" [(ngModel)]="showIntro" />
+              <label for="showintro" class="data-interior"
+                >Show Introduction</label
+              >
+            </tr>
+            <tr class="table-row checkbox-row">
+              <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
+              <label for="showprof" class="data-interior"
+                >Show Proficiencies</label
+              >
+            </tr>
+            <tr class="table-row checkbox-row">
+              <input type="checkbox" id="showtable" [(ngModel)]="showTable" />
+              <label for="showtable" class="data-interior"
+                >Show Class Table</label
+              >
+            </tr>
+          </div>
+          <div
+            class="class-container"
+            *ngIf="selectedClass && selectedSubclass"
+          >
+            <app-classes-display
+              [C]="selectedClass"
+              [SC]="selectedSubclass"
+            ></app-classes-display>
           </div>
         </table>
       </div>
+    </div>
+    <div class="jump-box">
+      <span class="jump-text" (click)="scroll()">Back To Top</span>
     </div>
   </div>
 </div>

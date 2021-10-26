@@ -10,6 +10,9 @@ export class ClassesComponent implements OnInit {
   selectedClass: any;
   selectedSubclass: any;
   classList: any = (classList as any).default;
+  showIntro: boolean = true;
+  showProf: boolean = true;
+  showTable: boolean = true;
 
   constructor() {}
 
@@ -49,5 +52,9 @@ export class ClassesComponent implements OnInit {
         this.selectedSubclass = subclass;
       }
     }
+  }
+
+  scroll() {
+    document.getElementById('data-table').scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
