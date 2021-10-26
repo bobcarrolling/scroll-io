@@ -1,44 +1,24 @@
 [
-  {
-    "name": "Barbarian"
-  },
-  {
-    "name": "Bard"
-  },
-  {
-    "name": "Cleric"
-  },
-  {
-    "name": "Druid"
-  },
-  {
-    "name": "Fighter"
-  },
-  {
-    "name": "Monk"
-  },
-  {
-    "name": "Paladin"
-  },
-  {
-    "name": "Ranger"
-  },
-  {
-    "name": "Rogue"
-  },
-  {
-    "name": "Sorcerer"
-  },
+  { "name": "Barbarian" },
+  { "name": "Bard" },
+  { "name": "Cleric" },
+  { "name": "Druid" },
+  { "name": "Fighter" },
+  { "name": "Monk" },
+  { "name": "Paladin" },
+  { "name": "Ranger" },
+  { "name": "Rogue" },
+  { "name": "Sorcerer" },
   {
     "name": "Summoner",
     "info": {
-      "prose": "",
+      "prose": "A chime of bones rings, and the rite of opening is spoken. The air sunders before the shaman, and out steps their accursed vassal from a void beyond. Its venomous eyes survey the crowd before turning to its master. The shaman speaks an infernal phrase, and the vassal goes forth on its path of execution.\n\nIn the midst of a hopeless battlefield of soldiers soon to be desolate, a solemn hymn is heard. A light shines from above, and the burning clouds of bloody mist split apart. The wings of an angel burst in brilliant holy light, and the hymn turns to a war cry as the valkyrie leads the charge.\n\nSparks streak along the damp cave floor like a burning fuse, lighting symbols and patterns interlinked in geometric convolution. The reflection of the blue flames lights up the many faces that stare back from the oppressive darkness. Claws and teeth strike at the figures protected within, but the magic circle holds firm and casts out the frenzied beasts.",
       "originname": "Magicians of the Covenant",
       "origin": "Summoners specialize in unwieldy magic made stable by ancient pacts. By calling upon words of promise, summoners bind the power of another to themselves for their own use or bring forth the bound entity to enact their will. Their specialization comes with many dangers, and so summoners do their utmost to prepare and protect.\n\nUnlike other charismatic compatriots who can persuade and deceive with sheer force of personality, summoners have no such option when making demands from forces of nature older than the world itself. Their words are chosen carefully to entrap others in skillful manipulation through logic and negotiation.\n\nWords are the strongest magic of the summoner, but even the most well-constructed phrases fail. Thus, summoners train in a second utility - the art of protective magics. Like clerics, summoners aid and bolster their allies in and out of combat with a mixture of holy arts, unholy magics, and utterly alien summons from realms unseen.",
       "behaviorname": "Sacrilegious Saviors",
       "behavior": "In bygone ages in civilizations abandoned by the gods, summoners were viewed as holy people who could enact miracles without the aid of the zionrealms. In some remote places, summoners are respected as sages and seers whose powers are divine intervention in the mortal world. In others, summoners are simple folk heroes with inexplicable powers.\n\nFor what theological governances would call \"the civilized world\", summoners are in active defiance of the gods. Their power comes not from devout worship and deserved blessings, but from immoral machinations that siphon away the life force of celestial beings. Many have been hanged for practicing summoning magic regardless of its sanctity for its simple likening to occult ceremonies. Summoners tread carefully when the church is near, as even their twisting words cannot parlay with zealotry.",
       "creationname": "Creating your Summoner",
-      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master.\n\n\n\n## Details\n\n#"
+      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master."
     },
     "details": {
       "hitpoints": {
@@ -555,9 +535,7 @@
           {
             "text": "- You can move your Aegis up to 20 feet as a bonus action."
           },
-          {
-            "text": "- You cannot be forcibly moved while within your Aegis."
-          },
+          { "text": "- You cannot be forcibly moved while within your Aegis." },
           {
             "text": "- When you would make a saving throw while standing in your Aegis, you may use your reaction to automatically succeed the saving throw."
           }
@@ -569,34 +547,13 @@
         "name": "Bond of the Diabolist",
         "text": "Diabolists consort with the devils of hell to achieve their ambitions. Devils are always eager to enter the mortal realms and reap the souls of the living, and a chance to have someone on the other side open the gates for them is a tempting offer. Their frightening guile is imparted to you, but so is their devious taint. Diabolists must be careful among their own summons, as their whispers can mislead the most well-intentioned masters into ruin.",
         "featuretable": [
-          [
-            "Level",
-            "Feature"
-          ],
-          [
-            ":---",
-            ":---:"
-          ],
-          [
-            "3rd",
-            "Summoning, Diabolist's Mark"
-          ],
-          [
-            "4th",
-            "Brightfire"
-          ],
-          [
-            "6th",
-            "Devil's Deal"
-          ],
-          [
-            "10th",
-            "Hellish Apparition"
-          ],
-          [
-            "14th",
-            "Devil's Servant"
-          ]
+          ["Level", "Feature"],
+          [":---", ":---:"],
+          ["3rd", "Summoning, Diabolist's Mark"],
+          ["4th", "Brightfire"],
+          ["6th", "Devil's Deal"],
+          ["10th", "Hellish Apparition"],
+          ["14th", "Devil's Servant"]
         ],
         "features": [
           {
@@ -625,50 +582,17 @@
                     },
                     {
                       "table": [
-                        [
-                          "Summon Level",
-                          "Devil"
-                        ],
-                        [
-                          ":---:",
-                          ":---"
-                        ],
-                        [
-                          "1st",
-                          "Nupperibo"
-                        ],
-                        [
-                          "2nd",
-                          "Imp"
-                        ],
-                        [
-                          "3rd",
-                          "Spined Devil"
-                        ],
-                        [
-                          "4th",
-                          "Bearded Devil"
-                        ],
-                        [
-                          "5th",
-                          "Barbed Devil"
-                        ],
-                        [
-                          "6th",
-                          "White Abishai"
-                        ],
-                        [
-                          "7th",
-                          "Black Abishai"
-                        ],
-                        [
-                          "8th",
-                          "Chain Devil"
-                        ],
-                        [
-                          "9th",
-                          "Bone Devil"
-                        ]
+                        ["Summon Level", "Devil"],
+                        [":---:", ":---"],
+                        ["1st", "Nupperibo"],
+                        ["2nd", "Imp"],
+                        ["3rd", "Spined Devil"],
+                        ["4th", "Bearded Devil"],
+                        ["5th", "Barbed Devil"],
+                        ["6th", "White Abishai"],
+                        ["7th", "Black Abishai"],
+                        ["8th", "Chain Devil"],
+                        ["9th", "Bone Devil"]
                       ]
                     }
                   ]
@@ -682,12 +606,8 @@
               {
                 "text": "As part of your hellish agreement, you are afforded the following benefits at 3rd level:"
               },
-              {
-                "text": "- You can speak, read, and write Infernal."
-              },
-              {
-                "text": "- Your Familial Summon can take the form of a Fynx."
-              }
+              { "text": "- You can speak, read, and write Infernal." },
+              { "text": "- Your Familial Summon can take the form of a Fynx." }
             ]
           },
           {
@@ -704,27 +624,19 @@
               {
                 "text": "The power extended to you can be lorded over others at 6th level. You can enter into written and signed contracts with willing, uncharmed subjects so long as you provide the following conditions:"
               },
-              {
-                "text": "- The contract terminates within 30 days."
-              },
+              { "text": "- The contract terminates within 30 days." },
               {
                 "text": "- The contract has a condition for completion, upon which it terminates."
               },
               {
                 "text": "- The contract has a condition for failure, upon which it terminates."
               },
-              {
-                "text": "- The contract must be plausible to carry out."
-              },
-              {
-                "text": "- The contract cannot incur self-harm."
-              },
+              { "text": "- The contract must be plausible to carry out." },
+              { "text": "- The contract cannot incur self-harm." },
               {
                 "text": "- The contract has failsafes that allow early termination in the event of unforeseen circumstances."
               },
-              {
-                "text": "- The contract remains unaltered."
-              },
+              { "text": "- The contract remains unaltered." },
               {
                 "text": "While the preceding conditions apply, the subject that signs the contract takes 1d10 psychic damage each time it acts in a way directly counter to the contract, but no more than once per minute. If the contract is failed or if the time period of the contract is reached without completion, the subject takes 10d10 psychic damage. You can only have one contract active at one time."
               }
@@ -752,34 +664,13 @@
         "name": "Bond of the Watcher",
         "text": "Monks speak of enlightenment by finding one's third eye. Watchers have found that enlightenment beyond Astralis but found it to be dark and unforgiving. The deeprealms convey frightening alien powers to the watchers that dull some of their senses while heightening others. They have an omnipresence that allows them to peer out of the natural world and touch the souls around them. As a watcher grows in power, it grows more distant from reality both physically and mentally, in what can only be described as a slow transformation into another being entirely.",
         "featuretable": [
-          [
-            "Level",
-            "Feature"
-          ],
-          [
-            ":---",
-            ":---:"
-          ],
-          [
-            "3rd",
-            "Summoning, Watcher's Mark"
-          ],
-          [
-            "4th",
-            "Still Vision"
-          ],
-          [
-            "6th",
-            "Despotism"
-          ],
-          [
-            "10th",
-            "Float Step"
-          ],
-          [
-            "14th",
-            "Optic Leap"
-          ]
+          ["Level", "Feature"],
+          [":---", ":---:"],
+          ["3rd", "Summoning, Watcher's Mark"],
+          ["4th", "Still Vision"],
+          ["6th", "Despotism"],
+          ["10th", "Float Step"],
+          ["14th", "Optic Leap"]
         ],
         "features": [
           {
@@ -811,50 +702,17 @@
                     },
                     {
                       "table": [
-                        [
-                          "Summon Level",
-                          "Spell (1/Summon each)"
-                        ],
-                        [
-                          ":---:",
-                          ":---"
-                        ],
-                        [
-                          "1st",
-                          "Catapult"
-                        ],
-                        [
-                          "2nd",
-                          "Cause Fear"
-                        ],
-                        [
-                          "3rd",
-                          "Scorching Ray"
-                        ],
-                        [
-                          "4th",
-                          "Hold Person"
-                        ],
-                        [
-                          "5th",
-                          "Lightning Bolt"
-                        ],
-                        [
-                          "6th",
-                          "Slow"
-                        ],
-                        [
-                          "7th",
-                          "Blight"
-                        ],
-                        [
-                          "8th",
-                          "Telekinesis"
-                        ],
-                        [
-                          "9th",
-                          "Disintegrate"
-                        ]
+                        ["Summon Level", "Spell (1/Summon each)"],
+                        [":---:", ":---"],
+                        ["1st", "Catapult"],
+                        ["2nd", "Cause Fear"],
+                        ["3rd", "Scorching Ray"],
+                        ["4th", "Hold Person"],
+                        ["5th", "Lightning Bolt"],
+                        ["6th", "Slow"],
+                        ["7th", "Blight"],
+                        ["8th", "Telekinesis"],
+                        ["9th", "Disintegrate"]
                       ]
                     }
                   ]
@@ -868,15 +726,11 @@
               {
                 "text": "As part of your autochthonic conquest, you are afforded the following benefits at 3rd level:"
               },
-              {
-                "text": "- You can speak, read, and write Deep Speech."
-              },
+              { "text": "- You can speak, read, and write Deep Speech." },
               {
                 "text": "- Your Familial Summon can take the form of a Gazer."
               },
-              {
-                "text": ""
-              }
+              { "text": "" }
             ]
           },
           {
@@ -917,34 +771,13 @@
         "name": "Bond of the Angel",
         "text": "The zionrealms only send angels, beings of absolute purity and righteousness, when the course of history needs heavenly correction. To form a bond with one means being a sincere and faithful servant of that angel's patron, much like clerics and paladins. However, the aid of an angel can be kept by those with the means to call upon them from on high. These summoners are either saintlike in their devotion or have undergone the greatest sacrilege to forcefully bind an angel to their command.",
         "featuretable": [
-          [
-            "Level",
-            "Feature"
-          ],
-          [
-            ":---",
-            ":---:"
-          ],
-          [
-            "3rd",
-            "Summoning, Angel's Mark"
-          ],
-          [
-            "4th",
-            "Moment of Prayer"
-          ],
-          [
-            "6th",
-            "Miraculous Healing"
-          ],
-          [
-            "10th",
-            "Pious Aura"
-          ],
-          [
-            "14th",
-            "Heavenly Stallion"
-          ]
+          ["Level", "Feature"],
+          [":---", ":---:"],
+          ["3rd", "Summoning, Angel's Mark"],
+          ["4th", "Moment of Prayer"],
+          ["6th", "Miraculous Healing"],
+          ["10th", "Pious Aura"],
+          ["14th", "Heavenly Stallion"]
         ],
         "features": [
           {
@@ -976,14 +809,8 @@
                     },
                     {
                       "table": [
-                        [
-                          "Summon Level",
-                          "Effects"
-                        ],
-                        [
-                          ":---:",
-                          ":---"
-                        ],
+                        ["Summon Level", "Effects"],
+                        [":---:", ":---"],
                         [
                           "1st",
                           "The angel's attacks deal an additional 1d8 radiant damage. It has resistance to radiant damage and immunity to the charmed, exhausted, frightened conditions."
@@ -1033,12 +860,8 @@
               {
                 "text": "As part of your heavenly connection, you are afforded the following benefits at 3rd level:"
               },
-              {
-                "text": "- You can speak, read, and write Celestial."
-              },
-              {
-                "text": "- Your Familial Summon can take the form of a Bulu."
-              }
+              { "text": "- You can speak, read, and write Celestial." },
+              { "text": "- Your Familial Summon can take the form of a Bulu." }
             ]
           },
           {
@@ -1085,34 +908,13 @@
         "name": "Bond of the Legion",
         "text": "The ability to command an army is rare. The ability to summon one is rarer still. The ability to do both is a crown worn only by summoners of the legion. Their military forces can take any form, from vicious beasts of the forest to undead skeletal fighters. To everyone around them, they are the perfect leader. But to bond with the legion takes its toll. Some summoners grow irritable with branching personas. Some waste away in reliance on their subjects. Most go mad with the power offered to them. To be one with the legion is to have the legion become one with you, in all its strengths and its burdens.",
         "featuretable": [
-          [
-            "Level",
-            "Feature"
-          ],
-          [
-            ":---",
-            ":---:"
-          ],
-          [
-            "3rd",
-            "Summoning, Legion's Servitor"
-          ],
-          [
-            "4th",
-            "Many Voices"
-          ],
-          [
-            "6th",
-            "Many Eyes"
-          ],
-          [
-            "10th",
-            "Many Hands"
-          ],
-          [
-            "14th",
-            "Many Weapons"
-          ]
+          ["Level", "Feature"],
+          [":---", ":---:"],
+          ["3rd", "Summoning, Legion's Servitor"],
+          ["4th", "Many Voices"],
+          ["6th", "Many Eyes"],
+          ["10th", "Many Hands"],
+          ["14th", "Many Weapons"]
         ],
         "features": [
           {
@@ -1144,14 +946,8 @@
                     },
                     {
                       "table": [
-                        [
-                          "Summon Level",
-                          "Effects"
-                        ],
-                        [
-                          ":---:",
-                          ":---"
-                        ],
+                        ["Summon Level", "Effects"],
+                        [":---:", ":---"],
                         [
                           "1st",
                           "A unit's space costs 2 feet of speed for every 1 foot of movement for creatures you designate."
@@ -1201,9 +997,7 @@
               {
                 "text": "As part of your military dominion your Familial Summon can take the form of a Commoner (MM p345). Their appearance is your choice but cannot vary except with providing clothing."
               },
-              {
-                "text": ""
-              }
+              { "text": "" }
             ]
           },
           {
@@ -1484,10 +1278,6 @@
       }
     ]
   },
-  {
-    "name": "Warlock"
-  },
-  {
-    "name": "Wizard"
-  }
+  { "name": "Warlock" },
+  { "name": "Wizard" }
 ]

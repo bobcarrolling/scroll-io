@@ -3,7 +3,7 @@
     <div class="total-tables">
       <div class="data-table" id="data-table">
         <table id="table-interior">
-          <tr class="table-row">
+          <tr class="table-row" id="classes-row">
             <ng-container *ngFor="let class of classList">
               <td
                 class="data-button"
@@ -23,7 +23,7 @@
               </td>
             </ng-container>
           </tr>
-          <div class="subclass-row other-row" *ngIf="selectedClass">
+          <div class="subclass-row other-row" id="subclasses-row" *ngIf="selectedClass">
             <tr class="table-row">
               <ng-container *ngFor="let subclass of selectedClass.subclasses">
                 <td
@@ -63,14 +63,21 @@
               >
             </tr>
           </div>
-          <div
-            class="class-container"
-            *ngIf="selectedClass && selectedSubclass"
-          >
-            <app-classes-display
-              [C]="selectedClass"
-              [SC]="selectedSubclass"
-            ></app-classes-display>
+          <div class="class-border">
+            <div
+              class="class-container"
+              *ngIf="selectedClass && selectedSubclass"
+            >
+              <div class="lighten-container">
+                <app-classes-display
+                  [C]="selectedClass"
+                  [SC]="selectedSubclass"
+                  [showIntro]="showIntro"
+                  [showProf]="showProf"
+                  [showTable]="showTable"
+                ></app-classes-display>
+              </div>
+            </div>
           </div>
         </table>
       </div>

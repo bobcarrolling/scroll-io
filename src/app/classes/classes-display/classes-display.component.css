@@ -1,0 +1,34 @@
+.content-box {
+  font-size: 0.79rem;
+}
+
+.namerow {
+  flex-wrap: wrap;
+  margin: 0.2rem 0;
+}
+.name {
+  font-family: Book Antiqua, Palatino, serif;
+  letter-spacing: -1px;
+  margin: 0.2rem 0 0.2rem 0;
+  line-height: 1;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.3rem;
+}
+h3 {
+  font-size: 1rem;
+  border-bottom: 2px solid rgba(0, 80, 30, 0.33);
+}
+.name-word::first-letter {
+  font-size: 125%;
+  line-height: 0.8rem;
+}
+
+
+p {
+  text-indent: 1rem;
+  padding: 0 0.5rem 0.15rem 0.5rem;
+}
