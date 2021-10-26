@@ -17,7 +17,6 @@ import { ClassesComponent } from './classes/classes.component';
         path: 'creatures',
         redirectTo: 'creatures/',
         pathMatch: 'full',
-        canActivate: [AuthGuard]
       },
       {
         path: 'creatures/:selected',
@@ -28,7 +27,6 @@ import { ClassesComponent } from './classes/classes.component';
         path: 'items',
         redirectTo: 'items/',
         pathMatch: 'full',
-        canActivate: [AuthGuard]
       },
       {
         path: 'items/:selected',
@@ -39,7 +37,6 @@ import { ClassesComponent } from './classes/classes.component';
         path: 'spells',
         redirectTo: 'spells/',
         pathMatch: 'full',
-        canActivate: [AuthGuard]
       },
       {
         path: 'spells/:selected',
@@ -50,7 +47,6 @@ import { ClassesComponent } from './classes/classes.component';
         path: 'npcgen',
         redirectTo: 'npcgen/',
         pathMatch: 'full',
-        canActivate: [AuthGuard]
       },
       {
         path: 'npcgen/:selected',
@@ -61,7 +57,6 @@ import { ClassesComponent } from './classes/classes.component';
       //   path: 'classes',
       //   redirectTo: 'classes/',
       //   pathMatch: 'full',
-      //   canActivate: [AuthGuard]
       // },
       // {
       //   path: 'classes/:selected',
