@@ -1,4 +1,4 @@
-<div class="navbar flex justify-center flex-wrap">
+<div class="navbar flex justify-center flex-wrap" [style.marginBottom]="(checkCurrent('Classes') ? 0 : 1) + 'rem'">
 	<a class="nav-block flex align-center border" *ngFor="let page of pages; let i = index" routerLinkActive="active"
 		[ngClass]="{'current': checkCurrent(page)}" (click)="navigate(page)">
 		{{page}}
