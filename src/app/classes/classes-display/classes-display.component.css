@@ -16,9 +16,11 @@ h1 {
   font-size: 1.6rem;
 }
 h2 {
+  padding-top: 0.5rem;
   font-size: 1.3rem;
 }
 h3 {
+  padding-top: 0.5rem;
   font-size: 1rem;
   border-bottom: 2px solid rgba(0, 80, 30, 0.33);
 }
@@ -27,8 +29,42 @@ h3 {
   line-height: 0.8rem;
 }
 
-
 p {
   text-indent: 1rem;
   padding: 0 0.5rem 0.15rem 0.5rem;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-right: -45rem;
+}
+tr:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+tr:first-child td span {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+td {
+  padding: 0.15rem 0.3rem;
+}
+td:first-child {
+  position: sticky;
+  left: 0;
+  background-image: linear-gradient(rgb(220, 225, 220), rgb(192, 197, 192));
+}
+/* td:first-child::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-right: 1px dotted rgba(0, 0, 0, 0.2);
+} */
+tr:first-child td:first-child {
+  border-radius: 0 10px 0 0;
 }

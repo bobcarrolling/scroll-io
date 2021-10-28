@@ -21,8 +21,8 @@ export class ClassesDisplayComponent implements OnInit {
   }
   set SC(value: any) {
     this._SC = value;
-    this.splitClassName = ('The ' + this.C.name + ' Class').split(" ");
-    this.splitSubclassName = ('Subclass: ' + this.SC.name).split(" ");
+    this.splitClassName = ('The ' + this.C.name + ' Class').split(' ');
+    this.splitSubclassName = ('Subclass: ' + this.SC.name).split(' ');
   }
 
   splitClassName: string[];
@@ -67,5 +67,9 @@ export class ClassesDisplayComponent implements OnInit {
       return false;
     }
     return true;
+  }
+
+  returnKeys(obj: Object): string[] {
+    return Object.keys(obj);
   }
 }

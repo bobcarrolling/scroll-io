@@ -1,65 +1,78 @@
 <ng-container *ngIf="C && SC">
   <div class="content-box">
+    <!-- NAME -->
     <h1 class="flexrow namerow">
       <span
         class="name name-word"
         *ngFor="let word of splitClassName; let i = index"
       >
         {{ word.toUpperCase() }}&nbsp;
-        <span
-          *ngIf="i < splitClassName.length - 1"
-          style="margin-right: 0.1rem;"
-        ></span>
+        <span style="margin-right: 0.1rem;"></span>
       </span>
     </h1>
+
+    <!-- INFO iterated -->
     <ng-container *ngIf="showIntro">
-    <p *ngFor="let p of C.info.prose.split('\n')" style="font-style: italic">{{ p }}</p>
-    <h3 class="flexrow namerow">
-      <span
-        class="name"
-        *ngFor="let word of C.info.originname.split(' '); let i = index"
-        [ngClass]="{ 'name-word': isWord(word) }"
-      >
-        {{ word.toUpperCase() }}&nbsp;
-        <span
-          *ngIf="i < C.info.originname.split(' ').length - 1"
-          style="margin-right: 0.1rem;"
-        ></span>
-      </span>
-    </h3>
-    <p *ngFor="let p of C.info.origin.split('\n')">{{ p }}</p>
-    <h3 class="flexrow namerow">
-      <span
-        class="name"
-        *ngFor="let word of C.info.behaviorname.split(' '); let i = index"
-        [ngClass]="{ 'name-word': isWord(word) }"
-      >
-        {{ word.toUpperCase() }}&nbsp;
-        <span
-          *ngIf="i < C.info.behaviorname.split(' ').length - 1"
-          style="margin-right: 0.1rem;"
-        ></span>
-      </span>
-    </h3>
-    <p *ngFor="let p of C.info.behavior.split('\n')">{{ p }}</p>
-    <h3 class="flexrow namerow">
-      <span
-        class="name"
-        *ngFor="let word of C.info.creationname.split(' '); let i = index"
-        [ngClass]="{ 'name-word': isWord(word) }"
-      >
-        {{ word.toUpperCase() }}&nbsp;
-        <span
-          *ngIf="i < C.info.creationname.split(' ').length - 1"
-          style="margin-right: 0.1rem;"
-        ></span>
-      </span>
-    </h3>
-    <p *ngFor="let p of C.info.creation.split('\n')">{{ p }}</p>
+      <ng-container *ngFor="let key of returnKeys(C.info)">
+        <ng-container *ngIf="key.indexOf('name') === -1">
+          <p
+            *ngFor="let p of C.info.prose.split('\n')"
+            [style.fontStyle]="key === 'prose' ? 'italic' : null"
+          >
+            {{ p }}
+          </p>
+        </ng-container>
+        <ng-container *ngIf="key.indexOf('name') > -1">
+          <h3 class="flexrow namerow">
+            <span
+              class="name"
+              *ngFor="let word of C.info[key].split(' '); let i = index"
+              [ngClass]="{ 'name-word': isWord(word) }"
+            >
+              {{ word.toUpperCase() }}&nbsp;
+              <span style="margin-right: 0.1rem;"></span>
+            </span>
+          </h3>
+        </ng-container>
+      </ng-container>
     </ng-container>
 
-
+    <!-- CLASS TABLE -->
     <h2 class="flexrow namerow">
+      <span
+        class="name name-word"
+        *ngFor="let word of (C.name + ' Table').split(' '); let i = index"
+      >
+        {{ word.toUpperCase() }}&nbsp;
+        <span style="margin-right: 0.1rem;"></span>
+      </span>
+    </h2>
+    <div style="overflow-x: auto">
+      <table *ngIf="showTable">
+        <tr *ngFor="let row of C.details.classtable; let i = index">
+          <ng-container *ngIf="i !== 1">
+            <td *ngFor="let content of row; let j = index">
+              <div
+                style="white-space: nowrap"
+                [style.textAlign]="j === 2 ? 'left' : 'center'"
+              >
+                <span *ngIf="i === 0">
+                  <span *ngFor="let word of content.split(' ')">
+                    <span>{{ word }}</span
+                    ><br />
+                  </span>
+                </span>
+                <span *ngIf="i !== 0">
+                  {{ content }}
+                </span>
+              </div>
+            </td>
+          </ng-container>
+        </tr>
+      </table>
+    </div>
+
+    <!-- <h2 class="flexrow namerow">
       <span
         class="name name-word"
         *ngFor="let word of splitSubclassName; let i = index"
@@ -70,6 +83,6 @@
           style="margin-right: 0.1rem;"
         ></span>
       </span>
-    </h2>
+    </h2> -->
   </div>
 </ng-container>

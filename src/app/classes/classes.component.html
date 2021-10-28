@@ -51,21 +51,22 @@
               >
             </tr>
             <tr class="table-row checkbox-row">
-              <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
-              <label for="showprof" class="data-interior"
-                >Show Proficiencies</label
-              >
-            </tr>
-            <tr class="table-row checkbox-row">
               <input type="checkbox" id="showtable" [(ngModel)]="showTable" />
               <label for="showtable" class="data-interior"
                 >Show Class Table</label
+              >
+            </tr>
+            <tr class="table-row checkbox-row">
+              <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
+              <label for="showprof" class="data-interior"
+                >Show Proficiencies</label
               >
             </tr>
           </div>
           <div class="class-border">
             <div
               class="class-container"
+              id="class-parent"
               *ngIf="selectedClass && selectedSubclass"
             >
               <div class="lighten-container">
