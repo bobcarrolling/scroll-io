@@ -38,39 +38,87 @@
     </ng-container>
 
     <!-- CLASS TABLE -->
-    <h2 class="flexrow namerow">
-      <span
-        class="name name-word"
-        *ngFor="let word of (C.name + ' Table').split(' '); let i = index"
-      >
-        {{ word.toUpperCase() }}&nbsp;
-        <span style="margin-right: 0.1rem;"></span>
-      </span>
-    </h2>
-    <div style="overflow-x: auto">
-      <table *ngIf="showTable">
-        <tr *ngFor="let row of C.details.classtable; let i = index">
-          <ng-container *ngIf="i !== 1">
-            <td *ngFor="let content of row; let j = index">
-              <div
-                style="white-space: nowrap"
-                [style.textAlign]="j === 2 ? 'left' : 'center'"
-              >
-                <span *ngIf="i === 0">
-                  <span *ngFor="let word of content.split(' ')">
-                    <span>{{ word }}</span
-                    ><br />
+    <ng-container *ngIf="showTable">
+      <h2 class="flexrow namerow" *ngIf="showIntro">
+        <span
+          class="name name-word"
+          *ngFor="let word of (C.name + ' Table').split(' '); let i = index"
+        >
+          {{ word.toUpperCase() }}&nbsp;
+          <span style="margin-right: 0.1rem;"></span>
+        </span>
+      </h2>
+      <div style="overflow-x: auto">
+        <table>
+          <tr *ngFor="let row of C.classtable; let i = index">
+            <ng-container *ngIf="i !== 1">
+              <td *ngFor="let content of row; let j = index">
+                <div
+                  style="white-space: nowrap"
+                  [style.textAlign]="j === 2 ? 'left' : 'center'"
+                >
+                  <span *ngIf="i === 0">
+                    <span *ngFor="let word of content.split(' ')">
+                      <span>{{ word }}</span
+                      ><br />
+                    </span>
                   </span>
-                </span>
-                <span *ngIf="i !== 0">
-                  {{ content }}
-                </span>
-              </div>
-            </td>
-          </ng-container>
-        </tr>
-      </table>
-    </div>
+                  <span *ngIf="i !== 0">
+                    {{ content }}
+                  </span>
+                </div>
+              </td>
+            </ng-container>
+          </tr>
+        </table>
+      </div>
+    </ng-container>
+
+    <!-- PROFICIENCIES iterated -->
+    <ng-container *ngIf="showProf">
+      <h2 class="flexrow namerow" *ngIf="showIntro || showTable">
+        <span class="name name-word"> DETAILS </span>
+      </h2>
+      <ng-container *ngFor="let title of returnKeys(C.details)">
+        <h4 class="name name-word">
+          {{ title.replaceAll('_', ' ') }}
+        </h4>
+        <div
+          *ngFor="let bullet of returnKeys(C.details[title])"
+          style="margin-left: 1rem"
+        >
+          <span *ngIf="bullet.indexOf('value') !== 0" style="font-weight: bold"
+            >{{ bullet.replaceAll('_', ' ') }}:</span
+          >
+          {{ C.details[title][bullet] }}
+          <br />
+        </div>
+      </ng-container>
+    </ng-container>
+
+    <ng-container *ngFor="let feature of C.features">
+      <h3 class="flexrow namerow" *ngIf="feature.name.indexOf('#') === -1">
+        <span
+          class="name"
+          *ngFor="let word of feature.name.split(' ')"
+          [ngClass]="{ 'name-word': isWord(word) }"
+        >
+          {{ word.toUpperCase() }}&nbsp;
+          <span style="margin-right: 0.1rem;"></span>
+        </span>
+      </h3>
+      <h4 class="name name-word" *ngIf="feature.name.indexOf('#') === 0">
+          {{ feature.name.replace('# ', '') }}
+      </h4>
+      <p
+        *ngFor="let p of feature.paragraphs"
+      >
+        <span *ngFor="let str of p.str" [style.fontWeight]="str.bld ? 'bold' : null"
+        [style.fontStyle]="str.itl ? 'italic' : null">
+          {{str.text}}
+        </span>
+      </p>
+    </ng-container>
 
     <!-- <h2 class="flexrow namerow">
       <span

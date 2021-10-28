@@ -21,391 +21,384 @@
       "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master."
     },
     "details": {
-      "hitpoints": {
-        "hitdice": "1d6 per summoner level",
-        "start": "6 + your Constitution modifier",
-        "higher": "1d6 (or 3) + your Constitution modifier per summoner level after 1st"
+      "Hit_Points": {
+        "Hit_Dice": "1d6 per summoner level",
+        "Hit_Points_at_1st_Level": "6 + your Constitution modifier",
+        "Hit_Points_at_Higher_Levels": "1d6 (or 3) + your Constitution modifier per summoner level after 1st"
       },
-      "proficiencies": {
-        "armor": "Light armor",
-        "weapons": "Simple weapons, hand crossbows, whips",
-        "tools": "Any one type of artisan's tools or any one musical instrument of your choice",
-        "savingthrows": "Intelligence, Wisdom",
-        "skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion",
-        "mcmin": "Intelligence 13",
-        "mcprof": "Light armor, simple weapons"
+      "Proficiencies": {
+        "Armor": "Light armor",
+        "Weapons": "Simple weapons, hand crossbows, whips",
+        "Tools": "Any one type of artisan's tools or any one musical instrument of your choice",
+        "Saving_Throws": "Intelligence, Wisdom",
+        "Skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion",
+        "Multiclass_Ability_Score_Minimum": "Intelligence 13",
+        "Multiclass_Proficiencies_Gained": "Light armor, simple weapons"
       },
-      "equipment": [
-        "(a) two simple weapons of your choice or (b) a whip",
-        "(a) a light crossbow and 20 bolts or (b) two daggers",
-        "(a) one set of artisan's tools of your choice or (b) one musical instrument of your choice",
-        "leather armor and a priest's pack"
-      ],
-      "quickbuild": "You can make a summoner quickly by using these suggestions. First, make Intelligence your highest ability score, followed by Constitution or Dexterity. Second, take the hermit background. Third, choose the Sign of Violence, along with the following 1st level spells: Bless, Cure Wounds, and Sanctuary.",
-      "classtable": [
-        [
-          "Level",
-          "Proficiency Bonus",
-          "Features",
-          "Signs Prepared",
-          "Spells Known",
-          "1st",
-          "2nd",
-          "3rd",
-          "4th",
-          "5th",
-          "6th",
-          "7th",
-          "8th",
-          "9th"
-        ],
-        [
-          ":---:",
-          ":---:",
-          ":---",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:",
-          ":---:"
-        ],
-        [
-          "1st",
-          "+2",
-          "Spellcasting and Signs, Familial Summon",
-          "1",
-          "3",
-          "2",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "2nd",
-          "+2",
-          "Paranormal Mindfulness",
-          "2",
-          "4",
-          "3",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "3rd",
-          "+2",
-          "Summoner Bond",
-          "2",
-          "5",
-          "4",
-          "2",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "4th",
-          "+2",
-          "Ability Score Improvement, Summoner Bond feature",
-          "3",
-          "5",
-          "4",
-          "3",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "5th",
-          "+3",
-          "Aegis (1/long rest)",
-          "3",
-          "6",
-          "4",
-          "3",
-          "2",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "6th",
-          "+3",
-          "Summoner Bond feature",
-          "3",
-          "6",
-          "4",
-          "3",
-          "3",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "7th",
-          "+3",
-          "Paranormal Communicator",
-          "3",
-          "7",
-          "4",
-          "3",
-          "3",
-          "1",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "8th",
-          "+3",
-          "Ability Score Improvement",
-          "3",
-          "7",
-          "4",
-          "3",
-          "3",
-          "2",
-          "—",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "9th",
-          "+4",
-          "—",
-          "4",
-          "8",
-          "4",
-          "3",
-          "3",
-          "3",
-          "1",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "10th",
-          "+4",
-          "Summoner Bond feature",
-          "4",
-          "8",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "—",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "11th",
-          "+4",
-          "Aegis (2/long rest)",
-          "4",
-          "9",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "12th",
-          "+4",
-          "Ability Score Improvement",
-          "4",
-          "9",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "—",
-          "—",
-          "—"
-        ],
-        [
-          "13th",
-          "+5",
-          "—",
-          "4",
-          "10",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "—",
-          "—"
-        ],
-        [
-          "14th",
-          "+5",
-          "Summoner Bond feature",
-          "4",
-          "10",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "—",
-          "—"
-        ],
-        [
-          "15th",
-          "+5",
-          "—",
-          "4",
-          "11",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "1",
-          "—"
-        ],
-        [
-          "16th",
-          "+5",
-          "Ability Score Improvement",
-          "4",
-          "11",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "1",
-          "—"
-        ],
-        [
-          "17th",
-          "+6",
-          "Aegis (3/long rest)",
-          "4",
-          "12",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "1",
-          "1"
-        ],
-        [
-          "18th",
-          "+6",
-          "Multisign Expert",
-          "4",
-          "12",
-          "4",
-          "3",
-          "3",
-          "3",
-          "3",
-          "1",
-          "1",
-          "1",
-          "1"
-        ],
-        [
-          "19th",
-          "+6",
-          "Ability Score Improvement",
-          "4",
-          "13",
-          "4",
-          "3",
-          "3",
-          "3",
-          "3",
-          "2",
-          "1",
-          "1",
-          "1"
-        ],
-        [
-          "20th",
-          "+6",
-          "Perfect Aegis",
-          "4",
-          "13",
-          "4",
-          "3",
-          "3",
-          "3",
-          "3",
-          "2",
-          "2",
-          "1",
-          "1"
-        ]
-      ]
+      "Starting_Equipment": {
+        "value0": "(a) two simple weapons of your choice or (b) a whip",
+        "value1": "(a) a light crossbow and 20 bolts or (b) two daggers",
+        "value2": "(a) one set of artisan's tools of your choice or (b) one musical instrument of your choice",
+        "value3": "leather armor and a priest's pack"
+      },
+      "Quick_Build": {
+        "value": "You can make a summoner quickly by using these suggestions. First, make Intelligence your highest ability score, followed by Constitution or Dexterity. Second, take the hermit background. Third, choose the Sign of Violence, along with the following 1st level spells: Bless, Cure Wounds, and Sanctuary."
+      }
     },
+    "classtable": [
+      [
+        "Level",
+        "Proficiency Bonus",
+        "Features",
+        "Signs Prepared",
+        "Spells Known",
+        "1st",
+        "2nd",
+        "3rd",
+        "4th",
+        "5th",
+        "6th",
+        "7th",
+        "8th",
+        "9th"
+      ],
+      [
+        ":---:",
+        ":---:",
+        ":---",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:",
+        ":---:"
+      ],
+      [
+        "1st",
+        "+2",
+        "Spellcasting and Signs, Familial Summon",
+        "1",
+        "3",
+        "2",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "2nd",
+        "+2",
+        "Paranormal Mindfulness",
+        "2",
+        "4",
+        "3",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "3rd",
+        "+2",
+        "Summoner Bond",
+        "2",
+        "5",
+        "4",
+        "2",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "4th",
+        "+2",
+        "Ability Score Improvement, Summoner Bond feature",
+        "3",
+        "5",
+        "4",
+        "3",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "5th",
+        "+3",
+        "Aegis (1/long rest)",
+        "3",
+        "6",
+        "4",
+        "3",
+        "2",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "6th",
+        "+3",
+        "Summoner Bond feature",
+        "3",
+        "6",
+        "4",
+        "3",
+        "3",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "7th",
+        "+3",
+        "Paranormal Communicator",
+        "3",
+        "7",
+        "4",
+        "3",
+        "3",
+        "1",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "8th",
+        "+3",
+        "Ability Score Improvement",
+        "3",
+        "7",
+        "4",
+        "3",
+        "3",
+        "2",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      ["9th", "+4", "—", "4", "8", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+      [
+        "10th",
+        "+4",
+        "Summoner Bond feature",
+        "4",
+        "8",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "11th",
+        "+4",
+        "Aegis (2/long rest)",
+        "4",
+        "9",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "12th",
+        "+4",
+        "Ability Score Improvement",
+        "4",
+        "9",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "—",
+        "—",
+        "—"
+      ],
+      [
+        "13th",
+        "+5",
+        "—",
+        "4",
+        "10",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "—",
+        "—"
+      ],
+      [
+        "14th",
+        "+5",
+        "Summoner Bond feature",
+        "4",
+        "10",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "—",
+        "—"
+      ],
+      [
+        "15th",
+        "+5",
+        "—",
+        "4",
+        "11",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "1",
+        "—"
+      ],
+      [
+        "16th",
+        "+5",
+        "Ability Score Improvement",
+        "4",
+        "11",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "1",
+        "—"
+      ],
+      [
+        "17th",
+        "+6",
+        "Aegis (3/long rest)",
+        "4",
+        "12",
+        "4",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "18th",
+        "+6",
+        "Multisign Expert",
+        "4",
+        "12",
+        "4",
+        "3",
+        "3",
+        "3",
+        "3",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "19th",
+        "+6",
+        "Ability Score Improvement",
+        "4",
+        "13",
+        "4",
+        "3",
+        "3",
+        "3",
+        "3",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "20th",
+        "+6",
+        "Perfect Aegis",
+        "4",
+        "13",
+        "4",
+        "3",
+        "3",
+        "3",
+        "3",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    ],
     "features": [
       {
         "name": "Spellcasting",
         "paragraphs": [
           {
-            "text": "You have spent time sealing away dangerous forces of nature and supernatural energies. Your spells represent you unleashing that stored power. The summoner spell list is the same as the cleric spell list, plus any spell that begins with the word \"conjure\" or  \"summon\"."
+            "str": [
+              {
+                "text": "You have spent time sealing away dangerous forces of nature and supernatural energies. Your spells represent you unleashing that stored power. The summoner spell list is the same as the cleric spell list, plus any spell that begins with the word \"conjure\" or  \"summon\".",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -413,7 +406,13 @@
         "name": "# Signs",
         "paragraphs": [
           {
-            "text": "At 1st level, you learn the mysterious art of signs. These act the same as cantrips but have unique versatilities and are known only to summoners (see Signs List for available signs). The Signs Prepared column of the summoner table shows how many signs you can have prepared at 1st level and higher. You can change your list of prepared signs when you finish a short or long rest."
+            "str": [
+              {
+                "text": "At 1st level, you learn the mysterious art of signs. These act the same as cantrips but have unique versatilities and are known only to summoners (see Signs List for available signs). The Signs Prepared column of the summoner table shows how many signs you can have prepared at 1st level and higher. You can change your list of prepared signs when you finish a short or long rest.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -421,7 +420,13 @@
         "name": "# Spell Slots",
         "paragraphs": [
           {
-            "text": "The summoner table shows how many spell slots you have to cast your summoner spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest."
+            "str": [
+              {
+                "text": "The summoner table shows how many spell slots you have to cast your summoner spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -429,13 +434,31 @@
         "name": "# Spells Known of 1st Level and Higher",
         "paragraphs": [
           {
-            "text": "You know three 1st-level spells of your choice from the summoner spell list."
+            "str": [
+              {
+                "text": "You know three 1st-level spells of your choice from the summoner spell list.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "The Spells Known column of the summoner table shows when you learn more summoner spells of your choice of 1st level and higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level."
+            "str": [
+              {
+                "text": "The Spells Known column of the summoner table shows when you learn more summoner spells of your choice of 1st level and higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "Additionally, when you gain a level in this class, you can choose one of the summoner spells you know and replace it with another spell from the summoner spell list, which also must be of a level for which you have spell slots."
+            "str": [
+              {
+                "text": "Additionally, when you gain a level in this class, you can choose one of the summoner spells you know and replace it with another spell from the summoner spell list, which also must be of a level for which you have spell slots.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -443,13 +466,35 @@
         "name": "# Spellcasting Ability",
         "paragraphs": [
           {
-            "text": "Intelligence is your spellcasting ability for your summoner spells. Your magic comes from entrapping and redirecting power from beyond your mortal self. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one."
+            "str": [
+              {
+                "text": "Intelligence is your spellcasting ability for your summoner spells. Your magic comes from entrapping and redirecting power from beyond your mortal self. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "- **Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier"
+            "str": [
+              { "text": "- ", "bld": false, "itl": false },
+              { "text": "Spell save DC", "bld": true, "itl": false },
+              {
+                "text": " = 8 + your proficiency bonus + your Intelligence modifier",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "- **Spell attack modifier** = your proficiency bonus + your Intelligence modifier"
+            "str": [
+              { "text": "- ", "bld": false, "itl": false },
+              { "text": "Spell attack modifier", "bld": true, "itl": false },
+              {
+                "text": " = your proficiency bonus + your Intelligence modifier",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -457,7 +502,13 @@
         "name": "# Ritual Casting",
         "paragraphs": [
           {
-            "text": "You can cast any summoner spell you know as a ritual if that spell has the ritual tag."
+            "str": [
+              {
+                "text": "You can cast any summoner spell you know as a ritual if that spell has the ritual tag.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -465,7 +516,13 @@
         "name": "# Spellcasting Focus",
         "paragraphs": [
           {
-            "text": "You can use a musical instrument or artisan's tool as a spellcasting focus for your summoner spells."
+            "str": [
+              {
+                "text": "You can use a musical instrument or artisan's tool as a spellcasting focus for your summoner spells.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -473,7 +530,13 @@
         "name": "Familial Summon",
         "paragraphs": [
           {
-            "text": "When you become a summoner, you tie a magical creature to your own essence. At 1st level you learn the Find Familiar spell as a summoner spell. It does not count towards your limit of known spells. For you, the spell's casting time is 10 minutes, consumes no spell slot when cast, and its material components are not consumed in its casting."
+            "str": [
+              {
+                "text": "When you become a summoner, you tie a magical creature to your own essence. At 1st level you learn the Find Familiar spell as a summoner spell. It does not count towards your limit of known spells. For you, the spell's casting time is 10 minutes, consumes no spell slot when cast, and its material components are not consumed in its casting.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -481,7 +544,13 @@
         "name": "Paranormal Mindfulness",
         "paragraphs": [
           {
-            "text": "Careful study of the subtleties of creature behavior gives you an aptitude toward interacting with them. At 2nd level, you can add half your proficiency bonus, rounded down, to any Wisdom or Charisma ability check you make that doesn't already include your proficiency bonus."
+            "str": [
+              {
+                "text": "Careful study of the subtleties of creature behavior gives you an aptitude toward interacting with them. At 2nd level, you can add half your proficiency bonus, rounded down, to any Wisdom or Charisma ability check you make that doesn't already include your proficiency bonus.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -489,7 +558,13 @@
         "name": "Summoner Bond",
         "paragraphs": [
           {
-            "text": "At 3rd level, choose a Summoner Bond: Diabolist or Watcher, each of which is detailed at the end of this class description. Your Summoner Bond grants you features at 3rd level, and again at 4th, 6th, 10th, and 14th level in this class."
+            "str": [
+              {
+                "text": "At 3rd level, choose a Summoner Bond: Diabolist or Watcher, each of which is detailed at the end of this class description. Your Summoner Bond grants you features at 3rd level, and again at 4th, 6th, 10th, and 14th level in this class.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -497,13 +572,31 @@
         "name": "Aegis",
         "paragraphs": [
           {
-            "text": "You have previously gained the power to negotiate with powers greater than yourself. Beginning at 5th level, as a preemptive measure for when words fail, you have prepared defensive symbols that form a protective barrier called an Aegis."
+            "str": [
+              {
+                "text": "You have previously gained the power to negotiate with powers greater than yourself. Beginning at 5th level, as a preemptive measure for when words fail, you have prepared defensive symbols that form a protective barrier called an Aegis.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "As a bonus action, you touch the ground beneath you to place your Aegis. The Aegis is 15 feet in diameter centered on yourself and its effects extend 20 feet upwards. As a bonus action on your turn, you can move the Aegis up to 10 feet along the ground. The Aegis lasts for 1 hour, and placing another Aegis removes any of your existing ones. You can place your Aegis once at 5th level, twice at 11th, and three times at 17th. Once you have used your Aegis the maximum number of times for your summoner level, you must finish a long rest before you can place it again."
+            "str": [
+              {
+                "text": "As a bonus action, you touch the ground beneath you to place your Aegis. The Aegis is 15 feet in diameter centered on yourself and its effects extend 20 feet upwards. As a bonus action on your turn, you can move the Aegis up to 10 feet along the ground. The Aegis lasts for 1 hour, and placing another Aegis removes any of your existing ones. You can place your Aegis once at 5th level, twice at 11th, and three times at 17th. Once you have used your Aegis the maximum number of times for your summoner level, you must finish a long rest before you can place it again.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "When you place the Aegis, choose one type from the following list: aberrations, celestials, elementals, fey, fiends, or undead. While any creatures you designate stand within your Aegis, they undergo the effects of the spell Protection from Evil and Good against the chosen type. While you stand within your own Aegis, you make Intelligence saving throws instead of Constitution saving throws to maintain concentration on your summoner spells, and your summoner spells cannot be counterspelled, dispelled, or affected by antimagic."
+            "str": [
+              {
+                "text": "When you place the Aegis, choose one type from the following list: aberrations, celestials, elementals, fey, fiends, or undead. While any creatures you designate stand within your Aegis, they undergo the effects of the spell Protection from Evil and Good against the chosen type. While you stand within your own Aegis, you make Intelligence saving throws instead of Constitution saving throws to maintain concentration on your summoner spells, and your summoner spells cannot be counterspelled, dispelled, or affected by antimagic.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -511,7 +604,13 @@
         "name": "Paranormal Communicator",
         "paragraphs": [
           {
-            "text": "A slip of the tongue with dangerous monsters can cost you your life, or even your soul. At 7th level, you can imbue yourself with guile to evade the pitfalls of conversation. As an action, you gain the effects of the Tongues spell. While affected, your Deception, Insight, and Persuasion checks treat a d20 roll of 7 or lower as an 8. You must finish a long rest before you can use this ability again."
+            "str": [
+              {
+                "text": "A slip of the tongue with dangerous monsters can cost you your life, or even your soul. At 7th level, you can imbue yourself with guile to evade the pitfalls of conversation. As an action, you gain the effects of the Tongues spell. While affected, your Deception, Insight, and Persuasion checks treat a d20 roll of 7 or lower as an 8. You must finish a long rest before you can use this ability again.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -519,7 +618,13 @@
         "name": "Multisign Expert",
         "paragraphs": [
           {
-            "text": "Your signs have become subconscious powers that are deftly cast and maintained. Beginning at 18th level, you can cast two signs in succession as part of a single action."
+            "str": [
+              {
+                "text": "Your signs have become subconscious powers that are deftly cast and maintained. Beginning at 18th level, you can cast two signs in succession as part of a single action.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       },
@@ -527,17 +632,49 @@
         "name": "Perfect Aegis",
         "paragraphs": [
           {
-            "text": "The layers of wards and protective symbols woven into your Aegis transforms it into a bulwark of sanctity. Your Aegis gains the following additional properties:"
+            "str": [
+              {
+                "text": "The layers of wards and protective symbols woven into your Aegis transforms it into a bulwark of sanctity. Your Aegis gains the following additional properties:",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "- Your Aegis grows to 25 feet in diameter and its effects extend 40 feet upwards."
+            "str": [
+              {
+                "text": "- Your Aegis grows to 25 feet in diameter and its effects extend 40 feet upwards.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
           {
-            "text": "- You can move your Aegis up to 20 feet as a bonus action."
+            "str": [
+              {
+                "text": "- You can move your Aegis up to 20 feet as a bonus action.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           },
-          { "text": "- You cannot be forcibly moved while within your Aegis." },
           {
-            "text": "- When you would make a saving throw while standing in your Aegis, you may use your reaction to automatically succeed the saving throw."
+            "str": [
+              {
+                "text": "- You cannot be forcibly moved while within your Aegis.",
+                "bld": false,
+                "itl": false
+              }
+            ]
+          },
+          {
+            "str": [
+              {
+                "text": "- When you would make a saving throw while standing in your Aegis, you may use your reaction to automatically succeed the saving throw.",
+                "bld": false,
+                "itl": false
+              }
+            ]
           }
         ]
       }
@@ -560,7 +697,13 @@
             "name": "Summoning",
             "paragraphs": [
               {
-                "text": "You have encapsulated the power of a greater devil of the netherrealms to borrow its underlings as your own. You learn the following summoner spell at 3rd level."
+                "str": [
+                  {
+                    "text": "You have encapsulated the power of a greater devil of the netherrealms to borrow its underlings as your own. You learn the following summoner spell at 3rd level.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
                 "spell": {
@@ -572,13 +715,31 @@
                   "duration": "Concentration, up to 10 minutes",
                   "text": [
                     {
-                      "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level."
+                      "str": [
+                        {
+                          "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "You call forth a devil which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. Its form is determined by the highest level spell slot consumed upon casting, as listed in the table below. Each level of devil has persistent hit points between long rests, which afterwards heals them fully. You cannot summon a devil that has 0 hit points."
+                      "str": [
+                        {
+                          "text": "You call forth a devil which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. Its form is determined by the highest level spell slot consumed upon casting, as listed in the table below. Each level of devil has persistent hit points between long rests, which afterwards heals them fully. You cannot summon a devil that has 0 hit points.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "In combat, the devil shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies."
+                      "str": [
+                        {
+                          "text": "In combat, the devil shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
                       "table": [
@@ -604,17 +765,45 @@
             "name": "Diabolist's Mark",
             "paragraphs": [
               {
-                "text": "As part of your hellish agreement, you are afforded the following benefits at 3rd level:"
+                "str": [
+                  {
+                    "text": "As part of your hellish agreement, you are afforded the following benefits at 3rd level:",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- You can speak, read, and write Infernal." },
-              { "text": "- Your Familial Summon can take the form of a Fynx." }
+              {
+                "str": [
+                  {
+                    "text": "- You can speak, read, and write Infernal.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "- Your Familial Summon can take the form of a Fynx.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              }
             ]
           },
           {
             "name": "Brightfire",
             "paragraphs": [
               {
-                "text": "The fiery nature of devils becomes your own at 4th level. You learn the Produce Flame cantrip, which you cast with your summoner spellcasting. For you, the flame's light extends twice as far, and can take on any color you choose. The light from the spell supersedes the effect of magical darkness but does not destroy it. Creatures that would resist damage from the spell instead take full damage, and creatures that would be immune instead resist it."
+                "str": [
+                  {
+                    "text": "The fiery nature of devils becomes your own at 4th level. You learn the Produce Flame cantrip, which you cast with your summoner spellcasting. For you, the flame's light extends twice as far, and can take on any color you choose. The light from the spell supersedes the effect of magical darkness but does not destroy it. Creatures that would resist damage from the spell instead take full damage, and creatures that would be immune instead resist it.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -622,23 +811,85 @@
             "name": "Devil's Deal",
             "paragraphs": [
               {
-                "text": "The power extended to you can be lorded over others at 6th level. You can enter into written and signed contracts with willing, uncharmed subjects so long as you provide the following conditions:"
+                "str": [
+                  {
+                    "text": "The power extended to you can be lorded over others at 6th level. You can enter into written and signed contracts with willing, uncharmed subjects so long as you provide the following conditions:",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- The contract terminates within 30 days." },
               {
-                "text": "- The contract has a condition for completion, upon which it terminates."
+                "str": [
+                  {
+                    "text": "- The contract terminates within 30 days.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
-                "text": "- The contract has a condition for failure, upon which it terminates."
+                "str": [
+                  {
+                    "text": "- The contract has a condition for completion, upon which it terminates.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- The contract must be plausible to carry out." },
-              { "text": "- The contract cannot incur self-harm." },
               {
-                "text": "- The contract has failsafes that allow early termination in the event of unforeseen circumstances."
+                "str": [
+                  {
+                    "text": "- The contract has a condition for failure, upon which it terminates.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- The contract remains unaltered." },
               {
-                "text": "While the preceding conditions apply, the subject that signs the contract takes 1d10 psychic damage each time it acts in a way directly counter to the contract, but no more than once per minute. If the contract is failed or if the time period of the contract is reached without completion, the subject takes 10d10 psychic damage. You can only have one contract active at one time."
+                "str": [
+                  {
+                    "text": "- The contract must be plausible to carry out.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "- The contract cannot incur self-harm.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "- The contract has failsafes that allow early termination in the event of unforeseen circumstances.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "- The contract remains unaltered.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "While the preceding conditions apply, the subject that signs the contract takes 1d10 psychic damage each time it acts in a way directly counter to the contract, but no more than once per minute. If the contract is failed or if the time period of the contract is reached without completion, the subject takes 10d10 psychic damage. You can only have one contract active at one time.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -646,7 +897,13 @@
             "name": "Hellish Apparition",
             "paragraphs": [
               {
-                "text": "Your summon's twisted form preys at the minds of the weak. At 10th level, when you cast Summon Devil, choose any number of creatures within 30 feet of the space where the devil appears. Those creatures must succeed a Wisdom saving throw against a DC equal to 12 plus the level of the spell or become frightened of the devil until the end of your next turn."
+                "str": [
+                  {
+                    "text": "Your summon's twisted form preys at the minds of the weak. At 10th level, when you cast Summon Devil, choose any number of creatures within 30 feet of the space where the devil appears. Those creatures must succeed a Wisdom saving throw against a DC equal to 12 plus the level of the spell or become frightened of the devil until the end of your next turn.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -654,7 +911,13 @@
             "name": "Devil's Servant",
             "paragraphs": [
               {
-                "text": "Starting at 14th level, those under your contracts can be forcibly bent to your will. Once per day, while under the effect of a contract made with your Devil's Deal ability, you can force a creature to make a Wisdom saving throw against your spell save DC or undergo the effects of the suggestion spell. A creature immune to being charmed is still affected but makes its saving throw with advantage. The suggestion cannot force the subject to act against the terms of the contract. If a creature succeeds its saving throw, it takes 2d10 psychic damage from attempting to resist your will."
+                "str": [
+                  {
+                    "text": "Starting at 14th level, those under your contracts can be forcibly bent to your will. Once per day, while under the effect of a contract made with your Devil's Deal ability, you can force a creature to make a Wisdom saving throw against your spell save DC or undergo the effects of the suggestion spell. A creature immune to being charmed is still affected but makes its saving throw with advantage. The suggestion cannot force the subject to act against the terms of the contract. If a creature succeeds its saving throw, it takes 2d10 psychic damage from attempting to resist your will.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           }
@@ -677,7 +940,13 @@
             "name": "Summoning",
             "paragraphs": [
               {
-                "text": "You have encapsulated the power of an autochthonian overseer to extend your visions across the multiverse. You learn the following summoner spell at 3rd level."
+                "str": [
+                  {
+                    "text": "You have encapsulated the power of an autochthonian overseer to extend your visions across the multiverse. You learn the following summoner spell at 3rd level.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
                 "spell": {
@@ -689,16 +958,40 @@
                   "duration": "Concentration, up to 10 minutes",
                   "text": [
                     {
-                      "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level."
+                      "str": [
+                        {
+                          "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "You call forth a watcher in the form of a Beholderkin Aberrant Spirit (from TCE's Summon Aberration spell) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The watcher's hit points are 10 + 10 for each spell level above 1st and uses the level of the summon when referring to the spell's level. The watcher has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the watcher if it has 0 hit points."
+                      "str": [
+                        {
+                          "text": "You call forth a watcher in the form of a Beholderkin Aberrant Spirit (from TCE's Summon Aberration spell) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The watcher's hit points are 10 + 10 for each spell level above 1st and uses the level of the summon when referring to the spell's level. The watcher has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the watcher if it has 0 hit points.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "In combat, the watcher shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies."
+                      "str": [
+                        {
+                          "text": "In combat, the watcher shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The watcher also has the following spells it can cast up to and including the level used to cast the summon. It uses your Summoner spell attack bonus and spell saving throw. It maintains its own concentration and can cast each spell once per summon. The spells are cast at the same level as the summon."
+                      "str": [
+                        {
+                          "text": "The watcher also has the following spells it can cast up to and including the level used to cast the summon. It uses your Summoner spell attack bonus and spell saving throw. It maintains its own concentration and can cast each spell once per summon. The spells are cast at the same level as the summon.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
                       "table": [
@@ -724,20 +1017,46 @@
             "name": "Watcher's Mark",
             "paragraphs": [
               {
-                "text": "As part of your autochthonic conquest, you are afforded the following benefits at 3rd level:"
+                "str": [
+                  {
+                    "text": "As part of your autochthonic conquest, you are afforded the following benefits at 3rd level:",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- You can speak, read, and write Deep Speech." },
               {
-                "text": "- Your Familial Summon can take the form of a Gazer."
+                "str": [
+                  {
+                    "text": "- You can speak, read, and write Deep Speech.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "" }
+              {
+                "str": [
+                  {
+                    "text": "- Your Familial Summon can take the form of a Gazer.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              { "str": [] }
             ]
           },
           {
             "name": "Still Vision",
             "paragraphs": [
               {
-                "text": "At 4th level, the watcher grants you visions that you see in your mind's eye. If you take no actions and do not move, at the end of your turn you know the current location of all creatures within 20 feet, regardless of visibility, cover, or obscurement. You do not know what the creatures are, only a vague size and shape."
+                "str": [
+                  {
+                    "text": "At 4th level, the watcher grants you visions that you see in your mind's eye. If you take no actions and do not move, at the end of your turn you know the current location of all creatures within 20 feet, regardless of visibility, cover, or obscurement. You do not know what the creatures are, only a vague size and shape.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -745,7 +1064,13 @@
             "name": "Despotism",
             "paragraphs": [
               {
-                "text": "Starting at 6th level, the tyrannical eyes of the watcher become yours. As an action, you can attempt to subjugate a creature that is within 15 feet of the source of your sight. It must succeed a Wisdom saving throw against your summoner spell save DC or become charmed for 1 hour, or until you or a creature friendly to you harms the creature. A creature has disadvantage on its saving throw if its Intelligence score is less than yours. While charmed by this ability, you can use your action to see through the creature's eyes and hear what it hears and continue to do so until you use your action to return to your normal senses. While perceiving through the creature's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings. You can telepathically whisper to the creature while it is charmed, giving it suggestions and commands, though it is not required to follow them. You must finish a long rest before you can use this ability again."
+                "str": [
+                  {
+                    "text": "Starting at 6th level, the tyrannical eyes of the watcher become yours. As an action, you can attempt to subjugate a creature that is within 15 feet of the source of your sight. It must succeed a Wisdom saving throw against your summoner spell save DC or become charmed for 1 hour, or until you or a creature friendly to you harms the creature. A creature has disadvantage on its saving throw if its Intelligence score is less than yours. While charmed by this ability, you can use your action to see through the creature's eyes and hear what it hears and continue to do so until you use your action to return to your normal senses. While perceiving through the creature's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings. You can telepathically whisper to the creature while it is charmed, giving it suggestions and commands, though it is not required to follow them. You must finish a long rest before you can use this ability again.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -753,7 +1078,13 @@
             "name": "Float Step",
             "paragraphs": [
               {
-                "text": "Once at 10th level, the deeprealms wane your gravitational influence. Your jump distance is multiplied by three, and your jumps are always treated as though they have a running start. If you land anywhere within 60 feet from where you jump or fall, you take no damage from falling."
+                "str": [
+                  {
+                    "text": "Once at 10th level, the deeprealms wane your gravitational influence. Your jump distance is multiplied by three, and your jumps are always treated as though they have a running start. If you land anywhere within 60 feet from where you jump or fall, you take no damage from falling.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -761,7 +1092,13 @@
             "name": "Optic Leap",
             "paragraphs": [
               {
-                "text": "Beginning at 14th level, you've gained considerable abilities to pressure others into your service. You can use your Despotism ability three times before you must finish a long rest to regain all its uses. You can use your action to transfer your senses to and back from any creature under the effect of the ability."
+                "str": [
+                  {
+                    "text": "Beginning at 14th level, you've gained considerable abilities to pressure others into your service. You can use your Despotism ability three times before you must finish a long rest to regain all its uses. You can use your action to transfer your senses to and back from any creature under the effect of the ability.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           }
@@ -784,7 +1121,13 @@
             "name": "Summoning",
             "paragraphs": [
               {
-                "text": "You have petitioned a powerful celestial to summon its aspect to your aid. You learn the following summoner spell at 3rd level."
+                "str": [
+                  {
+                    "text": "You have petitioned a powerful celestial to summon its aspect to your aid. You learn the following summoner spell at 3rd level.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
                 "spell": {
@@ -796,16 +1139,40 @@
                   "duration": "Concentration, up to 10 minutes",
                   "text": [
                     {
-                      "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level."
+                      "str": [
+                        {
+                          "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "You call forth an angel in the form of a Scout (MM p349) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The angel's type is celestial, and its languages are Common and Celestial. The angel's hit points are 16 + 10 for each spell level above 1st. The angel has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the angel if it has 0 hit points."
+                      "str": [
+                        {
+                          "text": "You call forth an angel in the form of a Scout (MM p349) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The angel's type is celestial, and its languages are Common and Celestial. The angel's hit points are 16 + 10 for each spell level above 1st. The angel has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the angel if it has 0 hit points.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "In combat, the creature shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies."
+                      "str": [
+                        {
+                          "text": "In combat, the creature shares your initiative count, but it takes its turn immediately after yours. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it acts according to its own personality, at the DM's discretion, but will make no direct hostile action against its summoner or their allies.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The angel also has the following abilities and changes up to and including the level used to cast the summon."
+                      "str": [
+                        {
+                          "text": "The angel also has the following abilities and changes up to and including the level used to cast the summon.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
                       "table": [
@@ -858,20 +1225,54 @@
             "name": "Angel's Mark",
             "paragraphs": [
               {
-                "text": "As part of your heavenly connection, you are afforded the following benefits at 3rd level:"
+                "str": [
+                  {
+                    "text": "As part of your heavenly connection, you are afforded the following benefits at 3rd level:",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "- You can speak, read, and write Celestial." },
-              { "text": "- Your Familial Summon can take the form of a Bulu." }
+              {
+                "str": [
+                  {
+                    "text": "- You can speak, read, and write Celestial.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              },
+              {
+                "str": [
+                  {
+                    "text": "- Your Familial Summon can take the form of a Bulu.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
+              }
             ]
           },
           {
             "name": "Moment of Prayer",
             "paragraphs": [
               {
-                "text": "At 4th level, your voice reaches unto the heavens and grants holy blessings. You learn the Guidance cantrip, which you cast with your summoner spellcasting."
+                "str": [
+                  {
+                    "text": "At 4th level, your voice reaches unto the heavens and grants holy blessings. You learn the Guidance cantrip, which you cast with your summoner spellcasting.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
-                "text": "If you are concentrating on your Summon Angel spell, you can use your action to fall prone, bending your knee and beginning prayer. When you do, your angel has advantage on its next attack roll or ability check."
+                "str": [
+                  {
+                    "text": "If you are concentrating on your Summon Angel spell, you can use your action to fall prone, bending your knee and beginning prayer. When you do, your angel has advantage on its next attack roll or ability check.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -879,10 +1280,22 @@
             "name": "Miraculous Healing",
             "paragraphs": [
               {
-                "text": "Beginning at 6th level, the power of angels lifts the ailments of those you heal. When you cast a spell that would cause a creature to regain hit points, that creature can immediately repeat the necessary ability check or saving throw needed to end one curse, disease, poison, blindness, or deafness that affects them."
+                "str": [
+                  {
+                    "text": "Beginning at 6th level, the power of angels lifts the ailments of those you heal. When you cast a spell that would cause a creature to regain hit points, that creature can immediately repeat the necessary ability check or saving throw needed to end one curse, disease, poison, blindness, or deafness that affects them.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
-                "text": "You also gain proficiency in the Medicine skill. If you are already proficient, your proficiency bonus is doubled when making an ability check that uses that proficiency."
+                "str": [
+                  {
+                    "text": "You also gain proficiency in the Medicine skill. If you are already proficient, your proficiency bonus is doubled when making an ability check that uses that proficiency.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -890,7 +1303,13 @@
             "name": "Pious Aura",
             "paragraphs": [
               {
-                "text": "Once at 10th level, your celestial bond deters any ill intent originating from the zionrealms. You and friendly creatures within 60 feet of you have advantage on saving throws against spells you know, as well as spells that would deal radiant damage."
+                "str": [
+                  {
+                    "text": "Once at 10th level, your celestial bond deters any ill intent originating from the zionrealms. You and friendly creatures within 60 feet of you have advantage on saving throws against spells you know, as well as spells that would deal radiant damage.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -898,7 +1317,13 @@
             "name": "Heavenly Stallion",
             "paragraphs": [
               {
-                "text": "At 14th level, the gods lend you their swiftest steed. As your Familial Summon's action, it can become a Pegasus (MM 250) or return to its previous form."
+                "str": [
+                  {
+                    "text": "At 14th level, the gods lend you their swiftest steed. As your Familial Summon's action, it can become a Pegasus (MM 250) or return to its previous form.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           }
@@ -921,7 +1346,13 @@
             "name": "Summoning",
             "paragraphs": [
               {
-                "text": "You harness a multitude of weak but well-organized entities that heed your beck and call. You learn the following summoner spell at 3rd level. You choose a form for the legion when you take this subclass. The legion's appearance can change, but only superficially."
+                "str": [
+                  {
+                    "text": "You harness a multitude of weak but well-organized entities that heed your beck and call. You learn the following summoner spell at 3rd level. You choose a form for the legion when you take this subclass. The legion's appearance can change, but only superficially.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
                 "spell": {
@@ -933,16 +1364,40 @@
                   "duration": "Concentration, up to 10 minutes",
                   "text": [
                     {
-                      "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level."
+                      "str": [
+                        {
+                          "text": "To cast this spell, you must expend one spell slot of every level up to and including the desired casting level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "You call forth a legion in the form of two Infantry Levies units (Rank and File) which appear in a space that you can see within range and disappear when they drop to 0 hit points or when the spell ends. The units have no rank or file feat. The units' AC is 13 + 1 for each spell level above 1st and their hit points are 22 + 5 for each spell level above 1st. The units have persistent hit points between long rests, which afterwards heals them fully. You cannot summon one of the units if it has 0 hit points."
+                      "str": [
+                        {
+                          "text": "You call forth a legion in the form of two Infantry Levies units (Rank and File) which appear in a space that you can see within range and disappear when they drop to 0 hit points or when the spell ends. The units have no rank or file feat. The units' AC is 13 + 1 for each spell level above 1st and their hit points are 22 + 5 for each spell level above 1st. The units have persistent hit points between long rests, which afterwards heals them fully. You cannot summon one of the units if it has 0 hit points.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "In combat, the units share your initiative count, but take their turns immediately after yours. When you summon them and on each of your turns thereafter, you can issue a verbal command to them (requiring no action on your part), telling them what they must do on their next turn. If you issue no command, they act according to their own personality, at the DM's discretion, but will make no direct hostile action against their summoner or their allies."
+                      "str": [
+                        {
+                          "text": "In combat, the units share your initiative count, but take their turns immediately after yours. When you summon them and on each of your turns thereafter, you can issue a verbal command to them (requiring no action on your part), telling them what they must do on their next turn. If you issue no command, they act according to their own personality, at the DM's discretion, but will make no direct hostile action against their summoner or their allies.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The units also have the following abilities and changes up to and including the level used to cast the summon."
+                      "str": [
+                        {
+                          "text": "The units also have the following abilities and changes up to and including the level used to cast the summon.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
                       "table": [
@@ -995,19 +1450,37 @@
             "name": "Legion's Servitor",
             "paragraphs": [
               {
-                "text": "As part of your military dominion your Familial Summon can take the form of a Commoner (MM p345). Their appearance is your choice but cannot vary except with providing clothing."
+                "str": [
+                  {
+                    "text": "As part of your military dominion your Familial Summon can take the form of a Commoner (MM p345). Their appearance is your choice but cannot vary except with providing clothing.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
-              { "text": "" }
+              { "str": [] }
             ]
           },
           {
             "name": "Many Voices",
             "paragraphs": [
               {
-                "text": "Your orders echo in chorus at 4th level. As a bonus action you can let loose a resounding yell. Friendly creatures that can hear you gain temporary hit points equal to your level. While those temporary hit points remain, a creature has advantage on saving throws against being frightened and can immediately repeat a saving throw against the frightened condition when you use this ability. You regain use of this ability after a long rest."
+                "str": [
+                  {
+                    "text": "Your orders echo in chorus at 4th level. As a bonus action you can let loose a resounding yell. Friendly creatures that can hear you gain temporary hit points equal to your level. While those temporary hit points remain, a creature has advantage on saving throws against being frightened and can immediately repeat a saving throw against the frightened condition when you use this ability. You regain use of this ability after a long rest.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
-                "text": "You also gain proficiency in the Intimidation skill. If you are already proficient, your proficiency bonus is doubled when making an ability check that uses that proficiency. In addition, you may use your Intelligence modifier in place of your Charisma modifier for the Intimidation skill."
+                "str": [
+                  {
+                    "text": "You also gain proficiency in the Intimidation skill. If you are already proficient, your proficiency bonus is doubled when making an ability check that uses that proficiency. In addition, you may use your Intelligence modifier in place of your Charisma modifier for the Intimidation skill.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -1015,10 +1488,22 @@
             "name": "Many Eyes",
             "paragraphs": [
               {
-                "text": "By 6th level, others falter in the presence of your legion. If you are concentrating on your Summon Legion spell, you can use your reaction to impose disadvantage on an ability check or attack roll made by a creature you can see within 60 feet. You regain use of this ability after a short or long rest."
+                "str": [
+                  {
+                    "text": "By 6th level, others falter in the presence of your legion. If you are concentrating on your Summon Legion spell, you can use your reaction to impose disadvantage on an ability check or attack roll made by a creature you can see within 60 feet. You regain use of this ability after a short or long rest.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               },
               {
-                "text": "You can also use the Intimidation skill in place of the Insight skill to determine the true intentions of a creature."
+                "str": [
+                  {
+                    "text": "You can also use the Intimidation skill in place of the Insight skill to determine the true intentions of a creature.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -1026,7 +1511,13 @@
             "name": "Many Hands",
             "paragraphs": [
               {
-                "text": "At 10th level, you can make light work of any activity with sheer manpower. If the units summoned by your Summon Legion spell use the Help action, they also grant an additional bonus to the result of the roll equal to the highest level slot consumed upon casting."
+                "str": [
+                  {
+                    "text": "At 10th level, you can make light work of any activity with sheer manpower. If the units summoned by your Summon Legion spell use the Help action, they also grant an additional bonus to the result of the roll equal to the highest level slot consumed upon casting.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           },
@@ -1034,7 +1525,13 @@
             "name": "Many Weapons",
             "paragraphs": [
               {
-                "text": "By 14th level, you've focused your summoning into tighter, deadlier formations. Between long rests you can cast the spells Tidal Wave, Maelstrom, and Blade Barrier once each at their lowest levels. The spells use your summoner spellcasting, but do not require a spell slot. The spells appear as though made from a phalanx of your legions."
+                "str": [
+                  {
+                    "text": "By 14th level, you've focused your summoning into tighter, deadlier formations. Between long rests you can cast the spells Tidal Wave, Maelstrom, and Blade Barrier once each at their lowest levels. The spells use your summoner spellcasting, but do not require a spell slot. The spells appear as though made from a phalanx of your legions.",
+                    "bld": false,
+                    "itl": false
+                  }
+                ]
               }
             ]
           }
@@ -1057,10 +1554,22 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign reaches out to halt a creature you can see within range. The target must make a Dexterity saving throw. On a failed save, the target's speed is reduced by 10 feet until the end of your next turn."
+                      "str": [
+                        {
+                          "text": "The sign reaches out to halt a creature you can see within range. The target must make a Dexterity saving throw. On a failed save, the target's speed is reduced by 10 feet until the end of your next turn.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The reduction increases to 15 feet when you reach 5th level, 20 feet at 11th level, and 25 feet at 17th level."
+                      "str": [
+                        {
+                          "text": "The reduction increases to 15 feet when you reach 5th level, 20 feet at 11th level, and 25 feet at 17th level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1075,10 +1584,22 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign harries an attacking creature you can see within range. The target must make a Strength saving throw. On a failed save, the target's attacks critically fail on rolls of 2 or lower until the end of your next turn."
+                      "str": [
+                        {
+                          "text": "The sign harries an attacking creature you can see within range. The target must make a Strength saving throw. On a failed save, the target's attacks critically fail on rolls of 2 or lower until the end of your next turn.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The effect increases to rolls of 3 or lower when you reach 5th level, 4 or lower at 11th level, and 5 or lower at 17th level."
+                      "str": [
+                        {
+                          "text": "The effect increases to rolls of 3 or lower when you reach 5th level, 4 or lower at 11th level, and 5 or lower at 17th level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1093,10 +1614,22 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign empowers the strikes of a willing creature you can see within range. The target's first attack they hit has a +3 bonus to damage until the end of their next turn."
+                      "str": [
+                        {
+                          "text": "The sign empowers the strikes of a willing creature you can see within range. The target's first attack they hit has a +3 bonus to damage until the end of their next turn.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The bonus increases to +6 when you reach 5th level, +10 at 11th level, and +15 at 17th level."
+                      "str": [
+                        {
+                          "text": "The bonus increases to +6 when you reach 5th level, +10 at 11th level, and +15 at 17th level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1111,7 +1644,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign incepts terror in the mind of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the next time the target takes damage from a weapon attack the damage is converted to psychic. A creature immune to the frightened condition automatically succeeds this saving throw."
+                      "str": [
+                        {
+                          "text": "The sign incepts terror in the mind of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the next time the target takes damage from a weapon attack the damage is converted to psychic. A creature immune to the frightened condition automatically succeeds this saving throw.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1126,7 +1665,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign pulls at the natural ebb and flow of a spell a willing creature you can see within range casts. When you cast this sign, choose either fire, lightning, or cold damage. The next spell the target casts that deals damage instead deals the chosen type."
+                      "str": [
+                        {
+                          "text": "The sign pulls at the natural ebb and flow of a spell a willing creature you can see within range casts. When you cast this sign, choose either fire, lightning, or cold damage. The next spell the target casts that deals damage instead deals the chosen type.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1141,7 +1686,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign pushes a willing creature within range you can see through spacetime. As a reaction, the target can move 5 feet without provoking attacks of opportunity."
+                      "str": [
+                        {
+                          "text": "The sign pushes a willing creature within range you can see through spacetime. As a reaction, the target can move 5 feet without provoking attacks of opportunity.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1156,7 +1707,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign beguiles and distracts the attention of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the target has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks until the end of your next turn."
+                      "str": [
+                        {
+                          "text": "The sign beguiles and distracts the attention of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the target has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks until the end of your next turn.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1171,7 +1728,13 @@
                   "duration": "1 minute",
                   "text": [
                     {
-                      "text": "The sign alters a small pocket of reality for creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target perceives a 1 foot cube or smaller inanimate nonliving object you can see as made from another material, or invisible. Regardless of their saving throw, this seal cannot be recast on the same target within 24 hours."
+                      "str": [
+                        {
+                          "text": "The sign alters a small pocket of reality for creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target perceives a 1 foot cube or smaller inanimate nonliving object you can see as made from another material, or invisible. Regardless of their saving throw, this seal cannot be recast on the same target within 24 hours.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1186,7 +1749,13 @@
                   "duration": "1 round",
                   "text": [
                     {
-                      "text": "The sign incorporealizes an object for a brief moment. A 1 foot cube or smaller inanimate nonliving object you touch becomes semi-ethereal. While in this state, the object can pass through unworn inanimate nonliving material that is less than 1 inch thick. If the spell ends while the object is within solid material, it is shunted out in your direction."
+                      "str": [
+                        {
+                          "text": "The sign incorporealizes an object for a brief moment. A 1 foot cube or smaller inanimate nonliving object you touch becomes semi-ethereal. While in this state, the object can pass through unworn inanimate nonliving material that is less than 1 inch thick. If the spell ends while the object is within solid material, it is shunted out in your direction.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1201,7 +1770,13 @@
                   "duration": "1 hour",
                   "text": [
                     {
-                      "text": "The sign produces a lit candle in your hand. It does not burn with heat, nor can it be extinguished until the spell ends or is dismissed (no action required), whereupon the candle disappears. If you cast this sign again, you can have up to six candles active at a time."
+                      "str": [
+                        {
+                          "text": "The sign produces a lit candle in your hand. It does not burn with heat, nor can it be extinguished until the spell ends or is dismissed (no action required), whereupon the candle disappears. If you cast this sign again, you can have up to six candles active at a time.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1216,7 +1791,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign exerts a supernatural effort from a distance. Choose an inanimate object you can see within range that is no more than 10 lbs and is not held in place. It is pushed with a horizontal force that moves it 1d4 * 5 feet in a direction of your choice."
+                      "str": [
+                        {
+                          "text": "The sign exerts a supernatural effort from a distance. Choose an inanimate object you can see within range that is no more than 10 lbs and is not held in place. It is pushed with a horizontal force that moves it 1d4 x 5 feet in a direction of your choice.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1231,7 +1812,13 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign manufactures noise in the ear of a creature that can hear within range. The target must make a Constitution saving throw. On a failed save, the creature is deafened until the end of your next turn."
+                      "str": [
+                        {
+                          "text": "The sign manufactures noise in the ear of a creature that can hear within range. The target must make a Constitution saving throw. On a failed save, the creature is deafened until the end of your next turn.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1246,10 +1833,22 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign sacrifices bodily energy to embolden the spirit. A willing creature you touch gains 10 temporary hit points. Their speed is reduced by 5 feet and their AC reduced by 1 until they finish a long rest. "
+                      "str": [
+                        {
+                          "text": "The sign sacrifices bodily energy to embolden the spirit. A willing creature you touch gains 10 temporary hit points. Their speed is reduced by 5 feet and their AC reduced by 1 until they finish a long rest. ",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The amount of temporary hit points increases to 15 when you reach 5th level, 20 at 11th level, and 25 at 17th level."
+                      "str": [
+                        {
+                          "text": "The amount of temporary hit points increases to 15 when you reach 5th level, 20 at 11th level, and 25 at 17th level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1264,10 +1863,22 @@
                   "duration": "Instantaneous",
                   "text": [
                     {
-                      "text": "The sign sacrifices bodily energy to sustain magical fortitude. A willing creature you touch that has all its hit dice sacrifices its entire pool. They then regain a spell slot of 1st level."
+                      "str": [
+                        {
+                          "text": "The sign sacrifices bodily energy to sustain magical fortitude. A willing creature you touch that has all its hit dice sacrifices its entire pool. They then regain a spell slot of 1st level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     },
                     {
-                      "text": "The spell slot regained increases to 2nd level when you reach 5th level, 3rd at 11th level, and 4th at 17th level."
+                      "str": [
+                        {
+                          "text": "The spell slot regained increases to 2nd level when you reach 5th level, 3rd at 11th level, and 4th at 17th level.",
+                          "bld": false,
+                          "itl": false
+                        }
+                      ]
                     }
                   ]
                 }

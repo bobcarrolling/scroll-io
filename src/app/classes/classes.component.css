@@ -41,7 +41,7 @@
   text-align: -webkit-center;
 }
 .data-table::-webkit-scrollbar-track {
-  margin-top: rem;
+  margin-top: 8rem;
 }
 
 .data-table tr {
