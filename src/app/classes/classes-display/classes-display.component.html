@@ -16,7 +16,7 @@
       <ng-container *ngFor="let key of returnKeys(C.info)">
         <ng-container *ngIf="key.indexOf('name') === -1">
           <p
-            *ngFor="let p of C.info.prose.split('\n')"
+            *ngFor="let p of C.info[key].split('\n')"
             [style.fontStyle]="key === 'prose' ? 'italic' : null"
           >
             {{ p }}
