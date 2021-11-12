@@ -140,21 +140,18 @@
         <table>
           <tr *ngFor="let row of SC.featuretable; let i = index">
             <ng-container *ngIf="i !== 1">
-              <td *ngFor="let content of row; let j = index" [style.textAlign]="getTextAlign(SC.featuretable[1][j])">
-                <span *ngIf="i === 0">
-                  <span *ngFor="let word of content.split(' ')">
-                    <span>{{ word }}</span
-                    ><br />
-                  </span>
-                </span>
-                <span *ngIf="i !== 0">
+              <td
+                *ngFor="let content of row; let j = index"
+                [style.textAlign]="getTextAlign(SC.featuretable[1][j])"
+              >
                   {{ content }}
-                </span>
               </td>
             </ng-container>
           </tr>
         </table>
       </div>
+
+      <!-- Subclass Features -->
 
       <ng-container *ngFor="let feature of SC.features">
         <h3 class="flexrow namerow" *ngIf="feature.name.indexOf('#') === -1">
@@ -171,13 +168,28 @@
           {{ feature.name.replace('# ', '') }}
         </h4>
         <p *ngFor="let p of feature.paragraphs">
-          <span
+          <ng-container
             *ngFor="let str of p.str"
             [style.fontWeight]="str.bld ? 'bold' : null"
             [style.fontStyle]="str.itl ? 'italic' : null"
           >
             {{ str.text }}
+          </ng-container>
+          <span *ngIf="p.table" class="othertable flexrow justify-center">
+            <table>
+              <tr *ngFor="let row of p.table; let i = index">
+                <ng-container *ngIf="i !== 1">
+                  <td
+                    *ngFor="let content of row; let j = index"
+                    [style.textAlign]="getTextAlign(p.table[1][j])"
+                  >
+                      {{ content }}
+                  </td>
+                </ng-container>
+              </tr>
+            </table>
           </span>
+          
         </p>
       </ng-container>
     </div>
