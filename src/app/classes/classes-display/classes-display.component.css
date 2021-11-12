@@ -42,6 +42,11 @@ p {
 table {
   border-spacing: 0;
   border-collapse: collapse;
+}
+.classtable {
+  overflow-x: auto;
+}
+.classtable table {
   margin-right: -45rem;
 }
 tr:first-child {
@@ -56,7 +61,7 @@ tr:nth-child(even) {
 td {
   padding: 0.15rem 0.3rem;
 }
-td:first-child {
+.classtable td:first-child {
   position: sticky;
   left: 0;
   background-image: linear-gradient(rgb(220, 225, 220), rgb(192, 197, 192));
@@ -70,6 +75,23 @@ td:first-child {
   height: 100%;
   border-right: 1px dotted rgba(0, 0, 0, 0.2);
 } */
-tr:first-child td:first-child {
+.classtable tr:first-child td:first-child {
   border-radius: 0 10px 0 0;
+}
+
+.othertable table {
+  min-width: 50%;
+}
+
+.subclass-background {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 12px;
+  border-image-source: url(https://raw.githubusercontent.com/thecobblerbarrel/scroll-io-images/master/shared/sidebars.png);
+  border-image-slice: 12;
+  border-image-width: 1;
+  border-image-outset: 7px;
+  border-image-repeat: stretch;
+  border-radius: 10px/50px;
+  margin: 0.7rem 0.3rem 0.1rem 0.3rem
 }

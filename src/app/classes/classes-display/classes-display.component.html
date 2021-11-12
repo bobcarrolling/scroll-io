@@ -1,7 +1,7 @@
 <ng-container *ngIf="C && SC">
   <div class="content-box">
     <!-- NAME -->
-    <h1 class="flexrow namerow">
+    <h1 class="flexrow namerow justify-center">
       <span
         class="name name-word"
         *ngFor="let word of splitClassName; let i = index"
@@ -48,7 +48,7 @@
           <span style="margin-right: 0.1rem;"></span>
         </span>
       </h2>
-      <div style="overflow-x: auto">
+      <div class="classtable">
         <table>
           <tr *ngFor="let row of C.classtable; let i = index">
             <ng-container *ngIf="i !== 1">
@@ -108,17 +108,79 @@
         </span>
       </h3>
       <h4 class="name name-word" *ngIf="feature.name.indexOf('#') === 0">
-          {{ feature.name.replace('# ', '') }}
+        {{ feature.name.replace('# ', '') }}
       </h4>
-      <p
-        *ngFor="let p of feature.paragraphs"
-      >
-        <span *ngFor="let str of p.str" [style.fontWeight]="str.bld ? 'bold' : null"
-        [style.fontStyle]="str.itl ? 'italic' : null">
-          {{str.text}}
+      <p *ngFor="let p of feature.paragraphs">
+        <span
+          *ngFor="let str of p.str"
+          [style.fontWeight]="str.bld ? 'bold' : null"
+          [style.fontStyle]="str.itl ? 'italic' : null"
+        >
+          {{ str.text }}
         </span>
       </p>
     </ng-container>
+
+    <!-- Start of Subclasses -->
+
+    <div class="subclass-background">
+      <h1 class="flexrow namerow justify-center">
+        <span
+          class="name name-word"
+          *ngFor="let word of splitSubclassName; let i = index"
+        >
+          {{ word.toUpperCase() }}&nbsp;
+          <span style="margin-right: 0.1rem;"></span>
+        </span>
+      </h1>
+      <p *ngFor="let p of SC.text.split('\n')">
+        {{ p }}
+      </p>
+      <div class="othertable flexrow justify-center">
+        <table>
+          <tr *ngFor="let row of SC.featuretable; let i = index">
+            <ng-container *ngIf="i !== 1">
+              <td *ngFor="let content of row; let j = index" [style.textAlign]="getTextAlign(SC.featuretable[1][j])">
+                <span *ngIf="i === 0">
+                  <span *ngFor="let word of content.split(' ')">
+                    <span>{{ word }}</span
+                    ><br />
+                  </span>
+                </span>
+                <span *ngIf="i !== 0">
+                  {{ content }}
+                </span>
+              </td>
+            </ng-container>
+          </tr>
+        </table>
+      </div>
+
+      <ng-container *ngFor="let feature of SC.features">
+        <h3 class="flexrow namerow" *ngIf="feature.name.indexOf('#') === -1">
+          <span
+            class="name"
+            *ngFor="let word of feature.name.split(' ')"
+            [ngClass]="{ 'name-word': isWord(word) }"
+          >
+            {{ word.toUpperCase() }}&nbsp;
+            <span style="margin-right: 0.1rem;"></span>
+          </span>
+        </h3>
+        <h4 class="name name-word" *ngIf="feature.name.indexOf('#') === 0">
+          {{ feature.name.replace('# ', '') }}
+        </h4>
+        <p *ngFor="let p of feature.paragraphs">
+          <span
+            *ngFor="let str of p.str"
+            [style.fontWeight]="str.bld ? 'bold' : null"
+            [style.fontStyle]="str.itl ? 'italic' : null"
+          >
+            {{ str.text }}
+          </span>
+        </p>
+      </ng-container>
+    </div>
 
     <!-- <h2 class="flexrow namerow">
       <span
