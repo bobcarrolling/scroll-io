@@ -23,7 +23,11 @@
               </td>
             </ng-container>
           </tr>
-          <div class="subclass-row other-row" id="subclasses-row" *ngIf="selectedClass">
+          <div
+            class="subclass-row other-row"
+            id="subclasses-row"
+            *ngIf="selectedClass"
+          >
             <tr class="table-row">
               <ng-container *ngFor="let subclass of selectedClass.subclasses">
                 <td
@@ -59,8 +63,11 @@
             <tr class="table-row checkbox-row">
               <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
               <label for="showprof" class="data-interior"
-                >Show Proficiencies</label
+                >Show Details</label
               >
+            </tr>
+            <tr class="table-row checkbox-row">
+              <span class="data-interior" (click)="skipTo('subclass-header')">-Skip to Subclass-</span>
             </tr>
           </div>
           <div class="class-border">

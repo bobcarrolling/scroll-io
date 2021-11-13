@@ -66,6 +66,9 @@
   display: flex;
   align-items: center;
 }
+.checkbox-row span:hover {
+  text-decoration: underline;
+}
 
 .data-button {
   display: inline-block;

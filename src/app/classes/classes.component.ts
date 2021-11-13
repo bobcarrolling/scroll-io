@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-classes',
   templateUrl: './classes.component.html',
-  styleUrls: ['./classes.component.css']
+  styleUrls: ['./classes.component.css'],
 })
 export class ClassesComponent implements OnInit {
   selectedClass: any;
@@ -55,6 +55,12 @@ export class ClassesComponent implements OnInit {
   }
 
   scroll() {
-    document.getElementById('data-table').scrollTo({ top: 0, behavior: 'smooth' });
+    document
+      .getElementById('data-table')
+      .scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  skipTo(id: string) {
+    document.getElementById(id).scrollIntoView({ block: 'center' });
   }
 }

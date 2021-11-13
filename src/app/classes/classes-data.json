@@ -709,7 +709,7 @@
                 "spell": {
                   "name": "Summon Devil",
                   "description": "Summoning spell, multilevel",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "15 feet",
                   "components": "V, S, M (a ruby or any item taken from a devil, either worth at least 100 gp)",
                   "duration": "Concentration, up to 10 minutes",
@@ -952,7 +952,7 @@
                 "spell": {
                   "name": "Summon Watcher",
                   "description": "Summoning spell, multilevel",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "15 feet",
                   "components": "V, S, M (an ammolite gem or any item taken from an aberration, either worth at least 100 gp)",
                   "duration": "Concentration, up to 10 minutes",
@@ -1133,7 +1133,7 @@
                 "spell": {
                   "name": "Summon Angel",
                   "description": "Summoning spell, multilevel",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "15 feet",
                   "components": "V, S, M (a larimarian crystal or any item taken from a celestial, either worth at least 100 gp)",
                   "duration": "Concentration, up to 10 minutes",
@@ -1358,7 +1358,7 @@
                 "spell": {
                   "name": "Summon Legion",
                   "description": "Summoning spell, multilevel",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "15 feet",
                   "components": "V, S, M (an alexandrite stone or any item symbolizing militant leadership, either worth at least 100 gp)",
                   "duration": "Concentration, up to 10 minutes",
@@ -1548,7 +1548,7 @@
                 "spell": {
                   "name": "Sign of Binding",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "120 feet",
                   "components": "V, S, M (a sealed elemental's patience)",
                   "duration": "Instantaneous",
@@ -1578,7 +1578,7 @@
                 "spell": {
                   "name": "Sign of Breaking",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "120 feet",
                   "components": "V, S, M (a sealed elemental's ferocity)",
                   "duration": "Instantaneous",
@@ -1608,7 +1608,7 @@
                 "spell": {
                   "name": "Sign of Violence",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "30 feet",
                   "components": "V, S, M (a sealed dragon's hunger)",
                   "duration": "Instantaneous",
@@ -1638,7 +1638,7 @@
                 "spell": {
                   "name": "Sign of Fright",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed banshee's scream)",
                   "duration": "Instantaneous",
@@ -1659,7 +1659,7 @@
                 "spell": {
                   "name": "Sign of Seasons",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed naga's knowledge)",
                   "duration": "Instantaneous",
@@ -1680,7 +1680,7 @@
                 "spell": {
                   "name": "Sign of Phasing",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed quickling's spirit)",
                   "duration": "Instantaneous",
@@ -1701,7 +1701,7 @@
                 "spell": {
                   "name": "Sign of Delusion",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed gelatinous cube's reflection)",
                   "duration": "Instantaneous",
@@ -1722,7 +1722,7 @@
                 "spell": {
                   "name": "Sign of Lies",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed doppelganger's shadow)",
                   "duration": "1 minute",
@@ -1743,7 +1743,7 @@
                 "spell": {
                   "name": "Sign of Passage",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "Touch",
                   "components": "V, S, M (a sealed chwinga's gift)",
                   "duration": "1 round",
@@ -1764,7 +1764,7 @@
                 "spell": {
                   "name": "Sign of Starlight",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "Self",
                   "components": "V, S, M (a sealed will-o-wisp's flame)",
                   "duration": "1 hour",
@@ -1785,7 +1785,7 @@
                 "spell": {
                   "name": "Sign of Sliding",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "30 feet",
                   "components": "V, S, M (a sealed poltergeist's hatred)",
                   "duration": "Instantaneous",
@@ -1806,7 +1806,7 @@
                 "spell": {
                   "name": "Sign of Ringing",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "60 feet",
                   "components": "V, S, M (a sealed storm giant's thunder)",
                   "duration": "Instantaneous",
@@ -1827,7 +1827,7 @@
                 "spell": {
                   "name": "Sign of Mortality",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "Touch",
                   "components": "V, S, M (a sealed troll's breath)",
                   "duration": "Instantaneous",
@@ -1857,7 +1857,7 @@
                 "spell": {
                   "name": "Sign of Tenacity",
                   "description": "Summoning sign",
-                  "time": "1 action",
+                  "castingtime": "1 action",
                   "range": "Touch",
                   "components": "V, S, M (a sealed illithid's dream)",
                   "duration": "Instantaneous",
