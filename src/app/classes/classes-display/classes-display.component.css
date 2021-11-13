@@ -60,6 +60,7 @@ tr:nth-child(even) {
 }
 td {
   padding: 0.15rem 0.3rem;
+  font-size: 0.76rem;
 }
 .classtable td:first-child {
   position: sticky;
