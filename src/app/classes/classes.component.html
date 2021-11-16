@@ -33,6 +33,7 @@
                 <td
                   class="data-button subclass-button"
                   (click)="selectSublass(subclass)"
+                  (dblclick)="skipTo('subclass-header')"
                   [ngClass]="{
                     'selected-button': selectedSubclass === subclass
                   }"
