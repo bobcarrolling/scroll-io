@@ -61,6 +61,6 @@ export class ClassesComponent implements OnInit {
   }
 
   skipTo(id: string) {
-    document.getElementById(id).scrollIntoView({ block: 'center' });
+    document.getElementById(id).scrollIntoView({ block: 'start' });
   }
 }

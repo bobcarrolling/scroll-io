@@ -4,32 +4,32 @@
 			<table class="header-table">
 				<tr>
 					<th class="column-header">
-						<input type="search" class="search-input" [(ngModel)]="nameSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="nameSearch" (ngModelChange)="this.searchUpdate.next(null)"
               placeholder="Search by name...">
 						<span class="sort-arrow" [innerHTML]="icons[0]" (click)="sortClick(0)"></span>
 					</th>
 					<th class="column-header small-header">
-						<input type="search" class="search-input" [(ngModel)]="crSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="crSearch" (ngModelChange)="this.searchUpdate.next(null)"
             placeholder="CR...">
 						<span class="sort-arrow" [innerHTML]="icons[1]" (click)="sortClick(1)"></span>
 					</th>
 					<th class="column-header">
-						<input type="search" class="search-input" [(ngModel)]="typeSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="typeSearch" (ngModelChange)="this.searchUpdate.next(null)"
             placeholder="Type and subtype...">
 						<span class="sort-arrow" [innerHTML]="icons[2]" (click)="sortClick(2)"></span>
 					</th>
           <th class="column-header medium-header">
-						<input type="search" class="search-input" [(ngModel)]="alignSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="alignSearch" (ngModelChange)="this.searchUpdate.next(null)"
             placeholder="Alignment...">
 						<span class="sort-arrow" [innerHTML]="icons[3]" (click)="sortClick(3)"></span>
 					</th>
 					<th class="column-header small-header">
-						<input type="search" class="search-input" [(ngModel)]="sizeSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="sizeSearch" (ngModelChange)="this.searchUpdate.next(null)"
             placeholder="Size...">
 						<span class="sort-arrow" [innerHTML]="icons[4]" (click)="sortClick(4)"></span>
 					</th>
 					<th class="column-header medium-header">
-						<input type="search" class="search-input" [(ngModel)]="abiSearch" (ngModelChange)="this.searchUpdate.next()"
+						<input type="search" class="search-input" [(ngModel)]="abiSearch" (ngModelChange)="this.searchUpdate.next(null)"
             placeholder="Top stat...">
 						<span class="sort-arrow" [innerHTML]="icons[5]" (click)="sortClick(5)"></span>
 					</th>

@@ -49,27 +49,39 @@
             </tr>
           </div>
           <div class="other-row" *ngIf="selectedClass">
-            <tr class="table-row checkbox-row">
-              <input type="checkbox" id="showintro" [(ngModel)]="showIntro" />
-              <label for="showintro" class="data-interior"
-                >Show Introduction</label
+            <div class="flexrow">
+              <tr class="table-row checkbox-row">
+                <input type="checkbox" id="showintro" [(ngModel)]="showIntro" />
+                <label for="showintro" class="data-interior"
+                  >Show Introduction</label
+                >
+              </tr>
+              <tr class="table-row checkbox-row">
+                <input type="checkbox" id="showtable" [(ngModel)]="showTable" />
+                <label for="showtable" class="data-interior"
+                  >Show Class Table</label
+                >
+              </tr>
+              <tr class="table-row checkbox-row">
+                <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
+                <label for="showprof" class="data-interior">Show Details</label>
+              </tr>
+            </div>
+            <div class="flexrow">
+              <tr class="table-row checkbox-row">
+                <span class="data-interior" (click)="skipTo('subclass-header')"
+                  >-Skip to Subclass-</span
+                >
+              </tr>
+              <tr
+                class="table-row checkbox-row"
+                *ngIf="selectedClass?.appendices"
               >
-            </tr>
-            <tr class="table-row checkbox-row">
-              <input type="checkbox" id="showtable" [(ngModel)]="showTable" />
-              <label for="showtable" class="data-interior"
-                >Show Class Table</label
-              >
-            </tr>
-            <tr class="table-row checkbox-row">
-              <input type="checkbox" id="showprof" [(ngModel)]="showProf" />
-              <label for="showprof" class="data-interior"
-                >Show Details</label
-              >
-            </tr>
-            <tr class="table-row checkbox-row">
-              <span class="data-interior" (click)="skipTo('subclass-header')">-Skip to Subclass-</span>
-            </tr>
+                <span class="data-interior" (click)="skipTo('appendix-header')"
+                  >-Skip to Appendix-</span
+                >
+              </tr>
+            </div>
           </div>
           <div class="class-border">
             <div
