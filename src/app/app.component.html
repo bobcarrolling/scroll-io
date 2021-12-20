@@ -1,8 +1,8 @@
 <div class="box">
 	<div class="header">
-		<app-navbar *ngIf="localStorage.getItem('patreontoken') === '746865636f62626c657262617272656c' || window.location.href.indexOf('https://scroll-io-1.stackblitz.io') === 0"></app-navbar>
+		<app-navbar *ngIf="localStorage.getItem('patreontoken') === '6f6e657a65726f74776f7a65726f6f6e65' || window.location.href.indexOf('https://scroll-io-1.stackblitz.io') === 0"></app-navbar>
 	</div>
 	<div class="content">
-		<router-outlet id="outlet" *ngIf="router.url === '/home' || router.url === '/redirect' || localStorage.getItem('patreontoken') === '746865636f62626c657262617272656c' || window.location.href.indexOf('https://scroll-io-1.stackblitz.io') === 0"></router-outlet>
+		<router-outlet id="outlet" *ngIf="router.url === '/home' || router.url === '/redirect' || localStorage.getItem('patreontoken') === '6f6e657a65726f74776f7a65726f6f6e65' || window.location.href.indexOf('https://scroll-io-1.stackblitz.io') === 0"></router-outlet>
 	</div>
 </div>
