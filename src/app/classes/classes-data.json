@@ -16,23 +16,23 @@
       "originname": "Magicians of the Covenant",
       "origin": "Summoners specialize in unwieldy magic made stable by ancient pacts. By calling upon words of promise, summoners bind the power of another to themselves for their own use or bring forth the bound entity to enact their will. Their specialization comes with many dangers, and so summoners do their utmost to prepare and protect.\n\nUnlike other charismatic compatriots who can persuade and deceive with sheer force of personality, summoners have no such option when making demands from forces of nature older than the world itself. Their words are chosen carefully to entrap others in skillful manipulation through logic and negotiation.\n\nWords are the strongest magic of the summoner, but even the most well-constructed phrases fail. Thus, summoners train in a second utility - the art of protective magics. Like clerics, summoners aid and bolster their allies in and out of combat with a mixture of holy arts, unholy magics, and utterly alien summons from realms unseen.",
       "behaviorname": "Sacrilegious Saviors",
-      "behavior": "In bygone ages in civilizations abandoned by the gods, summoners were viewed as holy people who could enact miracles without the aid of the zionrealms. In some remote places, summoners are respected as sages and seers whose powers are divine intervention in the mortal world. In others, summoners are simple folk heroes with inexplicable powers.\n\nFor what theological governances would call \"the civilized world\", summoners are in active defiance of the gods. Their power comes not from devout worship and deserved blessings, but from immoral machinations that siphon away the life force of celestial beings. Many have been hanged for practicing summoning magic regardless of its sanctity for its simple likening to occult ceremonies. Summoners tread carefully when the church is near, as even their twisting words cannot parlay with zealotry.",
+      "behavior": "In bygone ages in civilizations abandoned by the gods, summoners were viewed as holy people who could enact miracles without the aid of the zionrealms. In some remote places, summoners are respected as sages and seers whose powers are divine intervention in the mortal world. In others, summoners are simple folk heroes with inexplicable powers.\n\nFor what theological governances would call \"the civilized world\", summoners are in active defiance of the gods. Their power comes not from devout worship and deserved blessings, but from immoral machinations that siphon away the life force of celestial beings. Many have been hanged for practicing summoning magic regardless of its sanctity for its simple likening to occult ceremonies. Summoners tread carefully when the church is near, as even their twisting words cannot parlay with zealotry.\n\n\\columnbreak",
       "creationname": "Creating your Summoner",
-      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master."
+      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master.\n\n\\"
     },
     "details": {
       "Hit_Points": {
-        "Hit_Dice": "1d6 per summoner level",
-        "Hit_Points_at_1st_Level": "6 + your Constitution modifier",
+        "Hit_Dice": "1d6 per summoner level \\",
+        "Hit_Points_at_1st_Level": "6 + your Constitution modifier \\",
         "Hit_Points_at_Higher_Levels": "1d6 (or 3) + your Constitution modifier per summoner level after 1st"
       },
       "Proficiencies": {
-        "Armor": "Light armor",
-        "Weapons": "Simple weapons, hand crossbows, whips",
-        "Tools": "Any one type of artisan's tools or any one musical instrument of your choice",
-        "Saving_Throws": "Intelligence, Wisdom",
-        "Skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion",
-        "Multiclass_Ability_Score_Minimum": "Intelligence 13",
+        "Armor": "Light armor \\",
+        "Weapons": "Simple weapons, hand crossbows, whips \\",
+        "Tools": "Any one type of artisan's tools or any one musical instrument of your choice \\",
+        "Saving_Throws": "Intelligence, Wisdom \\",
+        "Skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion \\",
+        "Multiclass_Ability_Score_Minimum": "Intelligence 13 \\",
         "Multiclass_Proficiencies_Gained": "Light armor, simple weapons"
       },
       "Starting_Equipment": {
@@ -399,7 +399,8 @@
                 "itl": false
               }
             ]
-          }
+          },
+          { "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }] }
         ]
       },
       {
@@ -413,7 +414,8 @@
                 "itl": false
               }
             ]
-          }
+          },
+          { "str": [{ "text": "\\", "bld": false, "itl": false }] }
         ]
       },
       {
@@ -560,12 +562,13 @@
           {
             "str": [
               {
-                "text": "At 3rd level, choose a Summoner Bond: Diabolist or Watcher, each of which is detailed at the end of this class description. Your Summoner Bond grants you features at 3rd level, and again at 4th, 6th, 10th, and 14th level in this class.",
+                "text": "At 3rd level, choose a Summoner Bond from the list at the end of this class description. Your Summoner Bond grants you features at 3rd level, and again at 4th, 6th, 10th, and 14th level in this class.",
                 "bld": false,
                 "itl": false
               }
             ]
-          }
+          },
+          { "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }] }
         ]
       },
       {
@@ -634,7 +637,7 @@
           {
             "str": [
               {
-                "text": "The layers of wards and protective symbols woven into your Aegis transforms it into a bulwark of sanctity. Your Aegis gains the following additional properties:",
+                "text": "The layers of wards and protective symbols woven into your Aegis transforms it into a bulwark of sanctity. At 20th level your Aegis gains the following additional properties:",
                 "bld": false,
                 "itl": false
               }
@@ -675,7 +678,8 @@
                 "itl": false
               }
             ]
-          }
+          },
+          { "str": [{ "text": "\\", "bld": false, "itl": false }] }
         ]
       }
     ],
@@ -706,6 +710,9 @@
                 ]
               },
               {
+                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
+              },
+              {
                 "spell": {
                   "name": "Summon Devil",
                   "description": "Summoning spell, multilevel",
@@ -726,7 +733,7 @@
                     {
                       "str": [
                         {
-                          "text": "You call forth a devil which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. Its form is determined by the highest level spell slot consumed upon casting, as listed in the table below. Each level of devil has persistent hit points between long rests, which afterwards heals them fully. You cannot summon a devil that has 0 hit points.",
+                          "text": "You call forth a devil which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. Its form is determined by the highest level spell slot consumed upon casting, as listed in the table below. Each level of devil has persistent damage taken between your long rests, which afterwards heals them fully. You cannot summon a devil that has 0 hit points.",
                           "bld": false,
                           "itl": false
                         }
@@ -948,6 +955,7 @@
                   }
                 ]
               },
+              { "str": [{ "text": "\\", "bld": false, "itl": false }] },
               {
                 "spell": {
                   "name": "Summon Watcher",
@@ -969,7 +977,7 @@
                     {
                       "str": [
                         {
-                          "text": "You call forth a watcher in the form of a Beholderkin Aberrant Spirit (from TCE's Summon Aberration spell) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The watcher's hit points are 10 + 10 for each spell level above 1st and uses the level of the summon when referring to the spell's level. The watcher has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the watcher if it has 0 hit points.",
+                          "text": "You call forth a watcher in the form of a Beholderkin Aberrant Spirit (from TCE's Summon Aberration spell) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The watcher's hit points are 10 + 10 for each spell level above 1st and uses the level of the summon when referring to the spell's level. The watcher has persistent damage taken between your long rests, which afterwards heals them fully. You cannot summon the watcher if it would have 0 hit points at the chosen level.",
                           "bld": false,
                           "itl": false
                         }
@@ -1099,7 +1107,8 @@
                     "itl": false
                   }
                 ]
-              }
+              },
+              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
             ]
           }
         ]
@@ -1150,7 +1159,7 @@
                     {
                       "str": [
                         {
-                          "text": "You call forth an angel in the form of a Scout (MM p349) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The angel's type is celestial, and its languages are Common and Celestial. The angel's hit points are 16 + 10 for each spell level above 1st. The angel has persistent hit points between long rests, which afterwards heals them fully. You cannot summon the angel if it has 0 hit points.",
+                          "text": "You call forth an angel in the form of a Scout (MM p349) which appears in an unoccupied space that you can see within range and disappears when it drops to 0 hit points or when the spell ends. The angel's type is celestial, and its languages are Common and Celestial. The angel's hit points are 16 + 10 for each spell level above 1st. The angel has persistent damage taken between your long rests, which afterwards heals them fully. You cannot summon the angel if it would have 0 hit points at the chosen level.",
                           "bld": false,
                           "itl": false
                         }
@@ -1273,6 +1282,9 @@
                     "itl": false
                   }
                 ]
+              },
+              {
+                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
               }
             ]
           },
@@ -1324,7 +1336,8 @@
                     "itl": false
                   }
                 ]
-              }
+              },
+              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
             ]
           }
         ]
@@ -1375,7 +1388,7 @@
                     {
                       "str": [
                         {
-                          "text": "You call forth a legion in the form of two Infantry Levies units (Rank and File) which appear in a space that you can see within range and disappear when they drop to 0 hit points or when the spell ends. The units have no rank or file feat. The units' AC is 13 + 1 for each spell level above 1st and their hit points are 22 + 5 for each spell level above 1st. The units have persistent hit points between long rests, which afterwards heals them fully. You cannot summon one of the units if it has 0 hit points.",
+                          "text": "You call forth a legion in the form of two Infantry Levies units (Rank and File) which appear in a space that you can see within range and disappear when they drop to 0 hit points or when the spell ends. The units have no rank or file feat. The units' AC is 13 + 1 for each spell level above 1st and their hit points are 22 + 5 for each spell level above 1st. The units have persistent damage taken between your long rests, which afterwards heals them fully. You cannot summon one of the units if it would have 0 hit points at the chosen level.",
                           "bld": false,
                           "itl": false
                         }
@@ -1481,6 +1494,9 @@
                     "itl": false
                   }
                 ]
+              },
+              {
+                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
               }
             ]
           },
@@ -1532,362 +1548,367 @@
                     "itl": false
                   }
                 ]
-              }
+              },
+              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
             ]
           }
         ]
       }
     ],
-    "appendices": [
-      {
-        "features": [
-          {
-            "name": "Summoner Signs",
-            "paragraphs": [
-              {
-                "spell": {
-                  "name": "Sign of Binding",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "120 feet",
-                  "components": "V, S, M (a sealed elemental's patience)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign reaches out to halt a creature you can see within range. The target must make a Dexterity saving throw. On a failed save, the target's speed is reduced by 10 feet until the end of your next turn.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    },
-                    {
-                      "str": [
-                        {
-                          "text": "The reduction increases to 15 feet when you reach 5th level, 20 feet at 11th level, and 25 feet at 17th level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Breaking",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "120 feet",
-                  "components": "V, S, M (a sealed elemental's ferocity)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign harries an attacking creature you can see within range. The target must make a Strength saving throw. On a failed save, the target's attacks critically fail on rolls of 2 or lower until the end of your next turn.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    },
-                    {
-                      "str": [
-                        {
-                          "text": "The effect increases to rolls of 3 or lower when you reach 5th level, 4 or lower at 11th level, and 5 or lower at 17th level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Violence",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "30 feet",
-                  "components": "V, S, M (a sealed dragon's hunger)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign empowers the strikes of a willing creature you can see within range. The target's first attack they hit has a +3 bonus to damage until the end of their next turn.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    },
-                    {
-                      "str": [
-                        {
-                          "text": "The bonus increases to +6 when you reach 5th level, +10 at 11th level, and +15 at 17th level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Fright",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed banshee's scream)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign incepts terror in the mind of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the next time the target takes damage from a weapon attack the damage is converted to psychic. A creature immune to the frightened condition automatically succeeds this saving throw.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Seasons",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed naga's knowledge)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign pulls at the natural ebb and flow of a spell a willing creature you can see within range casts. When you cast this sign, choose either fire, lightning, or cold damage. The next spell the target casts that deals damage instead deals the chosen type.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Phasing",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed quickling's spirit)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign pushes a willing creature within range you can see through spacetime. As a reaction, the target can move 5 feet without provoking attacks of opportunity.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Delusion",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed gelatinous cube's reflection)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign beguiles and distracts the attention of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the target has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks until the end of your next turn.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Lies",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed doppelganger's shadow)",
-                  "duration": "1 minute",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign alters a small pocket of reality for creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target perceives a 1 foot cube or smaller inanimate nonliving object you can see as made from another material, or invisible. Regardless of their saving throw, this seal cannot be recast on the same target within 24 hours.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Passage",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "Touch",
-                  "components": "V, S, M (a sealed chwinga's gift)",
-                  "duration": "1 round",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign incorporealizes an object for a brief moment. A 1 foot cube or smaller inanimate nonliving object you touch becomes semi-ethereal. While in this state, the object can pass through unworn inanimate nonliving material that is less than 1 inch thick. If the spell ends while the object is within solid material, it is shunted out in your direction.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Starlight",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "Self",
-                  "components": "V, S, M (a sealed will-o-wisp's flame)",
-                  "duration": "1 hour",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign produces a lit candle in your hand. It does not burn with heat, nor can it be extinguished until the spell ends or is dismissed (no action required), whereupon the candle disappears. If you cast this sign again, you can have up to six candles active at a time.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Sliding",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "30 feet",
-                  "components": "V, S, M (a sealed poltergeist's hatred)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign exerts a supernatural effort from a distance. Choose an inanimate object you can see within range that is no more than 10 lbs and is not held in place. It is pushed with a horizontal force that moves it 1d4 x 5 feet in a direction of your choice.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Ringing",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "60 feet",
-                  "components": "V, S, M (a sealed storm giant's thunder)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign manufactures noise in the ear of a creature that can hear within range. The target must make a Constitution saving throw. On a failed save, the creature is deafened until the end of your next turn.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Mortality",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "Touch",
-                  "components": "V, S, M (a sealed troll's breath)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign sacrifices bodily energy to embolden the spirit. A willing creature you touch gains 10 temporary hit points. Their speed is reduced by 5 feet and their AC reduced by 1 until they finish a long rest. ",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    },
-                    {
-                      "str": [
-                        {
-                          "text": "The amount of temporary hit points increases to 15 when you reach 5th level, 20 at 11th level, and 25 at 17th level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "spell": {
-                  "name": "Sign of Tenacity",
-                  "description": "Summoning sign",
-                  "castingtime": "1 action",
-                  "range": "Touch",
-                  "components": "V, S, M (a sealed illithid's dream)",
-                  "duration": "Instantaneous",
-                  "text": [
-                    {
-                      "str": [
-                        {
-                          "text": "The sign sacrifices bodily energy to sustain magical fortitude. A willing creature you touch that has all its hit dice sacrifices its entire pool. They then regain a spell slot of 1st level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    },
-                    {
-                      "str": [
-                        {
-                          "text": "The spell slot regained increases to 2nd level when you reach 5th level, 3rd at 11th level, and 4th at 17th level.",
-                          "bld": false,
-                          "itl": false
-                        }
-                      ]
-                    }
-                  ]
-                }
+    "appendices": {
+      "features": [
+        {
+          "name": "Summoner Signs",
+          "paragraphs": [
+            {
+              "spell": {
+                "name": "Sign of Binding",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "120 feet",
+                "components": "V, S, M (a sealed elemental's patience)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign reaches out to halt a creature you can see within range. The target must make a Dexterity saving throw. On a failed save, the target's speed is reduced by 10 feet until the end of your next turn.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      {
+                        "text": "The reduction increases to 15 feet when you reach 5th level, 20 feet at 11th level, and 25 feet at 17th level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
               }
-            ]
-          }
-        ]
-      }
-    ]
+            },
+            {
+              "spell": {
+                "name": "Sign of Breaking",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "120 feet",
+                "components": "V, S, M (a sealed elemental's ferocity)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign harries an attacking creature you can see within range. The target must make a Strength saving throw. On a failed save, the target's attacks critically fail on rolls of 2 or lower until the end of your next turn.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      {
+                        "text": "The effect increases to rolls of 3 or lower when you reach 5th level, 4 or lower at 11th level, and 5 or lower at 17th level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Violence",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "30 feet",
+                "components": "V, S, M (a sealed dragon's hunger)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign empowers the strikes of a willing creature you can see within range. The target's first attack they hit has a +3 bonus to damage until the end of their next turn.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      {
+                        "text": "The bonus increases to +6 when you reach 5th level, +10 at 11th level, and +15 at 17th level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Fright",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed banshee's scream)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign incepts terror in the mind of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the next time the target takes damage from a weapon attack the damage is converted to psychic. A creature immune to the frightened condition automatically succeeds this saving throw.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      { "text": "\\columnbreak", "bld": false, "itl": false }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Seasons",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed naga's knowledge)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign pulls at the natural ebb and flow of a spell a willing creature you can see within range casts. When you cast this sign, choose either fire, lightning, or cold damage. The next spell the target casts that deals damage instead deals the chosen type.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Phasing",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed quickling's spirit)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign pushes a willing creature within range you can see through spacetime. As a reaction, the target can move 5 feet without provoking attacks of opportunity.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Delusion",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed gelatinous cube's reflection)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign beguiles and distracts the attention of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the target has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks until the end of your next turn.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Lies",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed doppelganger's shadow)",
+                "duration": "1 minute",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign alters a small pocket of reality for creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target perceives a 1 foot cube or smaller inanimate nonliving object you can see as made from another material, or invisible. Regardless of their saving throw, this seal cannot be recast on the same target within 24 hours.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Passage",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "Touch",
+                "components": "V, S, M (a sealed chwinga's gift)",
+                "duration": "1 round",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign incorporealizes an object for a brief moment. A 1 foot cube or smaller inanimate nonliving object you touch becomes semi-ethereal. While in this state, the object can pass through unworn inanimate nonliving material that is less than 1 inch thick. If the spell ends while the object is within solid material, it is shunted out in your direction.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Starlight",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "Self",
+                "components": "V, S, M (a sealed will-o-wisp's flame)",
+                "duration": "1 hour",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign produces a lit candle in your hand. It does not burn with heat, nor can it be extinguished until the spell ends or is dismissed (no action required), whereupon the candle disappears. If you cast this sign again, you can have up to six candles active at a time.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Sliding",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "30 feet",
+                "components": "V, S, M (a sealed poltergeist's hatred)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign exerts a supernatural effort from a distance. Choose an inanimate object you can see within range that is no more than 10 lbs and is not held in place. It is pushed with a horizontal force that moves it 1d4 times 5 feet in a direction of your choice.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Ringing",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "60 feet",
+                "components": "V, S, M (a sealed storm giant's thunder)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign manufactures noise in the ear of a creature that can hear within range. The target must make a Constitution saving throw. On a failed save, the creature is deafened until the end of your next turn.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Mortality",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "Touch",
+                "components": "V, S, M (a sealed troll's breath)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign sacrifices bodily energy to embolden the spirit. A willing creature you touch gains 10 temporary hit points. Their speed is reduced by 5 feet and their AC reduced by 1 until they finish a long rest. ",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      {
+                        "text": "The amount of temporary hit points increases to 15 when you reach 5th level, 20 at 11th level, and 25 at 17th level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "spell": {
+                "name": "Sign of Tenacity",
+                "description": "Summoning sign",
+                "castingtime": "1 action",
+                "range": "Touch",
+                "components": "V, S, M (a sealed illithid's dream)",
+                "duration": "Instantaneous",
+                "text": [
+                  {
+                    "str": [
+                      {
+                        "text": "The sign sacrifices bodily energy to sustain magical fortitude. A willing creature you touch that has all its hit dice sacrifices its entire pool. They then regain a spell slot of 1st level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  },
+                  {
+                    "str": [
+                      {
+                        "text": "The spell slot regained increases to 2nd level when you reach 5th level, 3rd at 11th level, and 4th at 17th level.",
+                        "bld": false,
+                        "itl": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   { "name": "Warlock" },
   { "name": "Wizard" }

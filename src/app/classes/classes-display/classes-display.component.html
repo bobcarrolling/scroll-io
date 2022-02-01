@@ -162,10 +162,7 @@
       <!-- Subclass Features -->
 
       <ng-container *ngFor="let feature of SC.features">
-        <h3
-          class="flexrow namerow"
-          *ngIf="feature.name.indexOf('#') === -1"
-        >
+        <h3 class="flexrow namerow" *ngIf="feature.name.indexOf('#') === -1">
           <span
             class="name"
             *ngFor="let word of feature.name.split(' ')"
@@ -301,145 +298,144 @@
 
     <!-- Appendices -->
 
-    <h2 id="appendix-header" class="flexrow namerow justify-center" style="margin-top: 1rem; font-style: italic">
-      <span class="name name-word"> {{ C.name.toUpperCase() }} </span>&nbsp;<span class="name name-word"> APPENDIX </span>
+    <h2
+      id="appendix-header"
+      class="flexrow namerow justify-center"
+      style="margin-top: 1rem; font-style: italic"
+    >
+      <span class="name name-word"> {{ C.name.toUpperCase() }} </span
+      >&nbsp;<span class="name name-word"> APPENDIX </span>
     </h2>
-    <ng-container *ngFor="let appendix of C.appendices">
-      <ng-container *ngFor="let feature of appendix.features">
-        <h3
-          class="flexrow namerow"
-          *ngIf="feature.name.indexOf('#') === -1"
+    <ng-container *ngFor="let feature of C.appendices.features">
+      <h3 class="flexrow namerow" *ngIf="feature.name.indexOf('#') === -1">
+        <span
+          class="name"
+          *ngFor="let word of feature.name.split(' ')"
+          [ngClass]="{ 'name-word': isWord(word) }"
         >
-          <span
-            class="name"
-            *ngFor="let word of feature.name.split(' ')"
-            [ngClass]="{ 'name-word': isWord(word) }"
+          {{ word.toUpperCase() }}&nbsp;
+          <span style="margin-right: 0.1rem;"></span>
+        </span>
+      </h3>
+      <h4 class="name name-word" *ngIf="feature.name.indexOf('#') === 0">
+        {{ feature.name.replace('# ', '') }}
+      </h4>
+      <ng-container *ngFor="let p of feature.paragraphs">
+        <!-- TEXT -->
+        <p>
+          <ng-container
+            *ngFor="let str of p.str"
+            [style.fontWeight]="str.bld ? 'bold' : null"
+            [style.fontStyle]="str.itl ? 'italic' : null"
           >
-            {{ word.toUpperCase() }}&nbsp;
-            <span style="margin-right: 0.1rem;"></span>
-          </span>
-        </h3>
-        <h4 class="name name-word" *ngIf="feature.name.indexOf('#') === 0">
-          {{ feature.name.replace('# ', '') }}
-        </h4>
-        <ng-container *ngFor="let p of feature.paragraphs">
-          <!-- TEXT -->
-          <p>
+            {{ str.text }}
+          </ng-container>
+        </p>
+        <!-- TABLE -->
+        <span *ngIf="p.table" class="othertable flexrow justify-center">
+          <table>
+            <tr *ngFor="let row of p.table; let i = index">
+              <ng-container *ngIf="i !== 1">
+                <td
+                  *ngFor="let content of row; let j = index"
+                  [style.textAlign]="getTextAlign(p.table[1][j])"
+                >
+                  <span *ngIf="i === 0" style="white-space: nowrap">
+                    <span *ngFor="let word of content.split(' ')">
+                      <span>{{ word }}</span
+                      ><br />
+                    </span>
+                  </span>
+                  <span *ngIf="i !== 0">
+                    {{ content }}
+                  </span>
+                </td>
+              </ng-container>
+            </tr>
+          </table>
+        </span>
+        <!-- SPELL -->
+        <div *ngIf="p.spell" class="spell">
+          <div class="name-box">
+            <h4 class="flexrow namerow" style="padding-left: 0.5rem">
+              <span
+                class="name"
+                *ngFor="let c of p.spell.name.split(' '); let i = index"
+                [ngClass]="{ 'name-word': isWord(c) }"
+              >
+                {{ c.toUpperCase() }}&nbsp;
+                <span
+                  *ngIf="i < p.spell.name.split(' ').length - 1"
+                  style="margin-right: 0.1rem;"
+                ></span>
+              </span>
+            </h4>
+            <div class="spell-info">
+              <p class="itl">
+                {{ p.spell.description }}
+              </p>
+              <p *ngIf="p.spell.castingtime">
+                <span class="bld">Casting Time: </span>{{ p.spell.castingtime }}
+              </p>
+              <p *ngIf="p.spell.range">
+                <span class="bld">Range: </span>{{ p.spell.range }}
+              </p>
+              <p *ngIf="p.spell.components">
+                <span class="bld">Components: </span>{{ p.spell.components }}
+              </p>
+              <p *ngIf="p.spell.duration">
+                <span class="bld">Duration: </span>{{ p.spell.duration }}
+              </p>
+            </div>
+            <div>
+              <br />
+            </div>
+            <div
+              class="svg flexcol justify-center"
+              style="margin-top: -1rem; opacity: 40%; padding: 0.5rem"
+            >
+              <svg
+                width="100%"
+                height="3"
+                viewBox="0 0 1000 3"
+                preserveAspectRatio="none"
+              >
+                <polygon points="0,0  1000,1.5  0,3" style="fill: teal;" />
+              </svg>
+            </div>
+          </div>
+          <p *ngFor="let pr of p.spell.text">
             <ng-container
-              *ngFor="let str of p.str"
+              *ngFor="let str of pr.str"
               [style.fontWeight]="str.bld ? 'bold' : null"
               [style.fontStyle]="str.itl ? 'italic' : null"
             >
               {{ str.text }}
             </ng-container>
-          </p>
-          <!-- TABLE -->
-          <span *ngIf="p.table" class="othertable flexrow justify-center">
-            <table>
-              <tr *ngFor="let row of p.table; let i = index">
-                <ng-container *ngIf="i !== 1">
-                  <td
-                    *ngFor="let content of row; let j = index"
-                    [style.textAlign]="getTextAlign(p.table[1][j])"
-                  >
-                    <span *ngIf="i === 0" style="white-space: nowrap">
-                      <span *ngFor="let word of content.split(' ')">
-                        <span>{{ word }}</span
-                        ><br />
+            <span *ngIf="pr.table" class="othertable flexrow justify-center">
+              <table>
+                <tr *ngFor="let row of pr.table; let i = index">
+                  <ng-container *ngIf="i !== 1">
+                    <td
+                      *ngFor="let content of row; let j = index"
+                      [style.textAlign]="getTextAlign(pr.table[1][j])"
+                    >
+                      <span *ngIf="i === 0" style="white-space: nowrap">
+                        <span *ngFor="let word of content.split(' ')">
+                          <span>{{ word }}</span
+                          ><br />
+                        </span>
                       </span>
-                    </span>
-                    <span *ngIf="i !== 0">
-                      {{ content }}
-                    </span>
-                  </td>
-                </ng-container>
-              </tr>
-            </table>
-          </span>
-          <!-- SPELL -->
-          <div *ngIf="p.spell" class="spell">
-            <div class="name-box">
-              <h4 class="flexrow namerow" style="padding-left: 0.5rem">
-                <span
-                  class="name"
-                  *ngFor="let c of p.spell.name.split(' '); let i = index"
-                  [ngClass]="{ 'name-word': isWord(c) }"
-                >
-                  {{ c.toUpperCase() }}&nbsp;
-                  <span
-                    *ngIf="i < p.spell.name.split(' ').length - 1"
-                    style="margin-right: 0.1rem;"
-                  ></span>
-                </span>
-              </h4>
-              <div class="spell-info">
-                <p class="itl">
-                  {{ p.spell.description }}
-                </p>
-                <p *ngIf="p.spell.castingtime">
-                  <span class="bld">Casting Time: </span
-                  >{{ p.spell.castingtime }}
-                </p>
-                <p *ngIf="p.spell.range">
-                  <span class="bld">Range: </span>{{ p.spell.range }}
-                </p>
-                <p *ngIf="p.spell.components">
-                  <span class="bld">Components: </span>{{ p.spell.components }}
-                </p>
-                <p *ngIf="p.spell.duration">
-                  <span class="bld">Duration: </span>{{ p.spell.duration }}
-                </p>
-              </div>
-              <div>
-                <br />
-              </div>
-              <div
-                class="svg flexcol justify-center"
-                style="margin-top: -1rem; opacity: 40%; padding: 0.5rem"
-              >
-                <svg
-                  width="100%"
-                  height="3"
-                  viewBox="0 0 1000 3"
-                  preserveAspectRatio="none"
-                >
-                  <polygon points="0,0  1000,1.5  0,3" style="fill: teal;" />
-                </svg>
-              </div>
-            </div>
-            <p *ngFor="let pr of p.spell.text">
-              <ng-container
-                *ngFor="let str of pr.str"
-                [style.fontWeight]="str.bld ? 'bold' : null"
-                [style.fontStyle]="str.itl ? 'italic' : null"
-              >
-                {{ str.text }}
-              </ng-container>
-              <span *ngIf="pr.table" class="othertable flexrow justify-center">
-                <table>
-                  <tr *ngFor="let row of pr.table; let i = index">
-                    <ng-container *ngIf="i !== 1">
-                      <td
-                        *ngFor="let content of row; let j = index"
-                        [style.textAlign]="getTextAlign(pr.table[1][j])"
-                      >
-                        <span *ngIf="i === 0" style="white-space: nowrap">
-                          <span *ngFor="let word of content.split(' ')">
-                            <span>{{ word }}</span
-                            ><br />
-                          </span>
-                        </span>
-                        <span *ngIf="i !== 0">
-                          {{ content }}
-                        </span>
-                      </td>
-                    </ng-container>
-                  </tr>
-                </table>
-              </span>
-            </p>
-          </div>
-        </ng-container>
+                      <span *ngIf="i !== 0">
+                        {{ content }}
+                      </span>
+                    </td>
+                  </ng-container>
+                </tr>
+              </table>
+            </span>
+          </p>
+        </div>
       </ng-container>
     </ng-container>
   </div>
