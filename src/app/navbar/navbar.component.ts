@@ -16,12 +16,12 @@ export class NavbarComponent implements OnInit {
   }
 
   navigate(page: string) {
-    page = page.toLowerCase().split(" ").join();
+    page = page.toLowerCase().replace(new RegExp(' ', 'g'), '');
     this.router.navigate(["/" + page]);
   }
 
   checkCurrent(page: string) {
-    if (this.router.url.indexOf("/" + page.toLowerCase().split(" ").join()) === 0) {
+    if (this.router.url.indexOf("/" + page.toLowerCase().replace(new RegExp(' ', 'g'), '')) === 0) {
       return true;
     }
     return false;

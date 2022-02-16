@@ -129,4 +129,8 @@ export class ClassesDisplayComponent implements OnInit {
   returnKeys(obj: Object): string[] {
     return Object.keys(obj);
   }
+
+  replaceAll(os: string, s1: string, s2: string): string {
+    return os.replace(new RegExp(s1, 'g'), s2);
+  }
 }

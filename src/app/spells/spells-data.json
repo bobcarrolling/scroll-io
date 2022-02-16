@@ -1,13 +1,8 @@
 [
   {
     "effects": [
-      {
-        "text": "This spell has the same properties as the spell "
-      },
-      {
-        "text": "Unseen Servant",
-        "itl": true
-      },
+      { "text": "This spell has the same properties as the spell " },
+      { "text": "Unseen Servant", "itl": true },
       {
         "text": ", but grants the servant a semblance of intelligence and skill. The servant has a Dexterity and Wisdom of 10, and adds your spellcasting ability modifier to any Strength, Dexterity, or Wisdom check it makes. It cannot make ability checks with ability scores it does not have. The servant can hear and understand any question you mentally ask of it, and it can respond telepathically in a one-word whisper audible only to you."
       }
@@ -31,53 +26,23 @@
       {
         "text": "You create a toxic rain cloud over a point you can see within range, provided there is 5 feet of unoccupied space above that point. Until the spell ends, the cloud rains acid in a 5-foot cube beneath it. Any creature in the rain's space when you cast the spell must succeed on a Constitution saving throw or take "
       },
-      {
-        "text": "1d6",
-        "dice": true
-      },
+      { "text": "1d6", "dice": true },
       {
         "text": " acid damage. A creature takes 1 point of acid damage if it ends its turn in the rain's space. The cloud stops raining and disappears at the beginning of your next turn."
       },
-      {
-        "text": "",
-        "newline": true
-      },
-      {
-        "text": "At Higher Levels.",
-        "bld": true,
-        "itl": true
-      },
-      {
-        "text": " The spell’s damage increases by "
-      },
-      {
-        "text": "1d6",
-        "dice": true
-      },
+      { "text": "", "newline": true },
+      { "text": "At Higher Levels.", "bld": true, "itl": true },
+      { "text": " The spell’s damage increases by " },
+      { "text": "1d6", "dice": true },
       {
         "text": " when cast and 1 additional point for creatures ending their turn within the space when you reach 5th level ("
       },
-      {
-        "text": "2d6",
-        "dice": true
-      },
-      {
-        "text": " and 2), 11th level ("
-      },
-      {
-        "text": "3d6",
-        "dice": true
-      },
-      {
-        "text": " and 3), and 17th level ("
-      },
-      {
-        "text": "4d6",
-        "dice": true
-      },
-      {
-        "text": " and 4)."
-      }
+      { "text": "2d6", "dice": true },
+      { "text": " and 2), 11th level (" },
+      { "text": "3d6", "dice": true },
+      { "text": " and 3), and 17th level (" },
+      { "text": "4d6", "dice": true },
+      { "text": " and 4)." }
     ],
     "sectioncount": 1,
     "lettercount": 921,
@@ -162,10 +127,7 @@
         "newline": true,
         "paragraph": true
       },
-      {
-        "text": "1d10",
-        "dice": true
-      },
+      { "text": "1d10", "dice": true },
       {
         "text": " force damage for every 5 feet it moves. If a creature ends its turn within the sphere, it is pulled into the central wormhole and must make a Strength saving throw. On a failure, the creature is teleported to the wormhole's exit. A creature can willingly fail this saving throw. Unsecured objects of size Medium or smaller are pulled along with any creatures."
       }
@@ -329,23 +291,12 @@
         "newline": true,
         "paragraph": true
       },
-      {
-        "text": "d6",
-        "dice": true
-      },
+      { "text": "d6", "dice": true },
       {
         "text": ". The spell then affects all creatures within its light that are not behind total cover, are of a CR equal to or lower than the rolled value, and have one or more of the following traits:"
       },
-      {
-        "text": "- The creature is undead.",
-        "newline": true,
-        "list": true
-      },
-      {
-        "text": "- The creature is an ooze.",
-        "newline": true,
-        "list": true
-      },
+      { "text": "- The creature is undead.", "newline": true, "list": true },
+      { "text": "- The creature is an ooze.", "newline": true, "list": true },
       {
         "text": "- The creature is naturally resistant or immune to cold damage.",
         "newline": true,
@@ -404,22 +355,10 @@
       {
         "text": "You become elusive and slippery for a brief moment. As part of the bonus action used to cast this spell, you can immediately repeat an ability check or saving throw needed to end the grappled or restrained condition on yourself with a "
       },
-      {
-        "text": "+1",
-        "bonus": true
-      },
-      {
-        "text": " bonus to the roll."
-      },
-      {
-        "text": "",
-        "newline": true
-      },
-      {
-        "text": "At Higher Levels.",
-        "bld": true,
-        "itl": true
-      },
+      { "text": "+1", "bonus": true },
+      { "text": " bonus to the roll." },
+      { "text": "", "newline": true },
+      { "text": "At Higher Levels.", "bld": true, "itl": true },
       {
         "text": " When you cast this spell using a spell slot of 2nd level or higher, the bonus increases by 1 for each slot level above 1st."
       }
@@ -486,13 +425,8 @@
       {
         "text": "You disrupt the control that a spellcaster has over a creature. Make an ability check using your spellcasting ability, with a bonus equal to the level at which this spell was cast. The DC equals 8 + the triggering spell's level. On a success, for the duration of the triggering spell the charmed or summoned creature is also under the effect of the spell "
       },
-      {
-        "text": "confusion",
-        "itl": true
-      },
-      {
-        "text": " with the following alterations:"
-      },
+      { "text": "confusion", "itl": true },
+      { "text": " with the following alterations:" },
       {
         "text": "- On a roll of 7-8, the creature defaults to the triggering spell's effects.",
         "newline": true,
@@ -551,10 +485,7 @@
       {
         "text": "You attempt to reflect back a portion destructive magic. Roll a number of "
       },
-      {
-        "text": "d4",
-        "dice": true
-      },
+      { "text": "d4", "dice": true },
       {
         "text": " equal to 1 plus the level at which this spell was cast. The triggering spell's damage is reduced by the rolled amount. If the spell has multiple types or sources of damage, each type or source is reduced by that amount. This effect cannot reduce the damage of a spell past zero, nor can it negate any other effects of a spell."
       },

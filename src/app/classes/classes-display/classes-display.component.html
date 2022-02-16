@@ -81,14 +81,14 @@
       </h2>
       <ng-container *ngFor="let title of returnKeys(C.details)">
         <h4 class="name name-word">
-          {{ title.split('_').join(' ') }}
+          {{ replaceAll(title, '_', ' ') }}
         </h4>
         <div
           *ngFor="let bullet of returnKeys(C.details[title])"
           style="margin-left: 1rem"
         >
           <span *ngIf="bullet.indexOf('value') !== 0" style="font-weight: bold"
-            >{{ bullet.split('_').join(' ') }}:</span
+            >{{ replaceAll(bullet, '_', ' ') }}:</span
           >
           {{ C.details[title][bullet] }}
           <br />

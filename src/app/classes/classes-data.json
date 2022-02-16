@@ -16,23 +16,23 @@
       "originname": "Magicians of the Covenant",
       "origin": "Summoners specialize in unwieldy magic made stable by ancient pacts. By calling upon words of promise, summoners bind the power of another to themselves for their own use or bring forth the bound entity to enact their will. Their specialization comes with many dangers, and so summoners do their utmost to prepare and protect.\n\nUnlike other charismatic compatriots who can persuade and deceive with sheer force of personality, summoners have no such option when making demands from forces of nature older than the world itself. Their words are chosen carefully to entrap others in skillful manipulation through logic and negotiation.\n\nWords are the strongest magic of the summoner, but even the most well-constructed phrases fail. Thus, summoners train in a second utility - the art of protective magics. Like clerics, summoners aid and bolster their allies in and out of combat with a mixture of holy arts, unholy magics, and utterly alien summons from realms unseen.",
       "behaviorname": "Sacrilegious Saviors",
-      "behavior": "In bygone ages in civilizations abandoned by the gods, summoners were viewed as holy people who could enact miracles without the aid of the zionrealms. In some remote places, summoners are respected as sages and seers whose powers are divine intervention in the mortal world. In others, summoners are simple folk heroes with inexplicable powers.\n\nFor what theological governances would call \"the civilized world\", summoners are in active defiance of the gods. Their power comes not from devout worship and deserved blessings, but from immoral machinations that siphon away the life force of celestial beings. Many have been hanged for practicing summoning magic regardless of its sanctity for its simple likening to occult ceremonies. Summoners tread carefully when the church is near, as even their twisting words cannot parlay with zealotry.\n\n\\columnbreak",
+      "behavior": "In bygone ages in civilizations abandoned by the gods, summoners were viewed as holy people who could enact miracles without the aid of the zionrealms. In some remote places, summoners are respected as sages and seers whose powers are divine intervention in the mortal world. In others, summoners are simple folk heroes with inexplicable powers.\n\nFor what theological governances would call \"the civilized world\", summoners are in active defiance of the gods. Their power comes not from devout worship and deserved blessings, but from immoral machinations that siphon away the life force of celestial beings. Many have been hanged for practicing summoning magic regardless of its sanctity for its simple likening to occult ceremonies. Summoners tread carefully when the church is near, as even their twisting words cannot parlay with zealotry.",
       "creationname": "Creating your Summoner",
-      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master.\n\n\\"
+      "creation": "When creating a summoner, consider their initial encounters with magic. Summoners are usually well educated in multiversal matters and deep arcana. Where did they attain this knowledge? Was it from years of study, a revelation from the heavens, or a chance meeting with a being from afar? Or are they completely ignorant of such matters, and operate solely on a foreign instinct?\n\nTo be a summoner is to desire power beyond yourself. What is it your summoner desires, and why did that lead them to become an adventurer? Do they seek to command armies to retake their ancestral home? Are they the last chosen summoner for a bound god? Or are they a feeble weakling that has found a friend that can protect them, and need only call their name?\n\nCertain abilities are granted by certain supernatural beings. Choose a path with abilities you would like for your summoner, then speak to your dungeon master about what beings could grant those powers. Choose from what is presented within your character's world. The pact that binds entities and summoners together is implicit and is not a process outlined as part of this class but is an experience that can be fun to roleplay between you and your dungeon master."
     },
     "details": {
       "Hit_Points": {
-        "Hit_Dice": "1d6 per summoner level \\",
-        "Hit_Points_at_1st_Level": "6 + your Constitution modifier \\",
+        "Hit_Dice": "1d6 per summoner level",
+        "Hit_Points_at_1st_Level": "6 + your Constitution modifier",
         "Hit_Points_at_Higher_Levels": "1d6 (or 3) + your Constitution modifier per summoner level after 1st"
       },
       "Proficiencies": {
-        "Armor": "Light armor \\",
-        "Weapons": "Simple weapons, hand crossbows, whips \\",
-        "Tools": "Any one type of artisan's tools or any one musical instrument of your choice \\",
-        "Saving_Throws": "Intelligence, Wisdom \\",
-        "Skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion \\",
-        "Multiclass_Ability_Score_Minimum": "Intelligence 13 \\",
+        "Armor": "Light armor",
+        "Weapons": "Simple weapons, hand crossbows, whips",
+        "Tools": "Any one type of artisan's tools or any one musical instrument of your choice",
+        "Saving_Throws": "Intelligence, Wisdom",
+        "Skills": "Choose 3 from Animal Handling, Arcana, Deception, History, Insight, Medicine, Nature, Persuasion, and Religion",
+        "Multiclass_Ability_Score_Minimum": "Intelligence 13",
         "Multiclass_Proficiencies_Gained": "Light armor, simple weapons"
       },
       "Starting_Equipment": {
@@ -399,8 +399,7 @@
                 "itl": false
               }
             ]
-          },
-          { "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }] }
+          }
         ]
       },
       {
@@ -414,8 +413,7 @@
                 "itl": false
               }
             ]
-          },
-          { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+          }
         ]
       },
       {
@@ -567,8 +565,7 @@
                 "itl": false
               }
             ]
-          },
-          { "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }] }
+          }
         ]
       },
       {
@@ -678,8 +675,7 @@
                 "itl": false
               }
             ]
-          },
-          { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+          }
         ]
       }
     ],
@@ -708,9 +704,6 @@
                     "itl": false
                   }
                 ]
-              },
-              {
-                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
               },
               {
                 "spell": {
@@ -955,7 +948,6 @@
                   }
                 ]
               },
-              { "str": [{ "text": "\\", "bld": false, "itl": false }] },
               {
                 "spell": {
                   "name": "Summon Watcher",
@@ -1107,8 +1099,7 @@
                     "itl": false
                   }
                 ]
-              },
-              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+              }
             ]
           }
         ]
@@ -1282,9 +1273,6 @@
                     "itl": false
                   }
                 ]
-              },
-              {
-                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
               }
             ]
           },
@@ -1336,8 +1324,7 @@
                     "itl": false
                   }
                 ]
-              },
-              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+              }
             ]
           }
         ]
@@ -1494,9 +1481,6 @@
                     "itl": false
                   }
                 ]
-              },
-              {
-                "str": [{ "text": "\\columnbreak", "bld": false, "itl": false }]
               }
             ]
           },
@@ -1548,8 +1532,7 @@
                     "itl": false
                   }
                 ]
-              },
-              { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+              }
             ]
           }
         ]
@@ -1667,11 +1650,6 @@
                         "itl": false
                       }
                     ]
-                  },
-                  {
-                    "str": [
-                      { "text": "\\columnbreak", "bld": false, "itl": false }
-                    ]
                   }
                 ]
               }
@@ -1777,8 +1755,7 @@
                         "itl": false
                       }
                     ]
-                  },
-                  { "str": [{ "text": "\\", "bld": false, "itl": false }] }
+                  }
                 ]
               }
             },
