@@ -23,7 +23,6 @@ export class ClassesDisplayComponent implements OnInit {
     this._SC = value;
     this.splitClassName = ('The ' + this.C.name + ' Class').split(' ');
     this.splitSubclassName = ('Subclass: ' + this.SC.name).split(' ');
-    this.compileFeatures();
   }
 
   splitClassName: string[];
@@ -58,49 +57,6 @@ export class ClassesDisplayComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-
-  compileFeatures() {
-    // SET FULLFEATURE ARRAY LIST ACCORDING TO CLASS TABLE
-    // this.fullfeatures = [];
-    // let c = 0;
-    // let sc = 0;
-    // for (const row of this.C.classtable.slice(2)) {
-    //   if (row[2] === '—') {
-    //     break;
-    //   }
-    //   let f = row[2].split(', ');
-    //   for (const str of f) {
-    //     if (
-    //       str.indexOf(this.C.name) >= 0 &&
-    //       str.indexOf('feature') > this.C.name.length
-    //     ) {
-    //       this.fullfeatures.push(this.SC.features[sc]);
-    //       sc++;
-    //     } else {
-    //       this.fullfeatures.push(this.C.features[c]);
-    //       c++;
-    //     }
-    //     let vc = false;
-    //     let vsc = false;
-    //     while (!vc && !vsc) {
-    //       if (!this.C.features[c] || this.C.features[c].name.indexOf('#') < 0) {
-    //         vc = true;
-    //       } else {
-    //         c++;
-    //       }
-    //       if (
-    //         !this.SC.features[sc] ||
-    //         this.SC.features[sc].name.indexOf('#') < 0
-    //       ) {
-    //         vsc = true;
-    //       } else {
-    //         sc++;
-    //       }
-    //     }
-    //   }
-    // }
-    // console.log(this.fullfeatures);
-  }
 
   getTextAlign(str: string): string {
     const a = str.indexOf(':');
